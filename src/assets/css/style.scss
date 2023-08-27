@@ -181,7 +181,6 @@ a:focus {
 		height: 4px;
 		background-color: $white;
 		margin: 7px 0;
-		transition: all 0.3s;
 		position: relative;
 		border-radius: 5px;
 		transition: all 0.3s;
@@ -292,8 +291,8 @@ a:focus {
 			margin-bottom: 20px;
 		}
 
-		p {
-		}
+		//	p {
+		//}
 
 		.btn-box {
 			display: flex;
@@ -566,7 +565,7 @@ a:focus {
 		}
 
 		.detail-box {
-			background-color: $white;
+			//background-color: $white;
 			background-color: $primary;
 			color: $white;
 			border-radius: 15px;
@@ -608,7 +607,7 @@ a:focus {
 
 	input {
 		width: 100%;
-		border: none;
+		//border: none;
 		height: 50px;
 		margin-bottom: 25px;
 		padding-left: 15px;

@@ -1,0 +1,3632 @@
+{
+	"template": {
+		"name": "template",
+		"imgUrl": "imgUrl",
+		"specs": {
+			"power": 0,
+			"Torque": 0,
+			"Gearbox": "Gearbox"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			}
+		]
+	},
+	"I3 DOHC": {
+		"name": "I3 DOHC",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/64/I3_DOHC.jpg/revision/latest?cb=20210902160950",
+		"specs": {
+			"power": 110,
+			"Torque": 170,
+			"Gearbox": "Gearbox (I3)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I3)",
+				"quantity": 2,
+				"price": 220
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head B (I3)",
+				"quantity": 1,
+				"price": 850
+			},
+			{
+				"partName": "Exhaust Manifold (I3)",
+				"quantity": 1,
+				"price": 75
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (I3)",
+				"quantity": 1,
+				"price": 250
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 3,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I3)",
+				"quantity": 1,
+				"price": 300
+			},
+			{
+				"partName": "Piston with Concord",
+				"quantity": 3,
+				"price": 80
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 3,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I3)",
+				"quantity": 1,
+				"price": 175
+			}
+		]
+	},
+	"I3 DOHC Turbocharged": {
+		"name": "I3 DOHC Turbocharged",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/02/I3_DOHC_Turbocharged.jpg/revision/latest?cb=20210902160943",
+		"specs": {
+			"power": 166,
+			"Torque": 261,
+			"Gearbox": "Gearbox (I3)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I3)",
+				"quantity": 2,
+				"price": 220
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I3)",
+				"quantity": 1,
+				"price": 850
+			},
+			{
+				"partName": "Exhaust Manifold (I3)",
+				"quantity": 1,
+				"price": 75
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (I3)",
+				"quantity": 1,
+				"price": 250
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 3,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I3)",
+				"quantity": 1,
+				"price": 300
+			},
+			{
+				"partName": "Piston with Concord",
+				"quantity": 3,
+				"price": 80
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 3,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I3)",
+				"quantity": 1,
+				"price": 175
+			},
+			{
+				"partName": "Turbocharger (I3)",
+				"quantity": 1,
+				"price": 530
+			}
+		]
+	},
+	"I4 DOHC AQC": {
+		"name": "I4 DOHC AQC",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg/revision/latest?cb=20210903021754",
+		"specs": {
+			"power": 145,
+			"Torque": 187,
+			"Gearbox": "Gearbox (I4)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft",
+				"quantity": 2,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4)",
+				"quantity": 1,
+				"price": 1
+			},
+			{
+				"partName": "Exhaust Manifold",
+				"quantity": 1,
+				"price": 50
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail DI",
+				"quantity": 1,
+				"price": 295
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 4,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I4 DI)",
+				"quantity": 1,
+				"price": 265
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 4,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I4)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Water Pump (I4)",
+				"quantity": 1,
+				"price": 60
+			}
+		]
+	},
+	"I4 DOHC AQC RWD": {
+		"name": "I4 DOHC AQC RWD",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg/revision/latest?cb=20210903021754",
+		"specs": {
+			"power": 145,
+			"Torque": 187,
+			"Gearbox": "Gearbox (I4 RWD)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft",
+				"quantity": 2,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4)",
+				"quantity": 1,
+				"price": 1
+			},
+			{
+				"partName": "Exhaust Manifold",
+				"quantity": 1,
+				"price": 50
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail DI",
+				"quantity": 1,
+				"price": 295
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 4,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I4 DI)",
+				"quantity": 1,
+				"price": 265
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 4,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I4)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Water Pump (I4)",
+				"quantity": 1,
+				"price": 60
+			}
+		]
+	},
+	"I4 DOHC Turbocharged": {
+		"name": "I4 DOHC Turbocharged",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg/revision/latest?cb=20210903021754",
+		"specs": {
+			"power": 180,
+			"Torque": 240,
+			"Gearbox": "Gearbox (I4)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft",
+				"quantity": 2,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4)",
+				"quantity": 1,
+				"price": 1
+			},
+			{
+				"partName": "Exhaust Manifold (I4 TURBO)",
+				"quantity": 1,
+				"price": 70
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail DI",
+				"quantity": 1,
+				"price": 295
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 4,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I4 DI)",
+				"quantity": 1,
+				"price": 265
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 4,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I4)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Water Pump (I4)",
+				"quantity": 1,
+				"price": 60
+			}
+		]
+	},
+	"I4 DOHC 4x4": {
+		"name": "I4 DOHC 4x4",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg/revision/latest?cb=20210902204531",
+		"specs": {
+			"power": 308,
+			"Torque": 415,
+			"Gearbox": "Gearbox (I4 4x4)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I4 B)",
+				"quantity": 2,
+				"price": 250
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4 B)",
+				"quantity": 1,
+				"price": 1.4
+			},
+			{
+				"partName": "Engine Head Cover (I4 B)",
+				"quantity": 1,
+				"price": 140
+			},
+			{
+				"partName": "Exhaust Manifold (I4 B)",
+				"quantity": 1,
+				"price": 80
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel injector (I4 B)",
+				"quantity": 4,
+				"price": 180
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 4,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I4 B)",
+				"quantity": 1,
+				"price": 420
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4 B)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 4,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V6 B)",
+				"quantity": 1,
+				"price": 180
+			},
+			{
+				"partName": "Turbocharger (I4 B)",
+				"quantity": 1,
+				"price": 575
+			}
+		]
+	},
+	"I4 DOHC BFM": {
+		"name": "I4 DOHC BFM",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg/revision/latest?cb=20210902204531",
+		"specs": {
+			"power": 279,
+			"Torque": 281,
+			"Gearbox": "Gearbox (I4)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I4 B)",
+				"quantity": 2,
+				"price": 250
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4 B)",
+				"quantity": 1,
+				"price": 1.4
+			},
+			{
+				"partName": "Engine Head Cover (I4 B)",
+				"quantity": 1,
+				"price": 140
+			},
+			{
+				"partName": "Exhaust Manifold (I4 B)",
+				"quantity": 1,
+				"price": 80
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel injector (I4 B)",
+				"quantity": 4,
+				"price": 180
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 4,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I4 B)",
+				"quantity": 1,
+				"price": 420
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4 B)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 4,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V6 B)",
+				"quantity": 1,
+				"price": 180
+			},
+			{
+				"partName": "Turbocharger (I4 B)",
+				"quantity": 1,
+				"price": 575
+			}
+		]
+	},
+	"I4 DOHC TAE": {
+		"name": "I4 DOHC TAE",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/90/I4_DOHC_TAE.jpg/revision/latest?cb=20210903224214",
+		"specs": {
+			"power": 130,
+			"Torque": 168,
+			"Gearbox": "Gearbox (I4 DOHC TAE)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft A (I4 DOHC TAE)",
+				"quantity": 1,
+				"price": 173
+			},
+			{
+				"partName": "Camshaft B (I4 DOHC TAE)",
+				"quantity": 1,
+				"price": 173
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4 SOHC TAE)",
+				"quantity": 1,
+				"price": 540
+			},
+			{
+				"partName": "Exhaust Manifold (I4 DOHC TAE)",
+				"quantity": 1,
+				"price": 40
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (I4 DOHC TAE)",
+				"quantity": 1,
+				"price": 242
+			},
+			{
+				"partName": "Ignition Distributor B",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap",
+				"quantity": 1,
+				"price": 23
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Wires (I4 DOHC TAE)",
+				"quantity": 1,
+				"price": 80
+			},
+			{
+				"partName": "Intake Manifold (I4 DOHC TAE)",
+				"quantity": 1,
+				"price": 203
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 4,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V6 B)",
+				"quantity": 1,
+				"price": 180
+			}
+		]
+	},
+	"I4 SOHC 4x4": {
+		"name": "I4 SOHC 4x4",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg/revision/latest?cb=20210903224044",
+		"specs": {
+			"power": 126,
+			"Torque": 193,
+			"Gearbox": "Gearbox (I4)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I4 SOHC)",
+				"quantity": 1,
+				"price": 180
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4 SOHC)",
+				"quantity": 1,
+				"price": 750
+			},
+			{
+				"partName": "Exhaust Manifold (I4 SOHC)",
+				"quantity": 1,
+				"price": 40
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail MPI",
+				"quantity": 1,
+				"price": 105
+			},
+			{
+				"partName": "Ignition Coil (I4 SOHC)",
+				"quantity": 1,
+				"price": 65
+			},
+			{
+				"partName": "Intake Manifold (I4 MPI)",
+				"quantity": 1,
+				"price": 145
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 4,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I4)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Water Pump (I4)",
+				"quantity": 1,
+				"price": 60
+			}
+		]
+	},
+	"I4 SOHC ABT": {
+		"name": "I4 SOHC ABT",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg/revision/latest?cb=20210903224044",
+		"specs": {
+			"power": 114,
+			"Torque": 178,
+			"Gearbox": "Gearbox (I4)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I4 SOHC)",
+				"quantity": 1,
+				"price": 180
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4 SOHC)",
+				"quantity": 1,
+				"price": 750
+			},
+			{
+				"partName": "Exhaust Manifold (I4 SOHC)",
+				"quantity": 1,
+				"price": 40
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail MPI",
+				"quantity": 1,
+				"price": 105
+			},
+			{
+				"partName": "Ignition Coil (I4 SOHC)",
+				"quantity": 1,
+				"price": 65
+			},
+			{
+				"partName": "Intake Manifold (I4 MPI)",
+				"quantity": 1,
+				"price": 145
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 4,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I4)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Water Pump (I4)",
+				"quantity": 1,
+				"price": 60
+			}
+		]
+	},
+	"I4 SOHC BMJ": {
+		"name": "I4 SOHC BMJ",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg/revision/latest?cb=20210903224044",
+		"specs": {
+			"power": 126,
+			"Torque": 193,
+			"Gearbox": "Gearbox (I4 RWD)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I4 SOHC)",
+				"quantity": 1,
+				"price": 180
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4 SOHC)",
+				"quantity": 1,
+				"price": 750
+			},
+			{
+				"partName": "Exhaust Manifold (I4 SOHC)",
+				"quantity": 1,
+				"price": 40
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail MPI",
+				"quantity": 1,
+				"price": 105
+			},
+			{
+				"partName": "Ignition Coil (I4 SOHC)",
+				"quantity": 1,
+				"price": 65
+			},
+			{
+				"partName": "Intake Manifold (I4 MPI)",
+				"quantity": 1,
+				"price": 145
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 4,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I4)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Water Pump (I4)",
+				"quantity": 1,
+				"price": 60
+			}
+		]
+	},
+	"I4 SOHC Diesel": {
+		"name": "I4 SOHC Diesel",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/76/I4_SOHC_D.jpg/revision/latest?cb=20210903223151",
+		"specs": {
+			"power": 105,
+			"Torque": 245,
+			"Gearbox": "Gearbox (I4 SOHC D)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I4 SOHC D)",
+				"quantity": 1,
+				"price": 134
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I4 SOHC D)",
+				"quantity": 1,
+				"price": 680
+			},
+			{
+				"partName": "Exhaust Manifold (I4 SOHC D)",
+				"quantity": 1,
+				"price": 98
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Glow Plug",
+				"quantity": 4,
+				"price": 20
+			},
+			{
+				"partName": "Intake Manifold (I4 SOHC D)",
+				"quantity": 1,
+				"price": 265
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 4,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Throttle (I4 SOHC D)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Turbocharger (I4 SOHC D)",
+				"quantity": 1,
+				"price": 350
+			}
+		]
+	},
+	"I5 DOHC ADI": {
+		"name": "I5 DOHC ADI",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/bb/I5_DOHC_ADI.jpg/revision/latest?cb=20210903223158",
+		"specs": {
+			"power": 220,
+			"Torque": 331,
+			"Gearbox": "Gearbox (I5 DOHC ADI)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I5 DOHC ADI)",
+				"quantity": 1,
+				"price": 795
+			},
+			{
+				"partName": "Exhaust Manifold (I5 DOHC ADI)",
+				"quantity": 1,
+				"price": 70
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (I5 DOHC ADI)",
+				"quantity": 1,
+				"price": 223
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 5,
+				"price": 60
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 5,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 5,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I5 DOHC ADI)",
+				"quantity": 1,
+				"price": 135
+			},
+			{
+				"partName": "Turbocharger (I5 DOHC ADI)",
+				"quantity": 1,
+				"price": 325
+			}
+		]
+	},
+	"I6 DOHC": {
+		"name": "I6 DOHC",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b2/I6_DOHC.jpg/revision/latest?cb=20210903223225",
+		"specs": {
+			"power": 214,
+			"Torque": 289,
+			"Gearbox": "Gearbox (I4 RWD)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I6)",
+				"quantity": 2,
+				"price": 200
+			},
+			{
+				"partName": "Carburetor (2-barrel side draft)",
+				"quantity": 3,
+				"price": 80
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I6)",
+				"quantity": 1,
+				"price": 950
+			},
+			{
+				"partName": "Exhaust Manifold (I6)",
+				"quantity": 2,
+				"price": 40
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Ignition Distributor A",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap (I6)",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Wire (I6)",
+				"quantity": 1,
+				"price": 75
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 6,
+				"price": 80
+			},
+			{
+				"partName": "Round Air Filter (side draft)",
+				"quantity": 3,
+				"price": 60
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 6,
+				"price": 6
+			}
+		]
+	},
+	"I6 DOHC BU2": {
+		"name": "I6 DOHC BU2",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2a/I6_DOHC_BU2.jpg/revision/latest?cb=20210903223211",
+		"specs": {
+			"power": 214,
+			"Torque": 289,
+			"Gearbox": "Gearbox (I6 DOHC BU2 T)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I6 DOHC BU2 T)",
+				"quantity": 2,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I6 DOHC BU2 T)",
+				"quantity": 1,
+				"price": 1.125
+			},
+			{
+				"partName": "Exhaust Manifold A (I6 DOHC BU2)",
+				"quantity": 1,
+				"price": 80
+			},
+			{
+				"partName": "Exhaust Manifold B (I6 DOHC BU2)",
+				"quantity": 1,
+				"price": 80
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (I6 DOHC BU2 T)",
+				"quantity": 1,
+				"price": 312
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 6,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I6 DOHC BU2)",
+				"quantity": 1,
+				"price": 320
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 6,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 6,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I6 DOHC BU2)",
+				"quantity": 1,
+				"price": 120
+			}
+		]
+	},
+	"I6 DOHC BU2 Turbo": {
+		"name": "I6 DOHC BU2 Turbo",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0f/I6_DOHC_BU2_T.jpg/revision/latest?cb=20210903223205",
+		"specs": {
+			"power": 287,
+			"Torque": 432,
+			"Gearbox": "Gearbox (I6 DOHC BU2 T)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I6 DOHC BU2 T)",
+				"quantity": 2,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I6 DOHC BU2 T)",
+				"quantity": 1,
+				"price": 1.125
+			},
+			{
+				"partName": "Exhaust Manifold (I6 DOHC BU2 T)",
+				"quantity": 1,
+				"price": 85
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (I6 DOHC BU2 T)",
+				"quantity": 1,
+				"price": 312
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 6,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I6 DOHC BU2 T)",
+				"quantity": 1,
+				"price": 328
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 6,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 6,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I6 DOHC BU2 T)",
+				"quantity": 1,
+				"price": 168
+			},
+			{
+				"partName": "Turbocharger (I6 DOHC BU2 T)",
+				"quantity": 1,
+				"price": 679
+			}
+		]
+	},
+	"I6 DOHC FMW": {
+		"name": "I6 DOHC FMW",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a3/I6_DOHC_FMW.jpg/revision/latest?cb=20210903223219",
+		"specs": {
+			"power": 190,
+			"Torque": 247,
+			"Gearbox": "Gearbox (I6 DOHC FMW)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator (I6 B)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I6 DOHC FMW)",
+				"quantity": 2,
+				"price": 173
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I6 DOHC FMW)",
+				"quantity": 1,
+				"price": 1
+			},
+			{
+				"partName": "Exhaust Manifold B (I6 DOHC FMW)",
+				"quantity": 1,
+				"price": 70
+			},
+			{
+				"partName": "Exhaust Manifold A (I6 DOHC FMW)",
+				"quantity": 1,
+				"price": 70
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (I6 DOHC FMW)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 6,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (I6 DOHC FMW)",
+				"quantity": 1,
+				"price": 265
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 6,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4)",
+				"quantity": 1,
+				"price": 115
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 6,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (I6 DOHC FMW)",
+				"quantity": 1,
+				"price": 100
+			}
+		]
+	},
+	"I6 OHV": {
+		"name": "I6 OHV",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/78/I6_OHV.jpg/revision/latest?cb=20210903223232",
+		"specs": {
+			"power": 153,
+			"Torque": 308,
+			"Gearbox": "Gearbox (I6 B)"
+		},
+		"availableParts": [
+			{
+				"partName": "Air Filter (I6 B)",
+				"quantity": 1,
+				"price": 10
+			},
+			{
+				"partName": "Alternator (I6 B)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (I6 B)",
+				"quantity": 1,
+				"price": 180
+			},
+			{
+				"partName": "Carburetor (I6 B)",
+				"quantity": 1,
+				"price": 105
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (I6 B)",
+				"quantity": 1,
+				"price": 700
+			},
+			{
+				"partName": "Exhaust Manifold (I6 B)",
+				"quantity": 1,
+				"price": 40
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Pump (I6 B)",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Ignition Coil B",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Ignition Distributor A",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap (I6)",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Wires (I6 B)",
+				"quantity": 1,
+				"price": 50
+			},
+			{
+				"partName": "Intake Manifold (I6 B)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 6,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I6 B)",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 6,
+				"price": 6
+			}
+		]
+	},
+	"V6 DOHC AKY": {
+		"name": "V6 DOHC AKY",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/d6/V6_DOHC_AKY.jpg/revision/latest?cb=20210903223239",
+		"specs": {
+			"power": 221,
+			"Torque": 300,
+			"Gearbox": "Gearbox (V6 DOHC AKY)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V6 DOHC AKY)",
+				"quantity": 1,
+				"price": 900
+			},
+			{
+				"partName": "Engine Head B (V6 DOHC AKY)",
+				"quantity": 1,
+				"price": 900
+			},
+			{
+				"partName": "Exhaust Manifold A (V6 DOHC AKY)",
+				"quantity": 2,
+				"price": 80
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V6 DOHC AKY)",
+				"quantity": 2,
+				"price": 250
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 6,
+				"price": 60
+			},
+			{
+				"partName": "Piston with Concord",
+				"quantity": 6,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V6 DOHC AKY)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 6,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V6 DOHC AKY)",
+				"quantity": 1,
+				"price": 240
+			}
+		]
+	},
+	"V6 DOHC AKZ": {
+		"name": "V6 DOHC AKZ",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg/revision/latest?cb=20210903223246",
+		"specs": {
+			"power": 251,
+			"Torque": 300,
+			"Gearbox": "Gearbox (V6 B)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Air Filter",
+				"quantity": 1,
+				"price": 11
+			},
+			{
+				"partName": "Camshaft (V6 B)",
+				"quantity": 4,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V6 B)",
+				"quantity": 1,
+				"price": 800
+			},
+			{
+				"partName": "Engine Head B (V6 B)",
+				"quantity": 1,
+				"price": 800
+			},
+			{
+				"partName": "Exhaust Manifold (V6 B)",
+				"quantity": 2,
+				"price": 90
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V6 B)",
+				"quantity": 2,
+				"price": 400
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 6,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold A (V6 B)",
+				"quantity": 1,
+				"price": 840
+			},
+			{
+				"partName": "Intake Manifold B (V6 B)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Piston with Concord",
+				"quantity": 6,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V6 B)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 6,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V6 B)",
+				"quantity": 1,
+				"price": 180
+			}
+		]
+	},
+	"V6 DOHC CHG": {
+		"name": "V6 DOHC CHG",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg/revision/latest?cb=20210903223246",
+		"specs": {
+			"power": 251,
+			"Torque": 300,
+			"Gearbox": "Gearbox B(V6 B)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Air Filter",
+				"quantity": 1,
+				"price": 11
+			},
+			{
+				"partName": "Camshaft (V6 B)",
+				"quantity": 4,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V6 B)",
+				"quantity": 1,
+				"price": 800
+			},
+			{
+				"partName": "Engine Head B (V6 B)",
+				"quantity": 1,
+				"price": 800
+			},
+			{
+				"partName": "Exhaust Manifold (V6 B)",
+				"quantity": 2,
+				"price": 90
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V6 B)",
+				"quantity": 2,
+				"price": 400
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 6,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold A (V6 B)",
+				"quantity": 1,
+				"price": 840
+			},
+			{
+				"partName": "Intake Manifold B (V6 B)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Piston with Concord",
+				"quantity": 6,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V6 B)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 6,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V6 B)",
+				"quantity": 1,
+				"price": 180
+			}
+		]
+	},
+	"V6 DOHC NSN": {
+		"name": "V6 DOHC NSN",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0b/V6_DOHC_NSN.jpg/revision/latest?cb=20210903224330",
+		"specs": {
+			"power": 283,
+			"Torque": 352,
+			"Gearbox": "Gearbox (V6 VQ37VHR)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V6 VQ37VHR)",
+				"quantity": 1,
+				"price": 1.1
+			},
+			{
+				"partName": "Engine Head B (V6 VQ37VHR)",
+				"quantity": 1,
+				"price": 1.1
+			},
+			{
+				"partName": "Exhaust Manifold A (V6 VQ37VHR)",
+				"quantity": 2,
+				"price": 90
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V6 VQ37VHR)",
+				"quantity": 2,
+				"price": 295
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 6,
+				"price": 60
+			},
+			{
+				"partName": "Piston with Concord",
+				"quantity": 6,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (I4 B)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 6,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V6 VQ37VHR)",
+				"quantity": 2,
+				"price": 130
+			}
+		]
+	},
+	"V8 1carb OHV": {
+		"name": "V8 1carb OHV",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/14/V8_1carb_OHV.jpg/revision/latest?cb=20210831234229",
+		"specs": {
+			"power": 258,
+			"Torque": 529,
+			"Gearbox": "Gearbox (V8 OHV)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 OHV)",
+				"quantity": 1,
+				"price": 250
+			},
+			{
+				"partName": "Carburetor (4-Barrel)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (V8 OHV)",
+				"quantity": 2,
+				"price": 800
+			},
+			{
+				"partName": "Exhaust Manifold (V8 OHV)",
+				"quantity": 2,
+				"price": 55
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Ignition Coil B",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Ignition Distributor A",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap",
+				"quantity": 1,
+				"price": 26
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Wires (V8)",
+				"quantity": 1,
+				"price": 95
+			},
+			{
+				"partName": "Intake Manifold (1 carb)",
+				"quantity": 1,
+				"price": 95
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V8)",
+				"quantity": 1,
+				"price": 160
+			},
+			{
+				"partName": "Round Air Filter (1 carb)",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			}
+		]
+	},
+	"V8 2carb OHV": {
+		"name": "V8 2carb OHV",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2b/V8_2carb_OHV.jpg/revision/latest?cb=20210831235031",
+		"specs": {
+			"power": 330,
+			"Torque": 579,
+			"Gearbox": "Gearbox (V8 OHV)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 OHV)",
+				"quantity": 1,
+				"price": 250
+			},
+			{
+				"partName": "Carburetor (4-Barrel)",
+				"quantity": 2,
+				"price": 150
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (V8 OHV)",
+				"quantity": 2,
+				"price": 800
+			},
+			{
+				"partName": "Exhaust Manifold (V8 OHV)",
+				"quantity": 2,
+				"price": 55
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Ignition Coil B",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Ignition Distributor A",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap",
+				"quantity": 1,
+				"price": 26
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Wires (V8)",
+				"quantity": 1,
+				"price": 95
+			},
+			{
+				"partName": "Intake Manifold (2 carb)",
+				"quantity": 1,
+				"price": 210
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V8)",
+				"quantity": 1,
+				"price": 160
+			},
+			{
+				"partName": "Round Air Filter (2 carb)",
+				"quantity": 1,
+				"price": 40
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			}
+		]
+	},
+	"V8 2carb OHV Supercharged": {
+		"name": "V8 2carb OHV Supercharged",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/8d/V8_2carb_OHV_Supercharged.jpg/revision/latest?cb=20210831235038",
+		"specs": {
+			"power": 380,
+			"Torque": 720,
+			"Gearbox": "Gearbox (V8 OHV)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 OHV)",
+				"quantity": 1,
+				"price": 250
+			},
+			{
+				"partName": "Carburetor (4-Barrel)",
+				"quantity": 2,
+				"price": 150
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (V8 OHV)",
+				"quantity": 2,
+				"price": 800
+			},
+			{
+				"partName": "Exhaust Manifold (V8 OHV)",
+				"quantity": 2,
+				"price": 55
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Ignition Coil B",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Ignition Distributor A",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap",
+				"quantity": 1,
+				"price": 26
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Wires (V8)",
+				"quantity": 1,
+				"price": 95
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V8)",
+				"quantity": 1,
+				"price": 160
+			},
+			{
+				"partName": "Scoop Air Filter (V8 OHV)",
+				"quantity": 2,
+				"price": 100
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			},
+			{
+				"partName": "Supercharger (V8 OHV)",
+				"quantity": 1,
+				"price": 2000
+			},
+			{
+				"partName": "Supercharger Intake Manifold (V8 OHV)",
+				"quantity": 1,
+				"price": 1000
+			}
+		]
+	},
+	"V8 Hemi 440 Sixpack": {
+		"name": "V8 Hemi 440 Sixpack",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7d/V8_Hemi_440_Sixpack.jpg/revision/latest?cb=20230708194748",
+		"specs": {
+			"power": 390,
+			"Torque": 679,
+			"Gearbox": "Gearbox ()"
+		},
+		"availableParts": [
+			{
+				"partName": "Air Filter (V8 Hemi 440 Sixpack)",
+				"quantity": 1,
+				"price": 15
+			},
+			{
+				"partName": "Alternator (I6 B)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 Hemi)",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Carburetor B (V8 Hemi 440 Sixpack)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Carburetor C (V8 Hemi 440 Sixpack)",
+				"quantity": 2,
+				"price": 150
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V8 Hemi 440)",
+				"quantity": 1,
+				"price": 900
+			},
+			{
+				"partName": "Engine Head B (V8 Hemi 440)",
+				"quantity": 1,
+				"price": 900
+			},
+			{
+				"partName": "Exhaust Manifold (V8 Hemi 440)",
+				"quantity": 2,
+				"price": 200
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Ignition Coil B",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Ignition Distributor A",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap",
+				"quantity": 1,
+				"price": 26
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Wires (V8 Hemi 440)",
+				"quantity": 1,
+				"price": 70
+			},
+			{
+				"partName": "Intake Manifold (V8 Hemi 440 Sixpack)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V8 OHV F)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			}
+		]
+	},
+	"V8 Hemi 440 Magnum": {
+		"name": "V8 Hemi 440 Magnum",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/17/V8_OHV_6P.jpg/revision/latest?cb=20210904123806",
+		"specs": {
+			"power": 375,
+			"Torque": 650,
+			"Gearbox": "Gearbox (V8 OHV F)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator (I6 B)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Air Filter (V8 OHV F)",
+				"quantity": 1,
+				"price": 10
+			},
+			{
+				"partName": "Camshaft (V8 OHV C)",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Carburetor (V8 OHV F)",
+				"quantity": 2,
+				"price": 150
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Exhaust Manifold (V8 OHV D)",
+				"quantity": 2,
+				"price": 200
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Ignition Coil B",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Ignition Distributor A",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap",
+				"quantity": 1,
+				"price": 26
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V8 OHV F)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			}
+		]
+	},
+	"V8 DOHC AXK": {
+		"name": "V8 DOHC AXK",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg/revision/latest?cb=20210902215306",
+		"specs": {
+			"power": 309,
+			"Torque": 393,
+			"Gearbox": "Gearbox (V8)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8)",
+				"quantity": 4,
+				"price": 220
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (V8)",
+				"quantity": 2,
+				"price": 1.5
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail DI",
+				"quantity": 2,
+				"price": 295
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 8,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (V8)",
+				"quantity": 1,
+				"price": 400
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V8)",
+				"quantity": 1,
+				"price": 160
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V8)",
+				"quantity": 1,
+				"price": 230
+			}
+		]
+	},
+	"V8 DOHC 4x4": {
+		"name": "V8 DOHC 4x4",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg/revision/latest?cb=20210902215306",
+		"specs": {
+			"power": 309,
+			"Torque": 393,
+			"Gearbox": "Gearbox (V8)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8)",
+				"quantity": 4,
+				"price": 220
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (V8)",
+				"quantity": 2,
+				"price": 1.5
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail DI",
+				"quantity": 2,
+				"price": 295
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 8,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (V8)",
+				"quantity": 1,
+				"price": 400
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V8)",
+				"quantity": 1,
+				"price": 160
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V8)",
+				"quantity": 1,
+				"price": 230
+			}
+		]
+	},
+	"V8 DOHC Supercharged": {
+		"name": "V8 DOHC Supercharged",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/5c/V8_DOHC_Supercharged.jpg/revision/latest?cb=20210915211731",
+		"specs": {
+			"power": 584,
+			"Torque": 724,
+			"Gearbox": "Gearbox (V8)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8)",
+				"quantity": 4,
+				"price": 220
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (V8)",
+				"quantity": 2,
+				"price": 1.5
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail DI",
+				"quantity": 2,
+				"price": 295
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 8,
+				"price": 60
+			},
+			{
+				"partName": "Supercharger Intake Manifold (V8)",
+				"quantity": 1,
+				"price": 1.5
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V8)",
+				"quantity": 1,
+				"price": 160
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V8)",
+				"quantity": 1,
+				"price": 230
+			}
+		]
+	},
+	"V8 OHV CGM": {
+		"name": "V8 OHV CGM",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/1e/V8_DOHC_CGM.jpg/revision/latest?cb=20210901135056",
+		"specs": {
+			"power": 426,
+			"Torque": 569,
+			"Gearbox": "Gearbox (V8 DOHC CGM)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 128
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 1.15
+			},
+			{
+				"partName": "Engine Head B (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 1.15
+			},
+			{
+				"partName": "Exhaust Manifold A (V8 DOHC CGM)",
+				"quantity": 2,
+				"price": 115
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V8 DOHC CGM)",
+				"quantity": 2,
+				"price": 317
+			},
+			{
+				"partName": "Ignition Coil (V8 DOHC CGM)",
+				"quantity": 8,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 234
+			},
+			{
+				"partName": "Piston With Conrod (V8 OHV C)",
+				"quantity": 8,
+				"price": 50
+			},
+			{
+				"partName": "Power Steering Pump (I4 B)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 120
+			}
+		]
+	},
+	"V8 OHV CGM-SC M1D": {
+		"name": "V8 OHV CGM-SC M1D",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/e/ee/V8_OHV_CGM-SC_M1D.png/revision/latest?cb=20221116225815",
+		"specs": {
+			"power": 680,
+			"Torque": 840,
+			"Gearbox": "Gearbox (V8 DOHC CGM-SC)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 128
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 1.15
+			},
+			{
+				"partName": "Engine Head B (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 1.15
+			},
+			{
+				"partName": "Exhaust Manifold A (V8 DOHC CGM)",
+				"quantity": 2,
+				"price": 115
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V8 DOHC CGM)",
+				"quantity": 2,
+				"price": 317
+			},
+			{
+				"partName": "Ignition Coil (V8 DOHC CGM)",
+				"quantity": 8,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold B (V8 DOHC CGM-SC)",
+				"quantity": 1,
+				"price": 435
+			},
+			{
+				"partName": "Piston With Conrod (V8 OHV C)",
+				"quantity": 8,
+				"price": 50
+			},
+			{
+				"partName": "Power Steering Pump (I4 B)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Supercharger (V8 DOHC CGM-SC)",
+				"quantity": 1,
+				"price": 2650
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 120
+			}
+		]
+	},
+	"V8 DOHC CGM-SC": {
+		"name": "V8 DOHC CGM-SC",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7f/V8_OHV_CGM-SC.png/revision/latest?cb=20221116225855",
+		"specs": {
+			"power": 680,
+			"Torque": 840,
+			"Gearbox": "Gearbox (V8 DOHC CGM-SC)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 128
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 1.15
+			},
+			{
+				"partName": "Engine Head B (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 1.15
+			},
+			{
+				"partName": "Exhaust Manifold A (V8 DOHC CGM)",
+				"quantity": 2,
+				"price": 115
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V8 DOHC CGM)",
+				"quantity": 2,
+				"price": 317
+			},
+			{
+				"partName": "Ignition Coil (V8 DOHC CGM)",
+				"quantity": 8,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold B (V8 DOHC CGM-SC)",
+				"quantity": 1,
+				"price": 435
+			},
+			{
+				"partName": "Piston With Conrod (V8 OHV C)",
+				"quantity": 8,
+				"price": 50
+			},
+			{
+				"partName": "Power Steering Pump (I4 B)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Supercharger (V8 DOHC CGM-SC)",
+				"quantity": 1,
+				"price": 2650
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 120
+			}
+		]
+	},
+	"V8 DOHC CGM M1D": {
+		"name": "V8 DOHC CGM M1D",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/12/V8_OHV_CGM_M1D.png/revision/latest?cb=20221116225803",
+		"specs": {
+			"power": 490,
+			"Torque": 627,
+			"Gearbox": "Gearbox (V8 DOHC CGM-SC)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 128
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 1.15
+			},
+			{
+				"partName": "Engine Head B (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 1.15
+			},
+			{
+				"partName": "Exhaust Manifold A (V8 DOHC CGM)",
+				"quantity": 2,
+				"price": 115
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V8 DOHC CGM)",
+				"quantity": 2,
+				"price": 317
+			},
+			{
+				"partName": "Ignition Coil (V8 DOHC CGM)",
+				"quantity": 8,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (V8 DOHC CGM-SC)",
+				"quantity": 1,
+				"price": 485
+			},
+			{
+				"partName": "Piston With Conrod (V8 OHV C)",
+				"quantity": 8,
+				"price": 50
+			},
+			{
+				"partName": "Power Steering Pump (I4 B)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V8 DOHC CGM)",
+				"quantity": 1,
+				"price": 120
+			}
+		]
+	},
+	"V8 OHV": {
+		"name": "V8 OHV",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3a/V8_OHV.jpg/revision/latest?cb=20210903224550",
+		"specs": {
+			"power": 355,
+			"Torque": 566,
+			"Gearbox": "Gearbox (V8 OHV F)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator (I6 B)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Air Filter (V8 OHV F)",
+				"quantity": 1,
+				"price": 10
+			},
+			{
+				"partName": "Camshaft (V8 OHV F)",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Carburetor (V8 OHV F)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head (V8 OHV F)",
+				"quantity": 2,
+				"price": 1
+			},
+			{
+				"partName": "Exhaust Manifold (V8 OHV F)",
+				"quantity": 2,
+				"price": 100
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Ignition Distributor A",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap",
+				"quantity": 1,
+				"price": 26
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Wires (V8 OHV F)",
+				"quantity": 1,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (V8 OHV F)",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Piston with Concord",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V8 OHV F)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			}
+		]
+	},
+	"V8 OHV SS": {
+		"name": "V8 OHV SS",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a1/V8_OHV_SS.jpg/revision/latest?cb=20210903224707",
+		"specs": {
+			"power": 360,
+			"Torque": 553,
+			"Gearbox": "Gearbox (V8 OHV F)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator (I6 B)",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 OHV B)",
+				"quantity": 1,
+				"price": 100
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V8 OHV B)",
+				"quantity": 1,
+				"price": 750
+			},
+			{
+				"partName": "Engine Head B (V8 OHV B)",
+				"quantity": 1,
+				"price": 750
+			},
+			{
+				"partName": "Exhaust Manifold (V8 OHV B)",
+				"quantity": 2,
+				"price": 100
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Ignition Distributor A",
+				"quantity": 1,
+				"price": 69
+			},
+			{
+				"partName": "Ignition Distributor Cap",
+				"quantity": 1,
+				"price": 26
+			},
+			{
+				"partName": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"price": 20
+			},
+			{
+				"partName": "Ignition Wires (V8 OHV B)",
+				"quantity": 1,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (V8 OHV B)",
+				"quantity": 1,
+				"price": 250
+			},
+			{
+				"partName": "Piston with Concord (V8 OHV B)",
+				"quantity": 8,
+				"price": 90
+			},
+			{
+				"partName": "Power Steering Pump (V8 OHV F)",
+				"quantity": 1,
+				"price": 150
+			},
+			{
+				"partName": "Round Air Filter (2 carb)",
+				"quantity": 1,
+				"price": 40
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			}
+		]
+	},
+	"V8 SOHC FME": {
+		"name": "V8 SOHC FME",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7b/V8_SOHC_FME.jpg/revision/latest?cb=20210903224857",
+		"specs": {
+			"power": 222,
+			"Torque": 359,
+			"Gearbox": "Gearbox (V8 SOHC FME)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Camshaft (V8 SOHC FME)",
+				"quantity": 1,
+				"price": 180
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Engine Head A (V8 SOHC FME)",
+				"quantity": 1,
+				"price": 958
+			},
+			{
+				"partName": "Engine Head B (V8 SOHC FME)",
+				"quantity": 1,
+				"price": 958
+			},
+			{
+				"partName": "Exhaust Manifold A (V8 SOHC FME)",
+				"quantity": 2,
+				"price": 67
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V8 SOHC FME)",
+				"quantity": 1,
+				"price": 229
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 8,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (V8 SOHC FME)",
+				"quantity": 1,
+				"price": 305
+			},
+			{
+				"partName": "Piston With Conrod",
+				"quantity": 8,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V6 B)",
+				"quantity": 1,
+				"price": 120
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 8,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V8 SOHC FME)",
+				"quantity": 1,
+				"price": 123
+			}
+		]
+	},
+	"V12 DOHC MRC": {
+		"name": "V12 DOHC MRC",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg/revision/latest?cb=20210904124548",
+		"specs": {
+			"power": 456,
+			"Torque": 402,
+			"Gearbox": "Gearbox A (V12)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Exhaust Manifold A (V12)",
+				"quantity": 2,
+				"price": 120
+			},
+			{
+				"partName": "Exhaust Manifold B (V12)",
+				"quantity": 2,
+				"price": 120
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V12)",
+				"quantity": 1,
+				"price": 550
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 12,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (V12)",
+				"quantity": 1,
+				"price": 210
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 12,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V12)",
+				"quantity": 1,
+				"price": 160
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 12,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V12)",
+				"quantity": 2,
+				"price": 230
+			}
+		]
+	},
+	"V12 DOHC MRN": {
+		"name": "V12 DOHC MRN",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg/revision/latest?cb=20210904124548",
+		"specs": {
+			"power": 456,
+			"Torque": 402,
+			"Gearbox": "Gearbox B (V12)"
+		},
+		"availableParts": [
+			{
+				"partName": "Alternator",
+				"quantity": 1,
+				"price": 200
+			},
+			{
+				"partName": "Clutch Plate",
+				"quantity": 1,
+				"price": 90
+			},
+			{
+				"partName": "Clutch Pressure Plate",
+				"quantity": 1,
+				"price": 88
+			},
+			{
+				"partName": "Exhaust Manifold A (V12)",
+				"quantity": 2,
+				"price": 120
+			},
+			{
+				"partName": "Exhaust Manifold B (V12)",
+				"quantity": 2,
+				"price": 120
+			},
+			{
+				"partName": "Flywheel",
+				"quantity": 1,
+				"price": 500
+			},
+			{
+				"partName": "Fuel Filter",
+				"quantity": 1,
+				"price": 30
+			},
+			{
+				"partName": "Fuel Rail (V12)",
+				"quantity": 1,
+				"price": 550
+			},
+			{
+				"partName": "Ignition Coil",
+				"quantity": 12,
+				"price": 60
+			},
+			{
+				"partName": "Intake Manifold (V12)",
+				"quantity": 1,
+				"price": 210
+			},
+			{
+				"partName": "Piston with Conrod",
+				"quantity": 12,
+				"price": 80
+			},
+			{
+				"partName": "Power Steering Pump (V12)",
+				"quantity": 1,
+				"price": 160
+			},
+			{
+				"partName": "Spark Plug",
+				"quantity": 12,
+				"price": 6
+			},
+			{
+				"partName": "Throttle (V12)",
+				"quantity": 2,
+				"price": 230
+			}
+		]
+	}
+}

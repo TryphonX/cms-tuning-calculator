@@ -1,0 +1,2960 @@
+[
+  {
+    "partName": "Air Filter",
+    "cost": 35,
+    "boost": "1%",
+    "costToBoost": 35
+  },
+  {
+    "partName": "Air Filter (B6 M64.01)",
+    "cost": 20,
+    "boost": "2%",
+    "costToBoost": 10
+  },
+  {
+    "partName": "Air Filter (B6 M64.50)",
+    "cost": 20,
+    "boost": "2%",
+    "costToBoost": 10
+  },
+  {
+    "partName": "Air Filter (B6 MA1.03)",
+    "cost": 20,
+    "boost": "2%",
+    "costToBoost": 10
+  },
+  {
+    "partName": "Air Filter (I4 B)",
+    "cost": 150,
+    "boost": "1.75%",
+    "costToBoost": 85.71
+  },
+  {
+    "partName": "Air Filter (I4 DOHC TAE)",
+    "cost": 35,
+    "boost": "1.5%",
+    "costToBoost": 23.33
+  },
+  {
+    "partName": "Air Filter (I6 B)",
+    "cost": 90,
+    "boost": "1.5%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Air Filter (I6 L24)",
+    "cost": 150,
+    "boost": "1.5%",
+    "costToBoost": 100
+  },
+  {
+    "partName": "Air Filter (I6 XK)",
+    "cost": 42,
+    "boost": "1%",
+    "costToBoost": 42
+  },
+  {
+    "partName": "Air Filter (ROT 12A)",
+    "cost": 100,
+    "boost": "1.2%",
+    "costToBoost": 83.33
+  },
+  {
+    "partName": "Air Filter (Type A)",
+    "cost": 100,
+    "boost": "1.5%",
+    "costToBoost": 66.67
+  },
+  {
+    "partName": "Air Filter (V10 980/01)",
+    "cost": 30,
+    "boost": "1%",
+    "costToBoost": 30
+  },
+  {
+    "partName": "Air Filter (V12 HE)",
+    "cost": 120,
+    "boost": "1%",
+    "costToBoost": 120
+  },
+  {
+    "partName": "Air Filter (V12 M120)",
+    "cost": 110,
+    "boost": "1%",
+    "costToBoost": 110
+  },
+  {
+    "partName": "Air Filter (V8 M177)",
+    "cost": 69,
+    "boost": "1%",
+    "costToBoost": 69
+  },
+  {
+    "partName": "Air Filter (V8 DOHC CGM)",
+    "cost": 30,
+    "boost": "1.5%",
+    "costToBoost": 20
+  },
+  {
+    "partName": "Air Filter (V8 OHV E)",
+    "cost": 29,
+    "boost": "1.5%",
+    "costToBoost": 19.33
+  },
+  {
+    "partName": "Air Filter (V8 OHV F)",
+    "cost": 48,
+    "boost": "1.5%",
+    "costToBoost": 32
+  },
+  {
+    "partName": "Air Filter (V8 SOHC FME)",
+    "cost": 30,
+    "boost": "1.5%",
+    "costToBoost": 20
+  },
+  {
+    "partName": "Air Intake Hose (V8 AJ133 SVR)",
+    "cost": 170,
+    "boost": "1%",
+    "costToBoost": 170
+  },
+  {
+    "partName": "Alternator",
+    "cost": 300,
+    "boost": "1.5%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Alternator (I6 B)",
+    "cost": 400,
+    "boost": "1.5%",
+    "costToBoost": 266.67
+  },
+  {
+    "partName": "Brake Disc Ventilated - Carbon Ceramic",
+    "cost": 600,
+    "boost": "4%",
+    "costToBoost": 150
+  },
+  {
+    "partName": "Brake Disc Ventilated - Drilled",
+    "cost": 200,
+    "boost": "1.5%",
+    "costToBoost": 133.33
+  },
+  {
+    "partName": "Brake Disc Ventilated - Drilled and slotted",
+    "cost": 400,
+    "boost": "3.5%",
+    "costToBoost": 114.29
+  },
+  {
+    "partName": "Brake Disc Ventilated - Drilled and slotted B",
+    "cost": 480,
+    "boost": "3.5%",
+    "costToBoost": 137.14
+  },
+  {
+    "partName": "Brake Disc Ventilated - Drilled B",
+    "cost": 240,
+    "boost": "1.5%",
+    "costToBoost": 160
+  },
+  {
+    "partName": "Brake Disc Ventilated - Slotted",
+    "cost": 200,
+    "boost": "2.5%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Brake Disc Ventilated - Slotted B",
+    "cost": 240,
+    "boost": "2.5%",
+    "costToBoost": 96
+  },
+  {
+    "partName": "Brake Disc Ventilated B",
+    "cost": 120,
+    "boost": "1%",
+    "costToBoost": 120
+  },
+  {
+    "partName": "Cables A (eDen-1H)",
+    "cost": 150,
+    "boost": "2%",
+    "costToBoost": 75
+  },
+  {
+    "partName": "Cables A (Proton e-R)",
+    "cost": 150,
+    "boost": "2%",
+    "costToBoost": 75
+  },
+  {
+    "partName": "Cables B (eDen-1H)",
+    "cost": 150,
+    "boost": "2%",
+    "costToBoost": 75
+  },
+  {
+    "partName": "Cables B (Proton e-R)",
+    "cost": 150,
+    "boost": "2%",
+    "costToBoost": 75
+  },
+  {
+    "partName": "Cables C (eDen-1H)",
+    "cost": 150,
+    "boost": "2%",
+    "costToBoost": 75
+  },
+  {
+    "partName": "Camshaft",
+    "cost": 600,
+    "boost": "3%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Camshaft (B6 M64)",
+    "cost": 500,
+    "boost": "0.5%",
+    "costToBoost": 1000
+  },
+  {
+    "partName": "Camshaft (B6 MA 1.03)",
+    "cost": 500,
+    "boost": "0.5%",
+    "costToBoost": 1000
+  },
+  {
+    "partName": "Camshaft (I3)",
+    "cost": 440,
+    "boost": "2.5%",
+    "costToBoost": 176
+  },
+  {
+    "partName": "Camshaft (I4 B)",
+    "cost": 500,
+    "boost": "3%",
+    "costToBoost": 166.67
+  },
+  {
+    "partName": "Camshaft (I4 K-Series)",
+    "cost": 400,
+    "boost": "3%",
+    "costToBoost": 133.33
+  },
+  {
+    "partName": "Camshaft (I4 SOHC D)",
+    "cost": 245,
+    "boost": "1.75%",
+    "costToBoost": 140
+  },
+  {
+    "partName": "Camshaft (I4 SOHC)",
+    "cost": 550,
+    "boost": "2.75%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Camshaft (I4 SR20)",
+    "cost": 384,
+    "boost": "1.75%",
+    "costToBoost": 219.43
+  },
+  {
+    "partName": "Camshaft (I6 B)",
+    "cost": 360,
+    "boost": "3%",
+    "costToBoost": 120
+  },
+  {
+    "partName": "Camshaft (I6 DOHC BU2 T)",
+    "cost": 407,
+    "boost": "1.75%",
+    "costToBoost": 232.57
+  },
+  {
+    "partName": "Camshaft (I6 DOHC FMW)",
+    "cost": 435,
+    "boost": "1.75%",
+    "costToBoost": 248.57
+  },
+  {
+    "partName": "Camshaft (I6 L24)",
+    "cost": 500,
+    "boost": "1.75%",
+    "costToBoost": 285.71
+  },
+  {
+    "partName": "Camshaft (I6 XK)",
+    "cost": 500,
+    "boost": "1.75%",
+    "costToBoost": 285.71
+  },
+  {
+    "partName": "Camshaft (I6)",
+    "cost": 650,
+    "boost": "3.25%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Camshaft (V10 980/01)",
+    "cost": 500,
+    "boost": "1%",
+    "costToBoost": 500
+  },
+  {
+    "partName": "Camshaft (V12 HE)",
+    "cost": 333,
+    "boost": "1%",
+    "costToBoost": 333
+  },
+  {
+    "partName": "Camshaft (V12 M158)",
+    "cost": 1,
+    "boost": "000",
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Camshaft (V12)",
+    "cost": 1,
+    "boost": "000",
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Camshaft (V6 B)",
+    "cost": 400,
+    "boost": "1%",
+    "costToBoost": 400
+  },
+  {
+    "partName": "Camshaft (V8 DOHC CGM)",
+    "cost": 230,
+    "boost": "1.5%",
+    "costToBoost": 153.33
+  },
+  {
+    "partName": "Camshaft (V8 OHV B)",
+    "cost": 225,
+    "boost": "1.5%",
+    "costToBoost": 150
+  },
+  {
+    "partName": "Camshaft (V8 OHV C)",
+    "cost": 200,
+    "boost": "2.75%",
+    "costToBoost": 72.73
+  },
+  {
+    "partName": "Camshaft (V8 OHV F)",
+    "cost": 215,
+    "boost": "1.5%",
+    "costToBoost": 143.33
+  },
+  {
+    "partName": "Camshaft (V8 OHV)",
+    "cost": 550,
+    "boost": "2.75%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Camshaft (V8 SOHC FME)",
+    "cost": 225,
+    "boost": "1.75%",
+    "costToBoost": 128.57
+  },
+  {
+    "partName": "Camshaft (V8)",
+    "cost": 660,
+    "boost": "3.3%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Camshaft A (I4 DOHC TAE)",
+    "cost": 350,
+    "boost": "1.75%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Camshaft A (I4 DT224)",
+    "cost": 280,
+    "boost": "2%",
+    "costToBoost": 140
+  },
+  {
+    "partName": "Camshaft A (I5 DOHC ADI)",
+    "cost": 375,
+    "boost": "1.75%",
+    "costToBoost": 214.29
+  },
+  {
+    "partName": "Camshaft A (V6 AJD)",
+    "cost": 345,
+    "boost": "1.75%",
+    "costToBoost": 197.14
+  },
+  {
+    "partName": "Camshaft A (V6 DOHC AKY)",
+    "cost": 450,
+    "boost": "1.75%",
+    "costToBoost": 257.14
+  },
+  {
+    "partName": "Camshaft A (V6 TWR JV6)",
+    "cost": 403,
+    "boost": "1.5%",
+    "costToBoost": 268.67
+  },
+  {
+    "partName": "Camshaft A (V6 VQ37VHR)",
+    "cost": 468,
+    "boost": "1.75%",
+    "costToBoost": 267.43
+  },
+  {
+    "partName": "Camshaft A (V8 AJ133)",
+    "cost": 457,
+    "boost": "1%",
+    "costToBoost": 457
+  },
+  {
+    "partName": "Camshaft B (I4 DOHC TAE)",
+    "cost": 350,
+    "boost": "1.75%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Camshaft B (I4 DT224)",
+    "cost": 280,
+    "boost": "2%",
+    "costToBoost": 140
+  },
+  {
+    "partName": "Camshaft B (I5 DOHC ADI)",
+    "cost": 375,
+    "boost": "1.75%",
+    "costToBoost": 214.29
+  },
+  {
+    "partName": "Camshaft B (V6 AJD)",
+    "cost": 345,
+    "boost": "1.75%",
+    "costToBoost": 197.14
+  },
+  {
+    "partName": "Camshaft B (V6 DOHC AKY)",
+    "cost": 450,
+    "boost": "1.75%",
+    "costToBoost": 257.14
+  },
+  {
+    "partName": "Camshaft B (V6 TWR JV6)",
+    "cost": 403,
+    "boost": "1.5%",
+    "costToBoost": 268.67
+  },
+  {
+    "partName": "Camshaft B (V6 VQ37VHR)",
+    "cost": 468,
+    "boost": "1.75%",
+    "costToBoost": 267.43
+  },
+  {
+    "partName": "Camshaft B (V8 AJ133)",
+    "cost": 457,
+    "boost": "1%",
+    "costToBoost": 457
+  },
+  {
+    "partName": "Camshaft C (V6 AJD)",
+    "cost": 345,
+    "boost": "1.75%",
+    "costToBoost": 197.14
+  },
+  {
+    "partName": "Camshaft D (V6 AJD)",
+    "cost": 374,
+    "boost": "1.75%",
+    "costToBoost": 213.71
+  },
+  {
+    "partName": "Carburetor (2-barrel side draft)",
+    "cost": 230,
+    "boost": "7%",
+    "costToBoost": 32.86
+  },
+  {
+    "partName": "Carburetor (4-barrel)",
+    "cost": 375,
+    "boost": "12%",
+    "costToBoost": 31.25
+  },
+  {
+    "partName": "Carburetor (I6 B)",
+    "cost": 210,
+    "boost": "3%",
+    "costToBoost": 70
+  },
+  {
+    "partName": "Carburetor (I6 L24)",
+    "cost": 486,
+    "boost": "4%",
+    "costToBoost": 121.5
+  },
+  {
+    "partName": "Carburetor (I6 XK)",
+    "cost": 1,
+    "boost": "050",
+    "costToBoost": "2.5%"
+  },
+  {
+    "partName": "Carburetor (V8 OHV F)",
+    "cost": 310,
+    "boost": "6%",
+    "costToBoost": 51.67
+  },
+  {
+    "partName": "Carburetor A (V8 OHV B)",
+    "cost": 308,
+    "boost": "3%",
+    "costToBoost": 102.67
+  },
+  {
+    "partName": "Carburetor B (V8 OHV B)",
+    "cost": 308,
+    "boost": "3%",
+    "costToBoost": 102.67
+  },
+  {
+    "partName": "Carburetor B (V8 OHV E)",
+    "cost": 350,
+    "boost": "5%",
+    "costToBoost": 70
+  },
+  {
+    "partName": "Carburetor C (V8 OHV E)",
+    "cost": 350,
+    "boost": "5%",
+    "costToBoost": 70
+  },
+  {
+    "partName": "Catalytic Converter",
+    "cost": 350,
+    "boost": "1.75%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Charger (eDen-1H)",
+    "cost": 978,
+    "boost": "3%",
+    "costToBoost": 326
+  },
+  {
+    "partName": "Charger (Proton e-R)",
+    "cost": 905,
+    "boost": "3%",
+    "costToBoost": 301.67
+  },
+  {
+    "partName": "Charging Inductor (Proton e-R)",
+    "cost": 274,
+    "boost": "0.75%",
+    "costToBoost": 365.33
+  },
+  {
+    "partName": "Charging Rectifier (CHRG-e E1)",
+    "cost": 105,
+    "boost": "0.75%",
+    "costToBoost": 140
+  },
+  {
+    "partName": "Charging Rectifier (Proton e-R)",
+    "cost": 105,
+    "boost": "0.75%",
+    "costToBoost": 140
+  },
+  {
+    "partName": "Clutch Plate (V10 980/01)",
+    "cost": 180,
+    "boost": "1.75%",
+    "costToBoost": 102.86
+  },
+  {
+    "partName": "Clutch Plate",
+    "cost": 350,
+    "boost": "1.75%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Clutch Pressure Plate",
+    "cost": 180,
+    "boost": "0.9%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Coil Pack (V12 M158)",
+    "cost": 1,
+    "boost": 100,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Converter (CHRG-e E1)",
+    "cost": 247,
+    "boost": "0.75%",
+    "costToBoost": 329.33
+  },
+  {
+    "partName": "Converter (Proton e-R)",
+    "cost": 267,
+    "boost": "0.75%",
+    "costToBoost": 356
+  },
+  {
+    "partName": "Engine Cylinder (B6 M64)",
+    "cost": 600,
+    "boost": "3%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Engine Head (B6 M64)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head (I3)",
+    "cost": 1,
+    "boost": 700,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head (I4 204PT)",
+    "cost": 1,
+    "boost": 725,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head (I4 B)",
+    "cost": 2,
+    "boost": 500,
+    "costToBoost": "10%"
+  },
+  {
+    "partName": "Engine Head (I4 DOHC TAE)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head (I4 DT224)",
+    "cost": 1,
+    "boost": 850,
+    "costToBoost": "5%"
+  },
+  {
+    "partName": "Engine Head (I4 K-Series)",
+    "cost": 1,
+    "boost": 600,
+    "costToBoost": "5%"
+  },
+  {
+    "partName": "Engine Head (I4 SOHC D)",
+    "cost": 1,
+    "boost": 872,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head (I4 SOHC)",
+    "cost": 1,
+    "boost": "000",
+    "costToBoost": "5%"
+  },
+  {
+    "partName": "Engine Head (I4 SR20)",
+    "cost": 1,
+    "boost": 973,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head (I4)",
+    "cost": 1,
+    "boost": 400,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head (I5 DOHC ADI)",
+    "cost": 1,
+    "boost": 400,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head (I6 B)",
+    "cost": 1,
+    "boost": 350,
+    "costToBoost": "8%"
+  },
+  {
+    "partName": "Engine Head (I6 DOHC BU2 T)",
+    "cost": 1,
+    "boost": 841,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head (I6 DOHC FMW)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head (I6 L24)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head (I6 XK)",
+    "cost": 1,
+    "boost": 480,
+    "costToBoost": "10%"
+  },
+  {
+    "partName": "Engine Head (I6)",
+    "cost": 1,
+    "boost": 400,
+    "costToBoost": "10%"
+  },
+  {
+    "partName": "Engine Head (V8 OHV F)",
+    "cost": 1,
+    "boost": 734,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head (V8 OHV)",
+    "cost": 800,
+    "boost": "9%",
+    "costToBoost": 88.89
+  },
+  {
+    "partName": "Engine Head (V8)",
+    "cost": 2,
+    "boost": "000",
+    "costToBoost": "10%"
+  },
+  {
+    "partName": "Engine Head A (B6 MA 1.03)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "6%"
+  },
+  {
+    "partName": "Engine Head A (I4 907)",
+    "cost": 1,
+    "boost": 600,
+    "costToBoost": "2%"
+  },
+  {
+    "partName": "Engine Head A (V10 980/01)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "5%"
+  },
+  {
+    "partName": "Engine Head A (V12 HE)",
+    "cost": 2,
+    "boost": 508,
+    "costToBoost": "8%"
+  },
+  {
+    "partName": "Engine Head A (V12 M158)",
+    "cost": 3,
+    "boost": 400,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head A (V12)",
+    "cost": 4,
+    "boost": 400,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head A (V6 AJD)",
+    "cost": 2,
+    "boost": 350,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head A (V6 B)",
+    "cost": 1,
+    "boost": 600,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head A (V6 DOHC AKY)",
+    "cost": 1,
+    "boost": 750,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head A (V6 TWR JV6)",
+    "cost": 2,
+    "boost": "010",
+    "costToBoost": "8%"
+  },
+  {
+    "partName": "Engine Head A (V6 VQ37VHR)",
+    "cost": 2,
+    "boost": "077",
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head A (V8 AJ133)",
+    "cost": 2,
+    "boost": 355,
+    "costToBoost": "10%"
+  },
+  {
+    "partName": "Engine Head A (V8 DOHC CGM)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head A (V8 OHV B)",
+    "cost": 1,
+    "boost": 400,
+    "costToBoost": "6.5%"
+  },
+  {
+    "partName": "Engine Head A (V8 OHV D)",
+    "cost": 1,
+    "boost": 450,
+    "costToBoost": "5.5%"
+  },
+  {
+    "partName": "Engine Head A (V8 SOHC FME)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head B (B6 MA 1.03)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "6%"
+  },
+  {
+    "partName": "Engine Head B (I3)",
+    "cost": 1,
+    "boost": 900,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head B (I4 907)",
+    "cost": 1,
+    "boost": 600,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head B (V10 980/01)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "5%"
+  },
+  {
+    "partName": "Engine Head B (V12 HE)",
+    "cost": 2,
+    "boost": 508,
+    "costToBoost": "8%"
+  },
+  {
+    "partName": "Engine Head B (V12 M158)",
+    "cost": 3,
+    "boost": 400,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head B (V12)",
+    "cost": 4,
+    "boost": 400,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head B (V6 AJD)",
+    "cost": 2,
+    "boost": 350,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head B (V6 B)",
+    "cost": 1,
+    "boost": 600,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Engine Head B (V6 DOHC AKY)",
+    "cost": 1,
+    "boost": 750,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head B (V6 TWR JV6)",
+    "cost": 2,
+    "boost": 510,
+    "costToBoost": "8%"
+  },
+  {
+    "partName": "Engine Head B (V6 VQ37VHR)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head B (V8 AJ133)",
+    "cost": 2,
+    "boost": 355,
+    "costToBoost": "10%"
+  },
+  {
+    "partName": "Engine Head B (V8 DOHC CGM)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head B (V8 OHV B)",
+    "cost": 1,
+    "boost": 400,
+    "costToBoost": "6.5%"
+  },
+  {
+    "partName": "Engine Head B (V8 OHV D)",
+    "cost": 1,
+    "boost": 400,
+    "costToBoost": "6.5%"
+  },
+  {
+    "partName": "Engine Head B (V8 SOHC FME)",
+    "cost": 1,
+    "boost": 800,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Engine Head C (I4 907)",
+    "cost": 1,
+    "boost": 600,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "EV Battery Module",
+    "cost": 2,
+    "boost": 121,
+    "costToBoost": "2%"
+  },
+  {
+    "partName": "Exhaust Manifold",
+    "cost": 150,
+    "boost": "3%",
+    "costToBoost": 50
+  },
+  {
+    "partName": "Exhaust Manifold (B6 M64)",
+    "cost": 240,
+    "boost": "4%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Exhaust Manifold (I3)",
+    "cost": 375,
+    "boost": "3%",
+    "costToBoost": 125
+  },
+  {
+    "partName": "Exhaust Manifold (I4 907)",
+    "cost": 200,
+    "boost": "4%",
+    "costToBoost": 50
+  },
+  {
+    "partName": "Exhaust Manifold (I4 B)",
+    "cost": 160,
+    "boost": "4%",
+    "costToBoost": 40
+  },
+  {
+    "partName": "Exhaust Manifold (I4 DOHC TAE)",
+    "cost": 472,
+    "boost": "4%",
+    "costToBoost": 118
+  },
+  {
+    "partName": "Exhaust Manifold (I4 DT224)",
+    "cost": 220,
+    "boost": "2%",
+    "costToBoost": 110
+  },
+  {
+    "partName": "Exhaust Manifold (I4 K-Series)",
+    "cost": 200,
+    "boost": "2.5%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Exhaust Manifold (I4 SOHC D)",
+    "cost": 351,
+    "boost": "4%",
+    "costToBoost": 87.75
+  },
+  {
+    "partName": "Exhaust Manifold (I4 SOHC)",
+    "cost": 170,
+    "boost": "1.5%",
+    "costToBoost": 113.33
+  },
+  {
+    "partName": "Exhaust Manifold (I4 SR20)",
+    "cost": 245,
+    "boost": "4%",
+    "costToBoost": 61.25
+  },
+  {
+    "partName": "Exhaust Manifold (I4 TURBO)",
+    "cost": 210,
+    "boost": "1.05%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Exhaust Manifold (I5 DOHC ADI)",
+    "cost": 247,
+    "boost": "4%",
+    "costToBoost": 61.75
+  },
+  {
+    "partName": "Exhaust Manifold (I6 B)",
+    "cost": 80,
+    "boost": "3%",
+    "costToBoost": 26.67
+  },
+  {
+    "partName": "Exhaust Manifold (I6 DOHC BU2 T)",
+    "cost": 117,
+    "boost": "4%",
+    "costToBoost": 29.25
+  },
+  {
+    "partName": "Exhaust Manifold (I6 L24)",
+    "cost": 348,
+    "boost": "4%",
+    "costToBoost": 87
+  },
+  {
+    "partName": "Exhaust Manifold (I6 XK)",
+    "cost": 150,
+    "boost": "3.5%",
+    "costToBoost": 42
+  },
+  {
+    "partName": "Exhaust Manifold (I6)",
+    "cost": 130,
+    "boost": "0.65%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Exhaust Manifold (ROT 13B-REW)",
+    "cost": 290,
+    "boost": "1.65%",
+    "costToBoost": 175.76
+  },
+  {
+    "partName": "Exhaust Manifold (V10 980/01)",
+    "cost": 240,
+    "boost": "4%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Exhaust Manifold (V6 B)",
+    "cost": 180,
+    "boost": "4%",
+    "costToBoost": 45
+  },
+  {
+    "partName": "Exhaust Manifold (V8 AJ133)",
+    "cost": 364,
+    "boost": "2.5%",
+    "costToBoost": 145.6
+  },
+  {
+    "partName": "Exhaust Manifold (V8 OHV B)",
+    "cost": 148,
+    "boost": "3%",
+    "costToBoost": 49.3
+  },
+  {
+    "partName": "Exhaust Manifold (V8 OHV D)",
+    "cost": 350,
+    "boost": "2.5%",
+    "costToBoost": 140
+  },
+  {
+    "partName": "Exhaust Manifold (V8 OHV F)",
+    "cost": 240,
+    "boost": "4%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Exhaust Manifold (V8 OHV)",
+    "cost": 160,
+    "boost": "0.8%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Exhaust Manifold (V8)",
+    "cost": 330,
+    "boost": "1.65%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Exhaust Manifold A (I6 DOHC BU2)",
+    "cost": 173,
+    "boost": "4%",
+    "costToBoost": 43.25
+  },
+  {
+    "partName": "Exhaust Manifold A (I6 DOHC FMW)",
+    "cost": 207,
+    "boost": "4%",
+    "costToBoost": 51.75
+  },
+  {
+    "partName": "Exhaust Manifold A (V12 HE)",
+    "cost": 324,
+    "boost": "4%",
+    "costToBoost": 81
+  },
+  {
+    "partName": "Exhaust Manifold A (V12 M120)",
+    "cost": 440,
+    "boost": "2%",
+    "costToBoost": 220
+  },
+  {
+    "partName": "Exhaust Manifold A (V12)",
+    "cost": 240,
+    "boost": "4%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Exhaust Manifold A (V6 DOHC AKY)",
+    "cost": 200,
+    "boost": "4%",
+    "costToBoost": 50
+  },
+  {
+    "partName": "Exhaust Manifold A (V6 VQ37VHR)",
+    "cost": 240,
+    "boost": "4%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Exhaust Manifold A (V8 DOHC CGM)",
+    "cost": 175,
+    "boost": "3.5%",
+    "costToBoost": 50
+  },
+  {
+    "partName": "Exhaust Manifold A (V8 SOHC FME)",
+    "cost": 240,
+    "boost": "4%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Exhaust Manifold B (I6 DOHC BU2)",
+    "cost": 173,
+    "boost": "4%",
+    "costToBoost": 43.25
+  },
+  {
+    "partName": "Exhaust Manifold B (I6 DOHC FMW)",
+    "cost": 207,
+    "boost": "4%",
+    "costToBoost": 51.75
+  },
+  {
+    "partName": "Exhaust Manifold B (V12 HE)",
+    "cost": 361,
+    "boost": "4%",
+    "costToBoost": 90.25
+  },
+  {
+    "partName": "Exhaust Manifold B (V12 M120)",
+    "cost": 440,
+    "boost": "2%",
+    "costToBoost": 220
+  },
+  {
+    "partName": "Exhaust Manifold B (V12)",
+    "cost": 240,
+    "boost": "4%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Exhaust Pipe",
+    "cost": 180,
+    "boost": "0.9%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Exhaust Pipe B",
+    "cost": 120,
+    "boost": "1.5%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Exhaust Pipe C",
+    "cost": 140,
+    "boost": "1%",
+    "costToBoost": 140
+  },
+  {
+    "partName": "Flywheel",
+    "cost": 650,
+    "boost": "3.25%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Front Exhaust Pipe (V8 OHV)",
+    "cost": 170,
+    "boost": "2%",
+    "costToBoost": 85
+  },
+  {
+    "partName": "Front Exhaust Pipe (V8 OHV) A",
+    "cost": 83,
+    "boost": "2%",
+    "costToBoost": 41.5
+  },
+  {
+    "partName": "Front Exhaust Pipe (V8 OHV) B",
+    "cost": 83,
+    "boost": "3%",
+    "costToBoost": 27.6
+  },
+  {
+    "partName": "Front Exhaust Pipe (V8 OHV) C",
+    "cost": 83,
+    "boost": "2%",
+    "costToBoost": 41.5
+  },
+  {
+    "partName": "Front Exhaust Pipe (V8)",
+    "cost": 300,
+    "boost": "1.5%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Front Exhaust Pipe (V8) A",
+    "cost": 120,
+    "boost": "2.5%",
+    "costToBoost": 48
+  },
+  {
+    "partName": "Front Exhaust Pipe (V8) B",
+    "cost": 120,
+    "boost": "2.5%",
+    "costToBoost": 48
+  },
+  {
+    "partName": "Front Exhaust Pipe (V8) C",
+    "cost": 120,
+    "boost": "2.5%",
+    "costToBoost": 48
+  },
+  {
+    "partName": "Front Exhaust Pipe B (V8)",
+    "cost": 280,
+    "boost": "1.4%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Front Exhaust Section",
+    "cost": 180,
+    "boost": "0.9%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Front Exhaust Section (964 RS)",
+    "cost": 800,
+    "boost": "2%",
+    "costToBoost": 400
+  },
+  {
+    "partName": "Front Exhaust Section (Carrera GT)",
+    "cost": 600,
+    "boost": "1.5%",
+    "costToBoost": 400
+  },
+  {
+    "partName": "Front Exhaust Section (I4 204PT)",
+    "cost": 450,
+    "boost": "1.75%",
+    "costToBoost": 257
+  },
+  {
+    "partName": "Front Exhaust Section (I4 SOHC TAE)",
+    "cost": 180,
+    "boost": "1.5%",
+    "costToBoost": 120
+  },
+  {
+    "partName": "Front Exhaust Section (I4 DT224)",
+    "cost": 480,
+    "boost": "2%",
+    "costToBoost": 240
+  },
+  {
+    "partName": "Front Exhaust Section (I4 SOHC D)",
+    "cost": 195,
+    "boost": "1.5%",
+    "costToBoost": 130
+  },
+  {
+    "partName": "Front Exhaust Section (I4 SOHC)",
+    "cost": 135,
+    "boost": "1.5%",
+    "costToBoost": 90
+  },
+  {
+    "partName": "Front Exhaust Section (I4 SR20)",
+    "cost": 375,
+    "boost": "1.5%",
+    "costToBoost": 250
+  },
+  {
+    "partName": "Front Exhaust Section (I5 DOHC ADI)",
+    "cost": 255,
+    "boost": "2%",
+    "costToBoost": 127.5
+  },
+  {
+    "partName": "Front Exhaust Section (I6 B)",
+    "cost": 160,
+    "boost": "1%",
+    "costToBoost": 160
+  },
+  {
+    "partName": "Front Exhaust Section (I6 DOHC FMW)",
+    "cost": 215,
+    "boost": "2%",
+    "costToBoost": 107.5
+  },
+  {
+    "partName": "Front Exhaust Section (I6 L24)",
+    "cost": 323,
+    "boost": "1.65%",
+    "costToBoost": 195.75
+  },
+  {
+    "partName": "Front Exhaust Section (I6)",
+    "cost": 400,
+    "boost": "2%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Front Exhaust Section (ROT 12A)",
+    "cost": 120,
+    "boost": "2%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Front Exhaust Section (ROT 13B-REW)",
+    "cost": 120,
+    "boost": "3%",
+    "costToBoost": 40
+  },
+  {
+    "partName": "Front Exhaust Section (TURBO)",
+    "cost": 220,
+    "boost": "1.1%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Front Exhaust Section (V8 OHV B)",
+    "cost": 120,
+    "boost": "2.5%",
+    "costToBoost": 48
+  },
+  {
+    "partName": "Front Exhaust Section (V8 OHV D)",
+    "cost": 180,
+    "boost": "2%",
+    "costToBoost": 90
+  },
+  {
+    "partName": "Front Exhaust Section (V8 OHV F)",
+    "cost": 120,
+    "boost": "2%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Front Exhaust Section (XJS)",
+    "cost": 412,
+    "boost": "2.5%",
+    "costToBoost": 164.8
+  },
+  {
+    "partName": "Front Exhaust Section A (E-Type)",
+    "cost": 315,
+    "boost": "2%",
+    "costToBoost": 157.5
+  },
+  {
+    "partName": "Front Exhaust Section A (F-Type)",
+    "cost": 478,
+    "boost": "1.5%",
+    "costToBoost": 318
+  },
+  {
+    "partName": "Front Exhaust Section A (I3)",
+    "cost": 160,
+    "boost": "2%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Front Exhaust Section A (I4 B)",
+    "cost": 120,
+    "boost": "1.5%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Front Exhaust Section A (I6 DOHC BU2 T)",
+    "cost": 270,
+    "boost": "2%",
+    "costToBoost": 135
+  },
+  {
+    "partName": "Front Exhaust Section A (I6 DOHC BU2)",
+    "cost": 248,
+    "boost": "2%",
+    "costToBoost": 124
+  },
+  {
+    "partName": "Front Exhaust Section A (V6 AJD)",
+    "cost": 700,
+    "boost": "1.75%",
+    "costToBoost": 400
+  },
+  {
+    "partName": "Front Exhaust Section A (V6 B)",
+    "cost": 160,
+    "boost": "1%",
+    "costToBoost": 160
+  },
+  {
+    "partName": "Front Exhaust Section A (XJ220)",
+    "cost": 495,
+    "boost": "2%",
+    "costToBoost": 247.5
+  },
+  {
+    "partName": "Front Exhaust Section B (E-Type)",
+    "cost": 315,
+    "boost": "2%",
+    "costToBoost": 157.5
+  },
+  {
+    "partName": "Front Exhaust Section B (F-Type)",
+    "cost": 238,
+    "boost": "2%",
+    "costToBoost": 119
+  },
+  {
+    "partName": "Front Exhaust Section B (I3)",
+    "cost": 160,
+    "boost": "2%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Front Exhaust Section B (I4 B)",
+    "cost": 160,
+    "boost": "1.75%",
+    "costToBoost": 91.4
+  },
+  {
+    "partName": "Front Exhaust Section B (I6 DOHC BU2 T)",
+    "cost": 270,
+    "boost": "2%",
+    "costToBoost": 135
+  },
+  {
+    "partName": "Front Exhaust Section B (I6 DOHC BU2)",
+    "cost": 248,
+    "boost": "3%",
+    "costToBoost": 82.67
+  },
+  {
+    "partName": "Front Exhaust Section B (V6 AJD)",
+    "cost": 700,
+    "boost": "1.75%",
+    "costToBoost": 400
+  },
+  {
+    "partName": "Front Exhaust Section B (V6 B)",
+    "cost": 160,
+    "boost": "1%",
+    "costToBoost": 160
+  },
+  {
+    "partName": "Front Exhaust Section B (XJ220)",
+    "cost": 495,
+    "boost": "2%",
+    "costToBoost": 247.5
+  },
+  {
+    "partName": "Front Exhaust Section C (V6 B)",
+    "cost": 440,
+    "boost": "1%",
+    "costToBoost": 440
+  },
+  {
+    "partName": "Front Exhaust Section D (V6 B)",
+    "cost": 440,
+    "boost": "1%",
+    "costToBoost": 440
+  },
+  {
+    "partName": "Front Exhaust Section E (V6 B)",
+    "cost": 330,
+    "boost": "2%",
+    "costToBoost": 165
+  },
+  {
+    "partName": "Front Exhaust Section F (V6 B)",
+    "cost": 330,
+    "boost": "2%",
+    "costToBoost": 165
+  },
+  {
+    "partName": "Front Exhaust Section G (V6 B)",
+    "cost": 330,
+    "boost": "2%",
+    "costToBoost": 165
+  },
+  {
+    "partName": "Fuel Filter",
+    "cost": 90,
+    "boost": "0.6%",
+    "costToBoost": 150
+  },
+  {
+    "partName": "Fuel Injector (I4 B)",
+    "cost": 360,
+    "boost": "1%",
+    "costToBoost": 360
+  },
+  {
+    "partName": "Fuel Injector (I4 DT224)",
+    "cost": 235,
+    "boost": "1.5%",
+    "costToBoost": 156.67
+  },
+  {
+    "partName": "Fuel Injector (V6 AJD)",
+    "cost": 250,
+    "boost": "1.5%",
+    "costToBoost": 166.67
+  },
+  {
+    "partName": "Fuel Pump",
+    "cost": 300,
+    "boost": "1.5%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Fuel Pump (I6 B)",
+    "cost": 200,
+    "boost": "2%",
+    "costToBoost": 100
+  },
+  {
+    "partName": "Fuel Rail (B6 M64)",
+    "cost": 590,
+    "boost": "2%",
+    "costToBoost": 295
+  },
+  {
+    "partName": "Fuel Rail (B6 MA 1.03)",
+    "cost": 590,
+    "boost": "1%",
+    "costToBoost": 590
+  },
+  {
+    "partName": "Fuel Rail (I3)",
+    "cost": 550,
+    "boost": "3%",
+    "costToBoost": 183.3
+  },
+  {
+    "partName": "Fuel Rail (I4 204PT)",
+    "cost": 417,
+    "boost": "3%",
+    "costToBoost": 139
+  },
+  {
+    "partName": "Fuel Rail (I4 DOHC TAE)",
+    "cost": 597,
+    "boost": "2%",
+    "costToBoost": 298.5
+  },
+  {
+    "partName": "Fuel Rail (I4 SR20)",
+    "cost": 579,
+    "boost": "2%",
+    "costToBoost": 289.5
+  },
+  {
+    "partName": "Fuel Rail (I5 DOHC ADI)",
+    "cost": 501,
+    "boost": "2%",
+    "costToBoost": 250.5
+  },
+  {
+    "partName": "Fuel Rail (I6 DOHC BU2 T)",
+    "cost": 550,
+    "boost": "2%",
+    "costToBoost": 275
+  },
+  {
+    "partName": "Fuel Rail (I6 DOHC FMW)",
+    "cost": 442,
+    "boost": "4%",
+    "costToBoost": 110.5
+  },
+  {
+    "partName": "Fuel Rail (ROT 13B-REW)",
+    "cost": 380,
+    "boost": "4%",
+    "costToBoost": 95
+  },
+  {
+    "partName": "Fuel Rail (V10 980/01)",
+    "cost": 590,
+    "boost": "2%",
+    "costToBoost": 295
+  },
+  {
+    "partName": "Fuel Rail (V12 HE)",
+    "cost": 381,
+    "boost": "2%",
+    "costToBoost": 190.5
+  },
+  {
+    "partName": "Fuel Rail (V12 M120)",
+    "cost": 500,
+    "boost": "3%",
+    "costToBoost": 166.67
+  },
+  {
+    "partName": "Fuel Rail (V12)",
+    "cost": 590,
+    "boost": "2%",
+    "costToBoost": 295
+  },
+  {
+    "partName": "Fuel Rail (V6 B)",
+    "cost": 400,
+    "boost": "3%",
+    "costToBoost": 133.3
+  },
+  {
+    "partName": "Fuel Rail (V6 DOHC AKY)",
+    "cost": 369,
+    "boost": "2%",
+    "costToBoost": 184.5
+  },
+  {
+    "partName": "Fuel Rail (V6 TWR JV6)",
+    "cost": 468,
+    "boost": "2%",
+    "costToBoost": 234
+  },
+  {
+    "partName": "Fuel Rail (V6 VQ37VHR)",
+    "cost": 590,
+    "boost": "2%",
+    "costToBoost": 295
+  },
+  {
+    "partName": "Fuel Rail (V8 AJ133)",
+    "cost": 627,
+    "boost": "2%",
+    "costToBoost": 313.5
+  },
+  {
+    "partName": "Fuel Rail (V8 DOHC CGM)",
+    "cost": 607,
+    "boost": "2%",
+    "costToBoost": 303.5
+  },
+  {
+    "partName": "Fuel Rail (V8 SOHC FME)",
+    "cost": 590,
+    "boost": "2%",
+    "costToBoost": 295
+  },
+  {
+    "partName": "Fuel Rail DI",
+    "cost": 950,
+    "boost": "4%",
+    "costToBoost": 237.5
+  },
+  {
+    "partName": "Fuel Rail MPI",
+    "cost": 340,
+    "boost": "3%",
+    "costToBoost": 133.3
+  },
+  {
+    "partName": "Glow Plug",
+    "cost": 25,
+    "boost": "0.13%",
+    "costToBoost": 192
+  },
+  {
+    "partName": "Ignition Coil",
+    "cost": 180,
+    "boost": "0.75%",
+    "costToBoost": 240
+  },
+  {
+    "partName": "Ignition Coil (I4 SOHC)",
+    "cost": 220,
+    "boost": "4.5%",
+    "costToBoost": 48.89
+  },
+  {
+    "partName": "Ignition Coil (ROT 13B-REW)",
+    "cost": 200,
+    "boost": "4%",
+    "costToBoost": 50
+  },
+  {
+    "partName": "Ignition Coil (V8 AJ133)",
+    "cost": 108,
+    "boost": "0.75%",
+    "costToBoost": 144
+  },
+  {
+    "partName": "Ignition Coil (V8 DOHC CGM)",
+    "cost": 105,
+    "boost": "1%",
+    "costToBoost": 105
+  },
+  {
+    "partName": "Ignition Coil B",
+    "cost": 280,
+    "boost": "4%",
+    "costToBoost": 70
+  },
+  {
+    "partName": "Ignition Distributor (V12 HE)",
+    "cost": 120,
+    "boost": "5%",
+    "costToBoost": 30
+  },
+  {
+    "partName": "Ignition Distributor A",
+    "cost": 120,
+    "boost": "5%",
+    "costToBoost": 24
+  },
+  {
+    "partName": "Ignition Distributor B",
+    "cost": 100,
+    "boost": "3%",
+    "costToBoost": 33.33
+  },
+  {
+    "partName": "Ignition Distributor Cap",
+    "cost": 75,
+    "boost": "1.5%",
+    "costToBoost": 50
+  },
+  {
+    "partName": "Ignition Distributor (I4 907)",
+    "cost": 52,
+    "boost": "1.5%",
+    "costToBoost": 34.66
+  },
+  {
+    "partName": "Ignition Distributor Cap (I4 DOHC TAE)",
+    "cost": 35,
+    "boost": "1.5%",
+    "costToBoost": 23.3
+  },
+  {
+    "partName": "Ignition Distributor Cap (I6)",
+    "cost": 75,
+    "boost": "1.5%",
+    "costToBoost": 50
+  },
+  {
+    "partName": "Ignition Distributor (ROT 12A)",
+    "cost": 175,
+    "boost": "1.5%",
+    "costToBoost": 116.67
+  },
+  {
+    "partName": "Ignition Distributor Cap (V12 HE)",
+    "cost": 68,
+    "boost": "1.5%",
+    "costToBoost": 45.3
+  },
+  {
+    "partName": "Ignition Distributor Cap (V6 TWR JV6)",
+    "cost": 48,
+    "boost": "1.5%",
+    "costToBoost": 32
+  },
+  {
+    "partName": "Ignition Distributor Rotor",
+    "cost": 60,
+    "boost": "0.5%",
+    "costToBoost": 120
+  },
+  {
+    "partName": "Ignition Wires (B6 M64)",
+    "cost": 190,
+    "boost": "1%",
+    "costToBoost": 190
+  },
+  {
+    "partName": "Ignition Wires (I4 907)",
+    "cost": 120,
+    "boost": "2%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Ignition Wires (I4 DOHC TAE)",
+    "cost": 190,
+    "boost": "2%",
+    "costToBoost": 95
+  },
+  {
+    "partName": "Ignition Wires (I4 DT224)",
+    "cost": 150,
+    "boost": "1%",
+    "costToBoost": 150
+  },
+  {
+    "partName": "Ignition Wires (I4 K-Series)",
+    "cost": 160,
+    "boost": "1.5%",
+    "costToBoost": 106.67
+  },
+  {
+    "partName": "Ignition Wires (I4 SOHC)",
+    "cost": 150,
+    "boost": "0.75%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Ignition Wires (I6 B)",
+    "cost": 150,
+    "boost": "1.25%",
+    "costToBoost": 120
+  },
+  {
+    "partName": "Ignition Wires (I6 L24)",
+    "cost": 195,
+    "boost": "2%",
+    "costToBoost": 97.5
+  },
+  {
+    "partName": "Ignition Wires (I6)",
+    "cost": 210,
+    "boost": "1.05%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Ignition Wires (ROT 12A)",
+    "cost": 170,
+    "boost": "1.15%",
+    "costToBoost": 147.83
+  },
+  {
+    "partName": "Ignition Wires (ROT 13B-REW)",
+    "cost": 250,
+    "boost": "1.5%",
+    "costToBoost": 166.67
+  },
+  {
+    "partName": "Ignition Wires (V8 OHV B)",
+    "cost": 118,
+    "boost": "2%",
+    "costToBoost": 59
+  },
+  {
+    "partName": "Ignition Wires (V8 OHV D)",
+    "cost": 135,
+    "boost": "1.75%",
+    "costToBoost": 77
+  },
+  {
+    "partName": "Ignition Wires (V8 OHV F)",
+    "cost": 205,
+    "boost": "2%",
+    "costToBoost": 102.5
+  },
+  {
+    "partName": "Ignition Wires (V8)",
+    "cost": 120,
+    "boost": "1%",
+    "costToBoost": 120
+  },
+  {
+    "partName": "Ignition Wires A (I6 XK)",
+    "cost": 120,
+    "boost": "1.5%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Ignition Wires A (V12 HE)",
+    "cost": 82,
+    "boost": "2%",
+    "costToBoost": 41
+  },
+  {
+    "partName": "Ignition Wires A (V6 TWR JV6)",
+    "cost": 120,
+    "boost": "2%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Intake Manifold (1 carb)",
+    "cost": 307,
+    "boost": "2%",
+    "costToBoost": 153.5
+  },
+  {
+    "partName": "Intake Manifold (2 carb)",
+    "cost": 550,
+    "boost": "2.75%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Intake Manifold (B6 M64.50)",
+    "cost": 700,
+    "boost": "2%",
+    "costToBoost": 350
+  },
+  {
+    "partName": "Intake Manifold (I3)",
+    "cost": 600,
+    "boost": "3%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Intake Manifold (I4 204PT)",
+    "cost": 505,
+    "boost": "2%",
+    "costToBoost": 252.5
+  },
+  {
+    "partName": "Intake Manifold (I4 907)",
+    "cost": 800,
+    "boost": "3%",
+    "costToBoost": 266.67
+  },
+  {
+    "partName": "Intake Manifold (I4 B)",
+    "cost": 840,
+    "boost": "3%",
+    "costToBoost": 280
+  },
+  {
+    "partName": "Intake Manifold (I4 DI)",
+    "cost": 600,
+    "boost": "3%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Intake Manifold (I4 DOHC TAE)",
+    "cost": 425,
+    "boost": "3%",
+    "costToBoost": 141.66
+  },
+  {
+    "partName": "Intake Manifold (I4 DT224)",
+    "cost": 520,
+    "boost": "2%",
+    "costToBoost": 260
+  },
+  {
+    "partName": "Intake Manifold (I4 K-Series)",
+    "cost": 800,
+    "boost": "2.5%",
+    "costToBoost": 320
+  },
+  {
+    "partName": "Intake Manifold (I4 MPI)",
+    "cost": 250,
+    "boost": "1.25%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Intake Manifold (I4 SOHC D)",
+    "cost": 465,
+    "boost": "3.5%",
+    "costToBoost": 132.86
+  },
+  {
+    "partName": "Intake Manifold (I4 SR20)",
+    "cost": 530,
+    "boost": "3%",
+    "costToBoost": 176.67
+  },
+  {
+    "partName": "Intake Manifold (I5 DOHC ADI)",
+    "cost": 400,
+    "boost": "3%",
+    "costToBoost": 133.33
+  },
+  {
+    "partName": "Intake Manifold (I6 B)",
+    "cost": 300,
+    "boost": "3%",
+    "costToBoost": 100
+  },
+  {
+    "partName": "Intake Manifold (I6 DOHC BU2 T)",
+    "cost": 698,
+    "boost": "4%",
+    "costToBoost": 174.5
+  },
+  {
+    "partName": "Intake Manifold (I6 DOHC BU2)",
+    "cost": 610,
+    "boost": "3%",
+    "costToBoost": 203.33
+  },
+  {
+    "partName": "Intake Manifold (I6 DOHC FMW)",
+    "cost": 499,
+    "boost": "3%",
+    "costToBoost": 166.33
+  },
+  {
+    "partName": "Intake Manifold (I6 L24)",
+    "cost": 557,
+    "boost": "3%",
+    "costToBoost": 185.67
+  },
+  {
+    "partName": "Intake Manifold (ROT 12A)",
+    "cost": 400,
+    "boost": "1.25%",
+    "costToBoost": 320
+  },
+  {
+    "partName": "Intake Manifold (V10 980/01)",
+    "cost": 700,
+    "boost": "2%",
+    "costToBoost": 350
+  },
+  {
+    "partName": "Intake Manifold (V12 M120)",
+    "cost": 420,
+    "boost": "2%",
+    "costToBoost": 210
+  },
+  {
+    "partName": "Intake Manifold (V12 M158)",
+    "cost": 420,
+    "boost": "2%",
+    "costToBoost": 210
+  },
+  {
+    "partName": "Intake Manifold (V12)",
+    "cost": 315,
+    "boost": "4%",
+    "costToBoost": 78.75
+  },
+  {
+    "partName": "Intake Manifold (V6 DOHC AKY)",
+    "cost": 554,
+    "boost": "3%",
+    "costToBoost": 184.67
+  },
+  {
+    "partName": "Intake Manifold (V8 DOHC CGM)",
+    "cost": 415,
+    "boost": "3%",
+    "costToBoost": 138.33
+  },
+  {
+    "partName": "Intake Manifold (V8 OHV B)",
+    "cost": 385,
+    "boost": "3%",
+    "costToBoost": 128.33
+  },
+  {
+    "partName": "Intake Manifold (V8 OHV D)",
+    "cost": 500,
+    "boost": "3%",
+    "costToBoost": 166.67
+  },
+  {
+    "partName": "Intake Manifold (V8 OHV E)",
+    "cost": 390,
+    "boost": "3%",
+    "costToBoost": 130
+  },
+  {
+    "partName": "Intake Manifold (V8 OHV F)",
+    "cost": 950,
+    "boost": "3%",
+    "costToBoost": 316.67
+  },
+  {
+    "partName": "Intake Manifold (V8 SOHC FME)",
+    "cost": 575,
+    "boost": "3%",
+    "costToBoost": 191.67
+  },
+  {
+    "partName": "Intake Manifold (V8)",
+    "cost": 600,
+    "boost": "3%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Intake Manifold A (B6 M64.01)",
+    "cost": 700,
+    "boost": "3%",
+    "costToBoost": 233.3
+  },
+  {
+    "partName": "Intake Manifold A (B6 MA 1.03)",
+    "cost": 700,
+    "boost": "2%",
+    "costToBoost": 350
+  },
+  {
+    "partName": "Intake Manifold A (ROT 13B-REW)",
+    "cost": 650,
+    "boost": "1.25%",
+    "costToBoost": 520
+  },
+  {
+    "partName": "Intake Manifold A (V12 HE)",
+    "cost": 823,
+    "boost": "3%",
+    "costToBoost": 274
+  },
+  {
+    "partName": "Intake Manifold A (V6 B)",
+    "cost": 840,
+    "boost": "2%",
+    "costToBoost": 420
+  },
+  {
+    "partName": "Intake Manifold A (V6 TWR JV6)",
+    "cost": 1,
+    "boost": 350,
+    "costToBoost": "2%"
+  },
+  {
+    "partName": "Intake Manifold A (V6 VQ37VHR)",
+    "cost": 610,
+    "boost": "2%",
+    "costToBoost": 305
+  },
+  {
+    "partName": "Intake Manifold A (V6 VR38DETT)",
+    "cost": 700,
+    "boost": "2%",
+    "costToBoost": 350
+  },
+  {
+    "partName": "Intake Manifold B (B6 M64.01)",
+    "cost": 700,
+    "boost": "2%",
+    "costToBoost": 350
+  },
+  {
+    "partName": "Intake Manifold B (B6 MA 1.03)",
+    "cost": 700,
+    "boost": "3%",
+    "costToBoost": 233.33
+  },
+  {
+    "partName": "Intake Manifold B (ROT 13B-REW)",
+    "cost": 675,
+    "boost": "1.25%",
+    "costToBoost": 540
+  },
+  {
+    "partName": "Intake Manifold B (V12 HE)",
+    "cost": 823,
+    "boost": "3%",
+    "costToBoost": 274.33
+  },
+  {
+    "partName": "Intake Manifold B (V6 B)",
+    "cost": 400,
+    "boost": "1%",
+    "costToBoost": 400
+  },
+  {
+    "partName": "Intake Manifold B (V6 TWR JV6)",
+    "cost": 1,
+    "boost": 350,
+    "costToBoost": "2%"
+  },
+  {
+    "partName": "Intake Manifold B (V6 VQ37VHR)",
+    "cost": 580,
+    "boost": "4%",
+    "costToBoost": 145
+  },
+  {
+    "partName": "Intake Manifold B (V6 VR38DETT)",
+    "cost": 530,
+    "boost": "2%",
+    "costToBoost": 265
+  },
+  {
+    "partName": "Intercooler (B6 M64.50)",
+    "cost": 197,
+    "boost": "4%",
+    "costToBoost": 49.25
+  },
+  {
+    "partName": "Intercooler Set (V12 M158)",
+    "cost": 1,
+    "boost": "000",
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Inverter (CHRG-e E1)",
+    "cost": 197,
+    "boost": "1%",
+    "costToBoost": 197
+  },
+  {
+    "partName": "Inverter (Proton e-R)",
+    "cost": 210,
+    "boost": "1%",
+    "costToBoost": 210
+  },
+  {
+    "partName": "Junction Box (CHRG-e E1)",
+    "cost": 125,
+    "boost": "1.5%",
+    "costToBoost": 83.3
+  },
+  {
+    "partName": "Large Intercooler",
+    "cost": 750,
+    "boost": "3.5%",
+    "costToBoost": 214
+  },
+  {
+    "partName": "Link Capacitor (CHRG-e E1)",
+    "cost": 173,
+    "boost": "0.75%",
+    "costToBoost": 230
+  },
+  {
+    "partName": "Link Capacitor (Pronto e-R)",
+    "cost": 191,
+    "boost": "0.75%",
+    "costToBoost": 254
+  },
+  {
+    "partName": "Mechanical Fuel Injection (B6 M64.50)",
+    "cost": 1,
+    "boost": 200,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Medium Intercooler",
+    "cost": 375,
+    "boost": "3.5%",
+    "costToBoost": 107
+  },
+  {
+    "partName": "Middle Exhaust Pipe (V8 AJ133 SVR)",
+    "cost": 600,
+    "boost": "1.5%",
+    "costToBoost": 400
+  },
+  {
+    "partName": "Middle Exhaust Section (Carrera GT)",
+    "cost": 800,
+    "boost": "1.5%",
+    "costToBoost": 533.3
+  },
+  {
+    "partName": "Middle Exhaust Section A (991)",
+    "cost": 600,
+    "boost": "1%",
+    "costToBoost": 600
+  },
+  {
+    "partName": "Middle Exhaust Section B (991)",
+    "cost": 600,
+    "boost": "1%",
+    "costToBoost": 600
+  },
+  {
+    "partName": "Middle Muffler",
+    "cost": 330,
+    "boost": "1.65%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Middle Muffler (I4 204PT)",
+    "cost": 750,
+    "boost": "1.5%",
+    "costToBoost": 500
+  },
+  {
+    "partName": "Middle Muffler (I4 DT224)",
+    "cost": 645,
+    "boost": "1.5%",
+    "costToBoost": 430
+  },
+  {
+    "partName": "Middle Muffler (V6 AJD)",
+    "cost": 654,
+    "boost": "1.5%",
+    "costToBoost": 436
+  },
+  {
+    "partName": "Piston with Conrod",
+    "cost": 225,
+    "boost": "1.13%",
+    "costToBoost": 199.12
+  },
+  {
+    "partName": "Piston with Conrod (V8 OHV B)",
+    "cost": 200,
+    "boost": "1.13%",
+    "costToBoost": 176.99
+  },
+  {
+    "partName": "Piston with Conrod (V8 OHV C)",
+    "cost": 225,
+    "boost": "1.13%",
+    "costToBoost": 199.12
+  },
+  {
+    "partName": "Power Eletronic Controller (CHRG-e E1)",
+    "cost": 590,
+    "boost": "1%",
+    "costToBoost": 590
+  },
+  {
+    "partName": "Power Eletronic Controller (Proton e-R)",
+    "cost": 612,
+    "boost": "1%",
+    "costToBoost": 612
+  },
+  {
+    "partName": "Power Eletronics (eDen-1H)",
+    "cost": 478,
+    "boost": "2%",
+    "costToBoost": 239
+  },
+  {
+    "partName": "Power Steering Pump (I4 B)",
+    "cost": 300,
+    "boost": "1%",
+    "costToBoost": 300
+  },
+  {
+    "partName": "Power Steering Pump (I4)",
+    "cost": 250,
+    "boost": "1.25%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Power Steering Pump (I6 B)",
+    "cost": 200,
+    "boost": "1.5%",
+    "costToBoost": 133.33
+  },
+  {
+    "partName": "Power Steering Pump (V12)",
+    "cost": 300,
+    "boost": "2%",
+    "costToBoost": 150
+  },
+  {
+    "partName": "Power Steering Pump (V6 B)",
+    "cost": 240,
+    "boost": "2%",
+    "costToBoost": 120
+  },
+  {
+    "partName": "Power Steering Pump (V6 DOHC AKY)",
+    "cost": 306,
+    "boost": "2%",
+    "costToBoost": 153
+  },
+  {
+    "partName": "Power Steering Pump (V8 OHV F)",
+    "cost": 250,
+    "boost": "1.5%",
+    "costToBoost": 166.6
+  },
+  {
+    "partName": "Power Steering Pump (V8)",
+    "cost": 300,
+    "boost": "1.5%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Rear Exhaust Section (991)",
+    "cost": 800,
+    "boost": "1%",
+    "costToBoost": 800
+  },
+  {
+    "partName": "Rear Exhaust Section (Carrera GT)",
+    "cost": 1,
+    "boost": 600,
+    "costToBoost": "1.5%"
+  },
+  {
+    "partName": "Rear Exhaust Section (Elise)",
+    "cost": 630,
+    "boost": "2%",
+    "costToBoost": 315
+  },
+  {
+    "partName": "Rear Exhaust Section (Esprit)",
+    "cost": 660,
+    "boost": "1.5%",
+    "costToBoost": 440
+  },
+  {
+    "partName": "Rear Exhaust Section (Huayra Tempesta)",
+    "cost": 3,
+    "boost": "000",
+    "costToBoost": "6%"
+  },
+  {
+    "partName": "Rear Exhaust Section (Huayra)",
+    "cost": 3,
+    "boost": "000",
+    "costToBoost": "5%"
+  },
+  {
+    "partName": "Rear Exhaust Section (Zonda)",
+    "cost": 2,
+    "boost": 400,
+    "costToBoost": "5%"
+  },
+  {
+    "partName": "Rear Exhaust Section A (964)",
+    "cost": 800,
+    "boost": "2%",
+    "costToBoost": 400
+  },
+  {
+    "partName": "Rear Exhaust Section A (964 RS)",
+    "cost": 400,
+    "boost": "2%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Rear Exhaust Section B (964)",
+    "cost": 800,
+    "boost": "2%",
+    "costToBoost": 400
+  },
+  {
+    "partName": "Rear Exhaust Section B (964 RS)",
+    "cost": 400,
+    "boost": "2%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Rear Muffler",
+    "cost": 200,
+    "boost": "1%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Rear Muffler (E-Type)",
+    "cost": 520,
+    "boost": "3%",
+    "costToBoost": 173.3
+  },
+  {
+    "partName": "Rear Muffler (F-Type)",
+    "cost": 832,
+    "boost": "2%",
+    "costToBoost": 416
+  },
+  {
+    "partName": "Rear Muffler (I4 204PT)",
+    "cost": 1,
+    "boost": 670,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Rear Muffler (I4 DOHC BFM)",
+    "cost": 374,
+    "boost": "1.5%",
+    "costToBoost": 249.3
+  },
+  {
+    "partName": "Rear Muffler (I4 DT224)",
+    "cost": 689,
+    "boost": "3%",
+    "costToBoost": 229.67
+  },
+  {
+    "partName": "Rear Muffler (I4)",
+    "cost": 400,
+    "boost": "2%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Rear Muffler (V12 DOHC MRN)",
+    "cost": 308,
+    "boost": "3%",
+    "costToBoost": 102.6
+  },
+  {
+    "partName": "Rear Muffler (V6 AJD)",
+    "cost": 1,
+    "boost": 215,
+    "costToBoost": "2.5%"
+  },
+  {
+    "partName": "Rear Muffler (V6 DOHC NSN)",
+    "cost": 338,
+    "boost": "2.5%",
+    "costToBoost": 135.2
+  },
+  {
+    "partName": "Rear Muffler (V8 AJ133 SVR)",
+    "cost": 1,
+    "boost": 340,
+    "costToBoost": "2.5%"
+  },
+  {
+    "partName": "Rear Muffler (V8 OHV)",
+    "cost": 450,
+    "boost": "2.25%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Rear Muffler (V8)",
+    "cost": 700,
+    "boost": "3.5%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Rear Muffler (XJ220)",
+    "cost": 1,
+    "boost": 173,
+    "costToBoost": "1.75%"
+  },
+  {
+    "partName": "Rear Muffler (XJS)",
+    "cost": 706,
+    "boost": "2.5%",
+    "costToBoost": 282.4
+  },
+  {
+    "partName": "Rear Muffler 370Z",
+    "cost": 600,
+    "boost": "4%",
+    "costToBoost": 150
+  },
+  {
+    "partName": "Rear Muffler A",
+    "cost": 500,
+    "boost": "2%",
+    "costToBoost": 250
+  },
+  {
+    "partName": "Rear Muffler B",
+    "cost": 120,
+    "boost": "2%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Rear Muffler B (V8)",
+    "cost": 800,
+    "boost": "3%",
+    "costToBoost": 266.6
+  },
+  {
+    "partName": "Rear Muffler C",
+    "cost": 120,
+    "boost": "1.5%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Rear Muffler D",
+    "cost": 120,
+    "boost": "2%",
+    "costToBoost": 60
+  },
+  {
+    "partName": "Rear Muffler F",
+    "cost": 160,
+    "boost": "2%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Rear Muffler Fairlady Z",
+    "cost": 320,
+    "boost": "2%",
+    "costToBoost": 160
+  },
+  {
+    "partName": "Rear Muffler G",
+    "cost": 308,
+    "boost": "2.5%",
+    "costToBoost": 123.2
+  },
+  {
+    "partName": "Rear Muffler GTR",
+    "cost": 800,
+    "boost": "5%",
+    "costToBoost": 160
+  },
+  {
+    "partName": "Rear Muffler H",
+    "cost": 278,
+    "boost": "2%",
+    "costToBoost": 139
+  },
+  {
+    "partName": "Rear Muffler Silvia",
+    "cost": 480,
+    "boost": "3%",
+    "costToBoost": 160
+  },
+  {
+    "partName": "Round Air Filter (1 carb)",
+    "cost": 80,
+    "boost": "1%",
+    "costToBoost": 80
+  },
+  {
+    "partName": "Round Air Filter (2 carb)",
+    "cost": 120,
+    "boost": "1.2%",
+    "costToBoost": 100
+  },
+  {
+    "partName": "Round Air Filter (side draft)",
+    "cost": 180,
+    "boost": "0.9%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Scoop Air Filter (V8 OHV)",
+    "cost": 160,
+    "boost": "5.5%",
+    "costToBoost": 29
+  },
+  {
+    "partName": "Small Intercooler",
+    "cost": 150,
+    "boost": "3.5%",
+    "costToBoost": 42.8
+  },
+  {
+    "partName": "Spark Plug",
+    "cost": 25,
+    "boost": "0.13%",
+    "costToBoost": 192.3
+  },
+  {
+    "partName": "Supercharger (V8 AJ133)",
+    "cost": 2,
+    "boost": 500,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Supercharger (V8 OHV)",
+    "cost": 3,
+    "boost": "000",
+    "costToBoost": "4%"
+  },
+  {
+    "partName": "Supercharger (V8)",
+    "cost": 3,
+    "boost": "000",
+    "costToBoost": "5%"
+  },
+  {
+    "partName": "Supercharger Intake Manifold (V8 OHV)",
+    "cost": 1,
+    "boost": 500,
+    "costToBoost": "2%"
+  },
+  {
+    "partName": "Supercharger Intake Manifold (V8)",
+    "cost": 1,
+    "boost": 500,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Throttle (B6 M64.01)",
+    "cost": 460,
+    "boost": "2%",
+    "costToBoost": 230
+  },
+  {
+    "partName": "Throttle (B6 M64.50)",
+    "cost": 460,
+    "boost": "3%",
+    "costToBoost": 153.3
+  },
+  {
+    "partName": "Throttle (B6 MA 1.03)",
+    "cost": 460,
+    "boost": "1.5%",
+    "costToBoost": 306
+  },
+  {
+    "partName": "Throttle (I3)",
+    "cost": 400,
+    "boost": "2.5%",
+    "costToBoost": 160
+  },
+  {
+    "partName": "Throttle (I4 SOHC D)",
+    "cost": 460,
+    "boost": "1%",
+    "costToBoost": 460
+  },
+  {
+    "partName": "Throttle (I4 SR20)",
+    "cost": 467,
+    "boost": "1%",
+    "costToBoost": 467
+  },
+  {
+    "partName": "Throttle (I4)",
+    "cost": 310,
+    "boost": "3%",
+    "costToBoost": 103.33
+  },
+  {
+    "partName": "Throttle (I5 DOHC ADI)",
+    "cost": 306,
+    "boost": "1%",
+    "costToBoost": 306
+  },
+  {
+    "partName": "Throttle (I6 DOHC BU2 T)",
+    "cost": 343,
+    "boost": "1%",
+    "costToBoost": 343
+  },
+  {
+    "partName": "Throttle (I6 DOHC BU2)",
+    "cost": 305,
+    "boost": "1%",
+    "costToBoost": 305
+  },
+  {
+    "partName": "Throttle (I6 DOHC FMW)",
+    "cost": 256,
+    "boost": "1%",
+    "costToBoost": 256
+  },
+  {
+    "partName": "Throttle (ROT 13B-REW)",
+    "cost": 500,
+    "boost": "3.5%",
+    "costToBoost": 142.86
+  },
+  {
+    "partName": "Throttle (V12 M158)",
+    "cost": 660,
+    "boost": "3%",
+    "costToBoost": 220
+  },
+  {
+    "partName": "Throttle (V12)",
+    "cost": 460,
+    "boost": "1%",
+    "costToBoost": 460
+  },
+  {
+    "partName": "Throttle (V6 AJD)",
+    "cost": 408,
+    "boost": "3%",
+    "costToBoost": 136
+  },
+  {
+    "partName": "Throttle (V6 B)",
+    "cost": 500,
+    "boost": "2.75%",
+    "costToBoost": 181.82
+  },
+  {
+    "partName": "Throttle (V6 DOHC AKY)",
+    "cost": 460,
+    "boost": "1%",
+    "costToBoost": 460
+  },
+  {
+    "partName": "Throttle (V6 TWR JV6)",
+    "cost": 600,
+    "boost": "2.5%",
+    "costToBoost": 240
+  },
+  {
+    "partName": "Throttle (V6 VQ37VHR)",
+    "cost": 507,
+    "boost": "1%",
+    "costToBoost": 507
+  },
+  {
+    "partName": "Throttle (V8 DOHC CGM)",
+    "cost": 460,
+    "boost": "1%",
+    "costToBoost": 460
+  },
+  {
+    "partName": "Throttle (V8 SOHC FME)",
+    "cost": 460,
+    "boost": "1%",
+    "costToBoost": 460
+  },
+  {
+    "partName": "Throttle (V8)",
+    "cost": 330,
+    "boost": "1.65%",
+    "costToBoost": 200
+  },
+  {
+    "partName": "Throttle DXA",
+    "cost": 480,
+    "boost": "1.5%",
+    "costToBoost": 320
+  },
+  {
+    "partName": "Turbo (I4 204PT)",
+    "cost": 1,
+    "boost": "025",
+    "costToBoost": "8%"
+  },
+  {
+    "partName": "Turbo (I4 DT224)",
+    "cost": 1,
+    "boost": "000",
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Turbo (V6 AJD)",
+    "cost": 1,
+    "boost": 399,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Turbo A (V6 VR38DETT)",
+    "cost": 1,
+    "boost": 500,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Turbo A (V6 TWR JV6)",
+    "cost": 1,
+    "boost": 790,
+    "costToBoost": "4%"
+  },
+  {
+    "partName": "Turbo B (V6 TWR JV6)",
+    "cost": 1,
+    "boost": 790,
+    "costToBoost": "4%"
+  },
+  {
+    "partName": "Turbocharger",
+    "cost": 1,
+    "boost": 200,
+    "costToBoost": "10%"
+  },
+  {
+    "partName": "Turbocharger (B6 M64.50)",
+    "cost": 1,
+    "boost": 500,
+    "costToBoost": "6%"
+  },
+  {
+    "partName": "Turbocharger (B6 MA 1.03)",
+    "cost": 1,
+    "boost": 500,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Turbocharger (I3)",
+    "cost": 1,
+    "boost": 100,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Turbocharger (I4 B)",
+    "cost": 1,
+    "boost": 150,
+    "costToBoost": "7%"
+  },
+  {
+    "partName": "Turbocharger (I4 SOHC D)",
+    "cost": 803,
+    "boost": "3%",
+    "costToBoost": 267.67
+  },
+  {
+    "partName": "Turbocharger (I4 SR20)",
+    "cost": 1,
+    "boost": 350,
+    "costToBoost": "3%"
+  },
+  {
+    "partName": "Turbocharger (I4 SOHC D)",
+    "cost": 803,
+    "boost": "3%",
+    "costToBoost": 267.67
+  },
+  {
+    "partName": "Turbocharger (I5 DOHC ADI)",
+    "cost": 597,
+    "boost": "3%",
+    "costToBoost": 199
+  },
+  {
+    "partName": "Turbocharger (I6 DOHC BU2 T)",
+    "cost": 802,
+    "boost": "3%",
+    "costToBoost": 267.33
+  },
+  {
+    "partName": "Turbocharger (ROT 13B-REW)",
+    "cost": 1,
+    "boost": 350,
+    "costToBoost": "10%"
+  },
+  {
+    "partName": "Turbocharger (V12 M158)",
+    "cost": 1,
+    "boost": 500,
+    "costToBoost": "5%"
+  }
+]

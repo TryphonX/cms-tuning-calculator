@@ -4,11 +4,14 @@ import './assets/css/style.scss';
 import EngineContainer from './components/containers/EngineContainer';
 import { CalculatorContext } from './modules/contexts';
 import AvailablePartsContainer from './components/containers/AvailablePartsContainer';
+import ResultsContainer from './components/containers/ResultsContainer';
 
 function App() {
 
 	const [currentEngine, setCurrentEngine] = React.useState(null);
 	const [selectedParts, setSelectedParts] = React.useState([]);
+
+	const clearSelectedParts = () => setSelectedParts([]);
 
 	return (
 		<Container fluid className="hero_area">
@@ -17,8 +20,7 @@ function App() {
 					<Navbar expand='lg' className='custom_nav-container' >
 						<Navbar.Brand href='index.html'>
 							<span>
-                Tuning Calculator<br />
-								<small>Some text</small>
+                Tuning Calculator <small className='fw-light fs-6 text-secondary'>Car Mechanic Simulator 21</small>
 							</span>
 						</Navbar.Brand>
 						<Navbar.Toggle type='button' aria-controls="navbarSupportedContent" aria-label="Toggle navigation" />
@@ -45,12 +47,14 @@ function App() {
 						setCurrentEngine,
 						selectedParts,
 						setSelectedParts,
+						clearSelectedParts,
 					}}
 				>
 					<Container fluid className='mb-5'>
 						<Row>
 							<Col xl='5' xs='12'>
 								<EngineContainer />
+								<ResultsContainer className='mt-4' />
 							</Col>
 							<Col xl='7' xs='12'>
 								<AvailablePartsContainer />

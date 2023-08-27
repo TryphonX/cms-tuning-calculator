@@ -3,29 +3,29 @@ import { Button, Card, Container, Form, Table } from 'react-bootstrap';
 import { CalculatorContext } from '../../modules/contexts';
 import tuningParts from '../../modules/tuning-parts-v4.json';
 import { XLg } from 'react-bootstrap-icons';
+import { compareBasedOnName } from '../../modules/common';
 
 const AvailablePartsContainer = () => {
 
-	const { currentEngine, selectedParts, setSelectedParts } = React.useContext(CalculatorContext);
+	const { currentEngine, selectedParts, setSelectedParts, clearSelectedParts } = React.useContext(CalculatorContext);
 
 	const onTuneChanged = ({target}) => {
 		
 		const partName = target.dataset.partName;
+		const partQt = target.dataset.partQuantity;
 
-		if (selectedParts.includes(partName)) {
-			setSelectedParts(selectedParts.filter(part => part !== partName));
+		if (selectedParts.some(selectedPart => selectedPart.name === partName)) {
+			setSelectedParts(selectedParts.filter(selectedPart => selectedPart.name !== partName));
 		}
 		else {
-			setSelectedParts([...selectedParts, partName].sort());
+			setSelectedParts([...selectedParts, { name: partName, quantity: partQt }].sort(compareBasedOnName));
 		}
-
-		console.log(selectedParts);
 	};
 
 	return (
 		<Card>
 			<Container fluid className='p-3'>
-				<Form.Label>Available Parts</Form.Label>
+				<h5>Available Parts</h5>
 				{
 					currentEngine ?
 						(
@@ -46,16 +46,17 @@ const AvailablePartsContainer = () => {
 											currentEngine.availableParts.map(part => (
 												<tr key={part.name}>
 													<td>{part.name}</td>
-													<td>{part.quantity}</td>
-													<td>+{tuningParts[part.name]?.boost}</td>
-													<td>{tuningParts[part.name]?.cost} CR</td>
-													<td>{tuningParts[part.name]?.costToBoost} CR</td>
+													<td className='text-end'>{part.quantity}</td>
+													<td className='text-end'>+{tuningParts[part.name]?.boost}%</td>
+													<td className='text-end'>{tuningParts[part.name]?.cost} CR</td>
+													<td className='text-end'>{tuningParts[part.name]?.costToBoost} CR</td>
 													<td className='text-center'>
 														<Form.Check
 															aria-label='select to tune part'
 															data-part-name={part.name}
+															data-part-quantity={part.quantity}
 															type='checkbox'
-															checked={selectedParts.includes(part.name)}
+															checked={selectedParts.some(selectedPart => selectedPart.name === part.name)}
 															onChange={onTuneChanged}
 														/>
 													</td>
@@ -67,7 +68,7 @@ const AvailablePartsContainer = () => {
 								<div className='text-end'>
 									<Button aria-label='clear parts selection'
 										disabled={!selectedParts.length}
-										onClick={() => setSelectedParts([])}
+										onClick={clearSelectedParts}
 									>
 										<XLg className='mb-1' /> Clear
 									</Button>

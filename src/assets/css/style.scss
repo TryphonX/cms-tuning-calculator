@@ -768,3 +768,12 @@ a:focus {
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./responsive.css";
 @import "./style.css";
+
+.total-row {
+	font-weight: bold;
+
+	td {
+		//background-color: rgba(0, 0, 0, 0.05);
+		background-color: $secondary;
+	}
+}

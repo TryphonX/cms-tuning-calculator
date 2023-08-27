@@ -5,9 +5,12 @@ import { CalculatorContext } from '../../modules/contexts';
 
 const EngineContainer = () => {
 
-	const { currentEngine, setCurrentEngine } = React.useContext(CalculatorContext);
+	const { currentEngine, setCurrentEngine, clearSelectedParts} = React.useContext(CalculatorContext);
 
 	const onEngineChange = ({target}) => {
+		if (currentEngine?.name === target.value) return;
+
+		clearSelectedParts();
 		setCurrentEngine(engines[target.value] ?? null);
 	};
 
@@ -33,7 +36,7 @@ const EngineContainer = () => {
 	return (
 		<Card>
 			<Container fluid className='p-3'>
-				<Form.Label>Engine</Form.Label>
+				<h5>Engine</h5>
 				<Form.Select aria-label='engine selection' onChange={onEngineChange}>
 					<option>-</option>
 					{Object.keys(engines).map(engName => <option key={`${engName.replace(/\s/g, '-')}-option`}>{engName}</option>)}
@@ -50,15 +53,15 @@ const EngineContainer = () => {
 										<Table bordered striped='columns' className='h-100'>
 											<tbody>
 												<tr>
-													<td className='align-middle'>Power</td>
+													<td className='align-middle fw-bold'>Power</td>
 													<td className='align-middle'>{currentEngine.specs.power} hp</td>
 												</tr>
 												<tr>
-													<td className='align-middle'>Torque</td>
+													<td className='align-middle fw-bold'>Torque</td>
 													<td className='align-middle'>{currentEngine.specs.torque} N-m</td>
 												</tr>
 												<tr>
-													<td className='align-middle'>Gearbox</td>
+													<td className='align-middle fw-bold'>Gearbox</td>
 													<td className='align-middle'>{currentEngine.specs.gearbox}</td>
 												</tr>
 											</tbody>

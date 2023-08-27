@@ -8,7 +8,6 @@ const EngineContainer = () => {
 	const { currentEngine, setCurrentEngine } = React.useContext(CalculatorContext);
 
 	const onEngineChange = ({target}) => {
-		console.log(target);
 		setCurrentEngine(engines[target.value] ?? null);
 	};
 

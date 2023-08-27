@@ -1,14 +1,13 @@
 import React from 'react';
-import { Card, Container, Nav, Navbar, Tab, Tabs } from 'react-bootstrap';
-import { CalculatorTab } from './modules/common';
-//import logo from './logo.svg';
-import './assets/css/style.css';
-import './assets/css/bootstrap.css';
-//import './assets/css/font-awesome.min.css';
-import './assets/css/responsive.css';
+import { Card, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './assets/css/style.scss';
+import EngineContainer from './components/containers/EngineContainer';
+import { CalculatorContext } from './modules/contexts';
 
 function App() {
+
+	const [currentEngine, setCurrentEngine] = React.useState(null);
+
 	return (
 		<Container fluid className="hero_area">
 			<header className="header_section">
@@ -38,19 +37,25 @@ function App() {
 			</header>
 
 			<section>
-				<Card>
-					<Tabs
-						defaultActiveKey={CalculatorTab.Engine}
-						className="mb-3"
-					>
-						<Tab eventKey={CalculatorTab.Engine} title="Engine">
-            Tab content for Home
-						</Tab>
-						<Tab eventKey={CalculatorTab.Vehicle} title="Vehicle">
-           Tab content for Profile
-						</Tab>
-					</Tabs>
-				</Card>
+				<CalculatorContext.Provider
+					value={{
+						currentEngine,
+						setCurrentEngine,
+					}}
+				>
+					<Container fluid>
+						<Row>
+							<Col xl='6' xs='12'>
+								<EngineContainer />
+							</Col>
+							<Col xl='6' xs='12'>
+								<Card>
+								Tab content for Profile
+								</Card>
+							</Col>
+						</Row>
+					</Container>
+				</CalculatorContext.Provider>
 			</section>
 		</Container>
 	);

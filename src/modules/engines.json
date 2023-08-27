@@ -4,8 +4,8 @@
 		"imgUrl": "imgUrl",
 		"specs": {
 			"power": 0,
-			"Torque": 0,
-			"Gearbox": "Gearbox"
+			"torque": 0,
+			"gearbox": "Gearbox"
 		},
 		"availableParts": [
 			{
@@ -17,11 +17,11 @@
 	},
 	"I3 DOHC": {
 		"name": "I3 DOHC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/64/I3_DOHC.jpg/revision/latest?cb=20210902160950",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/64/I3_DOHC.jpg",
 		"specs": {
 			"power": 110,
-			"Torque": 170,
-			"Gearbox": "Gearbox (I3)"
+			"torque": 170,
+			"gearbox": "Gearbox (I3)"
 		},
 		"availableParts": [
 			{
@@ -98,11 +98,11 @@
 	},
 	"I3 DOHC Turbocharged": {
 		"name": "I3 DOHC Turbocharged",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/02/I3_DOHC_Turbocharged.jpg/revision/latest?cb=20210902160943",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/02/I3_DOHC_Turbocharged.jpg",
 		"specs": {
 			"power": 166,
-			"Torque": 261,
-			"Gearbox": "Gearbox (I3)"
+			"torque": 261,
+			"gearbox": "Gearbox (I3)"
 		},
 		"availableParts": [
 			{
@@ -184,11 +184,11 @@
 	},
 	"I4 DOHC AQC": {
 		"name": "I4 DOHC AQC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg/revision/latest?cb=20210903021754",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg",
 		"specs": {
 			"power": 145,
-			"Torque": 187,
-			"Gearbox": "Gearbox (I4)"
+			"torque": 187,
+			"gearbox": "Gearbox (I4)"
 		},
 		"availableParts": [
 			{
@@ -275,11 +275,11 @@
 	},
 	"I4 DOHC AQC RWD": {
 		"name": "I4 DOHC AQC RWD",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg/revision/latest?cb=20210903021754",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg",
 		"specs": {
 			"power": 145,
-			"Torque": 187,
-			"Gearbox": "Gearbox (I4 RWD)"
+			"torque": 187,
+			"gearbox": "Gearbox (I4 RWD)"
 		},
 		"availableParts": [
 			{
@@ -366,11 +366,11 @@
 	},
 	"I4 DOHC Turbocharged": {
 		"name": "I4 DOHC Turbocharged",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg/revision/latest?cb=20210903021754",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg",
 		"specs": {
 			"power": 180,
-			"Torque": 240,
-			"Gearbox": "Gearbox (I4)"
+			"torque": 240,
+			"gearbox": "Gearbox (I4)"
 		},
 		"availableParts": [
 			{
@@ -457,11 +457,11 @@
 	},
 	"I4 DOHC 4x4": {
 		"name": "I4 DOHC 4x4",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg/revision/latest?cb=20210902204531",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg",
 		"specs": {
 			"power": 308,
-			"Torque": 415,
-			"Gearbox": "Gearbox (I4 4x4)"
+			"torque": 415,
+			"gearbox": "Gearbox (I4 4x4)"
 		},
 		"availableParts": [
 			{
@@ -553,11 +553,11 @@
 	},
 	"I4 DOHC BFM": {
 		"name": "I4 DOHC BFM",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg/revision/latest?cb=20210902204531",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg",
 		"specs": {
 			"power": 279,
-			"Torque": 281,
-			"Gearbox": "Gearbox (I4)"
+			"torque": 281,
+			"gearbox": "Gearbox (I4)"
 		},
 		"availableParts": [
 			{
@@ -649,11 +649,11 @@
 	},
 	"I4 DOHC TAE": {
 		"name": "I4 DOHC TAE",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/90/I4_DOHC_TAE.jpg/revision/latest?cb=20210903224214",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/90/I4_DOHC_TAE.jpg",
 		"specs": {
 			"power": 130,
-			"Torque": 168,
-			"Gearbox": "Gearbox (I4 DOHC TAE)"
+			"torque": 168,
+			"gearbox": "Gearbox (I4 DOHC TAE)"
 		},
 		"availableParts": [
 			{
@@ -755,11 +755,11 @@
 	},
 	"I4 SOHC 4x4": {
 		"name": "I4 SOHC 4x4",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg/revision/latest?cb=20210903224044",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg",
 		"specs": {
 			"power": 126,
-			"Torque": 193,
-			"Gearbox": "Gearbox (I4)"
+			"torque": 193,
+			"gearbox": "Gearbox (I4)"
 		},
 		"availableParts": [
 			{
@@ -846,11 +846,11 @@
 	},
 	"I4 SOHC ABT": {
 		"name": "I4 SOHC ABT",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg/revision/latest?cb=20210903224044",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg",
 		"specs": {
 			"power": 114,
-			"Torque": 178,
-			"Gearbox": "Gearbox (I4)"
+			"torque": 178,
+			"gearbox": "Gearbox (I4)"
 		},
 		"availableParts": [
 			{
@@ -937,11 +937,11 @@
 	},
 	"I4 SOHC BMJ": {
 		"name": "I4 SOHC BMJ",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg/revision/latest?cb=20210903224044",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg",
 		"specs": {
 			"power": 126,
-			"Torque": 193,
-			"Gearbox": "Gearbox (I4 RWD)"
+			"torque": 193,
+			"gearbox": "Gearbox (I4 RWD)"
 		},
 		"availableParts": [
 			{
@@ -1028,11 +1028,11 @@
 	},
 	"I4 SOHC Diesel": {
 		"name": "I4 SOHC Diesel",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/76/I4_SOHC_D.jpg/revision/latest?cb=20210903223151",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/76/I4_SOHC_D.jpg",
 		"specs": {
 			"power": 105,
-			"Torque": 245,
-			"Gearbox": "Gearbox (I4 SOHC D)"
+			"torque": 245,
+			"gearbox": "Gearbox (I4 SOHC D)"
 		},
 		"availableParts": [
 			{
@@ -1109,11 +1109,11 @@
 	},
 	"I5 DOHC ADI": {
 		"name": "I5 DOHC ADI",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/bb/I5_DOHC_ADI.jpg/revision/latest?cb=20210903223158",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/bb/I5_DOHC_ADI.jpg",
 		"specs": {
 			"power": 220,
-			"Torque": 331,
-			"Gearbox": "Gearbox (I5 DOHC ADI)"
+			"torque": 331,
+			"gearbox": "Gearbox (I5 DOHC ADI)"
 		},
 		"availableParts": [
 			{
@@ -1190,11 +1190,11 @@
 	},
 	"I6 DOHC": {
 		"name": "I6 DOHC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b2/I6_DOHC.jpg/revision/latest?cb=20210903223225",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b2/I6_DOHC.jpg",
 		"specs": {
 			"power": 214,
-			"Torque": 289,
-			"Gearbox": "Gearbox (I4 RWD)"
+			"torque": 289,
+			"gearbox": "Gearbox (I4 RWD)"
 		},
 		"availableParts": [
 			{
@@ -1281,11 +1281,11 @@
 	},
 	"I6 DOHC BU2": {
 		"name": "I6 DOHC BU2",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2a/I6_DOHC_BU2.jpg/revision/latest?cb=20210903223211",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2a/I6_DOHC_BU2.jpg",
 		"specs": {
 			"power": 214,
-			"Torque": 289,
-			"Gearbox": "Gearbox (I6 DOHC BU2 T)"
+			"torque": 289,
+			"gearbox": "Gearbox (I6 DOHC BU2 T)"
 		},
 		"availableParts": [
 			{
@@ -1372,11 +1372,11 @@
 	},
 	"I6 DOHC BU2 Turbo": {
 		"name": "I6 DOHC BU2 Turbo",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0f/I6_DOHC_BU2_T.jpg/revision/latest?cb=20210903223205",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0f/I6_DOHC_BU2_T.jpg",
 		"specs": {
 			"power": 287,
-			"Torque": 432,
-			"Gearbox": "Gearbox (I6 DOHC BU2 T)"
+			"torque": 432,
+			"gearbox": "Gearbox (I6 DOHC BU2 T)"
 		},
 		"availableParts": [
 			{
@@ -1463,11 +1463,11 @@
 	},
 	"I6 DOHC FMW": {
 		"name": "I6 DOHC FMW",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a3/I6_DOHC_FMW.jpg/revision/latest?cb=20210903223219",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a3/I6_DOHC_FMW.jpg",
 		"specs": {
 			"power": 190,
-			"Torque": 247,
-			"Gearbox": "Gearbox (I6 DOHC FMW)"
+			"torque": 247,
+			"gearbox": "Gearbox (I6 DOHC FMW)"
 		},
 		"availableParts": [
 			{
@@ -1554,11 +1554,11 @@
 	},
 	"I6 OHV": {
 		"name": "I6 OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/78/I6_OHV.jpg/revision/latest?cb=20210903223232",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/78/I6_OHV.jpg",
 		"specs": {
 			"power": 153,
-			"Torque": 308,
-			"Gearbox": "Gearbox (I6 B)"
+			"torque": 308,
+			"gearbox": "Gearbox (I6 B)"
 		},
 		"availableParts": [
 			{
@@ -1665,11 +1665,11 @@
 	},
 	"V6 DOHC AKY": {
 		"name": "V6 DOHC AKY",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/d6/V6_DOHC_AKY.jpg/revision/latest?cb=20210903223239",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/d6/V6_DOHC_AKY.jpg",
 		"specs": {
 			"power": 221,
-			"Torque": 300,
-			"Gearbox": "Gearbox (V6 DOHC AKY)"
+			"torque": 300,
+			"gearbox": "Gearbox (V6 DOHC AKY)"
 		},
 		"availableParts": [
 			{
@@ -1746,11 +1746,11 @@
 	},
 	"V6 DOHC AKZ": {
 		"name": "V6 DOHC AKZ",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg/revision/latest?cb=20210903223246",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg",
 		"specs": {
 			"power": 251,
-			"Torque": 300,
-			"Gearbox": "Gearbox (V6 B)"
+			"torque": 300,
+			"gearbox": "Gearbox (V6 B)"
 		},
 		"availableParts": [
 			{
@@ -1847,11 +1847,11 @@
 	},
 	"V6 DOHC CHG": {
 		"name": "V6 DOHC CHG",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg/revision/latest?cb=20210903223246",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg",
 		"specs": {
 			"power": 251,
-			"Torque": 300,
-			"Gearbox": "Gearbox B(V6 B)"
+			"torque": 300,
+			"gearbox": "Gearbox B(V6 B)"
 		},
 		"availableParts": [
 			{
@@ -1948,11 +1948,11 @@
 	},
 	"V6 DOHC NSN": {
 		"name": "V6 DOHC NSN",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0b/V6_DOHC_NSN.jpg/revision/latest?cb=20210903224330",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0b/V6_DOHC_NSN.jpg",
 		"specs": {
 			"power": 283,
-			"Torque": 352,
-			"Gearbox": "Gearbox (V6 VQ37VHR)"
+			"torque": 352,
+			"gearbox": "Gearbox (V6 VQ37VHR)"
 		},
 		"availableParts": [
 			{
@@ -2029,11 +2029,11 @@
 	},
 	"V8 1carb OHV": {
 		"name": "V8 1carb OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/14/V8_1carb_OHV.jpg/revision/latest?cb=20210831234229",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/14/V8_1carb_OHV.jpg",
 		"specs": {
 			"power": 258,
-			"Torque": 529,
-			"Gearbox": "Gearbox (V8 OHV)"
+			"torque": 529,
+			"gearbox": "Gearbox (V8 OHV)"
 		},
 		"availableParts": [
 			{
@@ -2135,11 +2135,11 @@
 	},
 	"V8 2carb OHV": {
 		"name": "V8 2carb OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2b/V8_2carb_OHV.jpg/revision/latest?cb=20210831235031",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2b/V8_2carb_OHV.jpg",
 		"specs": {
 			"power": 330,
-			"Torque": 579,
-			"Gearbox": "Gearbox (V8 OHV)"
+			"torque": 579,
+			"gearbox": "Gearbox (V8 OHV)"
 		},
 		"availableParts": [
 			{
@@ -2241,11 +2241,11 @@
 	},
 	"V8 2carb OHV Supercharged": {
 		"name": "V8 2carb OHV Supercharged",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/8d/V8_2carb_OHV_Supercharged.jpg/revision/latest?cb=20210831235038",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/8d/V8_2carb_OHV_Supercharged.jpg",
 		"specs": {
 			"power": 380,
-			"Torque": 720,
-			"Gearbox": "Gearbox (V8 OHV)"
+			"torque": 720,
+			"gearbox": "Gearbox (V8 OHV)"
 		},
 		"availableParts": [
 			{
@@ -2352,11 +2352,11 @@
 	},
 	"V8 Hemi 440 Sixpack": {
 		"name": "V8 Hemi 440 Sixpack",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7d/V8_Hemi_440_Sixpack.jpg/revision/latest?cb=20230708194748",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7d/V8_Hemi_440_Sixpack.jpg",
 		"specs": {
 			"power": 390,
-			"Torque": 679,
-			"Gearbox": "Gearbox ()"
+			"torque": 679,
+			"gearbox": "Gearbox ()"
 		},
 		"availableParts": [
 			{
@@ -2468,11 +2468,11 @@
 	},
 	"V8 Hemi 440 Magnum": {
 		"name": "V8 Hemi 440 Magnum",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/17/V8_OHV_6P.jpg/revision/latest?cb=20210904123806",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/17/V8_OHV_6P.jpg",
 		"specs": {
 			"power": 375,
-			"Torque": 650,
-			"Gearbox": "Gearbox (V8 OHV F)"
+			"torque": 650,
+			"gearbox": "Gearbox (V8 OHV F)"
 		},
 		"availableParts": [
 			{
@@ -2559,11 +2559,11 @@
 	},
 	"V8 DOHC AXK": {
 		"name": "V8 DOHC AXK",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg/revision/latest?cb=20210902215306",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg",
 		"specs": {
 			"power": 309,
-			"Torque": 393,
-			"Gearbox": "Gearbox (V8)"
+			"torque": 393,
+			"gearbox": "Gearbox (V8)"
 		},
 		"availableParts": [
 			{
@@ -2640,11 +2640,11 @@
 	},
 	"V8 DOHC 4x4": {
 		"name": "V8 DOHC 4x4",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg/revision/latest?cb=20210902215306",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg",
 		"specs": {
 			"power": 309,
-			"Torque": 393,
-			"Gearbox": "Gearbox (V8)"
+			"torque": 393,
+			"gearbox": "Gearbox (V8)"
 		},
 		"availableParts": [
 			{
@@ -2721,11 +2721,11 @@
 	},
 	"V8 DOHC Supercharged": {
 		"name": "V8 DOHC Supercharged",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/5c/V8_DOHC_Supercharged.jpg/revision/latest?cb=20210915211731",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/5c/V8_DOHC_Supercharged.jpg",
 		"specs": {
 			"power": 584,
-			"Torque": 724,
-			"Gearbox": "Gearbox (V8)"
+			"torque": 724,
+			"gearbox": "Gearbox (V8)"
 		},
 		"availableParts": [
 			{
@@ -2802,11 +2802,11 @@
 	},
 	"V8 OHV CGM": {
 		"name": "V8 OHV CGM",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/1e/V8_DOHC_CGM.jpg/revision/latest?cb=20210901135056",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/1e/V8_DOHC_CGM.jpg",
 		"specs": {
 			"power": 426,
-			"Torque": 569,
-			"Gearbox": "Gearbox (V8 DOHC CGM)"
+			"torque": 569,
+			"gearbox": "Gearbox (V8 DOHC CGM)"
 		},
 		"availableParts": [
 			{
@@ -2893,11 +2893,11 @@
 	},
 	"V8 OHV CGM-SC M1D": {
 		"name": "V8 OHV CGM-SC M1D",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/e/ee/V8_OHV_CGM-SC_M1D.png/revision/latest?cb=20221116225815",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/e/ee/V8_OHV_CGM-SC_M1D.png",
 		"specs": {
 			"power": 680,
-			"Torque": 840,
-			"Gearbox": "Gearbox (V8 DOHC CGM-SC)"
+			"torque": 840,
+			"gearbox": "Gearbox (V8 DOHC CGM-SC)"
 		},
 		"availableParts": [
 			{
@@ -2989,11 +2989,11 @@
 	},
 	"V8 DOHC CGM-SC": {
 		"name": "V8 DOHC CGM-SC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7f/V8_OHV_CGM-SC.png/revision/latest?cb=20221116225855",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7f/V8_OHV_CGM-SC.png",
 		"specs": {
 			"power": 680,
-			"Torque": 840,
-			"Gearbox": "Gearbox (V8 DOHC CGM-SC)"
+			"torque": 840,
+			"gearbox": "Gearbox (V8 DOHC CGM-SC)"
 		},
 		"availableParts": [
 			{
@@ -3085,11 +3085,11 @@
 	},
 	"V8 DOHC CGM M1D": {
 		"name": "V8 DOHC CGM M1D",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/12/V8_OHV_CGM_M1D.png/revision/latest?cb=20221116225803",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/12/V8_OHV_CGM_M1D.png",
 		"specs": {
 			"power": 490,
-			"Torque": 627,
-			"Gearbox": "Gearbox (V8 DOHC CGM-SC)"
+			"torque": 627,
+			"gearbox": "Gearbox (V8 DOHC CGM-SC)"
 		},
 		"availableParts": [
 			{
@@ -3176,11 +3176,11 @@
 	},
 	"V8 OHV": {
 		"name": "V8 OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3a/V8_OHV.jpg/revision/latest?cb=20210903224550",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3a/V8_OHV.jpg",
 		"specs": {
 			"power": 355,
-			"Torque": 566,
-			"Gearbox": "Gearbox (V8 OHV F)"
+			"torque": 566,
+			"gearbox": "Gearbox (V8 OHV F)"
 		},
 		"availableParts": [
 			{
@@ -3277,11 +3277,11 @@
 	},
 	"V8 OHV SS": {
 		"name": "V8 OHV SS",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a1/V8_OHV_SS.jpg/revision/latest?cb=20210903224707",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a1/V8_OHV_SS.jpg",
 		"specs": {
 			"power": 360,
-			"Torque": 553,
-			"Gearbox": "Gearbox (V8 OHV F)"
+			"torque": 553,
+			"gearbox": "Gearbox (V8 OHV F)"
 		},
 		"availableParts": [
 			{
@@ -3378,11 +3378,11 @@
 	},
 	"V8 SOHC FME": {
 		"name": "V8 SOHC FME",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7b/V8_SOHC_FME.jpg/revision/latest?cb=20210903224857",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7b/V8_SOHC_FME.jpg",
 		"specs": {
 			"power": 222,
-			"Torque": 359,
-			"Gearbox": "Gearbox (V8 SOHC FME)"
+			"torque": 359,
+			"gearbox": "Gearbox (V8 SOHC FME)"
 		},
 		"availableParts": [
 			{
@@ -3469,11 +3469,11 @@
 	},
 	"V12 DOHC MRC": {
 		"name": "V12 DOHC MRC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg/revision/latest?cb=20210904124548",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg",
 		"specs": {
 			"power": 456,
-			"Torque": 402,
-			"Gearbox": "Gearbox A (V12)"
+			"torque": 402,
+			"gearbox": "Gearbox A (V12)"
 		},
 		"availableParts": [
 			{
@@ -3550,11 +3550,11 @@
 	},
 	"V12 DOHC MRN": {
 		"name": "V12 DOHC MRN",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg/revision/latest?cb=20210904124548",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg",
 		"specs": {
 			"power": 456,
-			"Torque": 402,
-			"Gearbox": "Gearbox B (V12)"
+			"torque": 402,
+			"gearbox": "Gearbox B (V12)"
 		},
 		"availableParts": [
 			{

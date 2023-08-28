@@ -1,10 +1,10 @@
 import React from 'react';
-import { Card, Container, Table } from 'react-bootstrap';
+import { Card, Table } from 'react-bootstrap';
 import { CalculatorContext } from '../../modules/contexts';
 import tuningParts from '../../modules/tuning-parts-v4.json';
 import { PropTypes } from 'prop-types';
 
-const ResultsContainer = ({className}) => {
+const SelectedPartsContainer = ({className}) => {
 
 	const { selectedParts } = React.useContext(CalculatorContext);
 
@@ -16,8 +16,10 @@ const ResultsContainer = ({className}) => {
 
 	return (
 		<Card className={className}>
-			<Container fluid className='p-3'>
-				<h5>Selected Parts</h5>
+			<Card.Header>
+				<Card.Title className='mt-1'>Selected Parts</Card.Title>
+			</Card.Header>
+			<Card.Body>
 				<Table bordered>
 					<thead>
 						<tr>
@@ -48,13 +50,13 @@ const ResultsContainer = ({className}) => {
 						</tr>
 					</tbody>
 				</Table>
-			</Container>
+			</Card.Body>
 		</Card>
 	);
 };
 
-ResultsContainer.propTypes = {
+SelectedPartsContainer.propTypes = {
 	className: PropTypes.string,
 };
 
-export default ResultsContainer;
+export default SelectedPartsContainer;

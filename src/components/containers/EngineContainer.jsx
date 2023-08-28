@@ -23,7 +23,7 @@ const EngineContainer = () => {
 			"torque": 0,
 			"gearbox": "Gearbox"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"partName": "Alternator",
 				"quantity": 1,
@@ -35,8 +35,10 @@ const EngineContainer = () => {
 	
 	return (
 		<Card>
-			<Container fluid className='p-3'>
-				<h5>Engine</h5>
+			<Card.Header>
+				<Card.Title className='mt-1'>Engine</Card.Title>
+			</Card.Header>
+			<Card.Body>
 				<Form.Select aria-label='engine selection' onChange={onEngineChange}>
 					<option>-</option>
 					{Object.keys(engines).map(engName => <option key={`${engName.replace(/\s/g, '-')}-option`}>{engName}</option>)}
@@ -53,8 +55,8 @@ const EngineContainer = () => {
 										<Table bordered striped='columns' className='h-100'>
 											<tbody>
 												<tr>
-													<td className='align-middle fw-bold'>Power</td>
-													<td className='align-middle'>{currentEngine.specs.power} hp</td>
+													<td className='align-middle fw-bold w-50'>Power</td>
+													<td className='align-middle w-50'>{currentEngine.specs.power} hp</td>
 												</tr>
 												<tr>
 													<td className='align-middle fw-bold'>Torque</td>
@@ -74,7 +76,7 @@ const EngineContainer = () => {
 							)
 					}
 				</Container>
-			</Container>
+			</Card.Body>
 		</Card>
 	);
 };

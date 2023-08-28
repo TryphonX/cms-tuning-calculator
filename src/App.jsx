@@ -3,9 +3,9 @@ import { Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './assets/css/style.scss';
 import EngineContainer from './components/containers/EngineContainer';
 import { CalculatorContext } from './modules/contexts';
-import AvailablePartsContainer from './components/containers/AvailablePartsContainer';
-import ResultsContainer from './components/containers/ResultsContainer';
+import SelectedPartsContainer from './components/containers/SelectedPartsContainer';
 import { Github } from 'react-bootstrap-icons';
+import CompatiblePartsContainer from './components/containers/CompatiblePartsContainer';
 
 function App() {
 
@@ -60,13 +60,13 @@ function App() {
 							<Row>
 								<Col xl='5' xs='12'>
 									<EngineContainer />
-									<ResultsContainer className='mt-4 d-none d-xl-block' />
+									<SelectedPartsContainer className='mt-4 d-none d-xl-block' />
 								</Col>
 								<Col xl='7' xs='12' className='mt-xl-0 mt-4'>
-									<AvailablePartsContainer />
+									<CompatiblePartsContainer />
 								</Col>
 								<Col className='d-block d-xl-none'>
-									<ResultsContainer className='mt-4' />
+									<SelectedPartsContainer className='mt-4' />
 								</Col>
 							</Row>
 						</Container>

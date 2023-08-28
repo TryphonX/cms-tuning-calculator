@@ -5,7 +5,7 @@ import tuningParts from '../../modules/tuning-parts-v4.json';
 import { XLg } from 'react-bootstrap-icons';
 import { compareBasedOnName } from '../../modules/common';
 
-const AvailablePartsContainer = () => {
+const CompatiblePartsContainer = () => {
 
 	const { currentEngine, selectedParts, setSelectedParts, clearSelectedParts } = React.useContext(CalculatorContext);
 
@@ -24,8 +24,10 @@ const AvailablePartsContainer = () => {
 
 	return (
 		<Card>
-			<Container fluid className='p-3'>
-				<h5>Available Parts</h5>
+			<Card.Header>
+				<Card.Title className='mt-1'>Compatible Parts</Card.Title>
+			</Card.Header>
+			<Card.Body>
 				{
 					currentEngine ?
 						(
@@ -43,7 +45,7 @@ const AvailablePartsContainer = () => {
 									</thead>
 									<tbody>
 										{
-											currentEngine.availableParts.map(part => (
+											currentEngine.compatibleParts.map(part => (
 												<tr key={part.name}>
 													<td>{part.name}</td>
 													<td className='text-end'>{part.quantity}</td>
@@ -77,13 +79,13 @@ const AvailablePartsContainer = () => {
 						) :
 						(
 							<Container fluid className='p-0'>
-								<span>Please select an engine.</span>
+								<span>Select an engine to see its compatible parts.</span>
 							</Container>
 						)
 				}
-			</Container>
+			</Card.Body>
 		</Card>
 	);
 };
 
-export default AvailablePartsContainer;
+export default CompatiblePartsContainer;

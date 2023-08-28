@@ -7,7 +7,7 @@
 			"torque": 0,
 			"gearbox": "Gearbox"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -23,7 +23,7 @@
 			"torque": 170,
 			"gearbox": "Gearbox (I3)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -104,7 +104,7 @@
 			"torque": 261,
 			"gearbox": "Gearbox (I3)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -190,7 +190,7 @@
 			"torque": 187,
 			"gearbox": "Gearbox (I4)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -276,7 +276,7 @@
 			"torque": 187,
 			"gearbox": "Gearbox (I4 RWD)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -362,7 +362,7 @@
 			"torque": 240,
 			"gearbox": "Gearbox (I4)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -448,7 +448,7 @@
 			"torque": 415,
 			"gearbox": "Gearbox (I4 4x4)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -534,7 +534,7 @@
 			"torque": 281,
 			"gearbox": "Gearbox (I4)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -620,7 +620,7 @@
 			"torque": 168,
 			"gearbox": "Gearbox (I4 DOHC TAE)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -726,7 +726,7 @@
 			"torque": 193,
 			"gearbox": "Gearbox (I4)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -812,7 +812,7 @@
 			"torque": 178,
 			"gearbox": "Gearbox (I4)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -898,7 +898,7 @@
 			"torque": 193,
 			"gearbox": "Gearbox (I4 RWD)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -984,7 +984,7 @@
 			"torque": 245,
 			"gearbox": "Gearbox (I4 SOHC D)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -1065,7 +1065,7 @@
 			"torque": 331,
 			"gearbox": "Gearbox (I5 DOHC ADI)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -1146,7 +1146,7 @@
 			"torque": 289,
 			"gearbox": "Gearbox (I4 RWD)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -1237,7 +1237,7 @@
 			"torque": 289,
 			"gearbox": "Gearbox (I6 DOHC BU2 T)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -1328,7 +1328,7 @@
 			"torque": 432,
 			"gearbox": "Gearbox (I6 DOHC BU2 T)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -1419,7 +1419,7 @@
 			"torque": 247,
 			"gearbox": "Gearbox (I6 DOHC FMW)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator (I6 B)",
 				"quantity": 1,
@@ -1510,7 +1510,7 @@
 			"torque": 308,
 			"gearbox": "Gearbox (I6 B)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Air Filter (I6 B)",
 				"quantity": 1,
@@ -1621,7 +1621,7 @@
 			"torque": 300,
 			"gearbox": "Gearbox (V6 DOHC AKY)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -1702,7 +1702,7 @@
 			"torque": 300,
 			"gearbox": "Gearbox (V6 B)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -1803,7 +1803,7 @@
 			"torque": 300,
 			"gearbox": "Gearbox B(V6 B)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -1904,7 +1904,7 @@
 			"torque": 352,
 			"gearbox": "Gearbox (V6 VQ37VHR)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -1985,7 +1985,7 @@
 			"torque": 529,
 			"gearbox": "Gearbox (V8 OHV)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -2091,7 +2091,7 @@
 			"torque": 579,
 			"gearbox": "Gearbox (V8 OHV)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -2197,7 +2197,7 @@
 			"torque": 720,
 			"gearbox": "Gearbox (V8 OHV)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -2308,7 +2308,7 @@
 			"torque": 679,
 			"gearbox": "Gearbox ()"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Air Filter (V8 Hemi 440 Sixpack)",
 				"quantity": 1,
@@ -2424,7 +2424,7 @@
 			"torque": 650,
 			"gearbox": "Gearbox (V8 OHV F)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator (I6 B)",
 				"quantity": 1,
@@ -2515,7 +2515,7 @@
 			"torque": 393,
 			"gearbox": "Gearbox (V8)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -2596,7 +2596,7 @@
 			"torque": 393,
 			"gearbox": "Gearbox (V8)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -2677,7 +2677,7 @@
 			"torque": 724,
 			"gearbox": "Gearbox (V8)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -2758,7 +2758,7 @@
 			"torque": 569,
 			"gearbox": "Gearbox (V8 DOHC CGM)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -2849,7 +2849,7 @@
 			"torque": 840,
 			"gearbox": "Gearbox (V8 DOHC CGM-SC)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -2945,7 +2945,7 @@
 			"torque": 840,
 			"gearbox": "Gearbox (V8 DOHC CGM-SC)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -3041,7 +3041,7 @@
 			"torque": 627,
 			"gearbox": "Gearbox (V8 DOHC CGM-SC)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -3132,7 +3132,7 @@
 			"torque": 566,
 			"gearbox": "Gearbox (V8 OHV F)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator (I6 B)",
 				"quantity": 1,
@@ -3233,7 +3233,7 @@
 			"torque": 553,
 			"gearbox": "Gearbox (V8 OHV F)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator (I6 B)",
 				"quantity": 1,
@@ -3334,7 +3334,7 @@
 			"torque": 359,
 			"gearbox": "Gearbox (V8 SOHC FME)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -3425,7 +3425,7 @@
 			"torque": 402,
 			"gearbox": "Gearbox A (V12)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,
@@ -3506,7 +3506,7 @@
 			"torque": 402,
 			"gearbox": "Gearbox B (V12)"
 		},
-		"availableParts": [
+		"compatibleParts": [
 			{
 				"name": "Alternator",
 				"quantity": 1,

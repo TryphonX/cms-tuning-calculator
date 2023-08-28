@@ -4,10 +4,11 @@ import { CalculatorContext } from '../../modules/contexts';
 import tuningParts from '../../modules/tuning-parts-v4.json';
 import { XLg } from 'react-bootstrap-icons';
 import { compareBasedOnName } from '../../modules/common';
+import { ClearSelectedPartsEvent, UpdateSelectedPartsEvent } from '../../modules/customEvents';
 
 const CompatiblePartsContainer = () => {
 
-	const { currentEngine, selectedParts, setSelectedParts, clearSelectedParts } = React.useContext(CalculatorContext);
+	const { currentEngine, selectedParts } = React.useContext(CalculatorContext);
 
 	const onTuneChanged = ({target}) => {
 		
@@ -15,10 +16,10 @@ const CompatiblePartsContainer = () => {
 		const partQt = target.dataset.partQuantity;
 
 		if (selectedParts.some(selectedPart => selectedPart.name === partName)) {
-			setSelectedParts(selectedParts.filter(selectedPart => selectedPart.name !== partName));
+			dispatchEvent(new UpdateSelectedPartsEvent(selectedParts.filter(selectedPart => selectedPart.name !== partName)));
 		}
 		else {
-			setSelectedParts([...selectedParts, { name: partName, quantity: partQt }].sort(compareBasedOnName));
+			dispatchEvent(new UpdateSelectedPartsEvent([...selectedParts, { name: partName, quantity: partQt }].sort(compareBasedOnName)));
 		}
 	};
 
@@ -70,7 +71,7 @@ const CompatiblePartsContainer = () => {
 								<div className='text-end'>
 									<Button aria-label='clear parts selection'
 										disabled={!selectedParts.length}
-										onClick={clearSelectedParts}
+										onClick={() => dispatchEvent(new ClearSelectedPartsEvent())}
 									>
 										<XLg className='mb-1' /> Clear
 									</Button>

@@ -4,7 +4,7 @@ import './assets/css/style.scss';
 import EngineContainer from './components/containers/EngineContainer';
 import { CalculatorContext } from './modules/contexts';
 import SelectedPartsContainer from './components/containers/SelectedPartsContainer';
-import { Github } from 'react-bootstrap-icons';
+import { Github, Paypal } from 'react-bootstrap-icons';
 import CompatiblePartsContainer from './components/containers/CompatiblePartsContainer';
 
 function App() {
@@ -38,8 +38,13 @@ function App() {
 									</Nav.Item>*/
 									}
 								</Nav>
-								<Button variant='secondary' className='btn-hover-lift'>
-									Donate
+								<Button
+									href='https://paypal.me/TryphonKsydas'
+									variant='secondary'
+									className='btn-hover-lift'
+									target='_blank'
+								>
+									<Paypal className='mb-1' /> Donate
 								</Button>
 							</Navbar.Collapse>
 						</Navbar>

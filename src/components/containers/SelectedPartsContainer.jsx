@@ -44,7 +44,7 @@ const SelectedPartsContainer = ({className}) => {
 						}
 						<tr className='total-row'>
 							<td colSpan={2}>Total:</td>
-							<td className='text-end'>+{totalBoost}%</td>
+							<td className='text-end'>+{totalBoost.toFixed(2)}%</td>
 							<td className='text-end'>{totalCost} CR</td>
 							<td className='text-end'>{totalCostToBoost.toFixed(2)} CR/Boost</td>
 						</tr>

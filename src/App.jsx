@@ -60,10 +60,13 @@ function App() {
 							<Row>
 								<Col xl='5' xs='12'>
 									<EngineContainer />
-									<ResultsContainer className='mt-4' />
+									<ResultsContainer className='mt-4 d-none d-xl-block' />
 								</Col>
-								<Col xl='7' xs='12'>
+								<Col xl='7' xs='12' className='mt-xl-0 mt-4'>
 									<AvailablePartsContainer />
+								</Col>
+								<Col className='d-block d-xl-none'>
+									<ResultsContainer className='mt-4' />
 								</Col>
 							</Row>
 						</Container>
@@ -106,9 +109,9 @@ function App() {
 					<Container>
 						<Row>
 							<Col md='6' lg='4'>
-								<div className='info_detail'>
+								<div className='info_detail px-md-5 px-lg-0 px-0'>
 									<h4>Suggestions</h4>
-									<p>
+									<p className='px-3 px-sm-2 px-md-0'>
 										If you have any suggestions for improvement, feel free to let me know by clicking the button below.
 									</p>
 								</div>

@@ -47,7 +47,7 @@ const AvailablePartsContainer = () => {
 												<tr key={part.name}>
 													<td>{part.name}</td>
 													<td className='text-end'>{part.quantity}</td>
-													<td className='text-end'>+{tuningParts[part.name]?.boost}%</td>
+													<td className='text-end'>+{tuningParts[part.name]?.boost.toFixed(2)}%</td>
 													<td className='text-end'>{tuningParts[part.name]?.cost} CR</td>
 													<td className='text-end'>{tuningParts[part.name]?.costToBoost} CR/Boost</td>
 													<td className='text-center'>

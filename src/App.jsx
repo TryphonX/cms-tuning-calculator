@@ -38,9 +38,9 @@ function App() {
 									</Nav.Item>*/
 									}
 								</Nav>
-								<div className="quote_btn-container">
-									<a href="" className="quote_btn">Donate</a>
-								</div>
+								<Button variant='secondary' className='btn-hover-lift'>
+									Donate
+								</Button>
 							</Navbar.Collapse>
 						</Navbar>
 					</Container>
@@ -56,7 +56,7 @@ function App() {
 							clearSelectedParts,
 						}}
 					>
-						<Container fluid className='mb-5'>
+						<Container fluid>
 							<Row>
 								<Col xl='5' xs='12'>
 									<EngineContainer />
@@ -132,7 +132,7 @@ function App() {
 						</Row>
 						<Row>
 							<Button
-								variant='secondary text-light'
+								variant='secondary'
 								href='https://github.com/TryphonX/CMS-Tuning-Calculator/issues/new'
 								target='_blank'
 								aria-label='Submit an issue on GitHub'

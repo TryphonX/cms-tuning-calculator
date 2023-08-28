@@ -1,7 +1,7 @@
 $white: #ffffff;
 $black: #000000;
-$primary: #7335b7;
-$secondary: #f8842b;
+$primary: #942029;
+$secondary: #ffe200;
 $textCol: #1f1f1f;
 $body-color: $textCol;
 
@@ -773,5 +773,24 @@ a:focus {
 	td {
 		//background-color: rgba(0, 0, 0, 0.05);
 		background-color: $secondary;
+		color: $textCol;
 	}
+}
+
+@mixin btn-hover-lift-variant($variantName, $variant) {
+	.btn-hover-lift {
+		transition: all 0.3s;
+
+		&:hover {
+			transform: translateY(-3px);
+
+			&.btn-#{$variantName} {
+				background-color: $variant;
+			}
+		}
+	}
+}
+
+@each $name, $variant in $theme-colors {
+	@include btn-hover-lift-variant($name, $variant);
 }

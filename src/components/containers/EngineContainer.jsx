@@ -47,7 +47,7 @@ const EngineContainer = () => {
 							(
 								<Row>
 									<Col xs='auto'>
-										<Image src={currentEngine?.imgUrl ?? ''} rounded /><br />
+										<Image src={currentEngine?.imgUrl ?? ''} rounded />
 									</Col>
 									<Col>
 										<Table bordered striped='columns' className='h-100'>

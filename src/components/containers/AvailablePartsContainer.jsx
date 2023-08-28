@@ -49,7 +49,7 @@ const AvailablePartsContainer = () => {
 													<td className='text-end'>{part.quantity}</td>
 													<td className='text-end'>+{tuningParts[part.name]?.boost}%</td>
 													<td className='text-end'>{tuningParts[part.name]?.cost} CR</td>
-													<td className='text-end'>{tuningParts[part.name]?.costToBoost} CR</td>
+													<td className='text-end'>{tuningParts[part.name]?.costToBoost} CR/Boost</td>
 													<td className='text-center'>
 														<Form.Check
 															aria-label='select to tune part'

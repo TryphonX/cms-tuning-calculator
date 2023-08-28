@@ -36,7 +36,7 @@ const ResultsContainer = ({className}) => {
 									<td className='text-end'>{part.quantity}</td>
 									<td className='text-end'>+{tuningParts[part.name]?.boost}%</td>
 									<td className='text-end'>{tuningParts[part.name]?.cost} CR</td>
-									<td className='text-end'>{tuningParts[part.name]?.costToBoost} CR</td>
+									<td className='text-end'>{tuningParts[part.name]?.costToBoost} CR/Boost</td>
 								</tr>
 							))
 						}
@@ -44,7 +44,7 @@ const ResultsContainer = ({className}) => {
 							<td colSpan={2}>Total:</td>
 							<td className='text-end'>+{totalBoost}%</td>
 							<td className='text-end'>{totalCost} CR</td>
-							<td className='text-end'>{totalCostToBoost.toFixed(2)} CR</td>
+							<td className='text-end'>{totalCostToBoost.toFixed(2)} CR/Boost</td>
 						</tr>
 					</tbody>
 				</Table>

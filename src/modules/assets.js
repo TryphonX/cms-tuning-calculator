@@ -1,1 +1,1 @@
-export * as I3_DOHC_IMAGE from '../assets/images/I3_DOHC.webp';
+export { ReactComponent as LogoComponent } from '../assets/images/logo.svg';

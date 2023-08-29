@@ -1,4 +1,4 @@
-const parts = require('../modules/tuning-parts-v3.json');
+const parts = require('../modules/tuning-parts.json');
 const fs = require('fs');
 
 const partTypingStrings = parts.map(part =>

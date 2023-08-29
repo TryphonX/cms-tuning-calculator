@@ -10,7 +10,7 @@ const AboutSection = () => {
 				<div className='heading_container'>
 					<h2>About the Project</h2>
 					<p>
-							Useful tool for tuning cars in the game. Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be &quot;symmetrical&quot; - it will not allow you to switch some of the same part with tuned parts, it&apos;s either all or nothing. This tool is just a calculator (at least for now), it will not recommend tuning setups on its own, it will just provide you with all the information you need to make your decision.
+						Useful tool for tuning cars in the game. Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be &quot;symmetrical&quot; - it will not allow you to switch some of the same part with tuned parts, it&apos;s either all or nothing. This tool is just a calculator (at least for now), it will not recommend tuning setups on its own, it will just provide you with all the information you need to make your decision.
 					</p>
 				</div>
 				<div className='text-start'>
@@ -24,7 +24,7 @@ const AboutSection = () => {
 					</ul>
 				</div>
 				<small className='text-muted d-block'>
-							This app is a personal project and is not associated with the makers and/or publishers of the game in any way shape or form.
+					This app is a personal project and is not associated with the makers and/or publishers of the game in any way shape or form.
 				</small>
 				<Button
 					className='mt-3'

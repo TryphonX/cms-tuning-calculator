@@ -1,0 +1,30 @@
+{{#lastRelease releases}}
+  `{{niceDate}}`
+  {{#if href}}
+    # Release [{{title}}]({{href}})
+  {{else}}
+    # Release {{title}}
+  {{/if}}
+  
+  {{#if summary}}
+    {{summary}}<br />
+  {{/if}}
+
+  {{! New features }}
+  {{#commit-list
+    commits
+    heading='## New features:'
+    message='^feat: '
+  }}
+    - {{getTitle subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! Bug Fixes }}
+  {{#commit-list
+    commits
+    heading='## Bug fixes:'
+    message='^fix: '
+  }}
+    - {{getTitle subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+{{/lastRelease}}

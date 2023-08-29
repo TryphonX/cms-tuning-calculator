@@ -1,0 +1,5 @@
+{
+	"output": "./doc/CHANGELOG.md",
+	"commitLimit": false,
+	"template": "./changelog-config/changelog.hbs"
+}

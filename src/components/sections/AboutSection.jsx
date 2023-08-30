@@ -24,7 +24,10 @@ const AboutSection = () => {
 					</ul>
 				</div>
 				<small className='text-muted d-block'>
-					This app is a personal project and is not associated with the makers and/or publishers of the game in any way shape or form.
+					This app is a personal project and is not associated with the makers and/or publishers of the game in any way shape or form. This project is open source.
+				</small>
+				<small className='text-muted d-block'>
+					Licensed under <a href='https://github.com/TryphonX/CMS-Tuning-Calculator/blob/main/COPYING.txt' rel='noreferrer' target='_blank' >GNU GENERAL PUBLIC LICENSE</a>.
 				</small>
 				<Button
 					className='mt-3'

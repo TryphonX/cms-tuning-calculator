@@ -8,6 +8,7 @@
 		"type": "git",
 		"url": "https://github.com/TryphonX/CMS-Tuning-Calculator.git"
 	},
+	"homepage": "https://TryphonX.github.io/CMS-Tuning-Calculator",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.17.0",
 		"@testing-library/react": "^13.4.0",
@@ -29,7 +30,7 @@
 		"eject": "react-scripts eject",
 		"prepare": "husky install",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -b master -d build",
+		"deploy": "gh-pages -d build",
 		"changelog": "auto-changelog --handlebars-setup ./changelog-config/setup.js && auto-changelog --handlebars-setup ./changelog-config/setup.js -o ./release-notes/RELEASE_NOTES.md -t ./changelog-config/release-notes.hbs",
 		"gen-docs": "jsdoc -c jsdoc.conf.json"
 	},

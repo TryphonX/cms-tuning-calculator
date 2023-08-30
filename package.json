@@ -1,7 +1,13 @@
 {
 	"name": "cms-tuning-calculator",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"private": true,
+	"license": "GPL-3.0-or-later",
+	"author": "Tryphon Ksydas",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TryphonX/CMS-Tuning-Calculator.git"
+	},
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.17.0",
 		"@testing-library/react": "^13.4.0",

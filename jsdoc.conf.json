@@ -1,0 +1,28 @@
+{
+	"tags": {
+		"allowUnknownTags": true,
+		"dictionaries": ["jsdoc", "closure"]
+	},
+	"source": {
+		"include": ["./src"],
+		"includePattern": ".+\\.js(doc|x)?$",
+		"excludePattern": "(^|\\/|\\\\)_"
+	},
+	"plugins": ["plugins/markdown", "node_modules/better-docs/component"],
+	"templates": {
+		"cleverLinks": false,
+		"monospaceLinks": false,
+		"default": {
+			"outputSourceFiles": false
+		},
+		"better-docs": {
+			"name": "CMS Tuning Calculator"
+		}
+	},
+	"opts": {
+		"template": "node_modules/better-docs",
+		"destination": "docs",
+		"recurse": true,
+		"readme": "README.md"
+	}
+}

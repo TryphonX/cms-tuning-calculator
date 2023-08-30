@@ -4,7 +4,7 @@ import EngineContainer from '../containers/EngineContainer';
 import SelectedPartsContainer from '../containers/SelectedPartsContainer';
 import CompatiblePartsContainer from '../containers/CompatiblePartsContainer';
 import { CalculatorContext } from '../../modules/contexts';
-import { ClearSelectedPartsEvent, UpdateSelectedPartsEvent } from '../../modules/customEvents';
+import { ClearSelectedPartsEvent, UpdateEngineEvent, UpdateSelectedPartsEvent } from '../../modules/customEvents';
 
 const CalculatorSection = () => {
 
@@ -16,15 +16,14 @@ const CalculatorSection = () => {
 	React.useEffect(() => {
 		window.addEventListener(ClearSelectedPartsEvent.eventName, clearSelectedParts);
 		window.addEventListener(UpdateSelectedPartsEvent.eventName, ({ detail }) => setSelectedParts(detail));
+		window.addEventListener(UpdateEngineEvent.eventName, ({ detail }) => setCurrentEngine(detail));
 	}, []);
 
 	return (
 		<CalculatorContext.Provider
 			value={{
 				currentEngine,
-				setCurrentEngine,
 				selectedParts,
-				setSelectedParts,
 			}}
 		>
 			<section>

@@ -2,6 +2,11 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
+/**
+ * Some description
+ * @param {CardComponent.propTypes} props 
+ * @returns {React.JSX.Element}
+ */
 const CardComponent = ({ className, title, children }) => {
 
 	return (

@@ -3,13 +3,14 @@ const fs = require('fs');
 
 delete engines.template;
 
-const partTypingStrings = Object.keys(engines).map(engineName =>
+const engineNameTypingStrings = Object.keys(engines).map(engineName =>
 	`\t/**\n\t * ${engineName}\n\t */\n` +
-	`\tstatic ${engineName
-		.replace(/\W/g, '_')
-		.toUpperCase()} = '${engineName}';`,
+	`\t${engineName
+		.replace(/[\s-](\w)?/g, (_, letter) => letter.toUpperCase())
+	}: '${engineName}',`,
 );
 
-const engineClass = `export class Engine {\n\n${partTypingStrings.join('\n')}\n}`;
+const engineEnum = '/**\n * @enum {string} Engine names\n */\n' +
+`export const EngineName = {\n\n${engineNameTypingStrings.join('\n')}\n};\n\n`;
 
-fs.writeFileSync('./src/modules/engine.js', engineClass);
+fs.writeFileSync('./src/modules/engine.js', engineEnum);

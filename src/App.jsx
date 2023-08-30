@@ -6,7 +6,7 @@ import CalculatorSection from './components/sections/CalculatorSection';
 import AboutSection from './components/sections/AboutSection';
 import FooterInfoSection from './components/sections/FooterInfoSection';
 
-function App() {
+const App = () => {
 
 	React.useEffect(() => {
 		document.getElementById('displayYear').innerText = new Date().getFullYear();
@@ -35,6 +35,6 @@ function App() {
 			</div>
 		</React.Fragment>
 	);
-}
+};
 
 export default App;

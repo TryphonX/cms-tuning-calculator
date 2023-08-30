@@ -2,19 +2,19 @@ import React from 'react';
 import { Col, Container, Form, Image, Row, Table } from 'react-bootstrap';
 import { engines } from '../../modules/common';
 import { CalculatorContext } from '../../modules/contexts';
-import { ClearSelectedPartsEvent } from '../../modules/customEvents';
+import { ClearSelectedPartsEvent, UpdateEngineEvent } from '../../modules/customEvents';
 import CardComponent from './CardComponent';
 
 const EngineContainer = () => {
 
-	const { currentEngine, setCurrentEngine} = React.useContext(CalculatorContext);
+	const { currentEngine } = React.useContext(CalculatorContext);
 
 	const onEngineChange = ({target}) => {
 		if (currentEngine?.name === target.value) return;
 
 		dispatchEvent(new ClearSelectedPartsEvent());
 
-		setCurrentEngine(engines[target.value] ?? null);
+		dispatchEvent(new UpdateEngineEvent(engines[target.value] ?? null));
 	};
 
 	/*

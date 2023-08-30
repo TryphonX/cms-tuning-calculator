@@ -24,7 +24,8 @@
 		"prepare": "husky install",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -b master -d build",
-		"changelog": "auto-changelog --handlebars-setup ./changelog-config/setup.js && auto-changelog --handlebars-setup ./changelog-config/setup.js -o ./doc/RELEASE_NOTES.md -t ./changelog-config/release-notes.hbs"
+		"changelog": "auto-changelog --handlebars-setup ./changelog-config/setup.js && auto-changelog --handlebars-setup ./changelog-config/setup.js -o ./release-notes/RELEASE_NOTES.md -t ./changelog-config/release-notes.hbs",
+		"gen-docs": "jsdoc -c jsdoc.conf.json"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -48,10 +49,12 @@
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.7.0",
 		"auto-changelog": "^2.4.0",
+		"better-docs": "^2.7.2",
 		"eslint": "^8.48.0",
 		"eslint-plugin-react": "^7.33.2",
 		"gh-pages": "^6.0.0",
 		"husky": "^8.0.3",
+		"taffydb": "^2.7.3",
 		"yarn-audit-fix": "^10.0.1"
 	},
 	"commitlint": {

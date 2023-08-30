@@ -1,5 +1,5 @@
 {
-	"output": "./doc/CHANGELOG.md",
+	"output": "./release-notes/CHANGELOG.md",
 	"commitLimit": false,
 	"template": "./changelog-config/changelog.hbs"
 }

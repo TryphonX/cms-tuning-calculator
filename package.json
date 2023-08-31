@@ -32,7 +32,8 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"changelog": "auto-changelog --handlebars-setup ./changelog-config/setup.js && auto-changelog --handlebars-setup ./changelog-config/setup.js -o ./release-notes/RELEASE_NOTES.md -t ./changelog-config/release-notes.hbs",
-		"gen-docs": "jsdoc -c jsdoc.conf.json"
+		"gen-docs": "jsdoc -c jsdoc.conf.json",
+		"push-tags": "git push --tags"
 	},
 	"eslintConfig": {
 		"extends": [

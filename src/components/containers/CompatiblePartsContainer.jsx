@@ -30,7 +30,8 @@ const CompatiblePartsContainer = () => {
 				currentEngine ?
 					(
 						<React.Fragment>
-							<Table bordered striped='columns'>
+							<small className='d-block mb-3 d-sm-none mb-sm-0 text-muted'>This table might need to be scrolled horizontally to be viewed properly on smaller devices.</small>
+							<Table bordered striped='columns' responsive='sm'>
 								<thead>
 									<tr>
 										<th>Name</th>

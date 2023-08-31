@@ -33,7 +33,7 @@ const FooterInfoSection = () => {
 						</div>
 					</Col>
 				</Row>
-				<Row>
+				<Row className='px-3 px-sm-0'>
 					<Button
 						variant='secondary'
 						href='https://github.com/TryphonX/CMS-Tuning-Calculator/issues/new'

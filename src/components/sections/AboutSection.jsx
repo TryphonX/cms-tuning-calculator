@@ -33,7 +33,7 @@ const AboutSection = () => {
 					className='mt-3'
 					href='https://github.com/TryphonX/CMS-Tuning-Calculator'
 					target='_blank'
-					aria-label='Submit an issue on GitHub'
+					aria-label='See source code'
 				>
 					<Github className='mb-1' /> See source code
 				</Button>

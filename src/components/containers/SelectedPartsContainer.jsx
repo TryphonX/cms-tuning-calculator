@@ -17,7 +17,8 @@ const SelectedPartsContainer = ({ className }) => {
 	
 	return (
 		<CardComponent className={className} title='Selected Parts'>
-			<Table bordered>
+			<small className='d-block mb-3 d-sm-none mb-sm-0 text-muted'>This table might need to be scrolled horizontally to be viewed properly on smaller devices.</small>
+			<Table bordered responsive='sm'>
 				<thead>
 					<tr>
 						<th>Name</th>

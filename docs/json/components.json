@@ -47,13 +47,6 @@
       }
     }
   ],
-  "./src/components/sections/AboutSection.jsx": [
-    {
-      "description": "This section describes the project and\nlegal details.",
-      "methods": [],
-      "displayName": "AboutSection"
-    }
-  ],
   "./src/components/containers/CompatiblePartsContainer.jsx": [
     {
       "description": "This is the card that contains all the compatible parts for the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
@@ -61,11 +54,11 @@
       "displayName": "CompatiblePartsContainer"
     }
   ],
-  "./src/components/sections/CalculatorSection.jsx": [
+  "./src/components/sections/AboutSection.jsx": [
     {
-      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
+      "description": "This section describes the project and\nlegal details.",
       "methods": [],
-      "displayName": "CalculatorSection"
+      "displayName": "AboutSection"
     }
   ],
   "./src/components/containers/EngineContainer.jsx": [
@@ -93,7 +86,7 @@
   ],
   "./src/components/sections/FooterInfoSection.jsx": [
     {
-      "description": "The footer sections that provides links for suggestions and feedback\nand the copyright statement.",
+      "description": "The footer sections that provides links for suggestions and feedback",
       "methods": [],
       "displayName": "FooterInfoSection"
     }
@@ -103,6 +96,13 @@
       "description": "The bar that allows the user to navigate different parts of the app.",
       "methods": [],
       "displayName": "NavbarSection"
+    }
+  ],
+  "./src/components/sections/CalculatorSection.jsx": [
+    {
+      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
+      "methods": [],
+      "displayName": "CalculatorSection"
     }
   ]
 }

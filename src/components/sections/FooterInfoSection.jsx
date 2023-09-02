@@ -4,7 +4,6 @@ import { Github } from 'react-bootstrap-icons';
 
 /**
  * The footer sections that provides links for suggestions and feedback
- * and the copyright statement.
  */
 const FooterInfoSection = () => {
 

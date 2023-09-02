@@ -16,12 +16,6 @@ Name | Type | Description | Required
 className | string |  | ❌
 title | string | The title to be shown in the card header | ❌
 children | node \| node[] |  | ❌
-## AboutSection
-
-`components > sections`
-
-This section describes the project and
-legal details.
 ## CompatiblePartsContainer
 
 `components > containers`
@@ -29,12 +23,12 @@ legal details.
 This is the card that contains all the compatible parts for the
 chosen engine (if one has been chosen).
 Uses CalculatorContext from CalculatorSection.
-## CalculatorSection
+## AboutSection
 
 `components > sections`
 
-This section includes all the components necessary for the Calculator.
-Uses CalculatorContext.
+This section describes the project and
+legal details.
 ## EngineContainer
 
 `components > containers`
@@ -62,9 +56,14 @@ className | string |  | ❌
 `components > sections`
 
 The footer sections that provides links for suggestions and feedback
-and the copyright statement.
 ## NavbarSection
 
 `components > sections`
 
 The bar that allows the user to navigate different parts of the app.
+## CalculatorSection
+
+`components > sections`
+
+This section includes all the components necessary for the Calculator.
+Uses CalculatorContext.

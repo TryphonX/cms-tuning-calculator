@@ -2,6 +2,10 @@ import React from 'react';
 import { Button, Container } from 'react-bootstrap';
 import { Github } from 'react-bootstrap-icons';
 
+/**
+ * This section describes the project and
+ * legal details.
+ */
 const AboutSection = () => {
 
 	return (

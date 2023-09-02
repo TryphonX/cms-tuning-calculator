@@ -2,6 +2,10 @@ import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { Github } from 'react-bootstrap-icons';
 
+/**
+ * The footer sections that provides links for suggestions and feedback
+ * and the copyright statement.
+ */
 const FooterInfoSection = () => {
 
 	return (

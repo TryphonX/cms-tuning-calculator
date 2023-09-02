@@ -5,6 +5,12 @@ import tuningParts from '../../modules/tuning-parts.json';
 import PropTypes from 'prop-types';
 import CardComponent from './CardComponent';
 
+/**
+ * This is the card that contains all the selected parts
+ * the user has selected (if they have selected any) and
+ * the total stats of their tuning setup.
+ * Uses CalculatorContext from CalculatorSection.
+ */
 const SelectedPartsContainer = ({ className }) => {
 
 	const { selectedParts } = React.useContext(CalculatorContext);

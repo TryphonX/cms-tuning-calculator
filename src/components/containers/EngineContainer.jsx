@@ -5,6 +5,12 @@ import { CalculatorContext } from '../../modules/contexts';
 import { ClearSelectedPartsEvent, UpdateEngineEvent } from '../../modules/customEvents';
 import CardComponent from './CardComponent';
 
+/**
+ * This is the card that contains the dropdown for the engine choice
+ * as well as standard details about the
+ * chosen engine (if one has been chosen).
+ * Uses CalculatorContext from CalculatorSection.
+ */
 const EngineContainer = () => {
 
 	const { currentEngine } = React.useContext(CalculatorContext);
@@ -16,25 +22,6 @@ const EngineContainer = () => {
 
 		dispatchEvent(new UpdateEngineEvent(engines[target.value] ?? null));
 	};
-
-	/*
-	"template": {
-		"name": "template",
-		"imgUrl": "imgUrl",
-		"specs": {
-			"power": 0,
-			"torque": 0,
-			"gearbox": "Gearbox"
-		},
-		"compatibleParts": [
-			{
-				"partName": "Alternator",
-				"quantity": 1,
-				"price": 200
-			}
-		]
-	},
-	*/
 	
 	return (
 		<CardComponent title='Engine'>

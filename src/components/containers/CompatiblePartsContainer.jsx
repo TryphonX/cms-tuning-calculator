@@ -7,6 +7,11 @@ import { compareBasedOnName } from '../../modules/common';
 import { ClearSelectedPartsEvent, UpdateSelectedPartsEvent } from '../../modules/customEvents';
 import CardComponent from './CardComponent';
 
+/**
+ * This is the card that contains all the compatible parts for the
+ * chosen engine (if one has been chosen).
+ * Uses CalculatorContext from CalculatorSection.
+ */
 const CompatiblePartsContainer = () => {
 
 	const { currentEngine, selectedParts } = React.useContext(CalculatorContext);

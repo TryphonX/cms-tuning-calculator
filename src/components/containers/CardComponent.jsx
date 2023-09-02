@@ -3,9 +3,7 @@ import { Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 
 /**
- * Some description
- * @param {CardComponent.propTypes} props 
- * @returns {React.JSX.Element}
+ * A simple card component used to store other containers in a more presentable way.
  */
 const CardComponent = ({ className, title, children }) => {
 
@@ -25,6 +23,9 @@ const CardComponent = ({ className, title, children }) => {
 
 CardComponent.propTypes = {
 	className: PropTypes.string,
+	/**
+	 * The title to be shown in the card header
+	 */
 	title: PropTypes.string,
 	children: PropTypes.oneOfType([
 		PropTypes.node,

@@ -2,6 +2,9 @@ import React from 'react';
 import { Button, Container, Navbar } from 'react-bootstrap';
 import { Paypal } from 'react-bootstrap-icons';
 
+/**
+ * The bar that allows the user to navigate different parts of the app.
+ */
 const NavbarSection = () => {
 
 	return (

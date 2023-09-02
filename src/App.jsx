@@ -6,6 +6,9 @@ import CalculatorSection from './components/sections/CalculatorSection';
 import AboutSection from './components/sections/AboutSection';
 import FooterInfoSection from './components/sections/FooterInfoSection';
 
+/**
+ * The component that wraps the entire app.
+ */
 const App = () => {
 
 	React.useEffect(() => {

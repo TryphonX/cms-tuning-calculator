@@ -1,0 +1,108 @@
+{
+  "./src/App.jsx": [
+    {
+      "description": "The component that wraps the entire app.",
+      "methods": [],
+      "displayName": "App"
+    }
+  ],
+  "./src/components/containers/CardComponent.jsx": [
+    {
+      "description": "A simple card component used to store other containers in a more presentable way.",
+      "methods": [],
+      "displayName": "CardComponent",
+      "props": {
+        "className": {
+          "description": "",
+          "type": {
+            "name": "string"
+          },
+          "required": false
+        },
+        "title": {
+          "description": "The title to be shown in the card header",
+          "type": {
+            "name": "string"
+          },
+          "required": false
+        },
+        "children": {
+          "description": "",
+          "type": {
+            "name": "union",
+            "value": [
+              {
+                "name": "node"
+              },
+              {
+                "name": "arrayOf",
+                "value": {
+                  "name": "node"
+                }
+              }
+            ]
+          },
+          "required": false
+        }
+      }
+    }
+  ],
+  "./src/components/sections/AboutSection.jsx": [
+    {
+      "description": "This section describes the project and\nlegal details.",
+      "methods": [],
+      "displayName": "AboutSection"
+    }
+  ],
+  "./src/components/containers/CompatiblePartsContainer.jsx": [
+    {
+      "description": "This is the card that contains all the compatible parts for the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
+      "methods": [],
+      "displayName": "CompatiblePartsContainer"
+    }
+  ],
+  "./src/components/sections/CalculatorSection.jsx": [
+    {
+      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
+      "methods": [],
+      "displayName": "CalculatorSection"
+    }
+  ],
+  "./src/components/containers/EngineContainer.jsx": [
+    {
+      "description": "This is the card that contains the dropdown for the engine choice\nas well as standard details about the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
+      "methods": [],
+      "displayName": "EngineContainer"
+    }
+  ],
+  "./src/components/containers/SelectedPartsContainer.jsx": [
+    {
+      "description": "This is the card that contains all the selected parts\nthe user has selected (if they have selected any) and\nthe total stats of their tuning setup.\nUses CalculatorContext from CalculatorSection.",
+      "methods": [],
+      "displayName": "SelectedPartsContainer",
+      "props": {
+        "className": {
+          "description": "",
+          "type": {
+            "name": "string"
+          },
+          "required": false
+        }
+      }
+    }
+  ],
+  "./src/components/sections/FooterInfoSection.jsx": [
+    {
+      "description": "The footer sections that provides links for suggestions and feedback\nand the copyright statement.",
+      "methods": [],
+      "displayName": "FooterInfoSection"
+    }
+  ],
+  "./src/components/sections/NavbarSection.jsx": [
+    {
+      "description": "The bar that allows the user to navigate different parts of the app.",
+      "methods": [],
+      "displayName": "NavbarSection"
+    }
+  ]
+}

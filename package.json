@@ -32,8 +32,10 @@
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"changelog": "auto-changelog --handlebars-setup ./changelog-config/setup.js && auto-changelog --handlebars-setup ./changelog-config/setup.js -o ./release-notes/RELEASE_NOTES.md -t ./changelog-config/release-notes.hbs",
-		"gen-docs": "jsdoc -c jsdoc.conf.json",
-		"push-tags": "git push --tags"
+		"push-tags": "git push --tags",
+		"react-doc-gen": "yarn react-docgen \"./src/**/*.jsx\" -o ./docs/json/components.json --pretty && node ./src/scripts/getComponentsDocs.cjs ",
+		"jsdoc-gen": "jsdoc -c jsdoc.conf.json > docs/json/jsdoc.json && node ./src/scripts/getJsDocToMarkdown.cjs",
+		"docs": "yarn run react-doc-gen && yarn run jsdoc-gen"
 	},
 	"eslintConfig": {
 		"extends": [
@@ -57,13 +59,13 @@
 		"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.7.0",
+		"@react-docgen/cli": "^1.0.4",
 		"auto-changelog": "^2.4.0",
-		"better-docs": "^2.7.2",
 		"eslint": "^8.48.0",
 		"eslint-plugin-react": "^7.33.2",
 		"gh-pages": "^6.0.0",
 		"husky": "^8.0.3",
-		"taffydb": "^2.7.3",
+		"jsdoc-to-markdown": "^8.0.0",
 		"yarn-audit-fix": "^10.0.1"
 	},
 	"commitlint": {

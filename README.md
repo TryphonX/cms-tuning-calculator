@@ -232,6 +232,8 @@ Distributed under the GNU GPL v3 License. See `COPYING.txt` for more information
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [Digian (CSS Template)](https://www.free-css.com/free-css-templates/page294/digian)
 * [Favicon Generator](https://favicon.io/favicon-generator/)
+* [JsDoc to Markdown](https://www.npmjs.com/package/jsdoc-to-markdown)
+* [React DocGen](https://www.npmjs.com/package/react-docgen)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

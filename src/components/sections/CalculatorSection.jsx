@@ -6,6 +6,10 @@ import CompatiblePartsContainer from '../containers/CompatiblePartsContainer';
 import { CalculatorContext } from '../../modules/contexts';
 import { ClearSelectedPartsEvent, UpdateEngineEvent, UpdateSelectedPartsEvent } from '../../modules/customEvents';
 
+/**
+ * This section includes all the components necessary for the Calculator.
+ * Uses CalculatorContext.
+ */
 const CalculatorSection = () => {
 
 	const [currentEngine, setCurrentEngine] = React.useState(null);

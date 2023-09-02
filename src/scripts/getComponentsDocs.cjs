@@ -68,7 +68,9 @@ for (const path in componentsData) {
 			const propData = Object.keys(comp.props).map(propName => ({
 				displayName: propName,
 				type: parseType(comp.props[propName].type),
-				description: comp.props[propName].description,
+				description: comp.props[propName].description
+					.split('@method')[0]
+					.replace('\n', ' '),
 				required: comp.props[propName].required,
 			}));
 

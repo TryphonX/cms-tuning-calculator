@@ -1,13 +1,14 @@
 /** @module customEvents */
-import './types.jsdoc';
+import './types.js';
 
 /**
+ * A [CustomEvent]{@link https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent} for clearing the [selectedParts]{@link module:contexts.CalculatorContext}.
+ * 
  * @class
  * @extends {CustomEvent}
  * @see https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent
  * @see https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent
  * @see https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
- * A [CustomEvent]{@link https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent} for clearing the [selectedParts]{@link module:contexts.CalculatorContext}.
  */
 export class ClearSelectedPartsEvent extends CustomEvent {
 

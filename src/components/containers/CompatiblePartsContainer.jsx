@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button, Form, Table } from 'react-bootstrap';
 import { CalculatorContext } from '../../modules/contexts';
-import tuningParts from '../../modules/tuning-parts.json';
-import { compareBasedOnName } from '../../modules/common';
+import { PartSortBy, getCompareFn, getTunedPartByName } from '../../modules/common';
 import { ClearSelectedPartsEvent, UpdateSelectedPartsEvent } from '../../modules/customEvents';
 import CardComponent from './CardComponent';
 import { BsXLg } from 'react-icons/bs';
+import PrePartsTableRow from './PrePartsTableRow';
 
 /**
  * This is the card that contains all the compatible parts for the
@@ -16,6 +16,12 @@ const CompatiblePartsContainer = () => {
 
 	const { currentEngine, selectedParts } = React.useContext(CalculatorContext);
 
+	const [sortBy, setSortBy] = React.useState(PartSortBy.NameAsc);
+
+	/**
+	 * Event handler for when the tune checkbox changes state.
+	 * @param {React.ChangeEvent} event 
+	 */
 	const onTuneChanged = ({target}) => {
 		
 		const partName = target.dataset.partName;
@@ -25,9 +31,24 @@ const CompatiblePartsContainer = () => {
 			dispatchEvent(new UpdateSelectedPartsEvent(selectedParts.filter(selectedPart => selectedPart.name !== partName)));
 		}
 		else {
-			dispatchEvent(new UpdateSelectedPartsEvent([...selectedParts, { name: partName, quantity: partQt }].sort(compareBasedOnName)));
+			dispatchEvent(new UpdateSelectedPartsEvent([...selectedParts, { name: partName, quantity: partQt }]));
 		}
 	};
+
+	/**
+	 * Sorted version of the `compatibleParts` array of the `currentEngine`
+	 * object using a comparison function determined by the `sortBy` state.
+	 * @returns {CompatiblePart[] | undefined}
+	 */
+	const getSortedCompatibleParts = currentEngine?.compatibleParts?.sort(getCompareFn(sortBy));
+
+	/**
+	 * Updates the value of the "sortBy" state based on the selected option in the
+	 * dropdown menu.
+	 * @method
+	 * @param {React.ChangeEvent} event
+	 */
+	const onSortByChange = ({target}) => setSortBy(target.value);
 
 	return (
 		<CardComponent title='Compatible Parts'>
@@ -35,7 +56,7 @@ const CompatiblePartsContainer = () => {
 				currentEngine ?
 					(
 						<React.Fragment>
-							<small className='d-block mb-3 d-sm-none mb-sm-0 text-muted'>This table might need to be scrolled horizontally to be viewed properly on smaller devices.</small>
+							<PrePartsTableRow onSortByChange={onSortByChange}/>
 							<Table bordered striped='columns' responsive='sm'>
 								<thead>
 									<tr>
@@ -49,13 +70,13 @@ const CompatiblePartsContainer = () => {
 								</thead>
 								<tbody>
 									{
-										currentEngine.compatibleParts.map(part => (
+										getSortedCompatibleParts.map(part => (
 											<tr key={part.name}>
 												<td>{part.name}</td>
 												<td className='text-end'>{part.quantity}</td>
-												<td className='text-end'>+{tuningParts[part.name]?.boost.toFixed(2)}%</td>
-												<td className='text-end'>{tuningParts[part.name]?.cost} CR</td>
-												<td className='text-end'>{tuningParts[part.name]?.costToBoost} CR/Boost</td>
+												<td className='text-end'>+{getTunedPartByName(part.name)?.boost.toFixed(2)}%</td>
+												<td className='text-end'>{getTunedPartByName(part.name)?.cost} CR</td>
+												<td className='text-end'>{getTunedPartByName(part.name)?.costToBoost.toFixed(2)} CR/Boost</td>
 												<td className='text-center'>
 													<Form.Check
 														aria-label='select to tune part'

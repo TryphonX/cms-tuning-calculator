@@ -15,6 +15,12 @@ const EngineContainer = () => {
 
 	const { currentEngine } = React.useContext(CalculatorContext);
 
+	/**
+	 * The function `onEngineChange` is used to handle a change event on an engine selection and dispatch
+	 * events to update the selected engine and clear selected parts.
+	 * @method
+	 * @param {React.ChangeEvent} event
+	 */
 	const onEngineChange = ({target}) => {
 		if (currentEngine?.name === target.value) return;
 

@@ -1,8 +1,3 @@
-## App
-
-
-
-The component that wraps the entire app.
 ## CardComponent
 
 `components > containers`
@@ -23,12 +18,6 @@ children | node \| node[] |  | ❌
 This is the card that contains all the compatible parts for the
 chosen engine (if one has been chosen).
 Uses CalculatorContext from CalculatorSection.
-## AboutSection
-
-`components > sections`
-
-This section describes the project and
-legal details.
 ## EngineContainer
 
 `components > containers`
@@ -51,19 +40,42 @@ Uses CalculatorContext from CalculatorSection.
 Name | Type | Description | Required
 ---- | ---- | ----------- | :------:
 className | string |  | ❌
-## FooterInfoSection
+## AboutSection
 
 `components > sections`
 
-The footer sections that provides links for suggestions and feedback
-## NavbarSection
+This section describes the project and
+legal details.
+## PrePartsTableRow
 
-`components > sections`
+`components > containers`
 
-The bar that allows the user to navigate different parts of the app.
+Used before the tables in the CompatiblePartsContainer and SelectedPartsContainer.
+Includes sorting choice and disclaimer for visibility on small screens.
+
+### Props:
+
+Name | Type | Description | Required
+---- | ---- | ----------- | :------:
+onSortByChange | func | The method used to change value of sortBy  | ✅
 ## CalculatorSection
 
 `components > sections`
 
 This section includes all the components necessary for the Calculator.
 Uses CalculatorContext.
+## App
+
+
+
+The component that wraps the entire app.
+## NavbarSection
+
+`components > sections`
+
+The bar that allows the user to navigate different parts of the app.
+## FooterInfoSection
+
+`components > sections`
+
+The footer sections that provides links for suggestions and feedback

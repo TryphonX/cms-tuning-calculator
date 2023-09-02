@@ -27,3 +27,17 @@
  * @prop {string} name The name of the part
  * @prop {number} quantity The number of times this type of part is fitted on each engine
  */
+
+/**
+ * @typedef {object} TuningPart
+ * @prop {string} name The name of the part
+ * @prop {number} cost The part's price (in CR)
+ * @prop {number} boost The part's boost increase
+ * @prop {number} costToBoost The part's cost to boost ratio - CR / Boost
+ */
+
+/**
+ * @typedef {Function} CompareFunction
+ * @param {React.ChangeEvent} event
+ * @returns {number}
+ */

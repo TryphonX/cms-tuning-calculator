@@ -1,6 +1,6 @@
 /** @module contexts */
 import { createContext } from 'react';
-import './types.jsdoc';
+import './types.js';
 
 /**
  * The React.Context used for transferring data between calculator components.

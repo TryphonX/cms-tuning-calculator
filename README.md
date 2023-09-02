@@ -192,7 +192,7 @@ _[Visit the app now to try it »](https://tryphonx.github.io/CMS-Tuning-Calculat
 ## Roadmap
 
 - [ ] Add suggested setups based on required boost
-- [ ] Add sorting functionality to the tables
+- [x] Add sorting functionality to the tables
 
 See the [open issues](https://github.com/TryphonX/CMS-Tuning-Calculator/issues) for a full list of proposed features (and known issues).
 

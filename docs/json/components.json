@@ -1,11 +1,4 @@
 {
-  "./src/App.jsx": [
-    {
-      "description": "The component that wraps the entire app.",
-      "methods": [],
-      "displayName": "App"
-    }
-  ],
   "./src/components/containers/CardComponent.jsx": [
     {
       "description": "A simple card component used to store other containers in a more presentable way.",
@@ -54,13 +47,6 @@
       "displayName": "CompatiblePartsContainer"
     }
   ],
-  "./src/components/sections/AboutSection.jsx": [
-    {
-      "description": "This section describes the project and\nlegal details.",
-      "methods": [],
-      "displayName": "AboutSection"
-    }
-  ],
   "./src/components/containers/EngineContainer.jsx": [
     {
       "description": "This is the card that contains the dropdown for the engine choice\nas well as standard details about the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
@@ -84,11 +70,41 @@
       }
     }
   ],
-  "./src/components/sections/FooterInfoSection.jsx": [
+  "./src/components/sections/AboutSection.jsx": [
     {
-      "description": "The footer sections that provides links for suggestions and feedback",
+      "description": "This section describes the project and\nlegal details.",
       "methods": [],
-      "displayName": "FooterInfoSection"
+      "displayName": "AboutSection"
+    }
+  ],
+  "./src/components/containers/PrePartsTableRow.jsx": [
+    {
+      "description": "Used before the tables in the CompatiblePartsContainer and SelectedPartsContainer.\nIncludes sorting choice and disclaimer for visibility on small screens.",
+      "methods": [],
+      "displayName": "PrePartsTableRow",
+      "props": {
+        "onSortByChange": {
+          "description": "The method used to change value of sortBy\n@method\n@param {React.ChangeEvent} event",
+          "type": {
+            "name": "func"
+          },
+          "required": true
+        }
+      }
+    }
+  ],
+  "./src/components/sections/CalculatorSection.jsx": [
+    {
+      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
+      "methods": [],
+      "displayName": "CalculatorSection"
+    }
+  ],
+  "./src/App.jsx": [
+    {
+      "description": "The component that wraps the entire app.",
+      "methods": [],
+      "displayName": "App"
     }
   ],
   "./src/components/sections/NavbarSection.jsx": [
@@ -98,11 +114,11 @@
       "displayName": "NavbarSection"
     }
   ],
-  "./src/components/sections/CalculatorSection.jsx": [
+  "./src/components/sections/FooterInfoSection.jsx": [
     {
-      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
+      "description": "The footer sections that provides links for suggestions and feedback",
       "methods": [],
-      "displayName": "CalculatorSection"
+      "displayName": "FooterInfoSection"
     }
   ]
 }

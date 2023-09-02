@@ -1,9 +1,10 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 import { CalculatorContext } from '../../modules/contexts';
-import tuningParts from '../../modules/tuning-parts.json';
 import PropTypes from 'prop-types';
 import CardComponent from './CardComponent';
+import { PartSortBy, getCompareFn, getTunedPartByName } from '../../modules/common';
+import PrePartsTableRow from './PrePartsTableRow';
 
 /**
  * This is the card that contains all the selected parts
@@ -15,15 +16,41 @@ const SelectedPartsContainer = ({ className }) => {
 
 	const { selectedParts } = React.useContext(CalculatorContext);
 
-	const totalBoost = selectedParts.reduce((sum, current) => sum + (tuningParts[current.name]?.boost * current.quantity), 0);
+	const [sortBy, setSortBy] = React.useState(PartSortBy.NameAsc);
 
-	const totalCost = selectedParts.reduce((sum, current) => sum + (tuningParts[current.name]?.cost * current.quantity), 0);
+	/**
+	 * Total boost of all selected parts.
+	 */
+	const totalBoost = selectedParts.reduce((sum, current) => sum + (getTunedPartByName(current.name)?.boost * current.quantity), 0);
 
+	/**
+	 * Total cost of all selected parts.
+	 */
+	const totalCost = selectedParts.reduce((sum, current) => sum + (getTunedPartByName(current.name)?.cost * current.quantity), 0);
+
+	/**
+	 * Total cost per boost of all selected parts.
+	 */
 	const totalCostToBoost = totalBoost > 0 ? totalCost / totalBoost : 0;
+
+	/**
+	 * Sorted version of the `selectedParts` array using a comparison function
+	 * determined by the `sortBy` parameter.
+	 * @type {SelectedPart[] | undefined}
+	 */
+	const sortedSelectedParts = selectedParts?.sort(getCompareFn(sortBy));
+
+	/**
+	 * Updates the value of the "sortBy" state based on the selected option in the
+	 * dropdown menu.
+	 * @method
+	 * @param {React.ChangeEvent} event
+	 */
+	const onSortByChange = ({target}) => setSortBy(target.value);
 	
 	return (
 		<CardComponent className={className} title='Selected Parts'>
-			<small className='d-block mb-3 d-sm-none mb-sm-0 text-muted'>This table might need to be scrolled horizontally to be viewed properly on smaller devices.</small>
+			<PrePartsTableRow onSortByChange={onSortByChange} />
 			<Table bordered responsive='sm'>
 				<thead>
 					<tr>
@@ -36,13 +63,13 @@ const SelectedPartsContainer = ({ className }) => {
 				</thead>
 				<tbody>
 					{
-						selectedParts.map(part => (
+						sortedSelectedParts.map(part => (
 							<tr key={`res-${part.name}`}>
 								<td>{part.name}</td>
 								<td className='text-end'>{part.quantity}</td>
-								<td className='text-end'>+{tuningParts[part.name]?.boost.toFixed(2)}%</td>
-								<td className='text-end'>{tuningParts[part.name]?.cost} CR</td>
-								<td className='text-end'>{tuningParts[part.name]?.costToBoost} CR/Boost</td>
+								<td className='text-end'>+{getTunedPartByName(part.name)?.boost.toFixed(2)}%</td>
+								<td className='text-end'>{getTunedPartByName(part.name)?.cost} CR</td>
+								<td className='text-end'>{getTunedPartByName(part.name)?.costToBoost.toFixed(2)} CR/Boost</td>
 							</tr>
 						))
 					}

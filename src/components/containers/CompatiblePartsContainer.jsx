@@ -2,10 +2,10 @@ import React from 'react';
 import { Button, Form, Table } from 'react-bootstrap';
 import { CalculatorContext } from '../../modules/contexts';
 import tuningParts from '../../modules/tuning-parts.json';
-import { XLg } from 'react-bootstrap-icons';
 import { compareBasedOnName } from '../../modules/common';
 import { ClearSelectedPartsEvent, UpdateSelectedPartsEvent } from '../../modules/customEvents';
 import CardComponent from './CardComponent';
+import { BsXLg } from 'react-icons/bs';
 
 /**
  * This is the card that contains all the compatible parts for the
@@ -76,7 +76,7 @@ const CompatiblePartsContainer = () => {
 									disabled={!selectedParts.length}
 									onClick={() => dispatchEvent(new ClearSelectedPartsEvent())}
 								>
-									<XLg className='mb-1' /> Clear
+									<BsXLg className='mb-1' /> Clear
 								</Button>
 							</div>
 						</React.Fragment>

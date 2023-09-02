@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container } from 'react-bootstrap';
-import { Github } from 'react-bootstrap-icons';
+import { BsGithub } from 'react-icons/bs';
 
 /**
  * This section describes the project and
@@ -39,7 +39,7 @@ const AboutSection = () => {
 					target='_blank'
 					aria-label='See source code'
 				>
-					<Github className='mb-1' /> See source code
+					<BsGithub className='mb-1' /> See source code
 				</Button>
 			</Container>
 		</section>

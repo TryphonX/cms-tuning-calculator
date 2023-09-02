@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import { Github } from 'react-bootstrap-icons';
+import { BsGithub } from 'react-icons/bs';
 
 /**
  * The footer sections that provides links for suggestions and feedback
@@ -43,7 +43,7 @@ const FooterInfoSection = () => {
 						target='_blank'
 						aria-label='Submit an issue on GitHub'
 					>
-						<Github className='mb-1' /> Submit an Issue
+						<BsGithub className='mb-1' /> Submit an Issue
 					</Button>
 				</Row>
 			</Container>

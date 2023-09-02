@@ -82,10 +82,10 @@ This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 
 
 ### Built With
 
-* [![React][React.js]][React-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![Sass][Sass]][Sass-url]
-* [![ESLint][ESLint]][ESLint-url]
+[![React][React.js]][React-url]  
+[![Bootstrap][Bootstrap.com]][Bootstrap-url]  
+[![Sass][Sass]][Sass-url]  
+[![ESLint][ESLint]][ESLint-url]  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -229,7 +229,7 @@ Distributed under the GNU GPL v3 License. See `COPYING.txt` for more information
 * [GitHub Pages](https://pages.github.com)
 * [Auto-Changelog](https://github.com/CookPete/auto-changelog)
 * [React Bootstrap](https://react-bootstrap.netlify.app/)
-* [React Bootstrap Icons](https://github.com/ismamz/react-bootstrap-icons#readme)
+* [React Icons](https://react-icons.github.io/react-icons)
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [Digian (CSS Template)](https://www.free-css.com/free-css-templates/page294/digian)
 * [Favicon Generator](https://favicon.io/favicon-generator/)

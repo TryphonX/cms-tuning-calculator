@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container, Navbar } from 'react-bootstrap';
-import { Paypal } from 'react-bootstrap-icons';
+import { BsPaypal } from 'react-icons/bs';
 
 /**
  * The bar that allows the user to navigate different parts of the app.
@@ -23,7 +23,7 @@ const NavbarSection = () => {
 							className='btn-hover-lift d-none d-sm-inline-block'
 							target='_blank'
 						>
-							<Paypal className='mb-1' /> Donate
+							<BsPaypal className='mb-1' /> Donate
 						</Button>
 						<Button
 							href='https://paypal.me/TryphonKsydas'
@@ -32,7 +32,7 @@ const NavbarSection = () => {
 							target='_blank'
 							size='sm'
 						>
-							<Paypal className='mb-1' />
+							<BsPaypal className='mb-1' />
 						</Button>
 					</div>
 				</Navbar>

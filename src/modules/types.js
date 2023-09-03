@@ -41,3 +41,11 @@
  * @param {React.ChangeEvent} event
  * @returns {number}
  */
+
+/**
+ * @typedef {object} TuningSetup
+ * @prop {string[]} partNames
+ * @prop {number} cost
+ * @prop {number} boost
+ * @prop {number} costToBoost
+ */

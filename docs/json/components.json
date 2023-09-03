@@ -6,22 +6,6 @@
       "displayName": "App"
     }
   ],
-  "./src/components/containers/CompatiblePartsContainer.jsx": [
-    {
-      "description": "This is the card that contains all the compatible parts for the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
-      "methods": [],
-      "displayName": "CompatiblePartsContainer",
-      "props": {
-        "className": {
-          "description": "",
-          "type": {
-            "name": "string"
-          },
-          "required": false
-        }
-      }
-    }
-  ],
   "./src/components/containers/CardComponent.jsx": [
     {
       "description": "A simple card component used to store other containers in a more presentable way.",
@@ -63,32 +47,36 @@
       }
     }
   ],
-  "./src/components/sections/AboutSection.jsx": [
+  "./src/components/containers/CompatiblePartsContainer.jsx": [
     {
-      "description": "This section describes the project and\nlegal details.",
+      "description": "This is the card that contains all the compatible parts for the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
       "methods": [],
-      "displayName": "AboutSection"
+      "displayName": "CompatiblePartsContainer",
+      "props": {
+        "className": {
+          "description": "",
+          "type": {
+            "name": "string"
+          },
+          "required": false
+        }
+      }
     }
   ],
-  "./src/components/containers/EngineContainer.jsx": [
+  "./src/components/containers/SetupSuggestionContainer.jsx": [
     {
-      "description": "This is the card that contains the dropdown for the engine choice\nas well as standard details about the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
+      "description": "",
       "methods": [],
-      "displayName": "EngineContainer"
-    }
-  ],
-  "./src/components/sections/FooterInfoSection.jsx": [
-    {
-      "description": "The footer sections that provides links for suggestions and feedback",
-      "methods": [],
-      "displayName": "FooterInfoSection"
-    }
-  ],
-  "./src/components/sections/CalculatorSection.jsx": [
-    {
-      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
-      "methods": [],
-      "displayName": "CalculatorSection"
+      "displayName": "SetupSuggestionContainer",
+      "props": {
+        "className": {
+          "description": "",
+          "type": {
+            "name": "string"
+          },
+          "required": false
+        }
+      }
     }
   ],
   "./src/components/containers/PrePartsTableRow.jsx": [
@@ -107,11 +95,11 @@
       }
     }
   ],
-  "./src/components/sections/NavbarSection.jsx": [
+  "./src/components/containers/EngineContainer.jsx": [
     {
-      "description": "The bar that allows the user to navigate different parts of the app.",
+      "description": "This is the card that contains the dropdown for the engine choice\nas well as standard details about the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
       "methods": [],
-      "displayName": "NavbarSection"
+      "displayName": "EngineContainer"
     }
   ],
   "./src/components/containers/SelectedPartsContainer.jsx": [
@@ -130,20 +118,32 @@
       }
     }
   ],
-  "./src/components/containers/SetupSuggestion.jsx": [
+  "./src/components/sections/AboutSection.jsx": [
     {
-      "description": "",
+      "description": "This section describes the project and\nlegal details.",
       "methods": [],
-      "displayName": "SetupSuggestion",
-      "props": {
-        "className": {
-          "description": "",
-          "type": {
-            "name": "string"
-          },
-          "required": false
-        }
-      }
+      "displayName": "AboutSection"
+    }
+  ],
+  "./src/components/sections/CalculatorSection.jsx": [
+    {
+      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
+      "methods": [],
+      "displayName": "CalculatorSection"
+    }
+  ],
+  "./src/components/sections/FooterInfoSection.jsx": [
+    {
+      "description": "The footer sections that provides links for suggestions and feedback",
+      "methods": [],
+      "displayName": "FooterInfoSection"
+    }
+  ],
+  "./src/components/sections/NavbarSection.jsx": [
+    {
+      "description": "The bar that allows the user to navigate different parts of the app.",
+      "methods": [],
+      "displayName": "NavbarSection"
     }
   ]
 }

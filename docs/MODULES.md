@@ -24,6 +24,8 @@
 <dd></dd>
 <dt><a href="#CompareFunction">CompareFunction</a> ⇒ <code>number</code></dt>
 <dd></dd>
+<dt><a href="#TuningSetup">TuningSetup</a> : <code>object</code></dt>
+<dd></dd>
 </dl>
 
 <a name="module_common"></a>
@@ -34,7 +36,7 @@
     * _static_
         * [.PartSortBy](#module_common.PartSortBy) : <code>enum</code>
         * [.engines](#module_common.engines) : [<code>Engine</code>](#Engine)
-        * [.compareCostToBoostAsc](#module_common.compareCostToBoostAsc) : [<code>CompareFunction</code>](#CompareFunction)
+        * [.calculateBestSolution](#module_common.calculateBestSolution) ⇒ [<code>TuningSetup</code>](#TuningSetup) \| <code>null</code>
         * [.getCompareFn(sortBy)](#module_common.getCompareFn) ⇒ [<code>CompareFunction</code>](#CompareFunction)
         * [.getTunedPartByName(partName)](#module_common.getTunedPartByName) ⇒ [<code>TuningPart</code>](#TuningPart) \| <code>undefined</code>
     * _inner_
@@ -46,6 +48,7 @@
         * [~compareCostDesc(a, b)](#module_common..compareCostDesc) : [<code>CompareFunction</code>](#CompareFunction)
         * [~compareBoostAsc(a, b)](#module_common..compareBoostAsc) : [<code>CompareFunction</code>](#CompareFunction)
         * [~compareBoostDesc(a, b)](#module_common..compareBoostDesc) : [<code>CompareFunction</code>](#CompareFunction)
+        * [~compareCostToBoostAsc(a, b)](#module_common..compareCostToBoostAsc) : [<code>CompareFunction</code>](#CompareFunction)
         * [~compareCostToBoostDesc(a, b)](#module_common..compareCostToBoostDesc) : [<code>CompareFunction</code>](#CompareFunction)
 
 <a name="module_common.PartSortBy"></a>
@@ -60,17 +63,18 @@ Sort modes for parts
 The list of all engines included in the app.
 
 **Kind**: static constant of [<code>common</code>](#module_common)  
-<a name="module_common.compareCostToBoostAsc"></a>
+<a name="module_common.calculateBestSolution"></a>
 
-### common.compareCostToBoostAsc : [<code>CompareFunction</code>](#CompareFunction)
-Compares two objects based on their tuned part version's costToBoost property (ascending).
+### common.calculateBestSolution ⇒ [<code>TuningSetup</code>](#TuningSetup) \| <code>null</code>
+The function calculates the best combination of parts that meets a given goal, based on their cost
+and boost
 
 **Kind**: static constant of [<code>common</code>](#module_common)  
 
 | Param | Type | Description |
 | --- | --- | --- |
-| a | <code>Object</code> | Represents the first object being compared based on its name property. |
-| b | <code>Object</code> | Represents the second object being compared. |
+| parts | [<code>Array.&lt;TuningPart&gt;</code>](#TuningPart) | An array of objects representing different parts |
+| goal | <code>number</code> | Represents the minimum boost value that the best solution should have |
 
 <a name="module_common.getCompareFn"></a>
 
@@ -182,6 +186,18 @@ Compares two objects based on their tuned part version's boost property (ascendi
 
 ### common~compareBoostDesc(a, b) : [<code>CompareFunction</code>](#CompareFunction)
 Compares two objects based on their tuned part version's boost property (descending).
+
+**Kind**: inner method of [<code>common</code>](#module_common)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| a | <code>Object</code> | Represents the first object being compared based on its name property. |
+| b | <code>Object</code> | Represents the second object being compared. |
+
+<a name="module_common..compareCostToBoostAsc"></a>
+
+### common~compareCostToBoostAsc(a, b) : [<code>CompareFunction</code>](#CompareFunction)
+Compares two objects based on their tuned part version's costToBoost property (ascending).
 
 **Kind**: inner method of [<code>common</code>](#module_common)  
 
@@ -374,4 +390,17 @@ Part names
 | Param | Type |
 | --- | --- |
 | event | <code>React.ChangeEvent</code> | 
+
+<a name="TuningSetup"></a>
+
+## TuningSetup : <code>object</code>
+**Kind**: global typedef  
+**Properties**
+
+| Name | Type |
+| --- | --- |
+| partNames | <code>Array.&lt;string&gt;</code> | 
+| cost | <code>number</code> | 
+| boost | <code>number</code> | 
+| costToBoost | <code>number</code> | 
 

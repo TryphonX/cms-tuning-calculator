@@ -5,6 +5,7 @@ import SelectedPartsContainer from '../containers/SelectedPartsContainer';
 import CompatiblePartsContainer from '../containers/CompatiblePartsContainer';
 import { CalculatorContext } from '../../modules/contexts';
 import { ClearSelectedPartsEvent, UpdateEngineEvent, UpdateSelectedPartsEvent } from '../../modules/customEvents';
+import SetupSuggestionContainer from '../containers/SetupSuggestionContainer';
 
 /**
  * This section includes all the components necessary for the Calculator.
@@ -38,7 +39,8 @@ const CalculatorSection = () => {
 							<SelectedPartsContainer className='mt-4 d-none d-xl-block' />
 						</Col>
 						<Col xl='7' xs='12' className='mt-xl-0 mt-4'>
-							<CompatiblePartsContainer />
+							<SetupSuggestionContainer />
+							<CompatiblePartsContainer className='mt-4' />
 						</Col>
 						<Col className='d-block d-xl-none'>
 							<SelectedPartsContainer className='mt-4' />

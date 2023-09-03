@@ -1,19 +1,6 @@
 ## App
 
 The component that wraps the entire app.
-## CompatiblePartsContainer
-
-`components > containers`
-
-This is the card that contains all the compatible parts for the
-chosen engine (if one has been chosen).
-Uses CalculatorContext from CalculatorSection.
-
-### Props:
-
-| Name      | Type   | Description | Required |
-| --------- | ------ | ----------- | :------: |
-| className | string |             |    ❌     |
 ## CardComponent
 
 `components > containers`
@@ -27,31 +14,30 @@ A simple card component used to store other containers in a more presentable way
 | className | string         |                                          |    ❌     |
 | title     | string         | The title to be shown in the card header |    ❌     |
 | children  | node \| node[] |                                          |    ❌     |
-## AboutSection
-
-`components > sections`
-
-This section describes the project and
-legal details.
-## EngineContainer
+## CompatiblePartsContainer
 
 `components > containers`
 
-This is the card that contains the dropdown for the engine choice
-as well as standard details about the
+This is the card that contains all the compatible parts for the
 chosen engine (if one has been chosen).
 Uses CalculatorContext from CalculatorSection.
-## FooterInfoSection
 
-`components > sections`
+### Props:
 
-The footer sections that provides links for suggestions and feedback
-## CalculatorSection
+| Name      | Type   | Description | Required |
+| --------- | ------ | ----------- | :------: |
+| className | string |             |    ❌     |
+## SetupSuggestionContainer
 
-`components > sections`
+`components > containers`
 
-This section includes all the components necessary for the Calculator.
-Uses CalculatorContext.
+No description provided
+
+### Props:
+
+| Name      | Type   | Description | Required |
+| --------- | ------ | ----------- | :------: |
+| className | string |             |    ❌     |
 ## PrePartsTableRow
 
 `components > containers`
@@ -64,11 +50,14 @@ Includes sorting choice and disclaimer for visibility on small screens.
 | Name           | Type | Description                               | Required |
 | -------------- | ---- | ----------------------------------------- | :------: |
 | onSortByChange | func | The method used to change value of sortBy |    ✅     |
-## NavbarSection
+## EngineContainer
 
-`components > sections`
+`components > containers`
 
-The bar that allows the user to navigate different parts of the app.
+This is the card that contains the dropdown for the engine choice
+as well as standard details about the
+chosen engine (if one has been chosen).
+Uses CalculatorContext from CalculatorSection.
 ## SelectedPartsContainer
 
 `components > containers`
@@ -83,14 +72,25 @@ Uses CalculatorContext from CalculatorSection.
 | Name      | Type   | Description | Required |
 | --------- | ------ | ----------- | :------: |
 | className | string |             |    ❌     |
-## SetupSuggestion
+## AboutSection
 
-`components > containers`
+`components > sections`
 
-No description provided
+This section describes the project and
+legal details.
+## CalculatorSection
 
-### Props:
+`components > sections`
 
-| Name      | Type   | Description | Required |
-| --------- | ------ | ----------- | :------: |
-| className | string |             |    ❌     |
+This section includes all the components necessary for the Calculator.
+Uses CalculatorContext.
+## FooterInfoSection
+
+`components > sections`
+
+The footer sections that provides links for suggestions and feedback
+## NavbarSection
+
+`components > sections`
+
+The bar that allows the user to navigate different parts of the app.

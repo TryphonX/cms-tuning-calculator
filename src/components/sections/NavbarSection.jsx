@@ -11,7 +11,7 @@ const NavbarSection = () => {
 		<header className="header_section">
 			<Container fluid>
 				<Navbar className='custom_nav-container' >
-					<Navbar.Brand href='/'>
+					<Navbar.Brand href='/CMS-Tuning-Calculator'>
 						<span>
 							Tuning Calculator <small className='fw-light fs-6 text-secondary text-sm-show d-none d-sm-inline'>Car Mechanic Simulator 21</small><small className='fw-light fs-6 text-secondary text-sm-show d-inline d-sm-none'>CMS 21</small>
 						</span>

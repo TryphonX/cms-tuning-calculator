@@ -1,4 +1,27 @@
 {
+  "./src/App.jsx": [
+    {
+      "description": "The component that wraps the entire app.",
+      "methods": [],
+      "displayName": "App"
+    }
+  ],
+  "./src/components/containers/CompatiblePartsContainer.jsx": [
+    {
+      "description": "This is the card that contains all the compatible parts for the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
+      "methods": [],
+      "displayName": "CompatiblePartsContainer",
+      "props": {
+        "className": {
+          "description": "",
+          "type": {
+            "name": "string"
+          },
+          "required": false
+        }
+      }
+    }
+  ],
   "./src/components/containers/CardComponent.jsx": [
     {
       "description": "A simple card component used to store other containers in a more presentable way.",
@@ -40,11 +63,11 @@
       }
     }
   ],
-  "./src/components/containers/CompatiblePartsContainer.jsx": [
+  "./src/components/sections/AboutSection.jsx": [
     {
-      "description": "This is the card that contains all the compatible parts for the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
+      "description": "This section describes the project and\nlegal details.",
       "methods": [],
-      "displayName": "CompatiblePartsContainer"
+      "displayName": "AboutSection"
     }
   ],
   "./src/components/containers/EngineContainer.jsx": [
@@ -54,27 +77,18 @@
       "displayName": "EngineContainer"
     }
   ],
-  "./src/components/containers/SelectedPartsContainer.jsx": [
+  "./src/components/sections/FooterInfoSection.jsx": [
     {
-      "description": "This is the card that contains all the selected parts\nthe user has selected (if they have selected any) and\nthe total stats of their tuning setup.\nUses CalculatorContext from CalculatorSection.",
+      "description": "The footer sections that provides links for suggestions and feedback",
       "methods": [],
-      "displayName": "SelectedPartsContainer",
-      "props": {
-        "className": {
-          "description": "",
-          "type": {
-            "name": "string"
-          },
-          "required": false
-        }
-      }
+      "displayName": "FooterInfoSection"
     }
   ],
-  "./src/components/sections/AboutSection.jsx": [
+  "./src/components/sections/CalculatorSection.jsx": [
     {
-      "description": "This section describes the project and\nlegal details.",
+      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
       "methods": [],
-      "displayName": "AboutSection"
+      "displayName": "CalculatorSection"
     }
   ],
   "./src/components/containers/PrePartsTableRow.jsx": [
@@ -93,20 +107,6 @@
       }
     }
   ],
-  "./src/components/sections/CalculatorSection.jsx": [
-    {
-      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
-      "methods": [],
-      "displayName": "CalculatorSection"
-    }
-  ],
-  "./src/App.jsx": [
-    {
-      "description": "The component that wraps the entire app.",
-      "methods": [],
-      "displayName": "App"
-    }
-  ],
   "./src/components/sections/NavbarSection.jsx": [
     {
       "description": "The bar that allows the user to navigate different parts of the app.",
@@ -114,11 +114,36 @@
       "displayName": "NavbarSection"
     }
   ],
-  "./src/components/sections/FooterInfoSection.jsx": [
+  "./src/components/containers/SelectedPartsContainer.jsx": [
     {
-      "description": "The footer sections that provides links for suggestions and feedback",
+      "description": "This is the card that contains all the selected parts\nthe user has selected (if they have selected any) and\nthe total stats of their tuning setup.\nUses CalculatorContext from CalculatorSection.",
       "methods": [],
-      "displayName": "FooterInfoSection"
+      "displayName": "SelectedPartsContainer",
+      "props": {
+        "className": {
+          "description": "",
+          "type": {
+            "name": "string"
+          },
+          "required": false
+        }
+      }
+    }
+  ],
+  "./src/components/containers/SetupSuggestion.jsx": [
+    {
+      "description": "",
+      "methods": [],
+      "displayName": "SetupSuggestion",
+      "props": {
+        "className": {
+          "description": "",
+          "type": {
+            "name": "string"
+          },
+          "required": false
+        }
+      }
     }
   ]
 }

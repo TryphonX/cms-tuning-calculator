@@ -34,6 +34,7 @@
     * _static_
         * [.PartSortBy](#module_common.PartSortBy) : <code>enum</code>
         * [.engines](#module_common.engines) : [<code>Engine</code>](#Engine)
+        * [.compareCostToBoostAsc](#module_common.compareCostToBoostAsc) : [<code>CompareFunction</code>](#CompareFunction)
         * [.getCompareFn(sortBy)](#module_common.getCompareFn) ⇒ [<code>CompareFunction</code>](#CompareFunction)
         * [.getTunedPartByName(partName)](#module_common.getTunedPartByName) ⇒ [<code>TuningPart</code>](#TuningPart) \| <code>undefined</code>
     * _inner_
@@ -45,7 +46,6 @@
         * [~compareCostDesc(a, b)](#module_common..compareCostDesc) : [<code>CompareFunction</code>](#CompareFunction)
         * [~compareBoostAsc(a, b)](#module_common..compareBoostAsc) : [<code>CompareFunction</code>](#CompareFunction)
         * [~compareBoostDesc(a, b)](#module_common..compareBoostDesc) : [<code>CompareFunction</code>](#CompareFunction)
-        * [~compareCostToBoostAsc(a, b)](#module_common..compareCostToBoostAsc) : [<code>CompareFunction</code>](#CompareFunction)
         * [~compareCostToBoostDesc(a, b)](#module_common..compareCostToBoostDesc) : [<code>CompareFunction</code>](#CompareFunction)
 
 <a name="module_common.PartSortBy"></a>
@@ -60,6 +60,18 @@ Sort modes for parts
 The list of all engines included in the app.
 
 **Kind**: static constant of [<code>common</code>](#module_common)  
+<a name="module_common.compareCostToBoostAsc"></a>
+
+### common.compareCostToBoostAsc : [<code>CompareFunction</code>](#CompareFunction)
+Compares two objects based on their tuned part version's costToBoost property (ascending).
+
+**Kind**: static constant of [<code>common</code>](#module_common)  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| a | <code>Object</code> | Represents the first object being compared based on its name property. |
+| b | <code>Object</code> | Represents the second object being compared. |
+
 <a name="module_common.getCompareFn"></a>
 
 ### common.getCompareFn(sortBy) ⇒ [<code>CompareFunction</code>](#CompareFunction)
@@ -178,18 +190,6 @@ Compares two objects based on their tuned part version's boost property (descend
 | a | <code>Object</code> | Represents the first object being compared based on its name property. |
 | b | <code>Object</code> | Represents the second object being compared. |
 
-<a name="module_common..compareCostToBoostAsc"></a>
-
-### common~compareCostToBoostAsc(a, b) : [<code>CompareFunction</code>](#CompareFunction)
-Compares two objects based on their tuned part version's costToBoost property (ascending).
-
-**Kind**: inner method of [<code>common</code>](#module_common)  
-
-| Param | Type | Description |
-| --- | --- | --- |
-| a | <code>Object</code> | Represents the first object being compared based on its name property. |
-| b | <code>Object</code> | Represents the second object being compared. |
-
 <a name="module_common..compareCostToBoostDesc"></a>
 
 ### common~compareCostToBoostDesc(a, b) : [<code>CompareFunction</code>](#CompareFunction)
@@ -205,17 +205,26 @@ Compares two objects based on their tuned part version's costToBoost property (d
 <a name="module_contexts"></a>
 
 ## contexts
-<a name="module_contexts.CalculatorContext"></a>
 
-### contexts.CalculatorContext : <code>React.Context</code>
+* [contexts](#module_contexts)
+    * [~currentEngine](#module_contexts..currentEngine) : [<code>Engine</code>](#Engine) \| <code>null</code>
+    * [~CalculatorContext](#module_contexts..CalculatorContext) : <code>React.Context</code>
+
+<a name="module_contexts..currentEngine"></a>
+
+### contexts~currentEngine : [<code>Engine</code>](#Engine) \| <code>null</code>
+**Kind**: inner property of [<code>contexts</code>](#module_contexts)  
+<a name="module_contexts..CalculatorContext"></a>
+
+### contexts~CalculatorContext : <code>React.Context</code>
 The React.Context used for transferring data between calculator components.
 
-**Kind**: static constant of [<code>contexts</code>](#module_contexts)  
+**Kind**: inner typedef of [<code>contexts</code>](#module_contexts)  
 **Properties**
 
 | Name | Type |
 | --- | --- |
-| currentEngine | [<code>Nullable.&lt;Engine&gt;</code>](#Engine) | 
+| currentEngine | [<code>Engine</code>](#Engine) \| <code>null</code> | 
 | selectedParts | [<code>Array.&lt;SelectedPart&gt;</code>](#SelectedPart) | 
 
 <a name="module_customEvents"></a>
@@ -232,7 +241,7 @@ The React.Context used for transferring data between calculator components.
 <a name="module_customEvents.ClearSelectedPartsEvent"></a>
 
 ### customEvents.ClearSelectedPartsEvent ⇐ <code>CustomEvent</code>
-A [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) for clearing the [selectedParts](#module_contexts.CalculatorContext).
+A [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) for clearing the [selectedParts](module:contexts.CalculatorContext).
 
 **Kind**: static class of [<code>customEvents</code>](#module_customEvents)  
 **Extends**: <code>CustomEvent</code>  
@@ -245,7 +254,7 @@ A [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) fo
 <a name="module_customEvents.UpdateSelectedPartsEvent"></a>
 
 ### customEvents.UpdateSelectedPartsEvent ⇐ <code>CustomEvent</code>
-A [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) for updating the [selectedParts](#module_contexts.CalculatorContext).
+A [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) for updating the [selectedParts](module:contexts.CalculatorContext).
 
 **Kind**: static class of [<code>customEvents</code>](#module_customEvents)  
 **Extends**: <code>CustomEvent</code>  
@@ -261,12 +270,12 @@ A [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) fo
 
 | Param | Type | Description |
 | --- | --- | --- |
-| newVal | [<code>Array.&lt;SelectedPart&gt;</code>](#SelectedPart) | The new value to replace the previous [selectedParts](#module_contexts.CalculatorContext) |
+| newVal | [<code>Array.&lt;SelectedPart&gt;</code>](#SelectedPart) | The new value to replace the previous [selectedParts](module:contexts.CalculatorContext) |
 
 <a name="module_customEvents.UpdateEngineEvent"></a>
 
 ### customEvents.UpdateEngineEvent ⇐ <code>CustomEvent</code>
-A [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) for updating the [currentEngine](#module_contexts.CalculatorContext).
+A [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) for updating the [currentEngine](module:contexts.CalculatorContext).
 
 **Kind**: static class of [<code>customEvents</code>](#module_customEvents)  
 **Extends**: <code>CustomEvent</code>  
@@ -282,7 +291,7 @@ A [CustomEvent](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) fo
 
 | Param | Type | Description |
 | --- | --- | --- |
-| newVal | [<code>Nullable.&lt;Engine&gt;</code>](#Engine) | The new value to replace the previous [currentEngine](#module_contexts.CalculatorContext) |
+| newVal | [<code>Engine</code>](#Engine) \| <code>null</code> | The new value to replace the previous [currentEngine](module:contexts.CalculatorContext) |
 
 <a name="EngineName"></a>
 

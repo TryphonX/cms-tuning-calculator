@@ -226,7 +226,7 @@ const compareBoostDesc = (a, b) => {
  * @param {{name: string}} a - Represents the first object being compared based on its name property.
  * @param {{name: string}} b - Represents the second object being compared.
  */
-const compareCostToBoostAsc = (a, b) => {
+export const compareCostToBoostAsc = (a, b) => {
 
 	const [partA, partB] = [getTunedPartByName(a.name), getTunedPartByName(b.name)];
 

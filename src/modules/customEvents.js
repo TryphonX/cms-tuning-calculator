@@ -56,7 +56,7 @@ export class UpdateEngineEvent extends CustomEvent {
 
 	/**
 	 * @constructor
-	 * @param {Nullable<Engine>} newVal The new value to replace the previous [currentEngine]{@link module:contexts.CalculatorContext}
+	 * @param {Engine | null} newVal The new value to replace the previous [currentEngine]{@link module:contexts.CalculatorContext}
 	 */
 	constructor(newVal) {
 		super(UpdateEngineEvent.eventName, { detail: newVal });

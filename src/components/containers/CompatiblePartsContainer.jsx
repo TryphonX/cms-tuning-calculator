@@ -4,15 +4,16 @@ import { CalculatorContext } from '../../modules/contexts';
 import { PartSortBy, getCompareFn, getTunedPartByName } from '../../modules/common';
 import { ClearSelectedPartsEvent, UpdateSelectedPartsEvent } from '../../modules/customEvents';
 import CardComponent from './CardComponent';
-import { BsXLg } from 'react-icons/bs';
+import { BsEraserFill } from 'react-icons/bs';
 import PrePartsTableRow from './PrePartsTableRow';
+import PropTypes from 'prop-types';
 
 /**
  * This is the card that contains all the compatible parts for the
  * chosen engine (if one has been chosen).
  * Uses CalculatorContext from CalculatorSection.
  */
-const CompatiblePartsContainer = () => {
+const CompatiblePartsContainer = ({ className }) => {
 
 	const { currentEngine, selectedParts } = React.useContext(CalculatorContext);
 
@@ -51,7 +52,7 @@ const CompatiblePartsContainer = () => {
 	const onSortByChange = ({target}) => setSortBy(target.value);
 
 	return (
-		<CardComponent title='Compatible Parts'>
+		<CardComponent title='Compatible Parts' className={className}>
 			{
 				currentEngine ?
 					(
@@ -97,7 +98,7 @@ const CompatiblePartsContainer = () => {
 									disabled={!selectedParts.length}
 									onClick={() => dispatchEvent(new ClearSelectedPartsEvent())}
 								>
-									<BsXLg className='mb-1' /> Clear
+									<BsEraserFill className='mb-1' /> Clear
 								</Button>
 							</div>
 						</React.Fragment>
@@ -108,6 +109,10 @@ const CompatiblePartsContainer = () => {
 			}
 		</CardComponent>
 	);
+};
+
+CompatiblePartsContainer.propTypes = {
+	className: PropTypes.string,
 };
 
 export default CompatiblePartsContainer;

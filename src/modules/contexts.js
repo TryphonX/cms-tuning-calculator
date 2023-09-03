@@ -4,11 +4,14 @@ import './types.js';
 
 /**
  * The React.Context used for transferring data between calculator components.
- * @type {React.Context}
- * @prop {Nullable<Engine>} currentEngine
+ * @typedef {React.Context} CalculatorContext
+ * @prop {Engine | null} currentEngine
  * @prop {SelectedPart[]} selectedParts
  */
 export const CalculatorContext = createContext({
+	/**
+	 * @type {Engine | null}
+	 */
 	currentEngine: null,
 	selectedParts: [{ name: 'engine part', quantity: 0 }],
 });

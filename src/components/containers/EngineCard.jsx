@@ -11,7 +11,7 @@ import CardComponent from './CardComponent';
  * chosen engine (if one has been chosen).
  * Uses CalculatorContext from CalculatorSection.
  */
-const EngineContainer = () => {
+const EngineCard = () => {
 
 	const { currentEngine } = React.useContext(CalculatorContext);
 
@@ -72,4 +72,4 @@ const EngineContainer = () => {
 	);
 };
 
-export default EngineContainer;
+export default EngineCard;

@@ -12,7 +12,7 @@ import PrePartsTableRow from './PrePartsTableRow';
  * the total stats of their tuning setup.
  * Uses CalculatorContext from CalculatorSection.
  */
-const SelectedPartsContainer = ({ className }) => {
+const SelectedPartsCard = ({ className }) => {
 
 	const { selectedParts } = React.useContext(CalculatorContext);
 
@@ -85,8 +85,8 @@ const SelectedPartsContainer = ({ className }) => {
 	);
 };
 
-SelectedPartsContainer.propTypes = {
+SelectedPartsCard.propTypes = {
 	className: PropTypes.string,
 };
 
-export default SelectedPartsContainer;
+export default SelectedPartsCard;

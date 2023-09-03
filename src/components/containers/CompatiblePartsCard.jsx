@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
  * chosen engine (if one has been chosen).
  * Uses CalculatorContext from CalculatorSection.
  */
-const CompatiblePartsContainer = ({ className }) => {
+const CompatiblePartsCard = ({ className }) => {
 
 	const { currentEngine, selectedParts } = React.useContext(CalculatorContext);
 
@@ -111,8 +111,8 @@ const CompatiblePartsContainer = ({ className }) => {
 	);
 };
 
-CompatiblePartsContainer.propTypes = {
+CompatiblePartsCard.propTypes = {
 	className: PropTypes.string,
 };
 
-export default CompatiblePartsContainer;
+export default CompatiblePartsCard;

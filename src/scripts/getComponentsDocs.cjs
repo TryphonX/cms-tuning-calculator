@@ -37,8 +37,8 @@ for (const path in componentsData) {
 		const [description, ...examples] = comp.description.split('@example');
 
 		text += `## ${comp.displayName}\n\n`;
-		text += category ? `\`${category}\`\n\n` : '\n\n';
-		text += `${description || 'No description provided'}\n`;
+		if (category) text += `\`${category}\`\n\n`;
+		text += `${description || 'No description provided'}\n\n`;
 
 		if (examples && examples.length) {
 
@@ -78,7 +78,7 @@ for (const path in componentsData) {
 			'\n### Props:\n\n' +
 			'Name | Type | Description | Required\n' +
 			'---- | ---- | ----------- | :------:\n' +
-			`${propData.map(data => `${data.displayName} | ${data.type} | ${data.description} | ${data.required ? '✅' : '❌'}`).join('\n')}\n`;
+			`${propData.map(data => `${data.displayName} | ${data.type} | ${data.description} | ${data.required ? '✅' : '❌'}`).join('\n')}\n\n`;
 		}
 	}
 }

@@ -47,11 +47,18 @@
       }
     }
   ],
-  "./src/components/containers/CompatiblePartsContainer.jsx": [
+  "./src/components/sections/AboutSection.jsx": [
+    {
+      "description": "This section describes the project and\nlegal details.",
+      "methods": [],
+      "displayName": "AboutSection"
+    }
+  ],
+  "./src/components/containers/CompatiblePartsCard.jsx": [
     {
       "description": "This is the card that contains all the compatible parts for the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
       "methods": [],
-      "displayName": "CompatiblePartsContainer",
+      "displayName": "CompatiblePartsCard",
       "props": {
         "className": {
           "description": "",
@@ -63,20 +70,18 @@
       }
     }
   ],
-  "./src/components/containers/SetupSuggestionContainer.jsx": [
+  "./src/components/containers/EngineCard.jsx": [
     {
-      "description": "",
+      "description": "This is the card that contains the dropdown for the engine choice\nas well as standard details about the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
       "methods": [],
-      "displayName": "SetupSuggestionContainer",
-      "props": {
-        "className": {
-          "description": "",
-          "type": {
-            "name": "string"
-          },
-          "required": false
-        }
-      }
+      "displayName": "EngineCard"
+    }
+  ],
+  "./src/components/sections/CalculatorSection.jsx": [
+    {
+      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
+      "methods": [],
+      "displayName": "CalculatorSection"
     }
   ],
   "./src/components/containers/PrePartsTableRow.jsx": [
@@ -95,18 +100,11 @@
       }
     }
   ],
-  "./src/components/containers/EngineContainer.jsx": [
-    {
-      "description": "This is the card that contains the dropdown for the engine choice\nas well as standard details about the\nchosen engine (if one has been chosen).\nUses CalculatorContext from CalculatorSection.",
-      "methods": [],
-      "displayName": "EngineContainer"
-    }
-  ],
-  "./src/components/containers/SelectedPartsContainer.jsx": [
+  "./src/components/containers/SelectedPartsCard.jsx": [
     {
       "description": "This is the card that contains all the selected parts\nthe user has selected (if they have selected any) and\nthe total stats of their tuning setup.\nUses CalculatorContext from CalculatorSection.",
       "methods": [],
-      "displayName": "SelectedPartsContainer",
+      "displayName": "SelectedPartsCard",
       "props": {
         "className": {
           "description": "",
@@ -118,25 +116,27 @@
       }
     }
   ],
-  "./src/components/sections/AboutSection.jsx": [
-    {
-      "description": "This section describes the project and\nlegal details.",
-      "methods": [],
-      "displayName": "AboutSection"
-    }
-  ],
-  "./src/components/sections/CalculatorSection.jsx": [
-    {
-      "description": "This section includes all the components necessary for the Calculator.\nUses CalculatorContext.",
-      "methods": [],
-      "displayName": "CalculatorSection"
-    }
-  ],
   "./src/components/sections/FooterInfoSection.jsx": [
     {
       "description": "The footer sections that provides links for suggestions and feedback",
       "methods": [],
       "displayName": "FooterInfoSection"
+    }
+  ],
+  "./src/components/containers/SetupSuggestionCard.jsx": [
+    {
+      "description": "",
+      "methods": [],
+      "displayName": "SetupSuggestionCard",
+      "props": {
+        "className": {
+          "description": "",
+          "type": {
+            "name": "string"
+          },
+          "required": false
+        }
+      }
     }
   ],
   "./src/components/sections/NavbarSection.jsx": [

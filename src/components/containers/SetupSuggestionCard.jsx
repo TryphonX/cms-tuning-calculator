@@ -7,7 +7,7 @@ import { calculateBestSolution as calculateBestSetup, getTunedPartByName } from 
 import { BsArrowRepeat, BsCalculator } from 'react-icons/bs';
 import { UpdateSelectedPartsEvent } from '../../modules/customEvents';
 
-const SetupSuggestionContainer = ({ className }) => {
+const SetupSuggestionCard = ({ className }) => {
 
 	const [targetBoost, setTargetBoost] = React.useState(0);
 	const [isCalculating, setIsCalculating] = React.useState(false);
@@ -148,8 +148,8 @@ const SetupSuggestionContainer = ({ className }) => {
 	);
 };
 
-SetupSuggestionContainer.propTypes = {
+SetupSuggestionCard.propTypes = {
 	className: PropTypes.string,
 };
 
-export default SetupSuggestionContainer;
+export default SetupSuggestionCard;

@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
  * Used before the tables in the CompatiblePartsContainer and SelectedPartsContainer.
  * Includes sorting choice and disclaimer for visibility on small screens.
  */
-const PrePartsTableRow = ({onSortByChange}) => {
+const PrePartsTableRow = ({ onSortByChange }) => {
 
 	return (
 		<Row className='justify-content-end mb-3'>

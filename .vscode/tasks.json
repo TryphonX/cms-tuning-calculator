@@ -1,0 +1,40 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "react-scripts start"
+		},
+		{
+			"type": "npm",
+			"script": "changelog",
+			"problemMatcher": [],
+			"label": "npm: changelog",
+			"detail": "auto-changelog --handlebars-setup ./changelog-config/setup.js && auto-changelog --handlebars-setup ./changelog-config/setup.js -o ./release-notes/RELEASE_NOTES.md -t ./changelog-config/release-notes.hbs"
+		},
+		{
+			"type": "npm",
+			"script": "docs",
+			"problemMatcher": [],
+			"label": "npm: docs",
+			"detail": "yarn run react-doc-gen && yarn run jsdoc-gen"
+		},
+		{
+			"type": "npm",
+			"script": "push-tags",
+			"problemMatcher": [],
+			"label": "npm: push-tags",
+			"detail": "git push --tags"
+		},
+		{
+			"type": "npm",
+			"script": "deploy",
+			"problemMatcher": [],
+			"label": "npm: deploy",
+			"detail": "gh-pages -d build"
+		}
+	]
+}

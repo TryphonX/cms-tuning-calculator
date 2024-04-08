@@ -1,0 +1,3938 @@
+{
+	"Air Filter": {
+		"name": "Air Filter",
+		"cost": 35,
+		"boost": 1,
+		"costToBoost": 35,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Air Filter (B6 M64.01)": {
+		"name": "Air Filter (B6 M64.01)",
+		"cost": 20,
+		"boost": 2,
+		"costToBoost": 10,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Air Filter (B6 M64.50)": {
+		"name": "Air Filter (B6 M64.50)",
+		"cost": 20,
+		"boost": 2,
+		"costToBoost": 10,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Air Filter (B6 MA1.03)": {
+		"name": "Air Filter (B6 MA1.03)",
+		"cost": 20,
+		"boost": 2,
+		"costToBoost": 10,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Air Filter (I4 B)": {
+		"name": "Air Filter (I4 B)",
+		"cost": 150,
+		"boost": 1.75,
+		"costToBoost": 85.71,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Air Filter (I4 DOHC TAE)": {
+		"name": "Air Filter (I4 DOHC TAE)",
+		"cost": 35,
+		"boost": 1.5,
+		"costToBoost": 23.33,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Air Filter (I6 B)": {
+		"name": "Air Filter (I6 B)",
+		"cost": 90,
+		"boost": 1.5,
+		"costToBoost": 60,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Air Filter (I6 L24)": {
+		"name": "Air Filter (I6 L24)",
+		"cost": 150,
+		"boost": 1.5,
+		"costToBoost": 100,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Air Filter (I6 XK)": {
+		"name": "Air Filter (I6 XK)",
+		"cost": 42,
+		"boost": 1,
+		"costToBoost": 42,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Air Filter (ROT 12A)": {
+		"name": "Air Filter (ROT 12A)",
+		"cost": 100,
+		"boost": 1.2,
+		"costToBoost": 83.33,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Air Filter (Type A)": {
+		"name": "Air Filter (Type A)",
+		"cost": 100,
+		"boost": 1.5,
+		"costToBoost": 66.67,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Air Filter (V10 980/01)": {
+		"name": "Air Filter (V10 980/01)",
+		"cost": 30,
+		"boost": 1,
+		"costToBoost": 30,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Air Filter (V12 HE)": {
+		"name": "Air Filter (V12 HE)",
+		"cost": 120,
+		"boost": 1,
+		"costToBoost": 120,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Air Filter (V12 M120)": {
+		"name": "Air Filter (V12 M120)",
+		"cost": 110,
+		"boost": 1,
+		"costToBoost": 110,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Air Filter (V8 M177)": {
+		"name": "Air Filter (V8 M177)",
+		"cost": 69,
+		"boost": 1,
+		"costToBoost": 69,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
+	"Air Filter (V8 DOHC CGM)": {
+		"name": "Air Filter (V8 DOHC CGM)",
+		"cost": 30,
+		"boost": 1.5,
+		"costToBoost": 20,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Air Filter (V8 OHV E)": {
+		"name": "Air Filter (V8 OHV E)",
+		"cost": 29,
+		"boost": 1.5,
+		"costToBoost": 19.33,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Air Filter (V8 OHV F)": {
+		"name": "Air Filter (V8 OHV F)",
+		"cost": 48,
+		"boost": 1.5,
+		"costToBoost": 32,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Air Filter (V8 SOHC FME)": {
+		"name": "Air Filter (V8 SOHC FME)",
+		"cost": 30,
+		"boost": 1.5,
+		"costToBoost": 20,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Air Intake Hose (V8 AJ133 SVR)": {
+		"name": "Air Intake Hose (V8 AJ133 SVR)",
+		"cost": 170,
+		"boost": 1,
+		"costToBoost": 170,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Alternator": {
+		"name": "Alternator",
+		"cost": 300,
+		"boost": 1.5,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Alternator (I6 B)": {
+		"name": "Alternator (I6 B)",
+		"cost": 400,
+		"boost": 1.5,
+		"costToBoost": 266.67,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Brake Disc Ventilated - Carbon Ceramic": {
+		"name": "Brake Disc Ventilated - Carbon Ceramic",
+		"cost": 600,
+		"boost": 4,
+		"costToBoost": 150,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Brake Disc Ventilated - Drilled": {
+		"name": "Brake Disc Ventilated - Drilled",
+		"cost": 200,
+		"boost": 1.5,
+		"costToBoost": 133.33,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Brake Disc Ventilated - Drilled and slotted": {
+		"name": "Brake Disc Ventilated - Drilled and slotted",
+		"cost": 400,
+		"boost": 3.5,
+		"costToBoost": 114.29,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Brake Disc Ventilated - Drilled and slotted B": {
+		"name": "Brake Disc Ventilated - Drilled and slotted B",
+		"cost": 480,
+		"boost": 3.5,
+		"costToBoost": 137.14,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Brake Disc Ventilated - Drilled B": {
+		"name": "Brake Disc Ventilated - Drilled B",
+		"cost": 240,
+		"boost": 1.5,
+		"costToBoost": 160,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Brake Disc Ventilated - Slotted": {
+		"name": "Brake Disc Ventilated - Slotted",
+		"cost": 200,
+		"boost": 2.5,
+		"costToBoost": 80,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Brake Disc Ventilated - Slotted B": {
+		"name": "Brake Disc Ventilated - Slotted B",
+		"cost": 240,
+		"boost": 2.5,
+		"costToBoost": 96,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Brake Disc Ventilated B": {
+		"name": "Brake Disc Ventilated B",
+		"cost": 120,
+		"boost": 1,
+		"costToBoost": 120,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Cables A (eDen-1H)": {
+		"name": "Cables A (eDen-1H)",
+		"cost": 150,
+		"boost": 2,
+		"costToBoost": 75,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Cables A (Proton e-R)": {
+		"name": "Cables A (Proton e-R)",
+		"cost": 150,
+		"boost": 2,
+		"costToBoost": 75,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Cables B (eDen-1H)": {
+		"name": "Cables B (eDen-1H)",
+		"cost": 150,
+		"boost": 2,
+		"costToBoost": 75,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Cables B (Proton e-R)": {
+		"name": "Cables B (Proton e-R)",
+		"cost": 150,
+		"boost": 2,
+		"costToBoost": 75,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Cables C (eDen-1H)": {
+		"name": "Cables C (eDen-1H)",
+		"cost": 150,
+		"boost": 2,
+		"costToBoost": 75,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Camshaft": {
+		"name": "Camshaft",
+		"cost": 600,
+		"boost": 3,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Camshaft (B6 M64)": {
+		"name": "Camshaft (B6 M64)",
+		"cost": 500,
+		"boost": 0.5,
+		"costToBoost": 1000,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Camshaft (B6 MA 1.03)": {
+		"name": "Camshaft (B6 MA 1.03)",
+		"cost": 500,
+		"boost": 0.5,
+		"costToBoost": 1000,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Camshaft (I3)": {
+		"name": "Camshaft (I3)",
+		"cost": 440,
+		"boost": 2.5,
+		"costToBoost": 176,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Camshaft (I4 B)": {
+		"name": "Camshaft (I4 B)",
+		"cost": 500,
+		"boost": 3,
+		"costToBoost": 166.67,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Camshaft (I4 K-Series)": {
+		"name": "Camshaft (I4 K-Series)",
+		"cost": 400,
+		"boost": 3,
+		"costToBoost": 133.33,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Camshaft (I4 SOHC D)": {
+		"name": "Camshaft (I4 SOHC D)",
+		"cost": 245,
+		"boost": 1.75,
+		"costToBoost": 140,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft (I4 SOHC)": {
+		"name": "Camshaft (I4 SOHC)",
+		"cost": 550,
+		"boost": 2.75,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Camshaft (I4 SR20)": {
+		"name": "Camshaft (I4 SR20)",
+		"cost": 384,
+		"boost": 1.75,
+		"costToBoost": 219.43,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Camshaft (I6 B)": {
+		"name": "Camshaft (I6 B)",
+		"cost": 360,
+		"boost": 3,
+		"costToBoost": 120,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Camshaft (I6 DOHC BU2 T)": {
+		"name": "Camshaft (I6 DOHC BU2 T)",
+		"cost": 407,
+		"boost": 1.75,
+		"costToBoost": 232.57,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft (I6 DOHC FMW)": {
+		"name": "Camshaft (I6 DOHC FMW)",
+		"cost": 435,
+		"boost": 1.75,
+		"costToBoost": 248.57,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft (I6 L24)": {
+		"name": "Camshaft (I6 L24)",
+		"cost": 500,
+		"boost": 1.75,
+		"costToBoost": 285.71,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Camshaft (I6 XK)": {
+		"name": "Camshaft (I6 XK)",
+		"cost": 500,
+		"boost": 1.75,
+		"costToBoost": 285.71,
+		"version": "1.0.20",
+		"dlc": "Jaguar"
+	},
+	"Camshaft (I6)": {
+		"name": "Camshaft (I6)",
+		"cost": 650,
+		"boost": 3.25,
+		"costToBoost": 200,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Camshaft (V10 980/01)": {
+		"name": "Camshaft (V10 980/01)",
+		"cost": 500,
+		"boost": 1,
+		"costToBoost": 500,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Camshaft (V12 HE)": {
+		"name": "Camshaft (V12 HE)",
+		"cost": 333,
+		"boost": 1,
+		"costToBoost": 333,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Camshaft (V12 M158)": {
+		"name": "Camshaft (V12 M158)",
+		"cost": 1,
+		"boost": 3,
+		"costToBoost": 333.33,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Camshaft (V12)": {
+		"name": "Camshaft (V12)",
+		"cost": 1,
+		"boost": 3,
+		"costToBoost": 333.33,
+		"version": "1.0.15",
+		"dlc": ""
+	},
+	"Camshaft (V6 B)": {
+		"name": "Camshaft (V6 B)",
+		"cost": 400,
+		"boost": 1,
+		"costToBoost": 400,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Camshaft (V8 DOHC CGM)": {
+		"name": "Camshaft (V8 DOHC CGM)",
+		"cost": 230,
+		"boost": 1.5,
+		"costToBoost": 153.33,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft (V8 OHV B)": {
+		"name": "Camshaft (V8 OHV B)",
+		"cost": 225,
+		"boost": 1.5,
+		"costToBoost": 150,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft (V8 OHV C)": {
+		"name": "Camshaft (V8 OHV C)",
+		"cost": 200,
+		"boost": 2.75,
+		"costToBoost": 72.73,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Camshaft (V8 OHV F)": {
+		"name": "Camshaft (V8 OHV F)",
+		"cost": 215,
+		"boost": 1.5,
+		"costToBoost": 143.33,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft (V8 OHV)": {
+		"name": "Camshaft (V8 OHV)",
+		"cost": 550,
+		"boost": 2.75,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Camshaft (V8 SOHC FME)": {
+		"name": "Camshaft (V8 SOHC FME)",
+		"cost": 225,
+		"boost": 1.75,
+		"costToBoost": 128.57,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft (V8)": {
+		"name": "Camshaft (V8)",
+		"cost": 660,
+		"boost": 3.3,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Camshaft A (I4 DOHC TAE)": {
+		"name": "Camshaft A (I4 DOHC TAE)",
+		"cost": 350,
+		"boost": 1.75,
+		"costToBoost": 200,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft A (I4 DT224)": {
+		"name": "Camshaft A (I4 DT224)",
+		"cost": 280,
+		"boost": 2,
+		"costToBoost": 140,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Camshaft A (I5 DOHC ADI)": {
+		"name": "Camshaft A (I5 DOHC ADI)",
+		"cost": 375,
+		"boost": 1.75,
+		"costToBoost": 214.29,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft A (V6 AJD)": {
+		"name": "Camshaft A (V6 AJD)",
+		"cost": 345,
+		"boost": 1.75,
+		"costToBoost": 197.14,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Camshaft A (V6 DOHC AKY)": {
+		"name": "Camshaft A (V6 DOHC AKY)",
+		"cost": 450,
+		"boost": 1.75,
+		"costToBoost": 257.14,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft A (V6 TWR JV6)": {
+		"name": "Camshaft A (V6 TWR JV6)",
+		"cost": 403,
+		"boost": 1.5,
+		"costToBoost": 268.67,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Camshaft A (V6 VQ37VHR)": {
+		"name": "Camshaft A (V6 VQ37VHR)",
+		"cost": 468,
+		"boost": 1.75,
+		"costToBoost": 267.43,
+		"version": "1.0.20",
+		"dlc": "Nissan"
+	},
+	"Camshaft A (V8 AJ133)": {
+		"name": "Camshaft A (V8 AJ133)",
+		"cost": 457,
+		"boost": 1,
+		"costToBoost": 457,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Camshaft B (I4 DOHC TAE)": {
+		"name": "Camshaft B (I4 DOHC TAE)",
+		"cost": 350,
+		"boost": 1.75,
+		"costToBoost": 200,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft B (I4 DT224)": {
+		"name": "Camshaft B (I4 DT224)",
+		"cost": 280,
+		"boost": 2,
+		"costToBoost": 140,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Camshaft B (I5 DOHC ADI)": {
+		"name": "Camshaft B (I5 DOHC ADI)",
+		"cost": 375,
+		"boost": 1.75,
+		"costToBoost": 214.29,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft B (V6 AJD)": {
+		"name": "Camshaft B (V6 AJD)",
+		"cost": 345,
+		"boost": 1.75,
+		"costToBoost": 197.14,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Camshaft B (V6 DOHC AKY)": {
+		"name": "Camshaft B (V6 DOHC AKY)",
+		"cost": 450,
+		"boost": 1.75,
+		"costToBoost": 257.14,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Camshaft B (V6 TWR JV6)": {
+		"name": "Camshaft B (V6 TWR JV6)",
+		"cost": 403,
+		"boost": 1.5,
+		"costToBoost": 268.67,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Camshaft B (V6 VQ37VHR)": {
+		"name": "Camshaft B (V6 VQ37VHR)",
+		"cost": 468,
+		"boost": 1.75,
+		"costToBoost": 267.43,
+		"version": "1.0.20",
+		"dlc": "Nissan"
+	},
+	"Camshaft B (V8 AJ133)": {
+		"name": "Camshaft B (V8 AJ133)",
+		"cost": 457,
+		"boost": 1,
+		"costToBoost": 457,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Camshaft C (V6 AJD)": {
+		"name": "Camshaft C (V6 AJD)",
+		"cost": 345,
+		"boost": 1.75,
+		"costToBoost": 197.14,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Camshaft D (V6 AJD)": {
+		"name": "Camshaft D (V6 AJD)",
+		"cost": 374,
+		"boost": 1.75,
+		"costToBoost": 213.71,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Carburetor (2-barrel side draft)": {
+		"name": "Carburetor (2-barrel side draft)",
+		"cost": 230,
+		"boost": 7,
+		"costToBoost": 32.86,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Carburetor (4-barrel)": {
+		"name": "Carburetor (4-barrel)",
+		"cost": 375,
+		"boost": 12,
+		"costToBoost": 31.25,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Carburetor (I6 B)": {
+		"name": "Carburetor (I6 B)",
+		"cost": 210,
+		"boost": 3,
+		"costToBoost": 70,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Carburetor (I6 L24)": {
+		"name": "Carburetor (I6 L24)",
+		"cost": 486,
+		"boost": 4,
+		"costToBoost": 121.5,
+		"version": "1.0.9",
+		"dlc": "Nissan"
+	},
+	"Carburetor (I6 XK)": {
+		"name": "Carburetor (I6 XK)",
+		"cost": 1050,
+		"boost": 2.5,
+		"costToBoost": 420,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Carburetor (V8 OHV F)": {
+		"name": "Carburetor (V8 OHV F)",
+		"cost": 310,
+		"boost": 6,
+		"costToBoost": 51.67,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Carburetor A (V8 OHV B)": {
+		"name": "Carburetor A (V8 OHV B)",
+		"cost": 308,
+		"boost": 3,
+		"costToBoost": 102.67,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Carburetor B (V8 OHV B)": {
+		"name": "Carburetor B (V8 OHV B)",
+		"cost": 308,
+		"boost": 3,
+		"costToBoost": 102.67,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Carburetor B (V8 OHV E)": {
+		"name": "Carburetor B (V8 OHV E)",
+		"cost": 350,
+		"boost": 5,
+		"costToBoost": 70,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Carburetor C (V8 OHV E)": {
+		"name": "Carburetor C (V8 OHV E)",
+		"cost": 350,
+		"boost": 5,
+		"costToBoost": 70,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Catalytic Converter": {
+		"name": "Catalytic Converter",
+		"cost": 350,
+		"boost": 1.75,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Charger (eDen-1H)": {
+		"name": "Charger (eDen-1H)",
+		"cost": 978,
+		"boost": 3,
+		"costToBoost": 326,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Charger (Proton e-R)": {
+		"name": "Charger (Proton e-R)",
+		"cost": 905,
+		"boost": 3,
+		"costToBoost": 301.67,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Charging Inductor (Proton e-R)": {
+		"name": "Charging Inductor (Proton e-R)",
+		"cost": 274,
+		"boost": 0.75,
+		"costToBoost": 365.33,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Charging Rectifier (CHRG-e E1)": {
+		"name": "Charging Rectifier (CHRG-e E1)",
+		"cost": 105,
+		"boost": 0.75,
+		"costToBoost": 140,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Charging Rectifier (Proton e-R)": {
+		"name": "Charging Rectifier (Proton e-R)",
+		"cost": 105,
+		"boost": 0.75,
+		"costToBoost": 140,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Clutch Plate (V10 980/01)": {
+		"name": "Clutch Plate (V10 980/01)",
+		"cost": 180,
+		"boost": 1.75,
+		"costToBoost": 102.86,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Clutch Plate": {
+		"name": "Clutch Plate",
+		"cost": 350,
+		"boost": 1.75,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Clutch Pressure Plate": {
+		"name": "Clutch Pressure Plate",
+		"cost": 180,
+		"boost": 0.9,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Coil Pack (V12 M158)": {
+		"name": "Coil Pack (V12 M158)",
+		"cost": 1100,
+		"boost": 3,
+		"costToBoost": 366.67,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Converter (CHRG-e E1)": {
+		"name": "Converter (CHRG-e E1)",
+		"cost": 247,
+		"boost": 0.75,
+		"costToBoost": 329.33,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Converter (Proton e-R)": {
+		"name": "Converter (Proton e-R)",
+		"cost": 267,
+		"boost": 0.75,
+		"costToBoost": 356,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Engine Cylinder (B6 M64)": {
+		"name": "Engine Cylinder (B6 M64)",
+		"cost": 600,
+		"boost": 3,
+		"costToBoost": 200,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Engine Head (B6 M64)": {
+		"name": "Engine Head (B6 M64)",
+		"cost": 1800,
+		"boost": 3,
+		"costToBoost": 600,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Engine Head (I3)": {
+		"name": "Engine Head (I3)",
+		"cost": 1700,
+		"boost": 7,
+		"costToBoost": 242.86,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I4 204PT)": {
+		"name": "Engine Head (I4 204PT)",
+		"cost": 1725,
+		"boost": 7,
+		"costToBoost": 246.43,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Engine Head (I4 B)": {
+		"name": "Engine Head (I4 B)",
+		"cost": 2500,
+		"boost": 10,
+		"costToBoost": 250,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I4 DOHC TAE)": {
+		"name": "Engine Head (I4 DOHC TAE)",
+		"cost": 1800,
+		"boost": 3,
+		"costToBoost": 600,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I4 DT224)": {
+		"name": "Engine Head (I4 DT224)",
+		"cost": 1850,
+		"boost": 5,
+		"costToBoost": 370,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Engine Head (I4 K-Series)": {
+		"name": "Engine Head (I4 K-Series)",
+		"cost": 1600,
+		"boost": 5,
+		"costToBoost": 320,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Engine Head (I4 SOHC D)": {
+		"name": "Engine Head (I4 SOHC D)",
+		"cost": 1872,
+		"boost": 3,
+		"costToBoost": 624,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I4 SOHC)": {
+		"name": "Engine Head (I4 SOHC)",
+		"cost": 1,
+		"boost": 5,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I4 SR20)": {
+		"name": "Engine Head (I4 SR20)",
+		"cost": 1973,
+		"boost": 3,
+		"costToBoost": 657.67,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Engine Head (I4)": {
+		"name": "Engine Head (I4)",
+		"cost": 1400,
+		"boost": 7,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I5 DOHC ADI)": {
+		"name": "Engine Head (I5 DOHC ADI)",
+		"cost": 1400,
+		"boost": 3,
+		"costToBoost": 466.67,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I6 B)": {
+		"name": "Engine Head (I6 B)",
+		"cost": 1350,
+		"boost": 8,
+		"costToBoost": 168.75,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I6 DOHC BU2 T)": {
+		"name": "Engine Head (I6 DOHC BU2 T)",
+		"cost": 1841,
+		"boost": 3,
+		"costToBoost": 613.67,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I6 DOHC FMW)": {
+		"name": "Engine Head (I6 DOHC FMW)",
+		"cost": 1800,
+		"boost": 3,
+		"costToBoost": 600,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (I6 L24)": {
+		"name": "Engine Head (I6 L24)",
+		"cost": 1800,
+		"boost": 3,
+		"costToBoost": 600,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Engine Head (I6 XK)": {
+		"name": "Engine Head (I6 XK)",
+		"cost": 1480,
+		"boost": 10,
+		"costToBoost": 148,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Engine Head (I6)": {
+		"name": "Engine Head (I6)",
+		"cost": 1400,
+		"boost": 10,
+		"costToBoost": 140,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Engine Head (V8 OHV F)": {
+		"name": "Engine Head (V8 OHV F)",
+		"cost": 1734,
+		"boost": 3,
+		"costToBoost": 578,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (V8 OHV)": {
+		"name": "Engine Head (V8 OHV)",
+		"cost": 800,
+		"boost": 9,
+		"costToBoost": 88.89,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head (V8)": {
+		"name": "Engine Head (V8)",
+		"cost": 2,
+		"boost": 10,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head A (B6 MA 1.03)": {
+		"name": "Engine Head A (B6 MA 1.03)",
+		"cost": 1800,
+		"boost": 6,
+		"costToBoost": 300,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Engine Head A (I4 907)": {
+		"name": "Engine Head A (I4 907)",
+		"cost": 1600,
+		"boost": 2,
+		"costToBoost": 800,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Engine Head A (V10 980/01)": {
+		"name": "Engine Head A (V10 980/01)",
+		"cost": 1800,
+		"boost": 5,
+		"costToBoost": 360,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Engine Head A (V12 HE)": {
+		"name": "Engine Head A (V12 HE)",
+		"cost": 2508,
+		"boost": 8,
+		"costToBoost": 313.5,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Engine Head A (V12 M158)": {
+		"name": "Engine Head A (V12 M158)",
+		"cost": 3400,
+		"boost": 7,
+		"costToBoost": 485,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Engine Head A (V12)": {
+		"name": "Engine Head A (V12)",
+		"cost": 4400,
+		"boost": 7,
+		"costToBoost": 628.57,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Engine Head A (V6 AJD)": {
+		"name": "Engine Head A (V6 AJD)",
+		"cost": 2350,
+		"boost": 7,
+		"costToBoost": 335,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Engine Head A (V6 B)": {
+		"name": "Engine Head A (V6 B)",
+		"cost": 1600,
+		"boost": 7,
+		"costToBoost": 228,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head A (V6 DOHC AKY)": {
+		"name": "Engine Head A (V6 DOHC AKY)",
+		"cost": 1750,
+		"boost": 3,
+		"costToBoost": 583,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head A (V6 TWR JV6)": {
+		"name": "Engine Head A (V6 TWR JV6)",
+		"cost": 2010,
+		"boost": 8,
+		"costToBoost": 251,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Engine Head A (V6 VQ37VHR)": {
+		"name": "Engine Head A (V6 VQ37VHR)",
+		"cost": 2077,
+		"boost": 3,
+		"costToBoost": 692,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Engine Head A (V8 AJ133)": {
+		"name": "Engine Head A (V8 AJ133)",
+		"cost": 2355,
+		"boost": 10,
+		"costToBoost": 235,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Engine Head A (V8 DOHC CGM)": {
+		"name": "Engine Head A (V8 DOHC CGM)",
+		"cost": 1800,
+		"boost": 3,
+		"costToBoost": 600,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head A (V8 OHV B)": {
+		"name": "Engine Head A (V8 OHV B)",
+		"cost": 1400,
+		"boost": 6.5,
+		"costToBoost": 215,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Engine Head A (V8 OHV D)": {
+		"name": "Engine Head A (V8 OHV D)",
+		"cost": 1450,
+		"boost": 5.5,
+		"costToBoost": 263.6,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Engine Head A (V8 SOHC FME)": {
+		"name": "Engine Head A (V8 SOHC FME)",
+		"cost": 1800,
+		"boost": 3,
+		"costToBoost": 600,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head B (B6 MA 1.03)": {
+		"name": "Engine Head B (B6 MA 1.03)",
+		"cost": 1800,
+		"boost": 6,
+		"costToBoost": 300,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Engine Head B (I3)": {
+		"name": "Engine Head B (I3)",
+		"cost": 1900,
+		"boost": 7,
+		"costToBoost": 271,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head B (I4 907)": {
+		"name": "Engine Head B (I4 907)",
+		"cost": 1600,
+		"boost": 3,
+		"costToBoost": 533,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Engine Head B (V10 980/01)": {
+		"name": "Engine Head B (V10 980/01)",
+		"cost": 1800,
+		"boost": 5,
+		"costToBoost": 360,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Engine Head B (V12 HE)": {
+		"name": "Engine Head B (V12 HE)",
+		"cost": 2508,
+		"boost": 8,
+		"costToBoost": 313,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Engine Head B (V12 M158)": {
+		"name": "Engine Head B (V12 M158)",
+		"cost": 3400,
+		"boost": 7,
+		"costToBoost": 485.71,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Engine Head B (V12)": {
+		"name": "Engine Head B (V12)",
+		"cost": 4400,
+		"boost": 7,
+		"costToBoost": 628.57,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Engine Head B (V6 AJD)": {
+		"name": "Engine Head B (V6 AJD)",
+		"cost": 2350,
+		"boost": 7,
+		"costToBoost": 335,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Engine Head B (V6 B)": {
+		"name": "Engine Head B (V6 B)",
+		"cost": 1600,
+		"boost": 7,
+		"costToBoost": 228,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head B (V6 DOHC AKY)": {
+		"name": "Engine Head B (V6 DOHC AKY)",
+		"cost": 1750,
+		"boost": 3,
+		"costToBoost": 583,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head B (V6 TWR JV6)": {
+		"name": "Engine Head B (V6 TWR JV6)",
+		"cost": 2510,
+		"boost": 8,
+		"costToBoost": 313,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Engine Head B (V6 VQ37VHR)": {
+		"name": "Engine Head B (V6 VQ37VHR)",
+		"cost": 1800,
+		"boost": 3,
+		"costToBoost": 600,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Engine Head B (V8 AJ133)": {
+		"name": "Engine Head B (V8 AJ133)",
+		"cost": 2355,
+		"boost": 10,
+		"costToBoost": 235,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Engine Head B (V8 DOHC CGM)": {
+		"name": "Engine Head B (V8 DOHC CGM)",
+		"cost": 1800,
+		"boost": 3,
+		"costToBoost": 600,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head B (V8 OHV B)": {
+		"name": "Engine Head B (V8 OHV B)",
+		"cost": 1400,
+		"boost": 6.5,
+		"costToBoost": 215,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Engine Head B (V8 OHV D)": {
+		"name": "Engine Head B (V8 OHV D)",
+		"cost": 1400,
+		"boost": 6.5,
+		"costToBoost": 215,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Engine Head B (V8 SOHC FME)": {
+		"name": "Engine Head B (V8 SOHC FME)",
+		"cost": 1800,
+		"boost": 3,
+		"costToBoost": 600,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Engine Head C (I4 907)": {
+		"name": "Engine Head C (I4 907)",
+		"cost": 1600,
+		"boost": 3,
+		"costToBoost": 533,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"EV Battery Module": {
+		"name": "EV Battery Module",
+		"cost": 2121,
+		"boost": 2,
+		"costToBoost": 1060.5,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Exhaust Manifold": {
+		"name": "Exhaust Manifold",
+		"cost": 150,
+		"boost": 3,
+		"costToBoost": 50,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (B6 M64)": {
+		"name": "Exhaust Manifold (B6 M64)",
+		"cost": 240,
+		"boost": 4,
+		"costToBoost": 60,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Exhaust Manifold (I3)": {
+		"name": "Exhaust Manifold (I3)",
+		"cost": 375,
+		"boost": 3,
+		"costToBoost": 125,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (I4 907)": {
+		"name": "Exhaust Manifold (I4 907)",
+		"cost": 200,
+		"boost": 4,
+		"costToBoost": 50,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Exhaust Manifold (I4 B)": {
+		"name": "Exhaust Manifold (I4 B)",
+		"cost": 160,
+		"boost": 4,
+		"costToBoost": 40,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (I4 DOHC TAE)": {
+		"name": "Exhaust Manifold (I4 DOHC TAE)",
+		"cost": 472,
+		"boost": 4,
+		"costToBoost": 118,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (I4 DT224)": {
+		"name": "Exhaust Manifold (I4 DT224)",
+		"cost": 220,
+		"boost": 2,
+		"costToBoost": 110,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Exhaust Manifold (I4 K-Series)": {
+		"name": "Exhaust Manifold (I4 K-Series)",
+		"cost": 200,
+		"boost": 2.5,
+		"costToBoost": 80,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Exhaust Manifold (I4 SOHC D)": {
+		"name": "Exhaust Manifold (I4 SOHC D)",
+		"cost": 351,
+		"boost": 4,
+		"costToBoost": 87.75,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (I4 SOHC)": {
+		"name": "Exhaust Manifold (I4 SOHC)",
+		"cost": 170,
+		"boost": 1.5,
+		"costToBoost": 113.33,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (I4 SR20)": {
+		"name": "Exhaust Manifold (I4 SR20)",
+		"cost": 245,
+		"boost": 4,
+		"costToBoost": 61.25,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Exhaust Manifold (I4 TURBO)": {
+		"name": "Exhaust Manifold (I4 TURBO)",
+		"cost": 210,
+		"boost": 1.05,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (I5 DOHC ADI)": {
+		"name": "Exhaust Manifold (I5 DOHC ADI)",
+		"cost": 247,
+		"boost": 4,
+		"costToBoost": 61.75,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (I6 B)": {
+		"name": "Exhaust Manifold (I6 B)",
+		"cost": 80,
+		"boost": 3,
+		"costToBoost": 26.67,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (I6 DOHC BU2 T)": {
+		"name": "Exhaust Manifold (I6 DOHC BU2 T)",
+		"cost": 117,
+		"boost": 4,
+		"costToBoost": 29.25,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (I6 L24)": {
+		"name": "Exhaust Manifold (I6 L24)",
+		"cost": 348,
+		"boost": 4,
+		"costToBoost": 87,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Exhaust Manifold (I6 XK)": {
+		"name": "Exhaust Manifold (I6 XK)",
+		"cost": 150,
+		"boost": 3.5,
+		"costToBoost": 42,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Exhaust Manifold (I6)": {
+		"name": "Exhaust Manifold (I6)",
+		"cost": 130,
+		"boost": 0.65,
+		"costToBoost": 200,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Exhaust Manifold (ROT 13B-REW)": {
+		"name": "Exhaust Manifold (ROT 13B-REW)",
+		"cost": 290,
+		"boost": 1.65,
+		"costToBoost": 175.76,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Exhaust Manifold (V10 980/01)": {
+		"name": "Exhaust Manifold (V10 980/01)",
+		"cost": 240,
+		"boost": 4,
+		"costToBoost": 60,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Exhaust Manifold (V6 B)": {
+		"name": "Exhaust Manifold (V6 B)",
+		"cost": 180,
+		"boost": 4,
+		"costToBoost": 45,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (V8 AJ133)": {
+		"name": "Exhaust Manifold (V8 AJ133)",
+		"cost": 364,
+		"boost": 2.5,
+		"costToBoost": 145.6,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Exhaust Manifold (V8 OHV B)": {
+		"name": "Exhaust Manifold (V8 OHV B)",
+		"cost": 148,
+		"boost": 3,
+		"costToBoost": 49.3,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Exhaust Manifold (V8 OHV D)": {
+		"name": "Exhaust Manifold (V8 OHV D)",
+		"cost": 350,
+		"boost": 2.5,
+		"costToBoost": 140,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (V8 OHV F)": {
+		"name": "Exhaust Manifold (V8 OHV F)",
+		"cost": 240,
+		"boost": 4,
+		"costToBoost": 60,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (V8 OHV)": {
+		"name": "Exhaust Manifold (V8 OHV)",
+		"cost": 160,
+		"boost": 0.8,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold (V8)": {
+		"name": "Exhaust Manifold (V8)",
+		"cost": 330,
+		"boost": 1.65,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold A (I6 DOHC BU2)": {
+		"name": "Exhaust Manifold A (I6 DOHC BU2)",
+		"cost": 173,
+		"boost": 4,
+		"costToBoost": 43.25,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold A (I6 DOHC FMW)": {
+		"name": "Exhaust Manifold A (I6 DOHC FMW)",
+		"cost": 207,
+		"boost": 4,
+		"costToBoost": 51.75,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold A (V12 HE)": {
+		"name": "Exhaust Manifold A (V12 HE)",
+		"cost": 324,
+		"boost": 4,
+		"costToBoost": 81,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Exhaust Manifold A (V12 M120)": {
+		"name": "Exhaust Manifold A (V12 M120)",
+		"cost": 440,
+		"boost": 2,
+		"costToBoost": 220,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Exhaust Manifold A (V12)": {
+		"name": "Exhaust Manifold A (V12)",
+		"cost": 240,
+		"boost": 4,
+		"costToBoost": 60,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold A (V6 DOHC AKY)": {
+		"name": "Exhaust Manifold A (V6 DOHC AKY)",
+		"cost": 200,
+		"boost": 4,
+		"costToBoost": 50,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold A (V6 VQ37VHR)": {
+		"name": "Exhaust Manifold A (V6 VQ37VHR)",
+		"cost": 240,
+		"boost": 4,
+		"costToBoost": 60,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Exhaust Manifold A (V8 DOHC CGM)": {
+		"name": "Exhaust Manifold A (V8 DOHC CGM)",
+		"cost": 175,
+		"boost": 3.5,
+		"costToBoost": 50,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Exhaust Manifold A (V8 SOHC FME)": {
+		"name": "Exhaust Manifold A (V8 SOHC FME)",
+		"cost": 240,
+		"boost": 4,
+		"costToBoost": 60,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold B (I6 DOHC BU2)": {
+		"name": "Exhaust Manifold B (I6 DOHC BU2)",
+		"cost": 173,
+		"boost": 4,
+		"costToBoost": 43.25,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold B (I6 DOHC FMW)": {
+		"name": "Exhaust Manifold B (I6 DOHC FMW)",
+		"cost": 207,
+		"boost": 4,
+		"costToBoost": 51.75,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Manifold B (V12 HE)": {
+		"name": "Exhaust Manifold B (V12 HE)",
+		"cost": 361,
+		"boost": 4,
+		"costToBoost": 90.25,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Exhaust Manifold B (V12 M120)": {
+		"name": "Exhaust Manifold B (V12 M120)",
+		"cost": 440,
+		"boost": 2,
+		"costToBoost": 220,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Exhaust Manifold B (V12)": {
+		"name": "Exhaust Manifold B (V12)",
+		"cost": 240,
+		"boost": 4,
+		"costToBoost": 60,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Pipe": {
+		"name": "Exhaust Pipe",
+		"cost": 180,
+		"boost": 0.9,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Exhaust Pipe B": {
+		"name": "Exhaust Pipe B",
+		"cost": 120,
+		"boost": 1.5,
+		"costToBoost": 80,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Exhaust Pipe C": {
+		"name": "Exhaust Pipe C",
+		"cost": 140,
+		"boost": 1,
+		"costToBoost": 140,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Flywheel": {
+		"name": "Flywheel",
+		"cost": 650,
+		"boost": 3.25,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Pipe (V8 OHV)": {
+		"name": "Front Exhaust Pipe (V8 OHV)",
+		"cost": 170,
+		"boost": 2,
+		"costToBoost": 85,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Pipe (V8 OHV) A": {
+		"name": "Front Exhaust Pipe (V8 OHV) A",
+		"cost": 83,
+		"boost": 2,
+		"costToBoost": 41.5,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Pipe (V8 OHV) B": {
+		"name": "Front Exhaust Pipe (V8 OHV) B",
+		"cost": 83,
+		"boost": 3,
+		"costToBoost": 27.6,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Pipe (V8 OHV) C": {
+		"name": "Front Exhaust Pipe (V8 OHV) C",
+		"cost": 83,
+		"boost": 2,
+		"costToBoost": 41.5,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Pipe (V8)": {
+		"name": "Front Exhaust Pipe (V8)",
+		"cost": 300,
+		"boost": 1.5,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Pipe (V8) A": {
+		"name": "Front Exhaust Pipe (V8) A",
+		"cost": 120,
+		"boost": 2.5,
+		"costToBoost": 48,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Pipe (V8) B": {
+		"name": "Front Exhaust Pipe (V8) B",
+		"cost": 120,
+		"boost": 2.5,
+		"costToBoost": 48,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Pipe (V8) C": {
+		"name": "Front Exhaust Pipe (V8) C",
+		"cost": 120,
+		"boost": 2.5,
+		"costToBoost": 48,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Pipe B (V8)": {
+		"name": "Front Exhaust Pipe B (V8)",
+		"cost": 280,
+		"boost": 1.4,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section": {
+		"name": "Front Exhaust Section",
+		"cost": 180,
+		"boost": 0.9,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section (964 RS)": {
+		"name": "Front Exhaust Section (964 RS)",
+		"cost": 800,
+		"boost": 2,
+		"costToBoost": 400,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Front Exhaust Section (Carrera GT)": {
+		"name": "Front Exhaust Section (Carrera GT)",
+		"cost": 600,
+		"boost": 1.5,
+		"costToBoost": 400,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Front Exhaust Section (I4 204PT)": {
+		"name": "Front Exhaust Section (I4 204PT)",
+		"cost": 450,
+		"boost": 1.75,
+		"costToBoost": 257,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Front Exhaust Section (I4 SOHC TAE)": {
+		"name": "Front Exhaust Section (I4 SOHC TAE)",
+		"cost": 180,
+		"boost": 1.5,
+		"costToBoost": 120,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section (I4 DT224)": {
+		"name": "Front Exhaust Section (I4 DT224)",
+		"cost": 480,
+		"boost": 2,
+		"costToBoost": 240,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Front Exhaust Section (I4 SOHC D)": {
+		"name": "Front Exhaust Section (I4 SOHC D)",
+		"cost": 195,
+		"boost": 1.5,
+		"costToBoost": 130,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section (I4 SOHC)": {
+		"name": "Front Exhaust Section (I4 SOHC)",
+		"cost": 135,
+		"boost": 1.5,
+		"costToBoost": 90,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section (I4 SR20)": {
+		"name": "Front Exhaust Section (I4 SR20)",
+		"cost": 375,
+		"boost": 1.5,
+		"costToBoost": 250,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Front Exhaust Section (I5 DOHC ADI)": {
+		"name": "Front Exhaust Section (I5 DOHC ADI)",
+		"cost": 255,
+		"boost": 2,
+		"costToBoost": 127.5,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section (I6 B)": {
+		"name": "Front Exhaust Section (I6 B)",
+		"cost": 160,
+		"boost": 1,
+		"costToBoost": 160,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section (I6 DOHC FMW)": {
+		"name": "Front Exhaust Section (I6 DOHC FMW)",
+		"cost": 215,
+		"boost": 2,
+		"costToBoost": 107.5,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section (I6 L24)": {
+		"name": "Front Exhaust Section (I6 L24)",
+		"cost": 323,
+		"boost": 1.65,
+		"costToBoost": 195.75,
+		"version": "1.0.20",
+		"dlc": "Nissan"
+	},
+	"Front Exhaust Section (I6)": {
+		"name": "Front Exhaust Section (I6)",
+		"cost": 400,
+		"boost": 2,
+		"costToBoost": 200,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Front Exhaust Section (ROT 12A)": {
+		"name": "Front Exhaust Section (ROT 12A)",
+		"cost": 120,
+		"boost": 2,
+		"costToBoost": 60,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Front Exhaust Section (ROT 13B-REW)": {
+		"name": "Front Exhaust Section (ROT 13B-REW)",
+		"cost": 120,
+		"boost": 3,
+		"costToBoost": 40,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Front Exhaust Section (TURBO)": {
+		"name": "Front Exhaust Section (TURBO)",
+		"cost": 220,
+		"boost": 1.1,
+		"costToBoost": 200,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section (V8 OHV B)": {
+		"name": "Front Exhaust Section (V8 OHV B)",
+		"cost": 120,
+		"boost": 2.5,
+		"costToBoost": 48,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section (V8 OHV D)": {
+		"name": "Front Exhaust Section (V8 OHV D)",
+		"cost": 180,
+		"boost": 2,
+		"costToBoost": 90,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section (V8 OHV F)": {
+		"name": "Front Exhaust Section (V8 OHV F)",
+		"cost": 120,
+		"boost": 2,
+		"costToBoost": 60,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section (XJS)": {
+		"name": "Front Exhaust Section (XJS)",
+		"cost": 412,
+		"boost": 2.5,
+		"costToBoost": 164.8,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Front Exhaust Section A (E-Type)": {
+		"name": "Front Exhaust Section A (E-Type)",
+		"cost": 315,
+		"boost": 2,
+		"costToBoost": 157.5,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Front Exhaust Section A (F-Type)": {
+		"name": "Front Exhaust Section A (F-Type)",
+		"cost": 478,
+		"boost": 1.5,
+		"costToBoost": 318,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Front Exhaust Section A (I3)": {
+		"name": "Front Exhaust Section A (I3)",
+		"cost": 160,
+		"boost": 2,
+		"costToBoost": 80,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section A (I4 B)": {
+		"name": "Front Exhaust Section A (I4 B)",
+		"cost": 120,
+		"boost": 1.5,
+		"costToBoost": 80,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section A (I6 DOHC BU2 T)": {
+		"name": "Front Exhaust Section A (I6 DOHC BU2 T)",
+		"cost": 270,
+		"boost": 2,
+		"costToBoost": 135,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section A (I6 DOHC BU2)": {
+		"name": "Front Exhaust Section A (I6 DOHC BU2)",
+		"cost": 248,
+		"boost": 2,
+		"costToBoost": 124,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section A (V6 AJD)": {
+		"name": "Front Exhaust Section A (V6 AJD)",
+		"cost": 700,
+		"boost": 1.75,
+		"costToBoost": 400,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Front Exhaust Section A (V6 B)": {
+		"name": "Front Exhaust Section A (V6 B)",
+		"cost": 160,
+		"boost": 1,
+		"costToBoost": 160,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section A (XJ220)": {
+		"name": "Front Exhaust Section A (XJ220)",
+		"cost": 495,
+		"boost": 2,
+		"costToBoost": 247.5,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Front Exhaust Section B (E-Type)": {
+		"name": "Front Exhaust Section B (E-Type)",
+		"cost": 315,
+		"boost": 2,
+		"costToBoost": 157.5,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Front Exhaust Section B (F-Type)": {
+		"name": "Front Exhaust Section B (F-Type)",
+		"cost": 238,
+		"boost": 2,
+		"costToBoost": 119,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Front Exhaust Section B (I3)": {
+		"name": "Front Exhaust Section B (I3)",
+		"cost": 160,
+		"boost": 2,
+		"costToBoost": 80,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section B (I4 B)": {
+		"name": "Front Exhaust Section B (I4 B)",
+		"cost": 160,
+		"boost": 1.75,
+		"costToBoost": 91.4,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Front Exhaust Section B (I6 DOHC BU2 T)": {
+		"name": "Front Exhaust Section B (I6 DOHC BU2 T)",
+		"cost": 270,
+		"boost": 2,
+		"costToBoost": 135,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section B (I6 DOHC BU2)": {
+		"name": "Front Exhaust Section B (I6 DOHC BU2)",
+		"cost": 248,
+		"boost": 3,
+		"costToBoost": 82.67,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section B (V6 AJD)": {
+		"name": "Front Exhaust Section B (V6 AJD)",
+		"cost": 700,
+		"boost": 1.75,
+		"costToBoost": 400,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Front Exhaust Section B (V6 B)": {
+		"name": "Front Exhaust Section B (V6 B)",
+		"cost": 160,
+		"boost": 1,
+		"costToBoost": 160,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section B (XJ220)": {
+		"name": "Front Exhaust Section B (XJ220)",
+		"cost": 495,
+		"boost": 2,
+		"costToBoost": 247.5,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Front Exhaust Section C (V6 B)": {
+		"name": "Front Exhaust Section C (V6 B)",
+		"cost": 440,
+		"boost": 1,
+		"costToBoost": 440,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section D (V6 B)": {
+		"name": "Front Exhaust Section D (V6 B)",
+		"cost": 440,
+		"boost": 1,
+		"costToBoost": 440,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Front Exhaust Section E (V6 B)": {
+		"name": "Front Exhaust Section E (V6 B)",
+		"cost": 330,
+		"boost": 2,
+		"costToBoost": 165,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section F (V6 B)": {
+		"name": "Front Exhaust Section F (V6 B)",
+		"cost": 330,
+		"boost": 2,
+		"costToBoost": 165,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section G (V6 B)": {
+		"name": "Front Exhaust Section G (V6 B)",
+		"cost": 330,
+		"boost": 2,
+		"costToBoost": 165,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Fuel Filter": {
+		"name": "Fuel Filter",
+		"cost": 90,
+		"boost": 0.6,
+		"costToBoost": 150,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Injector (I4 B)": {
+		"name": "Fuel Injector (I4 B)",
+		"cost": 360,
+		"boost": 1,
+		"costToBoost": 360,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Injector (I4 DT224)": {
+		"name": "Fuel Injector (I4 DT224)",
+		"cost": 235,
+		"boost": 1.5,
+		"costToBoost": 156.67,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Fuel Injector (V6 AJD)": {
+		"name": "Fuel Injector (V6 AJD)",
+		"cost": 250,
+		"boost": 1.5,
+		"costToBoost": 166.67,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Fuel Pump": {
+		"name": "Fuel Pump",
+		"cost": 300,
+		"boost": 1.5,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Pump (I6 B)": {
+		"name": "Fuel Pump (I6 B)",
+		"cost": 200,
+		"boost": 2,
+		"costToBoost": 100,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (B6 M64)": {
+		"name": "Fuel Rail (B6 M64)",
+		"cost": 590,
+		"boost": 2,
+		"costToBoost": 295,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Fuel Rail (B6 MA 1.03)": {
+		"name": "Fuel Rail (B6 MA 1.03)",
+		"cost": 590,
+		"boost": 1,
+		"costToBoost": 590,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Fuel Rail (I3)": {
+		"name": "Fuel Rail (I3)",
+		"cost": 550,
+		"boost": 3,
+		"costToBoost": 183.3,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (I4 204PT)": {
+		"name": "Fuel Rail (I4 204PT)",
+		"cost": 417,
+		"boost": 3,
+		"costToBoost": 139,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Fuel Rail (I4 DOHC TAE)": {
+		"name": "Fuel Rail (I4 DOHC TAE)",
+		"cost": 597,
+		"boost": 2,
+		"costToBoost": 298.5,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (I4 SR20)": {
+		"name": "Fuel Rail (I4 SR20)",
+		"cost": 579,
+		"boost": 2,
+		"costToBoost": 289.5,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Fuel Rail (I5 DOHC ADI)": {
+		"name": "Fuel Rail (I5 DOHC ADI)",
+		"cost": 501,
+		"boost": 2,
+		"costToBoost": 250.5,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (I6 DOHC BU2 T)": {
+		"name": "Fuel Rail (I6 DOHC BU2 T)",
+		"cost": 550,
+		"boost": 2,
+		"costToBoost": 275,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (I6 DOHC FMW)": {
+		"name": "Fuel Rail (I6 DOHC FMW)",
+		"cost": 442,
+		"boost": 4,
+		"costToBoost": 110.5,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (ROT 13B-REW)": {
+		"name": "Fuel Rail (ROT 13B-REW)",
+		"cost": 380,
+		"boost": 4,
+		"costToBoost": 95,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Fuel Rail (V10 980/01)": {
+		"name": "Fuel Rail (V10 980/01)",
+		"cost": 590,
+		"boost": 2,
+		"costToBoost": 295,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Fuel Rail (V12 HE)": {
+		"name": "Fuel Rail (V12 HE)",
+		"cost": 381,
+		"boost": 2,
+		"costToBoost": 190.5,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Fuel Rail (V12 M120)": {
+		"name": "Fuel Rail (V12 M120)",
+		"cost": 500,
+		"boost": 3,
+		"costToBoost": 166.67,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Fuel Rail (V12)": {
+		"name": "Fuel Rail (V12)",
+		"cost": 590,
+		"boost": 2,
+		"costToBoost": 295,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (V6 B)": {
+		"name": "Fuel Rail (V6 B)",
+		"cost": 400,
+		"boost": 3,
+		"costToBoost": 133.3,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (V6 DOHC AKY)": {
+		"name": "Fuel Rail (V6 DOHC AKY)",
+		"cost": 369,
+		"boost": 2,
+		"costToBoost": 184.5,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (V6 TWR JV6)": {
+		"name": "Fuel Rail (V6 TWR JV6)",
+		"cost": 468,
+		"boost": 2,
+		"costToBoost": 234,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Fuel Rail (V6 VQ37VHR)": {
+		"name": "Fuel Rail (V6 VQ37VHR)",
+		"cost": 590,
+		"boost": 2,
+		"costToBoost": 295,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Fuel Rail (V8 AJ133)": {
+		"name": "Fuel Rail (V8 AJ133)",
+		"cost": 627,
+		"boost": 2,
+		"costToBoost": 313.5,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Fuel Rail (V8 DOHC CGM)": {
+		"name": "Fuel Rail (V8 DOHC CGM)",
+		"cost": 607,
+		"boost": 2,
+		"costToBoost": 303.5,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail (V8 SOHC FME)": {
+		"name": "Fuel Rail (V8 SOHC FME)",
+		"cost": 590,
+		"boost": 2,
+		"costToBoost": 295,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail DI": {
+		"name": "Fuel Rail DI",
+		"cost": 950,
+		"boost": 4,
+		"costToBoost": 237.5,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Fuel Rail MPI": {
+		"name": "Fuel Rail MPI",
+		"cost": 340,
+		"boost": 3,
+		"costToBoost": 133.3,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Glow Plug": {
+		"name": "Glow Plug",
+		"cost": 25,
+		"boost": 0.13,
+		"costToBoost": 192,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Coil": {
+		"name": "Ignition Coil",
+		"cost": 180,
+		"boost": 0.75,
+		"costToBoost": 240,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Coil (I4 SOHC)": {
+		"name": "Ignition Coil (I4 SOHC)",
+		"cost": 220,
+		"boost": 4.5,
+		"costToBoost": 48.89,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Coil (ROT 13B-REW)": {
+		"name": "Ignition Coil (ROT 13B-REW)",
+		"cost": 200,
+		"boost": 4,
+		"costToBoost": 50,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Ignition Coil (V8 AJ133)": {
+		"name": "Ignition Coil (V8 AJ133)",
+		"cost": 108,
+		"boost": 0.75,
+		"costToBoost": 144,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Ignition Coil (V8 DOHC CGM)": {
+		"name": "Ignition Coil (V8 DOHC CGM)",
+		"cost": 105,
+		"boost": 1,
+		"costToBoost": 105,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Ignition Coil B": {
+		"name": "Ignition Coil B",
+		"cost": 280,
+		"boost": 4,
+		"costToBoost": 70,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Distributor (V12 HE)": {
+		"name": "Ignition Distributor (V12 HE)",
+		"cost": 120,
+		"boost": 5,
+		"costToBoost": 30,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Ignition Distributor A": {
+		"name": "Ignition Distributor A",
+		"cost": 120,
+		"boost": 5,
+		"costToBoost": 24,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Distributor B": {
+		"name": "Ignition Distributor B",
+		"cost": 100,
+		"boost": 3,
+		"costToBoost": 33.33,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Ignition Distributor Cap": {
+		"name": "Ignition Distributor Cap",
+		"cost": 75,
+		"boost": 1.5,
+		"costToBoost": 50,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Distributor (I4 907)": {
+		"name": "Ignition Distributor (I4 907)",
+		"cost": 52,
+		"boost": 1.5,
+		"costToBoost": 34.66,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Ignition Distributor Cap (I4 DOHC TAE)": {
+		"name": "Ignition Distributor Cap (I4 DOHC TAE)",
+		"cost": 35,
+		"boost": 1.5,
+		"costToBoost": 23.3,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Ignition Distributor Cap (I6)": {
+		"name": "Ignition Distributor Cap (I6)",
+		"cost": 75,
+		"boost": 1.5,
+		"costToBoost": 50,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Ignition Distributor (ROT 12A)": {
+		"name": "Ignition Distributor (ROT 12A)",
+		"cost": 175,
+		"boost": 1.5,
+		"costToBoost": 116.67,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Ignition Distributor Cap (V12 HE)": {
+		"name": "Ignition Distributor Cap (V12 HE)",
+		"cost": 68,
+		"boost": 1.5,
+		"costToBoost": 45.3,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Ignition Distributor Cap (V6 TWR JV6)": {
+		"name": "Ignition Distributor Cap (V6 TWR JV6)",
+		"cost": 48,
+		"boost": 1.5,
+		"costToBoost": 32,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Ignition Distributor Rotor": {
+		"name": "Ignition Distributor Rotor",
+		"cost": 60,
+		"boost": 0.5,
+		"costToBoost": 120,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Wires (B6 M64)": {
+		"name": "Ignition Wires (B6 M64)",
+		"cost": 190,
+		"boost": 1,
+		"costToBoost": 190,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Ignition Wires (I4 907)": {
+		"name": "Ignition Wires (I4 907)",
+		"cost": 120,
+		"boost": 2,
+		"costToBoost": 60,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Ignition Wires (I4 DOHC TAE)": {
+		"name": "Ignition Wires (I4 DOHC TAE)",
+		"cost": 190,
+		"boost": 2,
+		"costToBoost": 95,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Wires (I4 DT224)": {
+		"name": "Ignition Wires (I4 DT224)",
+		"cost": 150,
+		"boost": 1,
+		"costToBoost": 150,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Ignition Wires (I4 K-Series)": {
+		"name": "Ignition Wires (I4 K-Series)",
+		"cost": 160,
+		"boost": 1.5,
+		"costToBoost": 106.67,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Ignition Wires (I4 SOHC)": {
+		"name": "Ignition Wires (I4 SOHC)",
+		"cost": 150,
+		"boost": 0.75,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Wires (I6 B)": {
+		"name": "Ignition Wires (I6 B)",
+		"cost": 150,
+		"boost": 1.25,
+		"costToBoost": 120,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Wires (I6 L24)": {
+		"name": "Ignition Wires (I6 L24)",
+		"cost": 195,
+		"boost": 2,
+		"costToBoost": 97.5,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Ignition Wires (I6)": {
+		"name": "Ignition Wires (I6)",
+		"cost": 210,
+		"boost": 1.05,
+		"costToBoost": 200,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Ignition Wires (ROT 12A)": {
+		"name": "Ignition Wires (ROT 12A)",
+		"cost": 170,
+		"boost": 1.15,
+		"costToBoost": 147.83,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Ignition Wires (ROT 13B-REW)": {
+		"name": "Ignition Wires (ROT 13B-REW)",
+		"cost": 250,
+		"boost": 1.5,
+		"costToBoost": 166.67,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Ignition Wires (V8 OHV B)": {
+		"name": "Ignition Wires (V8 OHV B)",
+		"cost": 118,
+		"boost": 2,
+		"costToBoost": 59,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Ignition Wires (V8 OHV D)": {
+		"name": "Ignition Wires (V8 OHV D)",
+		"cost": 135,
+		"boost": 1.75,
+		"costToBoost": 77,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Ignition Wires (V8 OHV F)": {
+		"name": "Ignition Wires (V8 OHV F)",
+		"cost": 205,
+		"boost": 2,
+		"costToBoost": 102.5,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Wires (V8)": {
+		"name": "Ignition Wires (V8)",
+		"cost": 120,
+		"boost": 1,
+		"costToBoost": 120,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Ignition Wires A (I6 XK)": {
+		"name": "Ignition Wires A (I6 XK)",
+		"cost": 120,
+		"boost": 1.5,
+		"costToBoost": 80,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Ignition Wires A (V12 HE)": {
+		"name": "Ignition Wires A (V12 HE)",
+		"cost": 82,
+		"boost": 2,
+		"costToBoost": 41,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Ignition Wires A (V6 TWR JV6)": {
+		"name": "Ignition Wires A (V6 TWR JV6)",
+		"cost": 120,
+		"boost": 2,
+		"costToBoost": 60,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Intake Manifold (1 carb)": {
+		"name": "Intake Manifold (1 carb)",
+		"cost": 307,
+		"boost": 2,
+		"costToBoost": 153.5,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold (2 carb)": {
+		"name": "Intake Manifold (2 carb)",
+		"cost": 550,
+		"boost": 2.75,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold (B6 M64.50)": {
+		"name": "Intake Manifold (B6 M64.50)",
+		"cost": 700,
+		"boost": 2,
+		"costToBoost": 350,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Intake Manifold (I3)": {
+		"name": "Intake Manifold (I3)",
+		"cost": 600,
+		"boost": 3,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold (I4 204PT)": {
+		"name": "Intake Manifold (I4 204PT)",
+		"cost": 505,
+		"boost": 2,
+		"costToBoost": 252.5,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Intake Manifold (I4 907)": {
+		"name": "Intake Manifold (I4 907)",
+		"cost": 800,
+		"boost": 3,
+		"costToBoost": 266.67,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Intake Manifold (I4 B)": {
+		"name": "Intake Manifold (I4 B)",
+		"cost": 840,
+		"boost": 3,
+		"costToBoost": 280,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold (I4 DI)": {
+		"name": "Intake Manifold (I4 DI)",
+		"cost": 600,
+		"boost": 3,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold (I4 DOHC TAE)": {
+		"name": "Intake Manifold (I4 DOHC TAE)",
+		"cost": 425,
+		"boost": 3,
+		"costToBoost": 141.66,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (I4 DT224)": {
+		"name": "Intake Manifold (I4 DT224)",
+		"cost": 520,
+		"boost": 2,
+		"costToBoost": 260,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Intake Manifold (I4 K-Series)": {
+		"name": "Intake Manifold (I4 K-Series)",
+		"cost": 800,
+		"boost": 2.5,
+		"costToBoost": 320,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Intake Manifold (I4 MPI)": {
+		"name": "Intake Manifold (I4 MPI)",
+		"cost": 250,
+		"boost": 1.25,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold (I4 SOHC D)": {
+		"name": "Intake Manifold (I4 SOHC D)",
+		"cost": 465,
+		"boost": 3.5,
+		"costToBoost": 132.86,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (I4 SR20)": {
+		"name": "Intake Manifold (I4 SR20)",
+		"cost": 530,
+		"boost": 3,
+		"costToBoost": 176.67,
+		"version": "1.0.20",
+		"dlc": "Nissan"
+	},
+	"Intake Manifold (I5 DOHC ADI)": {
+		"name": "Intake Manifold (I5 DOHC ADI)",
+		"cost": 400,
+		"boost": 3,
+		"costToBoost": 133.33,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (I6 B)": {
+		"name": "Intake Manifold (I6 B)",
+		"cost": 300,
+		"boost": 3,
+		"costToBoost": 100,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold (I6 DOHC BU2 T)": {
+		"name": "Intake Manifold (I6 DOHC BU2 T)",
+		"cost": 698,
+		"boost": 4,
+		"costToBoost": 174.5,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (I6 DOHC BU2)": {
+		"name": "Intake Manifold (I6 DOHC BU2)",
+		"cost": 610,
+		"boost": 3,
+		"costToBoost": 203.33,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (I6 DOHC FMW)": {
+		"name": "Intake Manifold (I6 DOHC FMW)",
+		"cost": 499,
+		"boost": 3,
+		"costToBoost": 166.33,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (I6 L24)": {
+		"name": "Intake Manifold (I6 L24)",
+		"cost": 557,
+		"boost": 3,
+		"costToBoost": 185.67,
+		"version": "1.0.20",
+		"dlc": "Nissan"
+	},
+	"Intake Manifold (ROT 12A)": {
+		"name": "Intake Manifold (ROT 12A)",
+		"cost": 400,
+		"boost": 1.25,
+		"costToBoost": 320,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Intake Manifold (V10 980/01)": {
+		"name": "Intake Manifold (V10 980/01)",
+		"cost": 700,
+		"boost": 2,
+		"costToBoost": 350,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Intake Manifold (V12 M120)": {
+		"name": "Intake Manifold (V12 M120)",
+		"cost": 420,
+		"boost": 2,
+		"costToBoost": 210,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Intake Manifold (V12 M158)": {
+		"name": "Intake Manifold (V12 M158)",
+		"cost": 420,
+		"boost": 2,
+		"costToBoost": 210,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Intake Manifold (V12)": {
+		"name": "Intake Manifold (V12)",
+		"cost": 315,
+		"boost": 4,
+		"costToBoost": 78.75,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Intake Manifold (V6 DOHC AKY)": {
+		"name": "Intake Manifold (V6 DOHC AKY)",
+		"cost": 554,
+		"boost": 3,
+		"costToBoost": 184.67,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (V8 DOHC CGM)": {
+		"name": "Intake Manifold (V8 DOHC CGM)",
+		"cost": 415,
+		"boost": 3,
+		"costToBoost": 138.33,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (V8 OHV B)": {
+		"name": "Intake Manifold (V8 OHV B)",
+		"cost": 385,
+		"boost": 3,
+		"costToBoost": 128.33,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (V8 OHV D)": {
+		"name": "Intake Manifold (V8 OHV D)",
+		"cost": 500,
+		"boost": 3,
+		"costToBoost": 166.67,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (V8 OHV E)": {
+		"name": "Intake Manifold (V8 OHV E)",
+		"cost": 390,
+		"boost": 3,
+		"costToBoost": 130,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (V8 OHV F)": {
+		"name": "Intake Manifold (V8 OHV F)",
+		"cost": 950,
+		"boost": 3,
+		"costToBoost": 316.67,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (V8 SOHC FME)": {
+		"name": "Intake Manifold (V8 SOHC FME)",
+		"cost": 575,
+		"boost": 3,
+		"costToBoost": 191.67,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Intake Manifold (V8)": {
+		"name": "Intake Manifold (V8)",
+		"cost": 600,
+		"boost": 3,
+		"costToBoost": 200,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Intake Manifold A (B6 M64.01)": {
+		"name": "Intake Manifold A (B6 M64.01)",
+		"cost": 700,
+		"boost": 3,
+		"costToBoost": 233.3,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Intake Manifold A (B6 MA 1.03)": {
+		"name": "Intake Manifold A (B6 MA 1.03)",
+		"cost": 700,
+		"boost": 2,
+		"costToBoost": 350,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Intake Manifold A (ROT 13B-REW)": {
+		"name": "Intake Manifold A (ROT 13B-REW)",
+		"cost": 650,
+		"boost": 1.25,
+		"costToBoost": 520,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Intake Manifold A (V12 HE)": {
+		"name": "Intake Manifold A (V12 HE)",
+		"cost": 823,
+		"boost": 3,
+		"costToBoost": 274,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Intake Manifold A (V6 B)": {
+		"name": "Intake Manifold A (V6 B)",
+		"cost": 840,
+		"boost": 2,
+		"costToBoost": 420,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold A (V6 TWR JV6)": {
+		"name": "Intake Manifold A (V6 TWR JV6)",
+		"cost": 1350,
+		"boost": 2,
+		"costToBoost": 675,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Intake Manifold A (V6 VQ37VHR)": {
+		"name": "Intake Manifold A (V6 VQ37VHR)",
+		"cost": 610,
+		"boost": 2,
+		"costToBoost": 305,
+		"version": "1.0.20",
+		"dlc": "Nissan"
+	},
+	"Intake Manifold A (V6 VR38DETT)": {
+		"name": "Intake Manifold A (V6 VR38DETT)",
+		"cost": 700,
+		"boost": 2,
+		"costToBoost": 350,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold B (B6 M64.01)": {
+		"name": "Intake Manifold B (B6 M64.01)",
+		"cost": 700,
+		"boost": 2,
+		"costToBoost": 350,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Intake Manifold B (B6 MA 1.03)": {
+		"name": "Intake Manifold B (B6 MA 1.03)",
+		"cost": 700,
+		"boost": 3,
+		"costToBoost": 233.33,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Intake Manifold B (ROT 13B-REW)": {
+		"name": "Intake Manifold B (ROT 13B-REW)",
+		"cost": 675,
+		"boost": 1.25,
+		"costToBoost": 540,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Intake Manifold B (V12 HE)": {
+		"name": "Intake Manifold B (V12 HE)",
+		"cost": 823,
+		"boost": 3,
+		"costToBoost": 274.33,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Intake Manifold B (V6 B)": {
+		"name": "Intake Manifold B (V6 B)",
+		"cost": 400,
+		"boost": 1,
+		"costToBoost": 400,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Intake Manifold B (V6 TWR JV6)": {
+		"name": "Intake Manifold B (V6 TWR JV6)",
+		"cost": 1350,
+		"boost": 2,
+		"costToBoost": 675,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Intake Manifold B (V6 VQ37VHR)": {
+		"name": "Intake Manifold B (V6 VQ37VHR)",
+		"cost": 580,
+		"boost": 4,
+		"costToBoost": 145,
+		"version": "1.0.20",
+		"dlc": "Nissan"
+	},
+	"Intake Manifold B (V6 VR38DETT)": {
+		"name": "Intake Manifold B (V6 VR38DETT)",
+		"cost": 530,
+		"boost": 2,
+		"costToBoost": 265,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Intercooler (B6 M64.50)": {
+		"name": "Intercooler (B6 M64.50)",
+		"cost": 197,
+		"boost": 4,
+		"costToBoost": 49.25,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Intercooler Set (V12 M158)": {
+		"name": "Intercooler Set (V12 M158)",
+		"cost": 1,
+		"boost": 3,
+		"costToBoost": 333.33,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Inverter (CHRG-e E1)": {
+		"name": "Inverter (CHRG-e E1)",
+		"cost": 197,
+		"boost": 1,
+		"costToBoost": 197,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Inverter (Proton e-R)": {
+		"name": "Inverter (Proton e-R)",
+		"cost": 210,
+		"boost": 1,
+		"costToBoost": 210,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Junction Box (CHRG-e E1)": {
+		"name": "Junction Box (CHRG-e E1)",
+		"cost": 125,
+		"boost": 1.5,
+		"costToBoost": 83.3,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Large Intercooler": {
+		"name": "Large Intercooler",
+		"cost": 750,
+		"boost": 3.5,
+		"costToBoost": 214,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Link Capacitor (CHRG-e E1)": {
+		"name": "Link Capacitor (CHRG-e E1)",
+		"cost": 173,
+		"boost": 0.75,
+		"costToBoost": 230,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Link Capacitor (Pronto e-R)": {
+		"name": "Link Capacitor (Pronto e-R)",
+		"cost": 191,
+		"boost": 0.75,
+		"costToBoost": 254,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Mechanical Fuel Injection (B6 M64.50)": {
+		"name": "Mechanical Fuel Injection (B6 M64.50)",
+		"cost": 1200,
+		"boost": 3,
+		"costToBoost": 400,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Medium Intercooler": {
+		"name": "Medium Intercooler",
+		"cost": 375,
+		"boost": 3.5,
+		"costToBoost": 107,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Middle Exhaust Pipe (V8 AJ133 SVR)": {
+		"name": "Middle Exhaust Pipe (V8 AJ133 SVR)",
+		"cost": 600,
+		"boost": 1.5,
+		"costToBoost": 400,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Middle Exhaust Section (Carrera GT)": {
+		"name": "Middle Exhaust Section (Carrera GT)",
+		"cost": 800,
+		"boost": 1.5,
+		"costToBoost": 533.3,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Middle Exhaust Section A (991)": {
+		"name": "Middle Exhaust Section A (991)",
+		"cost": 600,
+		"boost": 1,
+		"costToBoost": 600,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Middle Exhaust Section B (991)": {
+		"name": "Middle Exhaust Section B (991)",
+		"cost": 600,
+		"boost": 1,
+		"costToBoost": 600,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Middle Muffler": {
+		"name": "Middle Muffler",
+		"cost": 330,
+		"boost": 1.65,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Middle Muffler (I4 204PT)": {
+		"name": "Middle Muffler (I4 204PT)",
+		"cost": 750,
+		"boost": 1.5,
+		"costToBoost": 500,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Middle Muffler (I4 DT224)": {
+		"name": "Middle Muffler (I4 DT224)",
+		"cost": 645,
+		"boost": 1.5,
+		"costToBoost": 430,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Middle Muffler (V6 AJD)": {
+		"name": "Middle Muffler (V6 AJD)",
+		"cost": 654,
+		"boost": 1.5,
+		"costToBoost": 436,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Piston with Conrod": {
+		"name": "Piston with Conrod",
+		"cost": 225,
+		"boost": 1.13,
+		"costToBoost": 199.12,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Piston with Conrod (V8 OHV B)": {
+		"name": "Piston with Conrod (V8 OHV B)",
+		"cost": 200,
+		"boost": 1.13,
+		"costToBoost": 176.99,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Piston with Conrod (V8 OHV C)": {
+		"name": "Piston with Conrod (V8 OHV C)",
+		"cost": 225,
+		"boost": 1.13,
+		"costToBoost": 199.12,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Power Eletronic Controller (CHRG-e E1)": {
+		"name": "Power Eletronic Controller (CHRG-e E1)",
+		"cost": 590,
+		"boost": 1,
+		"costToBoost": 590,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Power Eletronic Controller (Proton e-R)": {
+		"name": "Power Eletronic Controller (Proton e-R)",
+		"cost": 612,
+		"boost": 1,
+		"costToBoost": 612,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Power Eletronics (eDen-1H)": {
+		"name": "Power Eletronics (eDen-1H)",
+		"cost": 478,
+		"boost": 2,
+		"costToBoost": 239,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
+	"Power Steering Pump (I4 B)": {
+		"name": "Power Steering Pump (I4 B)",
+		"cost": 300,
+		"boost": 1,
+		"costToBoost": 300,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Power Steering Pump (I4)": {
+		"name": "Power Steering Pump (I4)",
+		"cost": 250,
+		"boost": 1.25,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Power Steering Pump (I6 B)": {
+		"name": "Power Steering Pump (I6 B)",
+		"cost": 200,
+		"boost": 1.5,
+		"costToBoost": 133.33,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Power Steering Pump (V12)": {
+		"name": "Power Steering Pump (V12)",
+		"cost": 300,
+		"boost": 2,
+		"costToBoost": 150,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Power Steering Pump (V6 B)": {
+		"name": "Power Steering Pump (V6 B)",
+		"cost": 240,
+		"boost": 2,
+		"costToBoost": 120,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Power Steering Pump (V6 DOHC AKY)": {
+		"name": "Power Steering Pump (V6 DOHC AKY)",
+		"cost": 306,
+		"boost": 2,
+		"costToBoost": 153,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Power Steering Pump (V8 OHV F)": {
+		"name": "Power Steering Pump (V8 OHV F)",
+		"cost": 250,
+		"boost": 1.5,
+		"costToBoost": 166.6,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Power Steering Pump (V8)": {
+		"name": "Power Steering Pump (V8)",
+		"cost": 300,
+		"boost": 1.5,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Rear Exhaust Section (991)": {
+		"name": "Rear Exhaust Section (991)",
+		"cost": 800,
+		"boost": 1,
+		"costToBoost": 800,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Rear Exhaust Section (Carrera GT)": {
+		"name": "Rear Exhaust Section (Carrera GT)",
+		"cost": 1600,
+		"boost": 1.5,
+		"costToBoost": 1066.67,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Rear Exhaust Section (Elise)": {
+		"name": "Rear Exhaust Section (Elise)",
+		"cost": 630,
+		"boost": 2,
+		"costToBoost": 315,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Rear Exhaust Section (Esprit)": {
+		"name": "Rear Exhaust Section (Esprit)",
+		"cost": 660,
+		"boost": 1.5,
+		"costToBoost": 440,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Rear Exhaust Section (Huayra Tempesta)": {
+		"name": "Rear Exhaust Section (Huayra Tempesta)",
+		"cost": 3,
+		"boost": 6,
+		"costToBoost": 500,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Rear Exhaust Section (Huayra)": {
+		"name": "Rear Exhaust Section (Huayra)",
+		"cost": 3,
+		"boost": 5,
+		"costToBoost": 600,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Rear Exhaust Section (Zonda)": {
+		"name": "Rear Exhaust Section (Zonda)",
+		"cost": 2400,
+		"boost": 5,
+		"costToBoost": 480,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Rear Exhaust Section A (964)": {
+		"name": "Rear Exhaust Section A (964)",
+		"cost": 800,
+		"boost": 2,
+		"costToBoost": 400,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Rear Exhaust Section A (964 RS)": {
+		"name": "Rear Exhaust Section A (964 RS)",
+		"cost": 400,
+		"boost": 2,
+		"costToBoost": 200,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Rear Exhaust Section B (964)": {
+		"name": "Rear Exhaust Section B (964)",
+		"cost": 800,
+		"boost": 2,
+		"costToBoost": 400,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Rear Exhaust Section B (964 RS)": {
+		"name": "Rear Exhaust Section B (964 RS)",
+		"cost": 400,
+		"boost": 2,
+		"costToBoost": 200,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Rear Muffler": {
+		"name": "Rear Muffler",
+		"cost": 200,
+		"boost": 1,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Rear Muffler (E-Type)": {
+		"name": "Rear Muffler (E-Type)",
+		"cost": 520,
+		"boost": 3,
+		"costToBoost": 173.3,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Rear Muffler (F-Type)": {
+		"name": "Rear Muffler (F-Type)",
+		"cost": 832,
+		"boost": 2,
+		"costToBoost": 416,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Rear Muffler (I4 204PT)": {
+		"name": "Rear Muffler (I4 204PT)",
+		"cost": 1670,
+		"boost": 3,
+		"costToBoost": 556.67,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Rear Muffler (I4 DOHC BFM)": {
+		"name": "Rear Muffler (I4 DOHC BFM)",
+		"cost": 374,
+		"boost": 1.5,
+		"costToBoost": 249.3,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Rear Muffler (I4 DT224)": {
+		"name": "Rear Muffler (I4 DT224)",
+		"cost": 689,
+		"boost": 3,
+		"costToBoost": 229.67,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Rear Muffler (I4)": {
+		"name": "Rear Muffler (I4)",
+		"cost": 400,
+		"boost": 2,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Rear Muffler (V12 DOHC MRN)": {
+		"name": "Rear Muffler (V12 DOHC MRN)",
+		"cost": 308,
+		"boost": 3,
+		"costToBoost": 102.6,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Rear Muffler (V6 AJD)": {
+		"name": "Rear Muffler (V6 AJD)",
+		"cost": 1215,
+		"boost": 2.5,
+		"costToBoost": 486,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Rear Muffler (V6 DOHC NSN)": {
+		"name": "Rear Muffler (V6 DOHC NSN)",
+		"cost": 338,
+		"boost": 2.5,
+		"costToBoost": 135.2,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Rear Muffler (V8 AJ133 SVR)": {
+		"name": "Rear Muffler (V8 AJ133 SVR)",
+		"cost": 1340,
+		"boost": 2.5,
+		"costToBoost": 536,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Rear Muffler (V8 OHV)": {
+		"name": "Rear Muffler (V8 OHV)",
+		"cost": 450,
+		"boost": 2.25,
+		"costToBoost": 200,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Rear Muffler (V8)": {
+		"name": "Rear Muffler (V8)",
+		"cost": 700,
+		"boost": 3.5,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Rear Muffler (XJ220)": {
+		"name": "Rear Muffler (XJ220)",
+		"cost": 1173,
+		"boost": 1.75,
+		"costToBoost": 670,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Rear Muffler (XJS)": {
+		"name": "Rear Muffler (XJS)",
+		"cost": 706,
+		"boost": 2.5,
+		"costToBoost": 282.4,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Rear Muffler 370Z": {
+		"name": "Rear Muffler 370Z",
+		"cost": 600,
+		"boost": 4,
+		"costToBoost": 150,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Rear Muffler A": {
+		"name": "Rear Muffler A",
+		"cost": 500,
+		"boost": 2,
+		"costToBoost": 250,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Rear Muffler B": {
+		"name": "Rear Muffler B",
+		"cost": 120,
+		"boost": 2,
+		"costToBoost": 60,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Rear Muffler B (V8)": {
+		"name": "Rear Muffler B (V8)",
+		"cost": 800,
+		"boost": 3,
+		"costToBoost": 266.6,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Rear Muffler C": {
+		"name": "Rear Muffler C",
+		"cost": 120,
+		"boost": 1.5,
+		"costToBoost": 80,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Rear Muffler D": {
+		"name": "Rear Muffler D",
+		"cost": 120,
+		"boost": 2,
+		"costToBoost": 60,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Rear Muffler F": {
+		"name": "Rear Muffler F",
+		"cost": 160,
+		"boost": 2,
+		"costToBoost": 80,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Rear Muffler Fairlady Z": {
+		"name": "Rear Muffler Fairlady Z",
+		"cost": 320,
+		"boost": 2,
+		"costToBoost": 160,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Rear Muffler G": {
+		"name": "Rear Muffler G",
+		"cost": 308,
+		"boost": 2.5,
+		"costToBoost": 123.2,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Rear Muffler GTR": {
+		"name": "Rear Muffler GTR",
+		"cost": 800,
+		"boost": 5,
+		"costToBoost": 160,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Rear Muffler H": {
+		"name": "Rear Muffler H",
+		"cost": 278,
+		"boost": 2,
+		"costToBoost": 139,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Rear Muffler Silvia": {
+		"name": "Rear Muffler Silvia",
+		"cost": 480,
+		"boost": 3,
+		"costToBoost": 160,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Round Air Filter (1 carb)": {
+		"name": "Round Air Filter (1 carb)",
+		"cost": 80,
+		"boost": 1,
+		"costToBoost": 80,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Round Air Filter (2 carb)": {
+		"name": "Round Air Filter (2 carb)",
+		"cost": 120,
+		"boost": 1.2,
+		"costToBoost": 100,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Round Air Filter (side draft)": {
+		"name": "Round Air Filter (side draft)",
+		"cost": 180,
+		"boost": 0.9,
+		"costToBoost": 200,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Scoop Air Filter (V8 OHV)": {
+		"name": "Scoop Air Filter (V8 OHV)",
+		"cost": 160,
+		"boost": 5.5,
+		"costToBoost": 29,
+		"version": "1.0.16",
+		"dlc": ""
+	},
+	"Small Intercooler": {
+		"name": "Small Intercooler",
+		"cost": 150,
+		"boost": 3.5,
+		"costToBoost": 42.8,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Spark Plug": {
+		"name": "Spark Plug",
+		"cost": 25,
+		"boost": 0.13,
+		"costToBoost": 192.3,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Supercharger (V8 AJ133)": {
+		"name": "Supercharger (V8 AJ133)",
+		"cost": 2500,
+		"boost": 3,
+		"costToBoost": 833.3,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Supercharger (V8 OHV)": {
+		"name": "Supercharger (V8 OHV)",
+		"cost": 3,
+		"boost": 4,
+		"costToBoost": 750,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Supercharger (V8)": {
+		"name": "Supercharger (V8)",
+		"cost": 3,
+		"boost": 5,
+		"costToBoost": 600,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Supercharger Intake Manifold (V8 OHV)": {
+		"name": "Supercharger Intake Manifold (V8 OHV)",
+		"cost": 1500,
+		"boost": 2,
+		"costToBoost": 750,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Supercharger Intake Manifold (V8)": {
+		"name": "Supercharger Intake Manifold (V8)",
+		"cost": 1500,
+		"boost": 3,
+		"costToBoost": 500,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Throttle (B6 M64.01)": {
+		"name": "Throttle (B6 M64.01)",
+		"cost": 460,
+		"boost": 2,
+		"costToBoost": 230,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Throttle (B6 M64.50)": {
+		"name": "Throttle (B6 M64.50)",
+		"cost": 460,
+		"boost": 3,
+		"costToBoost": 153.3,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Throttle (B6 MA 1.03)": {
+		"name": "Throttle (B6 MA 1.03)",
+		"cost": 460,
+		"boost": 1.5,
+		"costToBoost": 306,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Throttle (I3)": {
+		"name": "Throttle (I3)",
+		"cost": 400,
+		"boost": 2.5,
+		"costToBoost": 160,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (I4 SOHC D)": {
+		"name": "Throttle (I4 SOHC D)",
+		"cost": 460,
+		"boost": 1,
+		"costToBoost": 460,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (I4 SR20)": {
+		"name": "Throttle (I4 SR20)",
+		"cost": 467,
+		"boost": 1,
+		"costToBoost": 467,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Throttle (I4)": {
+		"name": "Throttle (I4)",
+		"cost": 310,
+		"boost": 3,
+		"costToBoost": 103.33,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (I5 DOHC ADI)": {
+		"name": "Throttle (I5 DOHC ADI)",
+		"cost": 306,
+		"boost": 1,
+		"costToBoost": 306,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (I6 DOHC BU2 T)": {
+		"name": "Throttle (I6 DOHC BU2 T)",
+		"cost": 343,
+		"boost": 1,
+		"costToBoost": 343,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (I6 DOHC BU2)": {
+		"name": "Throttle (I6 DOHC BU2)",
+		"cost": 305,
+		"boost": 1,
+		"costToBoost": 305,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (I6 DOHC FMW)": {
+		"name": "Throttle (I6 DOHC FMW)",
+		"cost": 256,
+		"boost": 1,
+		"costToBoost": 256,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (ROT 13B-REW)": {
+		"name": "Throttle (ROT 13B-REW)",
+		"cost": 500,
+		"boost": 3.5,
+		"costToBoost": 142.86,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Throttle (V12 M158)": {
+		"name": "Throttle (V12 M158)",
+		"cost": 660,
+		"boost": 3,
+		"costToBoost": 220,
+		"version": "1.0.15",
+		"dlc": "Pagani"
+	},
+	"Throttle (V12)": {
+		"name": "Throttle (V12)",
+		"cost": 460,
+		"boost": 1,
+		"costToBoost": 460,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (V6 AJD)": {
+		"name": "Throttle (V6 AJD)",
+		"cost": 408,
+		"boost": 3,
+		"costToBoost": 136,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Throttle (V6 B)": {
+		"name": "Throttle (V6 B)",
+		"cost": 500,
+		"boost": 2.75,
+		"costToBoost": 181.82,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (V6 DOHC AKY)": {
+		"name": "Throttle (V6 DOHC AKY)",
+		"cost": 460,
+		"boost": 1,
+		"costToBoost": 460,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (V6 TWR JV6)": {
+		"name": "Throttle (V6 TWR JV6)",
+		"cost": 600,
+		"boost": 2.5,
+		"costToBoost": 240,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Throttle (V6 VQ37VHR)": {
+		"name": "Throttle (V6 VQ37VHR)",
+		"cost": 507,
+		"boost": 1,
+		"costToBoost": 507,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Throttle (V8 DOHC CGM)": {
+		"name": "Throttle (V8 DOHC CGM)",
+		"cost": 460,
+		"boost": 1,
+		"costToBoost": 460,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (V8 SOHC FME)": {
+		"name": "Throttle (V8 SOHC FME)",
+		"cost": 460,
+		"boost": 1,
+		"costToBoost": 460,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle (V8)": {
+		"name": "Throttle (V8)",
+		"cost": 330,
+		"boost": 1.65,
+		"costToBoost": 200,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Throttle DXA": {
+		"name": "Throttle DXA",
+		"cost": 480,
+		"boost": 1.5,
+		"costToBoost": 320,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Turbo (I4 204PT)": {
+		"name": "Turbo (I4 204PT)",
+		"cost": 1025,
+		"boost": 8,
+		"costToBoost": 128.13,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Turbo (I4 DT224)": {
+		"name": "Turbo (I4 DT224)",
+		"cost": 1,
+		"boost": 7,
+		"costToBoost": 142.8,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Turbo (V6 AJD)": {
+		"name": "Turbo (V6 AJD)",
+		"cost": 1399,
+		"boost": 7,
+		"costToBoost": 199.8,
+		"version": "1.0.18",
+		"dlc": "Land Rover"
+	},
+	"Turbo A (V6 VR38DETT)": {
+		"name": "Turbo A (V6 VR38DETT)",
+		"cost": 1500,
+		"boost": 3,
+		"costToBoost": 500,
+		"version": "1.0.0",
+		"dlc": "Nissan"
+	},
+	"Turbo A (V6 TWR JV6)": {
+		"name": "Turbo A (V6 TWR JV6)",
+		"cost": 1790,
+		"boost": 4,
+		"costToBoost": 447.5,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Turbo B (V6 TWR JV6)": {
+		"name": "Turbo B (V6 TWR JV6)",
+		"cost": 1790,
+		"boost": 4,
+		"costToBoost": 447.5,
+		"version": "1.0.11",
+		"dlc": "Jaguar"
+	},
+	"Turbocharger": {
+		"name": "Turbocharger",
+		"cost": 1200,
+		"boost": 10,
+		"costToBoost": 120,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Turbocharger (B6 M64.50)": {
+		"name": "Turbocharger (B6 M64.50)",
+		"cost": 1500,
+		"boost": 6,
+		"costToBoost": 250,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Turbocharger (B6 MA 1.03)": {
+		"name": "Turbocharger (B6 MA 1.03)",
+		"cost": 1500,
+		"boost": 3,
+		"costToBoost": 500,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Turbocharger (I3)": {
+		"name": "Turbocharger (I3)",
+		"cost": 1100,
+		"boost": 7,
+		"costToBoost": 157.14,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Turbocharger (I4 B)": {
+		"name": "Turbocharger (I4 B)",
+		"cost": 1150,
+		"boost": 7,
+		"costToBoost": 164.29,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Turbocharger (I4 SOHC D)": {
+		"name": "Turbocharger (I4 SOHC D)",
+		"cost": 803,
+		"boost": 3,
+		"costToBoost": 267.67,
+		"version": "1.0.20",
+		"dlc": ""
+	},
+	"Turbocharger (I4 SR20)": {
+		"name": "Turbocharger (I4 SR20)",
+		"cost": 1350,
+		"boost": 3,
+		"costToBoost": 450,
+		"version": "1.0.16",
+		"dlc": "Nissan"
+	},
+	"Turbocharger (I5 DOHC ADI)": {
+		"name": "Turbocharger (I5 DOHC ADI)",
+		"cost": 597,
+		"boost": 3,
+		"costToBoost": 199,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Turbocharger (I6 DOHC BU2 T)": {
+		"name": "Turbocharger (I6 DOHC BU2 T)",
+		"cost": 802,
+		"boost": 3,
+		"costToBoost": 267.33,
+		"version": "1.0.0",
+		"dlc": ""
+	},
+	"Turbocharger (ROT 13B-REW)": {
+		"name": "Turbocharger (ROT 13B-REW)",
+		"cost": 1350,
+		"boost": 10,
+		"costToBoost": 135,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
+	"Turbocharger (V12 M158)": {
+		"name": "Turbocharger (V12 M158)",
+		"cost": 1500,
+		"boost": 5,
+		"costToBoost": 300,
+		"version": "1.0.18",
+		"dlc": "Pagani"
+	}
+}

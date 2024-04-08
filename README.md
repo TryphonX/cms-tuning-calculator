@@ -15,8 +15,6 @@
 [![Issues][issues-shield]][issues-url]
 [![GNU GPL v3 License][license-shield]][license-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -29,7 +27,9 @@
   <p align="center">
     This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 21). Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be "symmetrical" - it will not allow you to switch some of the same part with tuned parts, it's either all or nothing. This tool is <b><i>just a calculator</i></b> (at least for now), it will not recommend tuning setups on its own, it will just provide you with all the information you need to make your decision.
     <br />
-    <a href="https://github.com/TryphonX/CMS-Tuning-Calculator/docs/"><strong>Explore the docs »</strong></a>
+    <!--
+		<a href="https://github.com/TryphonX/CMS-Tuning-Calculator/docs/"><strong>Explore the docs »</strong></a>
+		-->
     <br />
     <br />
     <a href="https://tryphonx.github.io/CMS-Tuning-Calculator/">Visit App</a>
@@ -39,8 +39,6 @@
     <a href="https://github.com/TryphonX/CMS-Tuning-Calculator/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -67,8 +65,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -78,8 +74,6 @@ This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
 [![React][React.js]][React-url]  
@@ -88,8 +82,6 @@ This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 
 [![ESLint][ESLint]][ESLint-url]  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 <!--
@@ -224,17 +216,17 @@ Distributed under the GNU GPL v3 License. See `COPYING.txt` for more information
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Auto-Changelog](https://github.com/CookPete/auto-changelog)
-* [React Bootstrap](https://react-bootstrap.netlify.app/)
-* [React Icons](https://react-icons.github.io/react-icons)
-* [Best README Template](https://github.com/othneildrew/Best-README-Template)
-* [Digian (CSS Template)](https://www.free-css.com/free-css-templates/page294/digian)
-* [Favicon Generator](https://favicon.io/favicon-generator/)
-* [JsDoc to Markdown](https://www.npmjs.com/package/jsdoc-to-markdown)
-* [React DocGen](https://www.npmjs.com/package/react-docgen)
+- [Choose an Open Source License](https://choosealicense.com)
+- [Img Shields](https://shields.io)
+- [GitHub Pages](https://pages.github.com)
+- [Auto-Changelog](https://github.com/CookPete/auto-changelog)
+- [React Bootstrap](https://react-bootstrap.netlify.app/)
+- [React Icons](https://react-icons.github.io/react-icons)
+- [Best README Template](https://github.com/othneildrew/Best-README-Template)
+- [Digian (CSS Template)](https://www.free-css.com/free-css-templates/page294/digian)
+- [Favicon Generator](https://favicon.io/favicon-generator/)
+- [JsDoc to Markdown](https://www.npmjs.com/package/jsdoc-to-markdown)
+- [React DocGen](https://www.npmjs.com/package/react-docgen)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -259,5 +251,3 @@ Distributed under the GNU GPL v3 License. See `COPYING.txt` for more information
 [Sass-url]: https://sass-lang.com/
 [ESLint]: https://img.shields.io/badge/ESLint-18191a?style=for-the-badge&logo=eslint&logoColor=%234B32C3
 [ESLint-url]: https://eslint.org/
-[CreateReactApp]: https://img.shields.io/badge/Create%20React%20App-303846?style=for-the-badge&logo=createreactapp&logoColor=%2309D3AC
-[CreateReactApp-url]: https://create-react-app.dev/

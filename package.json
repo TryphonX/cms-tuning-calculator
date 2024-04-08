@@ -1,6 +1,6 @@
 {
 	"name": "cms-tuning-calculator",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"private": true,
 	"license": "GPL-3.0-or-later",
 	"author": "Tryphon Ksydas",
@@ -9,29 +9,13 @@
 		"url": "https://github.com/TryphonX/CMS-Tuning-Calculator.git"
 	},
 	"homepage": "https://TryphonX.github.io/CMS-Tuning-Calculator",
-	"dependencies": {
-		"@testing-library/jest-dom": "^5.17.0",
-		"@testing-library/react": "^13.4.0",
-		"@testing-library/user-event": "^13.5.0",
-		"bootstrap": "^5.3.1",
-		"combinations": "^1.0.0",
-		"prop-types": "^15.8.1",
-		"react": "^18.2.0",
-		"react-bootstrap": "^2.8.0",
-		"react-bootstrap-icons": "^1.10.3",
-		"react-dom": "^18.2.0",
-		"react-icons": "^4.10.1",
-		"react-scripts": "5.0.1",
-		"sass": "^1.66.1",
-		"web-vitals": "^2.1.4"
-	},
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"prepare": "husky install",
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
 		"predeploy": "npm run build",
+		"prepare": "husky install",
 		"deploy": "gh-pages -d build",
 		"changelog": "auto-changelog --handlebars-setup ./changelog-config/setup.js && auto-changelog --handlebars-setup ./changelog-config/setup.js -o ./release-notes/RELEASE_NOTES.md -t ./changelog-config/release-notes.hbs",
 		"push-tags": "git push --tags",
@@ -39,36 +23,30 @@
 		"jsdoc-gen": "jsdoc -c jsdoc.conf.json > docs/json/jsdoc.json && node ./src/scripts/getJsDocToMarkdown.cjs",
 		"docs": "yarn run react-doc-gen && yarn run jsdoc-gen"
 	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
+	"dependencies": {
+		"combinations": "^1.0.0",
+		"react": "^18",
+		"react-dom": "^18",
+		"next": "14.1.4"
 	},
 	"devDependencies": {
-		"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+		"typescript": "^5",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"autoprefixer": "^10.0.1",
+		"postcss": "^8",
+		"tailwindcss": "^3.3.0",
+		"eslint": "^8",
+		"eslint-config-next": "14.1.4",
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.7.0",
 		"@react-docgen/cli": "^1.0.4",
 		"auto-changelog": "^2.4.0",
-		"eslint": "^8.48.0",
 		"eslint-plugin-react": "^7.33.2",
 		"gh-pages": "^6.0.0",
 		"husky": "^8.0.3",
-		"jsdoc-to-markdown": "^8.0.0",
-		"yarn-audit-fix": "^10.0.1"
+		"jsdoc-to-markdown": "^8.0.0"
 	},
 	"commitlint": {
 		"extends": [

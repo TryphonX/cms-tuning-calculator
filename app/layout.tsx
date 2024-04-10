@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import { Ubuntu } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import './globals.css';
 import { ReactNode } from 'react';
 
-const ubuntu = Ubuntu({ weight: '500', subsets: ['latin'] });
+const ubuntu = Montserrat({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
 	title: 'Tuning Calculator',
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="en" data-theme='dark'>
 			<body className={ubuntu.className}>{children}</body>
 		</html>
 	);

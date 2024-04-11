@@ -7,8 +7,8 @@ export default function EngineCard() {
 
 	return (
 		<Card title="Engine" className='col-span-2'>
-			<EngineSelect />
-			<div className='grid grid-flow-row grid-cols-3 gap-4 mt-4'>
+			<EngineSelect className='mb-4 mt-2' />
+			<div className='grid grid-flow-row grid-cols-3 gap-4'>
 				<EngineImage />
 				<EngineSpecsTable />
 			</div>

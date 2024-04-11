@@ -1,13 +1,11 @@
+import { BasePropsWithChildren } from '@/@types/globals';
 import { ReactNode } from 'react';
 
-interface CardProps {
-	className?: string
+interface CardProps extends BasePropsWithChildren {
 	title?: string
-	children?: ReactNode | ReactNode[]
 }
 
 export default function Card(cProps: CardProps) {
-
 	
 	const getClassName = () => cProps.className ? ` ${cProps.className}` : '';
 

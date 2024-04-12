@@ -76,7 +76,7 @@ export default function CompatiblePartsTable() {
 	
 	return (
 		<div className="overflow-x-auto w-full">
-			<table className="table table-lg table-zebra">
+			<table className="table table-zebra">
 				<thead>
 					<tr>
 						<th>

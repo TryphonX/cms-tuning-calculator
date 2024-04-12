@@ -42,10 +42,6 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 		};
 	}, []);
 
-	useEffect(() => {
-		console.log(selectedParts);
-	}, [selectedParts]);
-
 	return (
 		<CalculatorContext.Provider
 			value={{

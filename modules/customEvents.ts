@@ -18,14 +18,21 @@ export const UpdateSelectedPartsEvent = {
 	},
 };
 
+export type ToggleSelectedPartEventInit = {
+	part: SelectedPart
+	toggleOn: boolean
+}
+
 export const ToggleSelectedPartEvent = {
 	name: 'toggleSelectedParts',
 	dispatch: (part: SelectedPart, toggleOn: boolean) => {
+		const detail: ToggleSelectedPartEventInit = {
+			part,
+			toggleOn,
+		};
+
 		dispatchEvent(new CustomEvent(ToggleSelectedPartEvent.name, {
-			detail: {
-				part,
-				toggleOn,
-			},
+			detail,
 		}));
 	},
 };

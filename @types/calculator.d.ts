@@ -1,4 +1,5 @@
 import engines from '@/data/engines.json';
+import tuningParts from '@/data/tuning-parts.json';
 
 export declare interface CompatiblePart {
 	/**
@@ -61,6 +62,8 @@ export declare interface SelectedPart {
 	 */
 	quantity: number
 }
+
+export type TuningPartName = keyof typeof tuningParts;
 
 export declare interface TuningPart {
 	/**

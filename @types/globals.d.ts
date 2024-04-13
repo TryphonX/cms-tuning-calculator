@@ -1,3 +1,4 @@
+import { PartSortBy } from '@/modules/common';
 import { ReactNode } from 'react';
 
 export type BaseProps = {
@@ -7,3 +8,5 @@ export type BaseProps = {
 export type BasePropsWithChildren = BaseProps & {
 	children?: ReactNode
 }
+
+export type SortBy = PartSortBy;

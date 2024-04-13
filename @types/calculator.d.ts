@@ -5,7 +5,7 @@ export declare interface CompatiblePart {
 	/**
 	 * The name of the part
 	 */
-	name: string
+	name: TuningPartName
 	/**
 	 * The number of times this type of part is fitted on each engine
 	 */
@@ -37,7 +37,7 @@ export declare interface Engine {
 	/**
 	 * The name of the engine
 	 */
-	name: string
+	name: EngineName
 	/**
 	 * The url of the engine's image
 	 */
@@ -56,7 +56,7 @@ export declare interface SelectedPart {
 	/**
 	 * The name of the part
 	 */
-	name: string
+	name: TuningPartName
 	/**
 	 * The number of times this type of part is fitted on each engine
 	 */
@@ -69,7 +69,7 @@ export declare interface TuningPart {
 	/**
 	 * The name of the part
 	 */
-	name: string
+	name: TuningPartName
 	/**
 	 * The part's price (in CR)
 	 */

@@ -11,7 +11,6 @@ export const metadata: Metadata = {
 	description:
 		'Web app that makes tuning cars in Car Mechanic Simulator 21 easier.',
 	authors: { name: 'Tryphon Ksydas' },
-	icons: '/favicon.ico',
 	keywords: [
 		'Car Mechanic Simulator',
 		'CMS21',

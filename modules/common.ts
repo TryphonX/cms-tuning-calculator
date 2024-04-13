@@ -6,7 +6,7 @@ import {
 } from '@/@types/calculator';
 import tuningParts from '@/data/tuning-parts.json';
 
-export const getTunedPartByName = (partName: TuningPartName) =>
+export const getFullPartByName = (partName: TuningPartName) =>
 	tuningParts[partName];
 
 export enum PartSortBy {
@@ -107,8 +107,8 @@ const compareQtDesc = (
 
 const compareCostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 	const [partA, partB] = [
-		getTunedPartByName(a.name),
-		getTunedPartByName(b.name),
+		getFullPartByName(a.name),
+		getFullPartByName(b.name),
 	];
 
 	if (partA?.cost < partB?.cost) {
@@ -122,8 +122,8 @@ const compareCostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 
 const compareCostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 	const [partA, partB] = [
-		getTunedPartByName(a.name),
-		getTunedPartByName(b.name),
+		getFullPartByName(a.name),
+		getFullPartByName(b.name),
 	];
 
 	if (partA?.cost < partB?.cost) {
@@ -137,8 +137,8 @@ const compareCostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 
 const compareBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 	const [partA, partB] = [
-		getTunedPartByName(a.name),
-		getTunedPartByName(b.name),
+		getFullPartByName(a.name),
+		getFullPartByName(b.name),
 	];
 
 	if (partA?.boost < partB?.boost) {
@@ -153,8 +153,8 @@ const compareBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 const compareBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 	compareBoostDesc;
 	const [partA, partB] = [
-		getTunedPartByName(a.name),
-		getTunedPartByName(b.name),
+		getFullPartByName(a.name),
+		getFullPartByName(b.name),
 	];
 
 	if (partA?.boost < partB?.boost) {
@@ -168,8 +168,8 @@ const compareBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 
 const compareCostToBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 	const [partA, partB] = [
-		getTunedPartByName(a.name),
-		getTunedPartByName(b.name),
+		getFullPartByName(a.name),
+		getFullPartByName(b.name),
 	];
 
 	if (partA?.costToBoost < partB?.costToBoost) {
@@ -183,8 +183,8 @@ const compareCostToBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 
 const compareCostToBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 	const [partA, partB] = [
-		getTunedPartByName(a.name),
-		getTunedPartByName(b.name),
+		getFullPartByName(a.name),
+		getFullPartByName(b.name),
 	];
 
 	if (partA?.costToBoost < partB?.costToBoost) {

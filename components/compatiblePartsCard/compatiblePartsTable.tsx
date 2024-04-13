@@ -2,14 +2,13 @@
 
 import { CalculatorContext } from '@/modules/contexts';
 import { ChangeEvent, useContext, useEffect, useState } from 'react';
-import tuningParts from '@/data/tuning-parts.json';
 import { TuningPartName } from '@/@types/calculator';
 import {
 	ToggleSelectedPartEvent,
 	UpdateSelectedPartsEvent,
 	UpdateSortEvent,
 } from '@/modules/customEvents';
-import { PartSortBy, getCompareFn } from '@/modules/common';
+import { PartSortBy, getCompareFn, getFullPartByName } from '@/modules/common';
 import { SortBy } from '@/@types/globals';
 import SortBtn from '../sortBtn/sortBtn';
 
@@ -185,8 +184,7 @@ export default function CompatiblePartsTable() {
 					</thead>
 					<tbody>
 						{sortedCompatibleParts.map((part) => {
-							const tuningPartData =
-								tuningParts[part.name as TuningPartName];
+							const tuningPartData = getFullPartByName(part.name);
 
 							if (!tuningPartData) {
 								console.warn(`Part missing: ${part.name}`);

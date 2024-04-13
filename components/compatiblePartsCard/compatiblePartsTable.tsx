@@ -82,7 +82,7 @@ export default function CompatiblePartsTable() {
 		currentTarget,
 	}: ChangeEvent<HTMLInputElement>) => {
 		const partName = currentTarget.dataset.partName!;
-		const partQt = ~~currentTarget.dataset.partQuantity!;
+		const partQt = ~~currentTarget.dataset.partQt!;
 
 		ToggleSelectedPartEvent.dispatch(
 			{ name: partName as TuningPartName, quantity: partQt },
@@ -117,9 +117,9 @@ export default function CompatiblePartsTable() {
 
 	return (
 		<>
-			<div className='overflow-x-auto w-full'>
+			<div className='overflow-x-auto w-full rounded-2xl border border-secondary'>
 				<table className='table table-sm table-zebra'>
-					<thead>
+					<thead className='text-sm'>
 						<tr>
 							<th>
 								<label>
@@ -210,7 +210,12 @@ export default function CompatiblePartsTable() {
 									<td>{part.quantity}</td>
 									<td>+{tuningPartData?.boost ?? '-'}%</td>
 									<td>{part.cost} CR</td>
-									<td>{part.cost} CR/Boost</td>
+									<td>
+										{(
+											part.cost / tuningPartData?.boost
+										)?.toFixed(2) || '-'}{' '}
+										CR/Boost
+									</td>
 								</tr>
 							);
 						})}

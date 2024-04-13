@@ -4,25 +4,29 @@ import { SortBy } from '@/@types/globals';
 export const ChangeEngineEvent = {
 	name: 'changeEngine',
 	dispatch: (newEngine: Engine | null) => {
-		dispatchEvent(new CustomEvent(ChangeEngineEvent.name, {
-			detail: newEngine,
-		}));
+		dispatchEvent(
+			new CustomEvent(ChangeEngineEvent.name, {
+				detail: newEngine,
+			}),
+		);
 	},
 };
 
 export const UpdateSelectedPartsEvent = {
 	name: 'updateSelectedParts',
 	dispatch: (parts: SelectedPart[]) => {
-		dispatchEvent(new CustomEvent(UpdateSelectedPartsEvent.name, {
-			detail: parts,
-		}));
+		dispatchEvent(
+			new CustomEvent(UpdateSelectedPartsEvent.name, {
+				detail: parts,
+			}),
+		);
 	},
 };
 
 export type ToggleSelectedPartEventInit = {
-	part: SelectedPart
-	toggleOn: boolean
-}
+	part: SelectedPart;
+	toggleOn: boolean;
+};
 
 export const ToggleSelectedPartEvent = {
 	name: 'toggleSelectedParts',
@@ -32,17 +36,21 @@ export const ToggleSelectedPartEvent = {
 			toggleOn,
 		};
 
-		dispatchEvent(new CustomEvent(ToggleSelectedPartEvent.name, {
-			detail,
-		}));
+		dispatchEvent(
+			new CustomEvent(ToggleSelectedPartEvent.name, {
+				detail,
+			}),
+		);
 	},
 };
 
 export const UpdateSortEvent = {
 	name: 'updateSortEvent',
 	dispatch: (newSort: SortBy) => {
-		dispatchEvent(new CustomEvent(UpdateSortEvent.name, {
-			detail: newSort,
-		}));
+		dispatchEvent(
+			new CustomEvent(UpdateSortEvent.name, {
+				detail: newSort,
+			}),
+		);
 	},
 };

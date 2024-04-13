@@ -8,33 +8,34 @@ import { ChangeEngineEvent } from '@/modules/customEvents';
 import { BaseProps } from '@/@types/globals';
 
 export default function EngineSelect(esProps: BaseProps) {
-
 	const { currentEngine } = useContext(CalculatorContext);
 
-	const getClassName = () => esProps.className ? ` ${esProps.className}` : '';
+	const getClassName = () =>
+		esProps.className ? ` ${esProps.className}` : '';
 
 	const handleEngineChange = ({ target }: ChangeEvent<HTMLSelectElement>) => {
-
 		const engineName = target.value as EngineName;
-		ChangeEngineEvent.dispatch(structuredClone(engines[engineName as EngineName]) as Engine);
+		ChangeEngineEvent.dispatch(
+			structuredClone(engines[engineName as EngineName]) as Engine,
+		);
 	};
 
 	const Options = () => {
-
 		return (
 			<>
 				<option>-- None --</option>
-				{
-					Object.keys(engines).slice(1).map((option) => (
+				{Object.keys(engines)
+					.slice(1)
+					.map((option) => (
 						<option key={option}>{option}</option>
-					))
-				}
+					))}
 			</>
 		);
 	};
 
 	return (
-		<select className={`select select-bordered w-full select-sm${getClassName()}`}
+		<select
+			className={`select select-bordered w-full select-sm${getClassName()}`}
 			value={currentEngine?.name ?? ''}
 			onChange={handleEngineChange}
 		>

@@ -5,30 +5,30 @@ export declare interface CompatiblePart {
 	/**
 	 * The name of the part
 	 */
-	name: TuningPartName
+	name: TuningPartName;
 	/**
 	 * The number of times this type of part is fitted on each engine
 	 */
-	quantity: number
+	quantity: number;
 	/**
 	 * The part's price (in CR)
 	 */
-	cost: number
+	cost: number;
 }
 
 export declare interface EngineSpecs {
 	/**
 	 * The engine's peak power (in HP)
 	 */
-	power: number
+	power: number;
 	/**
 	 * The engine's peak torque (in N-m)
 	 */
-	torque: number
+	torque: number;
 	/**
 	 * The name of the compatible gearbox
 	 */
-	gearbox: string
+	gearbox: string;
 }
 
 export type EngineName = keyof typeof engines;
@@ -37,30 +37,30 @@ export declare interface Engine {
 	/**
 	 * The name of the engine
 	 */
-	name: EngineName
+	name: EngineName;
 	/**
 	 * The url of the engine's image
 	 */
-	imgUrl: string
+	imgUrl: string;
 	/**
 	 * The engine's specifications
 	 */
-	specs: EngineSpecs
+	specs: EngineSpecs;
 	/**
 	 * The parts that are compatible with the engine
 	 */
-	compatibleParts: CompatiblePart[]
+	compatibleParts: CompatiblePart[];
 }
 
 export declare interface SelectedPart {
 	/**
 	 * The name of the part
 	 */
-	name: TuningPartName
+	name: TuningPartName;
 	/**
 	 * The number of times this type of part is fitted on each engine
 	 */
-	quantity: number
+	quantity: number;
 }
 
 export type TuningPartName = keyof typeof tuningParts;
@@ -69,24 +69,24 @@ export declare interface TuningPart {
 	/**
 	 * The name of the part
 	 */
-	name: TuningPartName
+	name: TuningPartName;
 	/**
 	 * The part's price (in CR)
 	 */
-	cost: number
+	cost: number;
 	/**
 	 * The part's boost increase
 	 */
-	boost: number
+	boost: number;
 	/**
 	 * The part's cost to boost ratio - CR / Boost
 	 */
-	costToBoost: number
+	costToBoost: number;
 }
 
 export declare interface TuningSetup {
-	partNames: string[]
-	cost: number
-	boost: number
-	costToBoost: number
+	partNames: string[];
+	cost: number;
+	boost: number;
+	costToBoost: number;
 }

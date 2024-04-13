@@ -3,7 +3,7 @@ import CompatiblePartsTable from './compatiblePartsTable';
 
 export default function CompatiblePartsCard() {
 	return (
-		<Card title='Compatible Parts' className='col-span-3'>
+		<Card title='Compatible Parts'>
 			<div className='mt-4'>
 				<CompatiblePartsTable />
 			</div>

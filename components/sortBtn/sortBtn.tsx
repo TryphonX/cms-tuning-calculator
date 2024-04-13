@@ -20,10 +20,8 @@ export default function SortBtn({ sortBy, values }: SortBtnProps) {
 
 	return (
 		<button
-			className={`btn btn-xs btn-square ${
-				values.some((val) => val === sortBy)
-					? 'btn-secondary'
-					: 'btn-ghost'
+			className={`btn btn-xs btn-square btn-ghost ${
+				values.some((val) => val === sortBy) ? 'btn-active' : ''
 			}`}
 			onClick={handleClick}
 		>

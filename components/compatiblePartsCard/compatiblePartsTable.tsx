@@ -118,7 +118,7 @@ export default function CompatiblePartsTable() {
 	return (
 		<>
 			<div className='overflow-x-auto w-full'>
-				<table className='table table-zebra'>
+				<table className='table table-sm table-zebra'>
 					<thead>
 						<tr>
 							<th>
@@ -132,54 +132,54 @@ export default function CompatiblePartsTable() {
 								</label>
 							</th>
 							<th className='w-1/3'>
+								Name{' '}
 								<SortBtn
 									sortBy={sortBy}
 									values={[
 										PartSortBy.NameAsc,
 										PartSortBy.NameDesc,
 									]}
-								/>{' '}
-								Name
+								/>
 							</th>
 							<th>
+								Qt{' '}
 								<SortBtn
 									sortBy={sortBy}
 									values={[
 										PartSortBy.QuantityAsc,
 										PartSortBy.QuantityDesc,
 									]}
-								/>{' '}
-								Qt
+								/>
 							</th>
 							<th>
+								Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
 									values={[
 										PartSortBy.BoostAsc,
 										PartSortBy.BoostDesc,
 									]}
-								/>{' '}
-								Boost
+								/>
 							</th>
 							<th>
+								Cost{' '}
 								<SortBtn
 									sortBy={sortBy}
 									values={[
 										PartSortBy.CostAsc,
 										PartSortBy.CostDesc,
 									]}
-								/>{' '}
-								Cost
+								/>
 							</th>
 							<th>
+								Cost / Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
 									values={[
 										PartSortBy.CostToBoostAsc,
 										PartSortBy.CostToBoostDesc,
 									]}
-								/>{' '}
-								Cost / Boost
+								/>
 							</th>
 						</tr>
 					</thead>

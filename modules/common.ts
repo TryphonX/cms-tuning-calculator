@@ -1,7 +1,13 @@
-import { CompatiblePart, TuningPartName } from '@/@types/calculator';
+import {
+	CompatiblePart,
+	SelectedPart,
+	TuningPartBase,
+	TuningPartName,
+} from '@/@types/calculator';
 import tuningParts from '@/data/tuning-parts.json';
 
-export const getTunedPartByName = (partName: TuningPartName) => tuningParts[partName];
+export const getTunedPartByName = (partName: TuningPartName) =>
+	tuningParts[partName];
 
 export enum PartSortBy {
 	NameAsc = 'name_asc',
@@ -17,44 +23,43 @@ export enum PartSortBy {
 }
 
 export const getCompareFn = (sortBy: PartSortBy) => {
-	
 	switch (sortBy) {
-	case PartSortBy.NameAsc:
-		return compareNamesAsc;
+		case PartSortBy.NameAsc:
+			return compareNamesAsc;
 
-	case PartSortBy.NameDesc:
-		return compareNamesDesc;
+		case PartSortBy.NameDesc:
+			return compareNamesDesc;
 
-	case PartSortBy.QuantityAsc:
-		return compareQtAsc;
+		case PartSortBy.QuantityAsc:
+			return compareQtAsc;
 
-	case PartSortBy.QuantityDesc:
-		return compareQtDesc;
-	
-	case PartSortBy.CostAsc:
-		return compareCostAsc;
+		case PartSortBy.QuantityDesc:
+			return compareQtDesc;
 
-	case PartSortBy.CostDesc:
-		return compareCostDesc;
+		case PartSortBy.CostAsc:
+			return compareCostAsc;
 
-	case PartSortBy.BoostAsc:
-		return compareBoostAsc;
+		case PartSortBy.CostDesc:
+			return compareCostDesc;
 
-	case PartSortBy.BoostDesc:
-		return compareBoostDesc;
+		case PartSortBy.BoostAsc:
+			return compareBoostAsc;
 
-	case PartSortBy.CostToBoostAsc:
-		return compareCostToBoostAsc;
+		case PartSortBy.BoostDesc:
+			return compareBoostDesc;
 
-	case PartSortBy.CostToBoostDesc:
-		return compareCostToBoostDesc;
-	
-	default:
-		return compareNamesAsc;
+		case PartSortBy.CostToBoostAsc:
+			return compareCostToBoostAsc;
+
+		case PartSortBy.CostToBoostDesc:
+			return compareCostToBoostDesc;
+
+		default:
+			return compareNamesAsc;
 	}
 };
 
-const compareNamesAsc = (a: CompatiblePart, b: CompatiblePart) => {
+const compareNamesAsc = (a: TuningPartBase, b: TuningPartBase) => {
 	if (a.name < b.name) {
 		return -1;
 	}
@@ -64,7 +69,7 @@ const compareNamesAsc = (a: CompatiblePart, b: CompatiblePart) => {
 	return 0;
 };
 
-const compareNamesDesc = (a: CompatiblePart, b: CompatiblePart) => {
+const compareNamesDesc = (a: TuningPartBase, b: TuningPartBase) => {
 	if (a.name < b.name) {
 		return 1;
 	}
@@ -74,8 +79,10 @@ const compareNamesDesc = (a: CompatiblePart, b: CompatiblePart) => {
 	return 0;
 };
 
-const compareQtAsc = (a: CompatiblePart, b: CompatiblePart) => {
-
+const compareQtAsc = (
+	a: SelectedPart | CompatiblePart,
+	b: SelectedPart | CompatiblePart,
+) => {
 	if (a.quantity < b.quantity) {
 		return -1;
 	}
@@ -85,7 +92,10 @@ const compareQtAsc = (a: CompatiblePart, b: CompatiblePart) => {
 	return 0;
 };
 
-const compareQtDesc = (a: CompatiblePart, b: CompatiblePart) => {
+const compareQtDesc = (
+	a: SelectedPart | CompatiblePart,
+	b: SelectedPart | CompatiblePart,
+) => {
 	if (a.quantity < b.quantity) {
 		return 1;
 	}
@@ -95,9 +105,11 @@ const compareQtDesc = (a: CompatiblePart, b: CompatiblePart) => {
 	return 0;
 };
 
-const compareCostAsc = (a: CompatiblePart, b: CompatiblePart) => {
-
-	const [partA, partB] = [getTunedPartByName(a.name), getTunedPartByName(b.name)];
+const compareCostAsc = (a: TuningPartBase, b: TuningPartBase) => {
+	const [partA, partB] = [
+		getTunedPartByName(a.name),
+		getTunedPartByName(b.name),
+	];
 
 	if (partA?.cost < partB?.cost) {
 		return -1;
@@ -108,9 +120,11 @@ const compareCostAsc = (a: CompatiblePart, b: CompatiblePart) => {
 	return 0;
 };
 
-const compareCostDesc = (a: CompatiblePart, b: CompatiblePart) => {
-
-	const [partA, partB] = [getTunedPartByName(a.name), getTunedPartByName(b.name)];
+const compareCostDesc = (a: TuningPartBase, b: TuningPartBase) => {
+	const [partA, partB] = [
+		getTunedPartByName(a.name),
+		getTunedPartByName(b.name),
+	];
 
 	if (partA?.cost < partB?.cost) {
 		return 1;
@@ -121,9 +135,11 @@ const compareCostDesc = (a: CompatiblePart, b: CompatiblePart) => {
 	return 0;
 };
 
-const compareBoostAsc = (a: CompatiblePart, b: CompatiblePart) => {
-
-	const [partA, partB] = [getTunedPartByName(a.name), getTunedPartByName(b.name)];
+const compareBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
+	const [partA, partB] = [
+		getTunedPartByName(a.name),
+		getTunedPartByName(b.name),
+	];
 
 	if (partA?.boost < partB?.boost) {
 		return -1;
@@ -134,9 +150,12 @@ const compareBoostAsc = (a: CompatiblePart, b: CompatiblePart) => {
 	return 0;
 };
 
-const compareBoostDesc = (a: CompatiblePart, b: CompatiblePart) => {
+const compareBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 	compareBoostDesc;
-	const [partA, partB] = [getTunedPartByName(a.name), getTunedPartByName(b.name)];
+	const [partA, partB] = [
+		getTunedPartByName(a.name),
+		getTunedPartByName(b.name),
+	];
 
 	if (partA?.boost < partB?.boost) {
 		return 1;
@@ -147,9 +166,11 @@ const compareBoostDesc = (a: CompatiblePart, b: CompatiblePart) => {
 	return 0;
 };
 
-const compareCostToBoostAsc = (a: CompatiblePart, b: CompatiblePart) => {
-
-	const [partA, partB] = [getTunedPartByName(a.name), getTunedPartByName(b.name)];
+const compareCostToBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
+	const [partA, partB] = [
+		getTunedPartByName(a.name),
+		getTunedPartByName(b.name),
+	];
 
 	if (partA?.costToBoost < partB?.costToBoost) {
 		return -1;
@@ -160,9 +181,11 @@ const compareCostToBoostAsc = (a: CompatiblePart, b: CompatiblePart) => {
 	return 0;
 };
 
-const compareCostToBoostDesc = (a: CompatiblePart, b: CompatiblePart) => {
-
-	const [partA, partB] = [getTunedPartByName(a.name), getTunedPartByName(b.name)];
+const compareCostToBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
+	const [partA, partB] = [
+		getTunedPartByName(a.name),
+		getTunedPartByName(b.name),
+	];
 
 	if (partA?.costToBoost < partB?.costToBoost) {
 		return 1;

@@ -1,34 +1,64 @@
 'use client';
 
 import { CalculatorContext } from '@/modules/contexts';
-import { ChangeEvent, useContext, useEffect } from 'react';
+import { ChangeEvent, useContext, useEffect, useState } from 'react';
 import tuningParts from '@/data/tuning-parts.json';
 import { TuningPartName } from '@/@types/calculator';
-import { ToggleSelectedPartEvent, UpdateSelectedPartsEvent } from '@/modules/customEvents';
+import {
+	ToggleSelectedPartEvent,
+	UpdateSelectedPartsEvent,
+	UpdateSortEvent,
+} from '@/modules/customEvents';
+import { PartSortBy, getCompareFn } from '@/modules/common';
+import { SortBy } from '@/@types/globals';
+import SortBtn from '../sortBtn/sortBtn';
 
 export default function CompatiblePartsTable() {
-
 	const { currentEngine } = useContext(CalculatorContext);
 
-	// eslint-disable-next-line no-undef
-	const getPartCheckboxes = () => document.getElementsByName('compatiblePartCheckbox') as NodeListOf<HTMLInputElement>;
-	const getAllPartsCheckbox = () => document.getElementsByName('allCompatiblePartsCheckbox')[0] as HTMLInputElement;
+	const [sortBy, setSortBy] = useState(PartSortBy.NameAsc);
 
+	// eslint-disable-next-line no-undef
+	const getPartCheckboxes = () =>
+		document.getElementsByName(
+			'compatiblePartCheckbox',
+		) as NodeListOf<HTMLInputElement>;
+
+	const getAllPartsCheckbox = () =>
+		document.getElementsByName(
+			'allCompatiblePartsCheckbox',
+		)[0] as HTMLInputElement;
+
+	// onMount
+	useEffect(() => {
+		const handleUpdateSort = (e: Event) => {
+			e.stopPropagation();
+			setSortBy((e as CustomEvent<SortBy>).detail ?? PartSortBy.NameAsc);
+		};
+
+		window.addEventListener(UpdateSortEvent.name, handleUpdateSort);
+
+		return () => {
+			window.removeEventListener(UpdateSortEvent.name, handleUpdateSort);
+		};
+	}, []);
+
+	// onUpdate only if currentEngine changed
 	useEffect(() => {
 		const elements = getPartCheckboxes();
 
-		elements.forEach(elem => {
+		elements.forEach((elem) => {
 			elem.checked = false;
 		});
-
 	}, [currentEngine]);
 
-	useEffect(() =>{
+	// onUpdate
+	useEffect(() => {
 		const elements = getPartCheckboxes();
 
 		let allSelected = true;
 
-		elements.forEach(elem => {
+		elements.forEach((elem) => {
 			if (!elem.checked) {
 				allSelected = false;
 				return;
@@ -44,83 +74,145 @@ export default function CompatiblePartsTable() {
 
 	if (!currentEngine) return;
 
-	const handleTogglePart = ({ currentTarget }: ChangeEvent<HTMLInputElement>) => {
-		
+	const sortedCompatibleParts = currentEngine.compatibleParts.sort(
+		getCompareFn(sortBy),
+	);
+
+	const handleTogglePart = ({
+		currentTarget,
+	}: ChangeEvent<HTMLInputElement>) => {
 		const partName = currentTarget.dataset.partName!;
 		const partQt = ~~currentTarget.dataset.partQuantity!;
 
-		ToggleSelectedPartEvent.dispatch({ name: partName, quantity: partQt }, currentTarget.checked);
+		ToggleSelectedPartEvent.dispatch(
+			{ name: partName as TuningPartName, quantity: partQt },
+			currentTarget.checked,
+		);
 	};
 
 	const markAllCheckboxes = (checked: boolean) => {
-		getPartCheckboxes().forEach(checkbox => {
+		getPartCheckboxes().forEach((checkbox) => {
 			checkbox.checked = checked;
 		});
 	};
 
-	const handleToggleAllParts = ({ currentTarget }: ChangeEvent<HTMLInputElement>) => {
-
+	const handleToggleAllParts = ({
+		currentTarget,
+	}: ChangeEvent<HTMLInputElement>) => {
 		if (currentTarget.checked) {
-			UpdateSelectedPartsEvent.dispatch(currentEngine.compatibleParts.map((part) => (
-				{ name: part.name, quantity: part.quantity }
-			)));
+			UpdateSelectedPartsEvent.dispatch(
+				currentEngine.compatibleParts.map((part) => ({
+					name: part.name,
+					quantity: part.quantity,
+				})),
+			);
 
 			markAllCheckboxes(true);
-		}
-		else {
+		} else {
 			UpdateSelectedPartsEvent.dispatch([]);
 
 			markAllCheckboxes(false);
 		}
 	};
-	
+
 	return (
-		<div className="overflow-x-auto w-full">
-			<table className="table table-zebra">
-				<thead>
-					<tr>
-						<th>
-							<label>
-								<input type="checkbox" className="checkbox"
-									name='allCompatiblePartsCheckbox'
-									onChange={handleToggleAllParts}
-								/>
-							</label>
-						</th>
-						<th>Name</th>
-						<th>Qt</th>
-						<th>Boost</th>
-						<th>Cost</th>
-						<th>Cost / Boost</th>
-					</tr>
-				</thead>
-				<tbody>
-					{currentEngine.compatibleParts.map((part) => {
+		<>
+			<div className='overflow-x-auto w-full'>
+				<table className='table table-zebra'>
+					<thead>
+						<tr>
+							<th>
+								<label>
+									<input
+										type='checkbox'
+										className='checkbox'
+										name='allCompatiblePartsCheckbox'
+										onChange={handleToggleAllParts}
+									/>
+								</label>
+							</th>
+							<th>
+								<SortBtn
+									sortBy={sortBy}
+									values={[
+										PartSortBy.NameAsc,
+										PartSortBy.NameDesc,
+									]}
+								/>{' '}
+								Name
+							</th>
+							<th>
+								<SortBtn
+									sortBy={sortBy}
+									values={[
+										PartSortBy.QuantityAsc,
+										PartSortBy.QuantityDesc,
+									]}
+								/>{' '}
+								Qt
+							</th>
+							<th>
+								<SortBtn
+									sortBy={sortBy}
+									values={[
+										PartSortBy.BoostAsc,
+										PartSortBy.BoostDesc,
+									]}
+								/>{' '}
+								Boost
+							</th>
+							<th>
+								<SortBtn
+									sortBy={sortBy}
+									values={[
+										PartSortBy.CostAsc,
+										PartSortBy.CostDesc,
+									]}
+								/>{' '}
+								Cost
+							</th>
+							<th>
+								<SortBtn
+									sortBy={sortBy}
+									values={[
+										PartSortBy.CostToBoostAsc,
+										PartSortBy.CostToBoostDesc,
+									]}
+								/>{' '}
+								Cost / Boost
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						{sortedCompatibleParts.map((part) => {
+							const tuningPartData =
+								tuningParts[part.name as TuningPartName];
 
-						const tuningPartData = tuningParts[part.name as TuningPartName];
-
-						return (
-							<tr key={`${part.name.replace(' ', '-')}-row`}>
-								<th>
-									<label>
-										<input type="checkbox" className="checkbox"
-											name='compatiblePartCheckbox'
-											onChange={handleTogglePart}
-											data-part-name={part.name}
-											data-part-qt={part.quantity}
-										/>
-									</label>
-								</th>
-								<td>{part.name}</td>
-								<td>{part.quantity}</td>
-								<td>+{tuningPartData.boost}%</td>
-								<td>{part.cost} CR</td>
-								<td>{part.cost} CR/Boost</td>
-							</tr>
-						);
-					})}
-				</tbody>
-			</table>
-		</div>
+							return (
+								<tr key={`${part.name.replace(' ', '-')}-row`}>
+									<th>
+										<label>
+											<input
+												type='checkbox'
+												className='checkbox'
+												name='compatiblePartCheckbox'
+												onChange={handleTogglePart}
+												data-part-name={part.name}
+												data-part-qt={part.quantity}
+											/>
+										</label>
+									</th>
+									<td>{part.name}</td>
+									<td>{part.quantity}</td>
+									<td>+{tuningPartData.boost}%</td>
+									<td>{part.cost} CR</td>
+									<td>{part.cost} CR/Boost</td>
+								</tr>
+							);
+						})}
+					</tbody>
+				</table>
+			</div>
+		</>
 	);
 }

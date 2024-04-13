@@ -1,6 +1,6 @@
 'use client';
 
-import { EngineName } from '@/@types/calculator';
+import { Engine, EngineName } from '@/@types/calculator';
 import engines from '../../data/engines.json';
 import { ChangeEvent, useContext } from 'react';
 import { CalculatorContext } from '@/modules/contexts';
@@ -16,7 +16,7 @@ export default function EngineSelect(esProps: BaseProps) {
 	const handleEngineChange = ({ target }: ChangeEvent<HTMLSelectElement>) => {
 
 		const engineName = target.value as EngineName;
-		ChangeEngineEvent.dispatch(structuredClone(engines[engineName]));
+		ChangeEngineEvent.dispatch(structuredClone(engines[engineName as EngineName]) as Engine);
 	};
 
 	const Options = () => {

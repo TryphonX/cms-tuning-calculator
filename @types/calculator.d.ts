@@ -1,11 +1,7 @@
 import engines from '@/data/engines.json';
 import tuningParts from '@/data/tuning-parts.json';
 
-export declare interface CompatiblePart {
-	/**
-	 * The name of the part
-	 */
-	name: TuningPartName;
+export declare interface CompatiblePart extends TuningPartBase {
 	/**
 	 * The number of times this type of part is fitted on each engine
 	 */
@@ -52,11 +48,14 @@ export declare interface Engine {
 	compatibleParts: CompatiblePart[];
 }
 
-export declare interface SelectedPart {
+export declare interface TuningPartBase {
 	/**
 	 * The name of the part
 	 */
 	name: TuningPartName;
+}
+
+export declare interface SelectedPart extends TuningPartBase {
 	/**
 	 * The number of times this type of part is fitted on each engine
 	 */
@@ -65,11 +64,7 @@ export declare interface SelectedPart {
 
 export type TuningPartName = keyof typeof tuningParts;
 
-export declare interface TuningPart {
-	/**
-	 * The name of the part
-	 */
-	name: TuningPartName;
+export declare interface TuningPart extends TuningPartBase {
 	/**
 	 * The part's price (in CR)
 	 */
@@ -85,7 +80,7 @@ export declare interface TuningPart {
 }
 
 export declare interface TuningSetup {
-	partNames: string[];
+	partNames: TuningPart[];
 	cost: number;
 	boost: number;
 	costToBoost: number;

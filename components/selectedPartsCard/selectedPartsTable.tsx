@@ -70,7 +70,7 @@ export default function SelectedPartsTable() {
 									]}
 								/>
 							</th>
-							<th>
+							<th className='text-right'>
 								Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -80,7 +80,7 @@ export default function SelectedPartsTable() {
 									]}
 								/>
 							</th>
-							<th>
+							<th className='text-right'>
 								Cost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -90,7 +90,7 @@ export default function SelectedPartsTable() {
 									]}
 								/>
 							</th>
-							<th>
+							<th className='text-right'>
 								Cost / Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -114,9 +114,13 @@ export default function SelectedPartsTable() {
 								<tr key={`${part.name.replace(' ', '-')}-row`}>
 									<td>{part.name}</td>
 									<td>{part.quantity}</td>
-									<td>+{tuningPartData?.boost ?? '-'}%</td>
-									<td>{tuningPartData?.cost ?? '-'} CR</td>
-									<td>
+									<td className='text-right'>
+										+{tuningPartData?.boost ?? '-'}%
+									</td>
+									<td className='text-right'>
+										{tuningPartData?.cost ?? '-'} CR
+									</td>
+									<td className='text-right'>
 										{(
 											tuningPartData?.cost /
 											tuningPartData?.boost
@@ -130,9 +134,13 @@ export default function SelectedPartsTable() {
 					<tfoot className='text-sm'>
 						<tr className='bg-secondary text-secondary-content'>
 							<th colSpan={2}>Total:</th>
-							<th>+{totalBoost.toFixed(2) ?? '-'}%</th>
-							<th>{totalCost ?? '-'} CR</th>
-							<th>
+							<th className='text-right'>
+								+{totalBoost.toFixed(2) ?? '-'}%
+							</th>
+							<th className='text-right'>
+								{totalCost ?? '-'} CR
+							</th>
+							<th className='text-right'>
 								{totalCostToBoost.toFixed(2) || '-'} CR/Boost
 							</th>
 						</tr>

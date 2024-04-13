@@ -120,7 +120,7 @@ export default function CompatiblePartsTable() {
 				<table className='table table-sm table-zebra'>
 					<thead className='text-sm'>
 						<tr>
-							<th>
+							<th className='w-0'>
 								<label>
 									<input
 										type='checkbox'
@@ -130,7 +130,7 @@ export default function CompatiblePartsTable() {
 									/>
 								</label>
 							</th>
-							<th className='w-1/3'>
+							<th className='w-1/2'>
 								Name{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -150,7 +150,7 @@ export default function CompatiblePartsTable() {
 									]}
 								/>
 							</th>
-							<th>
+							<th className='text-right'>
 								Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -160,7 +160,7 @@ export default function CompatiblePartsTable() {
 									]}
 								/>
 							</th>
-							<th>
+							<th className='text-right'>
 								Cost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -170,7 +170,7 @@ export default function CompatiblePartsTable() {
 									]}
 								/>
 							</th>
-							<th>
+							<th className='text-right'>
 								Cost / Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -206,9 +206,13 @@ export default function CompatiblePartsTable() {
 									</th>
 									<td>{part.name}</td>
 									<td>{part.quantity}</td>
-									<td>+{tuningPartData?.boost ?? '-'}%</td>
-									<td>{part.cost} CR</td>
-									<td>
+									<td className='text-right'>
+										+{tuningPartData?.boost ?? '-'}%
+									</td>
+									<td className='text-right'>
+										{part.cost} CR
+									</td>
+									<td className='text-right'>
 										{(
 											part.cost / tuningPartData?.boost
 										)?.toFixed(2) || '-'}{' '}

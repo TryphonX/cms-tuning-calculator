@@ -1,15 +1,16 @@
+import Link from 'next/link';
 import { FaPaypal } from 'react-icons/fa6';
 
 export default function Navbar() {
 	return (
 		<div className='navbar bg-base-100'>
 			<div className='flex-1'>
-				<a className='btn btn-ghost' href='#'>
+				<Link className='btn btn-ghost' href='/'>
 					<span className='text-xl'>Tuning Calculator</span>
 					<span className=' max-sm:hidden font-light text-secondary'>
 						Car Mechanic Simulator 21
 					</span>
-				</a>
+				</Link>
 			</div>
 			<div className='flex-none'>
 				<a href='https://paypal.me/TryphonKsydas' target='_blank'>

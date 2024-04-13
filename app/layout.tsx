@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import './globals.css';
 import { ReactNode } from 'react';
+import Navbar from '@/components/navbar/navbar';
 
 const ubuntu = Montserrat({ weight: '400', subsets: ['latin'] });
 
@@ -29,7 +30,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en' data-theme='dark'>
-			<body className={ubuntu.className}>{children}</body>
+			<body className={ubuntu.className}>
+				<Navbar />
+				{children}
+			</body>
 		</html>
 	);
 }

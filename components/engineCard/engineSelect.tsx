@@ -35,7 +35,7 @@ export default function EngineSelect(esProps: BaseProps) {
 
 	return (
 		<select
-			className={`select select-bordered w-full select-sm${getClassName()}`}
+			className={`select select-bordered w-full${getClassName()}`}
 			value={currentEngine?.name ?? ''}
 			onChange={handleEngineChange}
 		>

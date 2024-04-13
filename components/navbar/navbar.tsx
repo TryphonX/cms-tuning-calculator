@@ -6,15 +6,17 @@ export default function Navbar() {
 			<div className='flex-1'>
 				<a className='btn btn-ghost' href='#'>
 					<span className='text-xl'>Tuning Calculator</span>
-					<span className='hidden sm:block font-light text-secondary'>
+					<span className=' max-sm:hidden font-light text-secondary'>
 						Car Mechanic Simulator 21
 					</span>
 				</a>
 			</div>
 			<div className='flex-none'>
-				<button className='btn btn-sm md:btn-md btn-secondary'>
-					<FaPaypal /> Donate
-				</button>
+				<a href='https://paypal.me/TryphonKsydas' target='_blank'>
+					<button className='btn btn-sm btn-secondary'>
+						<FaPaypal /> Donate
+					</button>
+				</a>
 			</div>
 		</div>
 	);

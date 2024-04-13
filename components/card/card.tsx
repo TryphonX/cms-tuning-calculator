@@ -20,9 +20,7 @@ export default function Card(cProps: CardProps) {
 	};
 
 	return (
-		<div
-			className={`card border-primary border bg-base-100 shadow-xl${getClassName()}`}
-		>
+		<div className={`card card-bordered shadow-xl${getClassName()}`}>
 			<div className='card-body'>
 				<Title />
 				{cProps.children}

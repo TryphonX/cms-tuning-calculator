@@ -46,27 +46,17 @@ export default function SelectedPartsTable() {
 
 	return (
 		<>
-			<div className='overflow-x-auto w-full rounded-2xl border border-secondary'>
-				<table className='table table-md table-zebra'>
+			<div className='overflow-x-auto w-full rounded-2xl border border-base-200'>
+				<table className='table table-xs sm:table-sm xl:table-sm 2xl:table-sm table-zebra'>
 					<thead className='text-sm'>
 						<tr>
-							<th className='w-1/3'>
-								Name{' '}
+							<th className='w-1/2 xl:w-1/3 2xl:w-1/2'>
+								Part{' '}
 								<SortBtn
 									sortBy={sortBy}
 									values={[
 										PartSortBy.NameAsc,
 										PartSortBy.NameDesc,
-									]}
-								/>
-							</th>
-							<th>
-								Qt{' '}
-								<SortBtn
-									sortBy={sortBy}
-									values={[
-										PartSortBy.QuantityAsc,
-										PartSortBy.QuantityDesc,
 									]}
 								/>
 							</th>
@@ -90,7 +80,7 @@ export default function SelectedPartsTable() {
 									]}
 								/>
 							</th>
-							<th className='text-right'>
+							<th className='text-right max-md:hidden'>
 								Cost / Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -112,15 +102,23 @@ export default function SelectedPartsTable() {
 
 							return (
 								<tr key={`${part.name.replace(' ', '-')}-row`}>
-									<td>{part.name}</td>
-									<td>{part.quantity}</td>
-									<td className='text-right'>
-										+{tuningPartData?.boost ?? '-'}%
+									<td>
+										x{part.quantity} {part.name}
 									</td>
 									<td className='text-right'>
-										{tuningPartData?.cost ?? '-'} CR
+										+
+										{(
+											tuningPartData?.boost *
+											part.quantity
+										).toFixed(2) ?? '-'}
+										%
 									</td>
 									<td className='text-right'>
+										{tuningPartData?.cost * part.quantity ??
+											'-'}{' '}
+										CR
+									</td>
+									<td className='text-right max-md:hidden'>
 										{(
 											tuningPartData?.cost /
 											tuningPartData?.boost
@@ -131,16 +129,16 @@ export default function SelectedPartsTable() {
 							);
 						})}
 					</tbody>
-					<tfoot className='text-sm'>
+					<tfoot className='text-xs 2xl:text-sm'>
 						<tr className='bg-secondary text-secondary-content'>
-							<th colSpan={2}>Total:</th>
+							<th>Total:</th>
 							<th className='text-right'>
 								+{totalBoost.toFixed(2) ?? '-'}%
 							</th>
 							<th className='text-right'>
 								{totalCost ?? '-'} CR
 							</th>
-							<th className='text-right'>
+							<th className='text-right max-md:hidden'>
 								{totalCostToBoost.toFixed(2) || '-'} CR/Boost
 							</th>
 						</tr>

@@ -9,9 +9,9 @@ export default function EngineSpecsTable() {
 	if (!currentEngine) return;
 
 	return (
-		<figure className='col-span-2 w-full'>
-			<div className='overflow-x-auto w-full'>
-				<table className='table table-lg table-zebra'>
+		<figure className='col-span-3 sm:col-span-2 w-full'>
+			<div className='overflow-x-auto w-full border rounded-2xl border-base-200'>
+				<table className='table table-lg xl:table-md 2xl:table-lg table-zebra'>
 					<tbody>
 						<tr>
 							<th className='w-1/4'>Power</th>

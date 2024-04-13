@@ -131,7 +131,7 @@ export default function CompatiblePartsTable() {
 									/>
 								</label>
 							</th>
-							<th>
+							<th className='w-1/3'>
 								<SortBtn
 									sortBy={sortBy}
 									values={[
@@ -188,6 +188,10 @@ export default function CompatiblePartsTable() {
 							const tuningPartData =
 								tuningParts[part.name as TuningPartName];
 
+							if (!tuningPartData) {
+								console.warn(`Part missing: ${part.name}`);
+							}
+
 							return (
 								<tr key={`${part.name.replace(' ', '-')}-row`}>
 									<th>
@@ -204,7 +208,7 @@ export default function CompatiblePartsTable() {
 									</th>
 									<td>{part.name}</td>
 									<td>{part.quantity}</td>
-									<td>+{tuningPartData.boost}%</td>
+									<td>+{tuningPartData?.boost ?? '-'}%</td>
 									<td>{part.cost} CR</td>
 									<td>{part.cost} CR/Boost</td>
 								</tr>

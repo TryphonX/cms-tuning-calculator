@@ -49,7 +49,7 @@ export default function CompatiblePartsCard({ className }: BaseProps) {
 	return (
 		<>
 			<Card
-				title='Compatible Parts'
+				title='Available Parts'
 				className={className}
 				actions={actions}
 				footerActions={footerActions}

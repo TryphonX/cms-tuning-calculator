@@ -4,7 +4,7 @@ import SelectedPartsTable from './selectedPartsTable';
 
 export default function SelectedPartsCard({ className }: BaseProps) {
 	return (
-		<Card title='Selected Parts' className={className}>
+		<Card title='Cart' className={className}>
 			<div className='mt-4'>
 				<SelectedPartsTable />
 			</div>

@@ -84,7 +84,7 @@ export default function AboutSection() {
 								href='https://github.com/TryphonX/CMS-Tuning-Calculator'
 								target='_blank'
 							>
-								<button className='btn btn-secondary btn-sm'>
+								<button className='btn btn-accent btn-sm'>
 									<FaGithub /> Source code
 								</button>
 							</Link>

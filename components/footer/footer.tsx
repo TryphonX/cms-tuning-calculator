@@ -13,7 +13,9 @@ export default function Footer() {
 						alt='avatar'
 					/>
 				</picture>
-				<p>Copyright © 2024 - All right reserved</p>
+				<p>
+					Copyright © {new Date().getFullYear()} - All right reserved
+				</p>
 			</aside>
 			<nav className='flex max-md:w-full max-md:justify-center max-md:items-center md:place-self-center md:justify-self-end'>
 				<Link

@@ -13,11 +13,26 @@ export default function Navbar() {
 				</Link>
 			</div>
 			<div className='flex-none'>
-				<a href='https://paypal.me/TryphonKsydas' target='_blank'>
+				<ul className='menu menu-horizontal px-1'>
+					<li className='max-sm:hidden'>
+						<Link href='/calculator'>Calculator</Link>
+					</li>
+					<li className='sm:hidden'>
+						<details>
+							<summary />
+							<ul className='p-2 bg-base-100 rounded-t-none z-10'>
+								<li>
+									<Link href='/calculator'>Calculator</Link>
+								</li>
+							</ul>
+						</details>
+					</li>
+				</ul>
+				<Link href='https://paypal.me/TryphonKsydas' target='_blank'>
 					<button className='btn btn-sm btn-secondary'>
 						<FaPaypal /> Donate
 					</button>
-				</a>
+				</Link>
 			</div>
 		</div>
 	);

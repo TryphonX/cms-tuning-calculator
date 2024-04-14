@@ -63,7 +63,6 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 
 	const close = useCallback(() => {
 		(document.getElementById(id) as HTMLDialogElement)?.close();
-		setTargetIncrease(0);
 	}, [id]);
 
 	const handleGenerate = useCallback(() => {

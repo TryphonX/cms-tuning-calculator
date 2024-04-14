@@ -3,6 +3,7 @@ import { Montserrat } from 'next/font/google';
 import './globals.css';
 import { ReactNode } from 'react';
 import Navbar from '@/components/navbar/navbar';
+import Footer from '@/components/footer/footer';
 
 const ubuntu = Montserrat({ weight: '400', subsets: ['latin'] });
 
@@ -29,9 +30,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en' data-theme='dark'>
-			<body className={ubuntu.className}>
+			<body className={`${ubuntu.className} flex flex-col min-h-svh`}>
 				<Navbar />
 				{children}
+				<Footer data-theme='dark' />
 			</body>
 		</html>
 	);

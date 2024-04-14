@@ -10,6 +10,7 @@ export default function Calculator() {
 		<CalculatorWrapper>
 			<div
 				className='
+				flex-grow
 				flex flex-col
 				lg:flex lg:flex-col
 				xl:grid xl:grid-flow-row xl:grid-cols-5 xl:gap-8 m-8'

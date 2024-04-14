@@ -1,4 +1,5 @@
 import { Action, BasePropsWithChildren } from '@/@types/globals';
+import { useCallback } from 'react';
 
 type CardProps = BasePropsWithChildren &
 	HeaderProps &
@@ -7,8 +8,7 @@ type CardProps = BasePropsWithChildren &
 	};
 
 const getActionClassName = (action: Action) =>
-	'btn join-item btn-sm ' +
-	`btn-${action.variant ?? 'neutral'} ${action.className ?? ''}`;
+	'btn join-item btn-sm ' + `${action.className ?? 'btn-neutral'}`;
 
 type HeaderProps = ActionsProps & {
 	title?: string;
@@ -29,7 +29,7 @@ function Actions({ actions }: { actions?: Action[] }) {
 		<div className='join'>
 			{actions.map((action) => (
 				<button
-					key={`${action.label}-footeraction`}
+					key={`${action.label}-action`}
 					className={getActionClassName(action)}
 					disabled={action.disabled}
 					onClick={action.onClick}
@@ -55,8 +55,7 @@ function Header({ title, actions }: HeaderProps) {
 	);
 }
 
-const getFActionClassName = (action: Action) =>
-	`btn btn-${action.variant || 'primary'} ${action.className ?? ''}`;
+const getFActionClassName = (action: Action) => `btn ${action.className ?? ''}`;
 
 function FooterActions({ footerActions }: FooterActionsProps) {
 	if (!footerActions) return;
@@ -65,7 +64,7 @@ function FooterActions({ footerActions }: FooterActionsProps) {
 		<div className='card-actions justify-end'>
 			{footerActions.map((action) => (
 				<button
-					key={`${action.label}-action`}
+					key={`${action.label}-footeraction`}
 					className={getFActionClassName(action)}
 					disabled={action.disabled}
 					onClick={action.onClick}
@@ -84,7 +83,10 @@ export default function Card({
 	children,
 	footerActions,
 }: CardProps) {
-	const getClassName = () => (className ? ` ${className}` : '');
+	const getClassName = useCallback(
+		() => (className ? ` ${className}` : ''),
+		[className],
+	);
 
 	return (
 		<div className={`card card-bordered shadow-xl${getClassName()}`}>

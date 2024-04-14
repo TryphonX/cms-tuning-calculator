@@ -18,27 +18,36 @@ import { PartSortBy, getCompareFn, getFullPartByName } from '@/modules/common';
 import { SortBy } from '@/@types/globals';
 import SortBtn from '../sortBtn/sortBtn';
 
+const getPartCheckboxes = () =>
+	document.getElementsByName(
+		'compatiblePartCheckbox',
+	) as NodeListOf<HTMLInputElement>;
+
+const getAllPartsCheckbox = () =>
+	document.getElementsByName(
+		'allCompatiblePartsCheckbox',
+	)[0] as HTMLInputElement;
+
+const markAllCheckboxes = (checked: boolean) => {
+	getPartCheckboxes().forEach((checkbox) => {
+		checkbox.checked = checked;
+	});
+};
+
+const handleTogglePart = ({ currentTarget }: ChangeEvent<HTMLInputElement>) => {
+	const partName = currentTarget.dataset.partName!;
+	const partQt = ~~currentTarget.dataset.partQt!;
+
+	ToggleSelectedPartEvent.dispatch(
+		{ name: partName as TuningPartName, quantity: partQt },
+		currentTarget.checked,
+	);
+};
+
 export default function CompatiblePartsTable() {
 	const { currentEngine, selectedParts } = useContext(CalculatorContext);
 
 	const [sortBy, setSortBy] = useState(PartSortBy.NameAsc);
-
-	const markAllCheckboxes = useCallback((checked: boolean) => {
-		getPartCheckboxes().forEach((checkbox) => {
-			checkbox.checked = checked;
-		});
-	}, []);
-
-	// eslint-disable-next-line no-undef
-	const getPartCheckboxes = () =>
-		document.getElementsByName(
-			'compatiblePartCheckbox',
-		) as NodeListOf<HTMLInputElement>;
-
-	const getAllPartsCheckbox = () =>
-		document.getElementsByName(
-			'allCompatiblePartsCheckbox',
-		)[0] as HTMLInputElement;
 
 	// onMount
 	useEffect(() => {
@@ -78,7 +87,7 @@ export default function CompatiblePartsTable() {
 				}
 			});
 		}
-	}, [selectedParts, markAllCheckboxes]);
+	}, [selectedParts]);
 
 	// onUpdate
 	useEffect(() => {
@@ -100,42 +109,33 @@ export default function CompatiblePartsTable() {
 		}
 	});
 
+	const handleToggleAllParts = useCallback(
+		({ currentTarget }: ChangeEvent<HTMLInputElement>) => {
+			if (currentTarget.checked) {
+				if (currentEngine) {
+					UpdateSelectedPartsEvent.dispatch(
+						currentEngine.compatibleParts.map((part) => ({
+							name: part.name,
+							quantity: part.quantity,
+						})),
+					);
+				}
+
+				markAllCheckboxes(true);
+			} else {
+				UpdateSelectedPartsEvent.dispatch([]);
+
+				markAllCheckboxes(false);
+			}
+		},
+		[currentEngine],
+	);
+
 	if (!currentEngine) return;
 
 	const sortedCompatibleParts = currentEngine.compatibleParts.sort(
 		getCompareFn(sortBy),
 	);
-
-	const handleTogglePart = ({
-		currentTarget,
-	}: ChangeEvent<HTMLInputElement>) => {
-		const partName = currentTarget.dataset.partName!;
-		const partQt = ~~currentTarget.dataset.partQt!;
-
-		ToggleSelectedPartEvent.dispatch(
-			{ name: partName as TuningPartName, quantity: partQt },
-			currentTarget.checked,
-		);
-	};
-
-	const handleToggleAllParts = ({
-		currentTarget,
-	}: ChangeEvent<HTMLInputElement>) => {
-		if (currentTarget.checked) {
-			UpdateSelectedPartsEvent.dispatch(
-				currentEngine.compatibleParts.map((part) => ({
-					name: part.name,
-					quantity: part.quantity,
-				})),
-			);
-
-			markAllCheckboxes(true);
-		} else {
-			UpdateSelectedPartsEvent.dispatch([]);
-
-			markAllCheckboxes(false);
-		}
-	};
 
 	return (
 		<>

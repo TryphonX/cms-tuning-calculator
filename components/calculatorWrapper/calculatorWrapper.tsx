@@ -15,9 +15,11 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 	const [currentEngine, setCurrentEngine] = useState(null as Engine | null);
 	const [selectedParts, setSelectedParts] = useState([] as SelectedPart[]);
 
+	// onMount
 	useEffect(() => {
 		const handleChangeEngine = (e: Event) => {
 			setCurrentEngine((e as CustomEvent<Engine | null>).detail);
+			setSelectedParts([]);
 		};
 
 		const handleToggleSelectedPart = (e: Event) => {

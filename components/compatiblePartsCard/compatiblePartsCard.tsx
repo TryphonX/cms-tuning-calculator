@@ -19,8 +19,8 @@ export default function CompatiblePartsCard({ className }: BaseProps) {
 					<FaWandMagicSparkles /> Auto-generate
 				</>
 			),
+			className: 'btn-primary',
 			disabled: !currentEngine,
-			variant: 'primary',
 			onClick: () => {
 				const modal = document.getElementById(AUTO_GEN_MODAL_ID);
 
@@ -32,16 +32,19 @@ export default function CompatiblePartsCard({ className }: BaseProps) {
 		[currentEngine],
 	);
 
-	const clearAction: Action = {
-		label: (
-			<>
-				<FaEraser /> Clear
-			</>
-		),
-		disabled: !selectedParts.length,
-		variant: 'error',
-		onClick: () => UpdateSelectedPartsEvent.dispatch([]),
-	};
+	const clearAction: Action = useMemo(
+		() => ({
+			label: (
+				<>
+					<FaEraser /> Clear
+				</>
+			),
+			disabled: !selectedParts.length,
+			className: 'btn-error',
+			onClick: () => UpdateSelectedPartsEvent.dispatch([]),
+		}),
+		[selectedParts],
+	);
 
 	const actions = [autoGenerateAction];
 	const footerActions = [clearAction];

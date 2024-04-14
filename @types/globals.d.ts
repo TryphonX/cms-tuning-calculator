@@ -13,7 +13,6 @@ export type SortBy = PartSortBy;
 
 export type Action = {
 	className?: string;
-	variant?: string;
 	disabled?: boolean;
 	label: ReactNode | ReactNode[];
 	onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;

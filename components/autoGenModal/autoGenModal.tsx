@@ -21,15 +21,15 @@ type AutoGenModalProps = {
 };
 
 type AutoGenModalInitScreenProps = {
-	handleTargetChange: (e: ChangeEvent<HTMLInputElement>) => void;
+	onTargetChange: (e: ChangeEvent<HTMLInputElement>) => void;
 	targetIncrease: number;
-	handleGenerate: () => void;
+	onGenerate: () => void;
 };
 
 function AutoGenModalInitScreen({
-	handleTargetChange,
+	onTargetChange,
 	targetIncrease,
-	handleGenerate,
+	onGenerate,
 }: AutoGenModalInitScreenProps) {
 	return (
 		<>
@@ -47,7 +47,7 @@ function AutoGenModalInitScreen({
 				min='0'
 				max='100'
 				defaultValue={targetIncrease}
-				onChange={handleTargetChange}
+				onChange={onTargetChange}
 				className='range range-primary'
 			/>
 			<div className='w-full flex justify-end text-right'>
@@ -56,7 +56,7 @@ function AutoGenModalInitScreen({
 				</div>
 			</div>
 			<div className='modal-action'>
-				<button className='btn btn-primary' onClick={handleGenerate}>
+				<button className='btn btn-primary' onClick={onGenerate}>
 					<FaWandMagicSparkles /> Generate
 				</button>
 			</div>
@@ -221,8 +221,8 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 		return (
 			<AutoGenModalInitScreen
 				targetIncrease={targetIncrease}
-				handleTargetChange={handleTargetChange}
-				handleGenerate={handleGenerate}
+				onTargetChange={handleTargetChange}
+				onGenerate={handleGenerate}
 			/>
 		);
 	}, [

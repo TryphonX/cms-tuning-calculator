@@ -12,8 +12,6 @@ export default function AutoGenModalSetupScreen({
 	onApply,
 	onDiscard,
 }: AutoGenModalSetupScreenProps) {
-	console.log(generatedSetup);
-
 	if (!generatedSetup) return;
 
 	return (

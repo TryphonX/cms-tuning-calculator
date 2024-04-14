@@ -80,7 +80,7 @@ export declare interface TuningPart extends TuningPartBase {
 }
 
 export declare interface TuningSetup {
-	partNames: TuningPart[];
+	partNames: TuningPartName[];
 	cost: number;
 	boost: number;
 	costToBoost: number;

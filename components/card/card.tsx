@@ -1,43 +1,98 @@
-import { BasePropsWithChildren } from '@/@types/globals';
-import { ReactNode } from 'react';
+import { Action, BasePropsWithChildren } from '@/@types/globals';
 
-interface CardProps extends BasePropsWithChildren {
-	title?: string;
-}
-
-export default function Card(cProps: CardProps) {
-	const getClassName = () => (cProps.className ? ` ${cProps.className}` : '');
-
-	const Title = () => {
-		if (!cProps.title) return;
-
-		return (
-			<>
-				<span className='card-title'>{cProps.title}</span>
-				<div className='divider my-0'></div>
-			</>
-		);
+type CardProps = BasePropsWithChildren &
+	HeaderProps &
+	FooterActionsProps & {
+		title?: string;
 	};
 
+const getActionClassName = (action: Action) =>
+	'btn join-item btn-sm ' +
+	`btn-${action.variant ?? 'neutral'} ${action.className ?? ''}`;
+
+type HeaderProps = ActionsProps & {
+	title?: string;
+};
+
+type ActionsProps = {
+	actions?: Action[];
+};
+
+type FooterActionsProps = {
+	footerActions?: Action[];
+};
+
+function Actions({ actions }: { actions?: Action[] }) {
+	if (!actions || !actions.length) return;
+
 	return (
-		<div className={`card card-bordered shadow-xl${getClassName()}`}>
-			<div className='card-body'>
-				<Title />
-				{cProps.children}
-				<Actions />
-			</div>
+		<div className='join'>
+			{actions.map((action) => (
+				<button
+					key={`${action.label}-footeraction`}
+					className={getActionClassName(action)}
+					disabled={action.disabled}
+					onClick={action.onClick}
+				>
+					{action.label}
+				</button>
+			))}
 		</div>
 	);
 }
 
-interface CardActionsProps {
-	children?: ReactNode | ReactNode[];
+function Header({ title, actions }: HeaderProps) {
+	if (!title) return;
+
+	return (
+		<>
+			<div className='flex flex-row justify-between'>
+				<span className='card-title'>{title}</span>
+				<Actions actions={actions} />
+			</div>
+			<div className='divider my-0'></div>
+		</>
+	);
 }
 
-const Actions = (caProps: CardActionsProps) => {
-	if (!caProps.children) return;
+const getFActionClassName = (action: Action) =>
+	`btn btn-${action.variant || 'primary'} ${action.className ?? ''}`;
 
-	return <div className='card-actions justify-end'>{caProps.children}</div>;
-};
+function FooterActions({ footerActions }: FooterActionsProps) {
+	if (!footerActions) return;
 
-Card.Actions = Actions;
+	return (
+		<div className='card-actions justify-end'>
+			{footerActions.map((action) => (
+				<button
+					key={`${action.label}-action`}
+					className={getFActionClassName(action)}
+					disabled={action.disabled}
+					onClick={action.onClick}
+				>
+					{action.label}
+				</button>
+			))}
+		</div>
+	);
+}
+
+export default function Card({
+	className,
+	title,
+	actions,
+	children,
+	footerActions,
+}: CardProps) {
+	const getClassName = () => (className ? ` ${className}` : '');
+
+	return (
+		<div className={`card card-bordered shadow-xl${getClassName()}`}>
+			<div className='card-body'>
+				<Header title={title} actions={actions} />
+				{children}
+				<FooterActions footerActions={footerActions} />
+			</div>
+		</div>
+	);
+}

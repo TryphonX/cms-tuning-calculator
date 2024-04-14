@@ -1,10 +1,13 @@
 import {
 	CompatiblePart,
 	SelectedPart,
+	TuningPart,
 	TuningPartBase,
 	TuningPartName,
+	TuningSetup,
 } from '@/@types/calculator';
 import tuningParts from '@/data/tuning-parts.json';
+import combinations from 'combinations';
 
 export const getFullPartByName = (partName: TuningPartName) =>
 	tuningParts[partName];
@@ -194,4 +197,40 @@ const compareCostToBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 		return -1;
 	}
 	return 0;
+};
+
+const compareSetups = (a: TuningSetup, b: TuningSetup) => {
+	if (a.cost > b.cost) {
+		return 1;
+	}
+
+	if (a.cost < b.cost) {
+		return -1;
+	}
+
+	return a.boost < b.boost ? 1 : -1;
+};
+
+export const calculateBestSetup = (
+	parts: TuningPart[],
+	targetBoostIncrease: number,
+) => {
+	const allCombos = combinations<TuningPart>(parts);
+
+	const allEligibleSetups: TuningSetup[] = allCombos
+		.map<TuningSetup>((combo) => ({
+			partNames: combo.map((part) => part.name),
+			cost: combo.reduce((acc, curr) => acc + curr.cost, 0),
+			boost: combo.reduce((acc, curr) => acc + curr.boost, 0),
+			costToBoost:
+				combo.reduce((acc, curr) => acc + curr.cost, 0) /
+				combo.reduce((acc, curr) => acc + curr.boost, 0),
+		}))
+		.filter((setup) => setup.boost >= targetBoostIncrease);
+
+	if (!allEligibleSetups.length) return null;
+
+	allEligibleSetups.sort(compareSetups);
+
+	return allEligibleSetups[0];
 };

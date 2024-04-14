@@ -118,11 +118,17 @@ export default function SelectedPartsTable() {
 											'-'}{' '}
 										CR
 									</td>
-									<td className='text-right max-md:hidden'>
+									<td
+										className='text-right max-md:hidden'
+										title={(
+											tuningPartData?.cost /
+											tuningPartData?.boost
+										).toString()}
+									>
 										{(
 											tuningPartData?.cost /
 											tuningPartData?.boost
-										).toFixed(2) || '-'}{' '}
+										).toFixed(0) || '-'}{' '}
 										CR/Boost
 									</td>
 								</tr>
@@ -138,8 +144,11 @@ export default function SelectedPartsTable() {
 							<th className='text-right'>
 								{totalCost ?? '-'} CR
 							</th>
-							<th className='text-right max-md:hidden'>
-								{totalCostToBoost.toFixed(2) || '-'} CR/Boost
+							<th
+								className='text-right max-md:hidden'
+								title={totalCostToBoost.toString()}
+							>
+								{totalCostToBoost.toFixed(0) || '-'} CR/Boost
 							</th>
 						</tr>
 					</tfoot>

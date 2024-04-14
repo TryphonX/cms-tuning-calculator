@@ -1,7 +1,13 @@
 'use client';
 
 import { CalculatorContext } from '@/modules/contexts';
-import { ChangeEvent, useContext, useEffect, useState } from 'react';
+import {
+	ChangeEvent,
+	useCallback,
+	useContext,
+	useEffect,
+	useState,
+} from 'react';
 import { TuningPartName } from '@/@types/calculator';
 import {
 	ToggleSelectedPartEvent,
@@ -13,9 +19,15 @@ import { SortBy } from '@/@types/globals';
 import SortBtn from '../sortBtn/sortBtn';
 
 export default function CompatiblePartsTable() {
-	const { currentEngine } = useContext(CalculatorContext);
+	const { currentEngine, selectedParts } = useContext(CalculatorContext);
 
 	const [sortBy, setSortBy] = useState(PartSortBy.NameAsc);
+
+	const markAllCheckboxes = useCallback((checked: boolean) => {
+		getPartCheckboxes().forEach((checkbox) => {
+			checkbox.checked = checked;
+		});
+	}, []);
 
 	// eslint-disable-next-line no-undef
 	const getPartCheckboxes = () =>
@@ -50,6 +62,23 @@ export default function CompatiblePartsTable() {
 			elem.checked = false;
 		});
 	}, [currentEngine]);
+
+	// onUpdate only if selectedParts changed
+	useEffect(() => {
+		if (!selectedParts.length) {
+			markAllCheckboxes(false);
+		} else {
+			getPartCheckboxes()?.forEach((checkbox) => {
+				const isSelected = selectedParts.some(
+					(part) => part.name === checkbox.dataset.partName,
+				);
+
+				if (checkbox.checked !== isSelected) {
+					checkbox.checked = isSelected;
+				}
+			});
+		}
+	}, [selectedParts, markAllCheckboxes]);
 
 	// onUpdate
 	useEffect(() => {
@@ -87,12 +116,6 @@ export default function CompatiblePartsTable() {
 			{ name: partName as TuningPartName, quantity: partQt },
 			currentTarget.checked,
 		);
-	};
-
-	const markAllCheckboxes = (checked: boolean) => {
-		getPartCheckboxes().forEach((checkbox) => {
-			checkbox.checked = checked;
-		});
 	};
 
 	const handleToggleAllParts = ({
@@ -209,11 +232,17 @@ export default function CompatiblePartsTable() {
 										{tuningPartData?.cost * part.quantity}{' '}
 										CR
 									</td>
-									<td className='text-right max-md:hidden'>
+									<td
+										className='text-right max-md:hidden'
+										title={(
+											tuningPartData?.cost /
+											tuningPartData?.boost
+										).toString()}
+									>
 										{(
 											tuningPartData?.cost /
 											tuningPartData?.boost
-										)?.toFixed(2) || '-'}{' '}
+										)?.toFixed(0) || '-'}{' '}
 										CR/Boost
 									</td>
 								</tr>

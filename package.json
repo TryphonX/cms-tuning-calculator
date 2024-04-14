@@ -34,6 +34,7 @@
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.7.0",
 		"@react-docgen/cli": "^1.0.4",
+		"@types/combinations": "^1.0.2",
 		"@types/node": "^20",
 		"@types/react": "^18",
 		"@types/react-dom": "^18",

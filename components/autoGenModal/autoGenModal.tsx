@@ -9,68 +9,20 @@ import {
 import { calculateBestSetup, getFullPartByName } from '@/modules/common';
 import { CalculatorContext } from '@/modules/contexts';
 import { UpdateSelectedPartsEvent } from '@/modules/customEvents';
-import { ChangeEvent, useCallback, useContext, useState } from 'react';
 import {
-	FaArrowRotateLeft,
-	FaArrowsRotate,
-	FaWandMagicSparkles,
-} from 'react-icons/fa6';
+	ChangeEvent,
+	useCallback,
+	useContext,
+	useEffect,
+	useState,
+} from 'react';
+import AutoGenModalInitScreen from './autoGenModalInitialScreen';
+import AutoGenModalLoading from './autoGenModalLoading';
+import AutoGenModalSetupScreen from './autoGenModalSetupScreen';
 
 type AutoGenModalProps = {
 	id: string;
 };
-
-type AutoGenModalInitScreenProps = {
-	onTargetChange: (e: ChangeEvent<HTMLInputElement>) => void;
-	targetIncrease: number;
-	onGenerate: () => void;
-};
-
-function AutoGenModalInitScreen({
-	onTargetChange,
-	targetIncrease,
-	onGenerate,
-}: AutoGenModalInitScreenProps) {
-	return (
-		<>
-			<p className='py-4'>
-				Auto-generation will show you the optimal setup for the target
-				boost increase.
-			</p>
-			<p className='py-4'>Choose your target boost increase:</p>
-			<div className='w-full flex justify-between'>
-				<span>0%</span>
-				<span>100%</span>
-			</div>
-			<input
-				type='range'
-				min='0'
-				max='100'
-				defaultValue={targetIncrease}
-				onChange={onTargetChange}
-				className='range range-primary'
-			/>
-			<div className='w-full flex justify-end text-right'>
-				<div className='flex flex-col text-accent'>
-					<span>Target Increase: {targetIncrease}%</span>
-				</div>
-			</div>
-			<div className='modal-action'>
-				<button className='btn btn-primary' onClick={onGenerate}>
-					<FaWandMagicSparkles /> Generate
-				</button>
-			</div>
-		</>
-	);
-}
-
-function AutoGenLoading() {
-	return (
-		<div className='text-center mt-8'>
-			<span className='loading loading-infinity w-40 text-primary'></span>
-		</div>
-	);
-}
 
 const generateSetup = (currentEngine: Engine, targetIncrease: number) => {
 	if (!currentEngine) return null;
@@ -90,56 +42,6 @@ const generateSetup = (currentEngine: Engine, targetIncrease: number) => {
 		targetIncrease,
 	);
 };
-
-type AutoGenModalSetupScreenProps = {
-	generatedSetup?: TuningSetup;
-	onApply: () => void;
-	onDiscard: () => void;
-};
-
-function AutoGenModalSetupScreen({
-	generatedSetup,
-	onApply,
-	onDiscard,
-}: AutoGenModalSetupScreenProps) {
-	console.log(generatedSetup);
-
-	if (!generatedSetup) return;
-
-	return (
-		<div>
-			<div className='my-4 overflow-x-auto w-full border rounded-2xl border-base-200'>
-				<table className='table table-md sm:table-lg table-zebra'>
-					<tbody>
-						<tr>
-							<th>Boost</th>
-							<td>{generatedSetup.boost}%</td>
-						</tr>
-						<tr>
-							<th>Cost</th>
-							<td>{generatedSetup.cost} CR</td>
-						</tr>
-						<tr>
-							<th>Cost / Boost</th>
-							<td>
-								{generatedSetup.costToBoost.toFixed(2)} CR /
-								Boost
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div className='justify-between modal-action'>
-				<button className='btn btn-neutral' onClick={onDiscard}>
-					<FaArrowRotateLeft /> Discard
-				</button>
-				<button className='btn btn-primary' onClick={onApply}>
-					<FaArrowsRotate /> Apply changes
-				</button>
-			</div>
-		</div>
-	);
-}
 
 export default function AutoGenModal({ id }: AutoGenModalProps) {
 	const { currentEngine } = useContext(CalculatorContext);
@@ -205,9 +107,7 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 	}, []);
 
 	const getScreen = useCallback(() => {
-		if (isLoading) return <AutoGenLoading />;
-
-		console.log(hasGeneratedSetup, generatedSetup);
+		if (isLoading) return <AutoGenModalLoading />;
 
 		if (hasGeneratedSetup)
 			return (
@@ -235,6 +135,11 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 		handleApply,
 		handleDiscard,
 	]);
+
+	useEffect(() => {
+		setHasGeneratedSetup(false);
+		setGeneratedSetup(null);
+	}, [currentEngine]);
 
 	if (!currentEngine) return;
 

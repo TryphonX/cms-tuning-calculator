@@ -25,7 +25,7 @@
 <h3 align="center">CMS Tuning Calculator</h3>
 
   <p align="center">
-    This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 21). Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be "symmetrical" - it will not allow you to switch some of the same part with tuned parts, it's either all or nothing. This tool is <b><i>just a calculator</i></b> (at least for now), it will not recommend tuning setups on its own, it will just provide you with all the information you need to make your decision.
+    This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 21). Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be "symmetrical" - it will not allow you to switch some of the same part with tuned parts, it's either all or nothing. This tool can also suggest the optimal setup if you want, or you can make your own informed decision.
     <br />
     <!--
 		<a href="https://github.com/TryphonX/CMS-Tuning-Calculator/docs/"><strong>Explore the docs »</strong></a>
@@ -68,54 +68,21 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://tryphonx.github.io/CMS-Tuning-Calculator/)
+[![App preview][app-url]](https://tryphonx.github.io/CMS-Tuning-Calculator/)
 
-This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 21). Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be "symmetrical" - it will not allow you to switch some of the same part with tuned parts, it's either all or nothing. This tool is _**just a calculator**_ (at least for now), it will not recommend tuning setups on its own, it will just provide you with all the information you need to make your decision.
+This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 21). Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be "symmetrical" - it will not allow you to switch some of the same part with tuned parts, it's either all or nothing. This tool can also suggest the optimal setup if you want, or you can make your own informed decision.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 [![React][React.js]][React-url]  
-[![Bootstrap][Bootstrap.com]][Bootstrap-url]  
-[![Sass][Sass]][Sass-url]  
+[![NextJS][Next-icon]][Next-url]  
+[![TailwindCSS][Tailwind-icon]][Tailwind-url]  
+[![daisyUI][daisyUI-icon]][daisyUI-url]  
 [![ESLint][ESLint]][ESLint-url]  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-<!--
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/TryphonX/CMS-Tuning-Calculator.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
--->
 
 <!-- USAGE INSTRUCTIONS -->
 ## Usage
@@ -123,10 +90,11 @@ This is an example of how to list things you need to use the software and how to
 The use of this app is relatively easy. The calculator app is broken down into three basic components.
 
 1. Engine Card
-2. Compatible Parts Card
-3. Selected Parts Card
+2. Available Parts Card
+3. Cart Card
+4. Auto-generation (not shown on the screenshot)
 
-![The three components](images/main-instructions.png)
+![The three components](images/v2/main-instructions.png)
 
 ### First step
 
@@ -134,47 +102,49 @@ First step is to pick an engine from the dropdown menu in the **_Engine Card_**.
 
 When you pick an engine, the Engine Card is immediately updated to reflect your choice and the rest of the functionality of the app is unlocked on the rest of the components.
 
-![Engine Card, Step 1](images/engine-dropdown.png)
+![Engine Card, Step 1](images/v2/engine-dropdown.png)
 
 > **⚠️ Note:** When you pick a new engine, all the choices you make in the other components will be cleared.
 
 After making your choice, an **image of the engine** (1) is shown along with its **specifications** (2). Engine specifications include _power_, _torque_ and _gearbox_.
 
-![Engine Card, Results](images/engine-post-pick.png)
+![Engine Card, Results](images/v2/engine-post-pick.png)
 
 ### Second Step
 
-Second step is to check the _**Compatible Parts Card**_ and choose which parts to tune.
+Second step is to check the _**Available Parts Card**_ and choose which parts to tune.
 
-This card will be now displaying a table with all (known) compatible parts for that engine. For each part, important info will be displayed in order to make the best decision about which parts to tune or not.
+This card will be now displaying a table with all (known) available parts for that engine. For each part, important info will be displayed in order to make the best decision about which parts to tune or not.
 
-Specifically for each part you receive this information:
+Specifically, for each part you receive this information:
 
-| Information      | Description                                               |
-| ---------------- | --------------------------------------------------------- |
-| Name (1)         | The part's name                                           |
-| Quantity (2)     | How many are fitted on this engine                        |
-| Boost (3)        | How much boost the tuned version of the part will produce |
-| Cost (4)         | How much the part costs (price is for single part)        |
-| Cost / Boost (5) | How many CR it takes to produce +1% of boost              |
+The first column (1) is where you can choose the parts you want to tune. Simply click the checkbox of the part you want to tune and the part will be used in the calculation. Clicking the first checkbox will select (or deselect) all parts.
 
-The **Tune** (6) column is where you can choose the parts you want to tune. Simply click the checkbox of the part you want to tune and the part will be used in the calculation.
+| Information          | Description                                                  |
+| -------------------- | ------------------------------------------------------------ |
+| Part (2)             | The part's name and how many times it appears on that engine |
+| Boost\* (3)          | How much boost the tuned version of the part will produce    |
+| Cost\* (4)           | How much it costs to tune                                    |
+| Cost / Boost\*\* (5) | How many CR it takes to produce +1% of boost                 |
 
-The **Clear** (7) button at the bottom right corner of the card will empty your list of selected parts so you can start your list from scratch.
+> \* total, if the part appears multiple times in the engine  
+> \*\* not visible on small screens
 
-![Compatible Parts Card](images/compatible-parts-main.png)
+The **Clear** (6) button at the bottom right corner of the card will empty your list of selected parts so you can start your list from scratch.
 
-> **⚠️  Note:** When choosing a part with a quantity value greater than 1 keep in mind all of them will be added as selected parts. You can not add 1 of a part that has 2 on an engine.
+The **Auto-generate** (7) button at the top right corner of the card will open the auto-generation window. Shown later.
+
+![Compatible Parts Card](images/v2/compatible-parts-main.png)
+
+> **⚠️  Note:** When choosing a part that appears multiple times in an engine, keep in mind all of them will be added as selected parts. You can not add 1 of a part that has 2 on an engine.
 
 ### Third Step
 
-Third step is to check the _**Selected Parts Card**_.
+Third step is to check the _**Cart Card**_.
 
 This is kind of your "shopping cart" in a way. It includes a list of all the parts you've selected along with its info (same as in compatible parts) and their total values.
 
-![Selected Parts Card](images/selected-parts-main.png)
-
-> **⚠️ Note:** Parts with a quantity value great than 1 will multiply their cost and boost by their quantity value.
+![Cart Card](images/v2/selected-parts-main.png)
 
 _[Visit the app now to try it »](https://tryphonx.github.io/CMS-Tuning-Calculator/)_
 
@@ -216,17 +186,12 @@ Distributed under the GNU GPL v3 License. See `COPYING.txt` for more information
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-- [Choose an Open Source License](https://choosealicense.com)
 - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
 - [Auto-Changelog](https://github.com/CookPete/auto-changelog)
-- [React Bootstrap](https://react-bootstrap.netlify.app/)
 - [React Icons](https://react-icons.github.io/react-icons)
 - [Best README Template](https://github.com/othneildrew/Best-README-Template)
-- [Digian (CSS Template)](https://www.free-css.com/free-css-templates/page294/digian)
 - [Favicon Generator](https://favicon.io/favicon-generator/)
-- [JsDoc to Markdown](https://www.npmjs.com/package/jsdoc-to-markdown)
-- [React DocGen](https://www.npmjs.com/package/react-docgen)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,12 +207,14 @@ Distributed under the GNU GPL v3 License. See `COPYING.txt` for more information
 [issues-url]: https://github.com/TryphonX/CMS-Tuning-Calculator/issues
 [license-shield]: https://img.shields.io/github/license/TryphonX/CMS-Tuning-Calculator?style=for-the-badge
 [license-url]: https://github.com/TryphonX/CMS-Tuning-Calculator/blob/main/COPYING.txt
-[product-screenshot]: images/main-app-screenshot.png
+[app-url]: images/v2/main-app-screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[Sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
-[Sass-url]: https://sass-lang.com/
+[Next-icon]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[Tailwind-icon]: https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
+[Tailwind-url]: https://tailwindcss.com/
+[daisyUi-icon]: https://img.shields.io/badge/daisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white
+[daisyUi-url]: https://daisyui.com/
 [ESLint]: https://img.shields.io/badge/ESLint-18191a?style=for-the-badge&logo=eslint&logoColor=%234B32C3
 [ESLint-url]: https://eslint.org/

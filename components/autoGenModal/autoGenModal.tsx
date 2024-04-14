@@ -10,7 +10,11 @@ import { calculateBestSetup, getFullPartByName } from '@/modules/common';
 import { CalculatorContext } from '@/modules/contexts';
 import { UpdateSelectedPartsEvent } from '@/modules/customEvents';
 import { ChangeEvent, useCallback, useContext, useState } from 'react';
-import { FaWandMagicSparkles } from 'react-icons/fa6';
+import {
+	FaArrowRotateLeft,
+	FaArrowsRotate,
+	FaWandMagicSparkles,
+} from 'react-icons/fa6';
 
 type AutoGenModalProps = {
 	id: string;
@@ -127,10 +131,10 @@ function AutoGenModalSetupScreen({
 			</div>
 			<div className='justify-between modal-action'>
 				<button className='btn btn-neutral' onClick={onDiscard}>
-					Discard
+					<FaArrowRotateLeft /> Discard
 				</button>
 				<button className='btn btn-primary' onClick={onApply}>
-					Apply changes
+					<FaArrowsRotate /> Apply changes
 				</button>
 			</div>
 		</div>
@@ -174,6 +178,8 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 	}, [currentEngine, targetIncrease]);
 
 	const handleApply = useCallback(() => {
+		setIsLoading(true);
+
 		if (currentEngine && generatedSetup) {
 			UpdateSelectedPartsEvent.dispatch(
 				currentEngine.compatibleParts
@@ -187,6 +193,7 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 			);
 		}
 
+		setIsLoading(false);
 		setHasGeneratedSetup(false);
 		setGeneratedSetup(null);
 		close();

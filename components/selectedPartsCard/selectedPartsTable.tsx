@@ -130,7 +130,7 @@ export default function SelectedPartsTable() {
 						})}
 					</tbody>
 					<tfoot className='text-xs 2xl:text-sm'>
-						<tr className='bg-secondary text-secondary-content'>
+						<tr className='bg-primary text-primary-content'>
 							<th>Total:</th>
 							<th className='text-right'>
 								+{totalBoost.toFixed(2) ?? '-'}%

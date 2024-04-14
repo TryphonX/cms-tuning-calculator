@@ -7,9 +7,10 @@ export default function Footer() {
 			<aside className='items-center grid-flow-col'>
 				<picture>
 					<img
+						className='rounded-full'
 						width='54'
 						height='54'
-						src='/images/Avatar2020 (transparent).png'
+						src='CMS-Tuning-Calculator/images/Avatar2020.png'
 						alt='avatar'
 					/>
 				</picture>

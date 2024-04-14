@@ -20,7 +20,7 @@ export default function AutoGenModalSetupScreen({
 						<tbody>
 							<tr>
 								<th>Boost</th>
-								<td>{generatedSetup.boost}%</td>
+								<td>{generatedSetup.boost.toFixed(2)}%</td>
 							</tr>
 							<tr>
 								<th>Cost</th>

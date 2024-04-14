@@ -10,7 +10,7 @@ export default function AboutSection() {
 						<picture className='justify-center flex'>
 							<img
 								className='rounded-full size-4/12 md:size-1/4 lg:size-1/6'
-								src='/images/logo.svg'
+								src='CMS-Tuning-Calculator/images/logo.svg'
 								alt='tuning calculator logo'
 							/>
 						</picture>

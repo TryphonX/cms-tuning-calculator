@@ -23,10 +23,10 @@ const getPartCheckboxes = () =>
 		'compatiblePartCheckbox',
 	) as NodeListOf<HTMLInputElement>;
 
-const getAllPartsCheckbox = () =>
+const getAllPartsCheckboxes = () =>
 	document.getElementsByName(
 		'allCompatiblePartsCheckbox',
-	)[0] as HTMLInputElement;
+	) as NodeListOf<HTMLInputElement>;
 
 const markAllCheckboxes = (checked: boolean) => {
 	getPartCheckboxes().forEach((checkbox) => {
@@ -63,15 +63,6 @@ export default function CompatiblePartsTable() {
 		};
 	}, []);
 
-	// onUpdate only if currentEngine changed
-	useEffect(() => {
-		const elements = getPartCheckboxes();
-
-		elements.forEach((elem) => {
-			elem.checked = false;
-		});
-	}, [currentEngine]);
-
 	// onUpdate only if selectedParts changed
 	useEffect(() => {
 		if (!selectedParts.length) {
@@ -98,15 +89,12 @@ export default function CompatiblePartsTable() {
 		elements.forEach((elem) => {
 			if (!elem.checked) {
 				allSelected = false;
-				return;
 			}
 		});
 
-		const allCheckbox = getAllPartsCheckbox();
-
-		if (allCheckbox) {
-			allCheckbox.checked = allSelected;
-		}
+		getAllPartsCheckboxes().forEach((checkbox) => {
+			checkbox.checked = allSelected;
+		});
 	});
 
 	const handleToggleAllParts = useCallback(

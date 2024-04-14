@@ -10,7 +10,7 @@ export default function Footer() {
 						className='rounded-full'
 						width='54'
 						height='54'
-						src='CMS-Tuning-Calculator/images/Avatar2020.png'
+						src='/CMS-Tuning-Calculator/images/Avatar2020.png'
 						alt='avatar'
 					/>
 				</picture>

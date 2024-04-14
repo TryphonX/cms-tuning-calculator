@@ -89,7 +89,9 @@ export default function Card({
 	);
 
 	return (
-		<div className={`card card-bordered shadow-xl${getClassName()}`}>
+		<div
+			className={`card card-bordered border-neutral shadow-xl${getClassName()}`}
+		>
 			<div className='card-body'>
 				<Header title={title} actions={actions} />
 				{children}

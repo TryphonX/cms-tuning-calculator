@@ -17,24 +17,10 @@
 		},
 		{
 			"type": "npm",
-			"script": "docs",
-			"problemMatcher": [],
-			"label": "npm: docs",
-			"detail": "yarn run react-doc-gen && yarn run jsdoc-gen"
-		},
-		{
-			"type": "npm",
 			"script": "push-tags",
 			"problemMatcher": [],
 			"label": "npm: push-tags",
 			"detail": "git push --tags"
-		},
-		{
-			"type": "npm",
-			"script": "deploy",
-			"problemMatcher": [],
-			"label": "npm: deploy",
-			"detail": "gh-pages -d build"
 		}
 	]
 }

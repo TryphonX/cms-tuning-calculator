@@ -1,5 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
+<h1><a name="readme-top"></a></h1>
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -112,7 +112,9 @@ After making your choice, an **image of the engine** (1) is shown along with its
 
 ### Second Step
 
-Second step is to check the _**Available Parts Card**_ and choose which parts to tune.
+Second step is to check the _**Available Parts Card**_ and choose which parts to tune or use the _**Auto-generate**_ button.
+
+#### Available Parts Card
 
 This card will be now displaying a table with all (known) available parts for that engine. For each part, important info will be displayed in order to make the best decision about which parts to tune or not.
 
@@ -134,9 +136,21 @@ The **Clear** (6) button at the bottom right corner of the card will empty your 
 
 The **Auto-generate** (7) button at the top right corner of the card will open the auto-generation window. Shown later.
 
-![Compatible Parts Card](images/v2/compatible-parts-main.png)
+![Available Parts Card](images/v2/compatible-parts-main.png)
 
 > **⚠️  Note:** When choosing a part that appears multiple times in an engine, keep in mind all of them will be added as selected parts. You can not add 1 of a part that has 2 on an engine.
+
+#### Auto-generate ✨
+
+The Auto-generate button leads you to a different process, where you enter the desired outcome and you get the optimal setup.
+
+Specifically, you are greeted with a popup requesting you input the target boost increase (1). You can see the currently selected value below the slider (2). When ready, click the **🪄 Generate** button.
+
+![Auto-generate main window](images/v2/auto-generate-1.png)
+
+By clicking the **🪄 Generate** button, you will get the optimal setup, if there is one that fulfills the requirements. You will be given the stats of the proposed setup (1) as well as the options to discard (2) -and go to the previous page- and apply changes (3). Pressing apply changes will replace any prior selection of parts you had with the ones that the optimal setup consists of. The popup will close and you will be able to see the results in the next step.
+
+![Auto-generate feature results](images/v2/auto-generate-2.png)
 
 ### Third Step
 

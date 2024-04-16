@@ -34,7 +34,10 @@ function Actions({ actions }: { actions?: Action[] }) {
 					disabled={action.disabled}
 					onClick={action.onClick}
 				>
-					{action.label}
+					{action.label}{' '}
+					<span className='max-sm:hidden'>
+						{action.optionalLabel}
+					</span>
 				</button>
 			))}
 		</div>
@@ -69,7 +72,10 @@ function FooterActions({ footerActions }: FooterActionsProps) {
 					disabled={action.disabled}
 					onClick={action.onClick}
 				>
-					{action.label}
+					{action.label}{' '}
+					<span className='max-sm:hidden'>
+						{action.optionalLabel}
+					</span>
 				</button>
 			))}
 		</div>

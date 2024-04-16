@@ -1,10 +1,11 @@
 {{#lastRelease releases}}
-  `{{niceDate}}`
   {{#if href}}
     # Release [{{title}}]({{href}})
   {{else}}
     # Release {{title}}
   {{/if}}
+
+  `{{niceDate}}`
   
   {{#if summary}}
     {{summary}}<br />

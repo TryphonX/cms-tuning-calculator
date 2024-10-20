@@ -127,21 +127,20 @@ export default function CompatiblePartsTable() {
 
 	return (
 		<>
-			<div className='overflow-x-auto w-full rounded-2xl border border-base-200'>
-				<table className='table table-xs sm:table-sm xl:table-sm 2xl:table-sm table-zebra'>
-					<thead className='text-sm'>
+			<div className="overflow-x-auto w-full rounded-2xl border border-base-200">
+				<table className="table table-xs sm:table-sm xl:table-sm 2xl:table-sm table-zebra">
+					<thead className="text-sm">
 						<tr>
-							<th className='w-0'>
-								<label>
-									<input
-										type='checkbox'
-										className='checkbox checkbox-sm 2xl:checkbox-md checkbox-primary'
-										name='allCompatiblePartsCheckbox'
-										onChange={handleToggleAllParts}
-									/>
-								</label>
-							</th>
-							<th className='w-1/2 xl:w-1/3 2xl:w-1/2'>
+							<td className="w-0">
+								<input
+									type="checkbox"
+									className="checkbox checkbox-sm 2xl:checkbox-md checkbox-primary"
+									name="allCompatiblePartsCheckbox"
+									aria-label="Select all parts"
+									onChange={handleToggleAllParts}
+								/>
+							</td>
+							<th className="w-1/2 xl:w-1/3 2xl:w-1/2">
 								Part{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -151,7 +150,7 @@ export default function CompatiblePartsTable() {
 									]}
 								/>
 							</th>
-							<th className='text-right'>
+							<th className="text-right">
 								Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -161,7 +160,7 @@ export default function CompatiblePartsTable() {
 									]}
 								/>
 							</th>
-							<th className='text-right'>
+							<th className="text-right">
 								Cost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -171,7 +170,7 @@ export default function CompatiblePartsTable() {
 									]}
 								/>
 							</th>
-							<th className='text-right max-md:hidden'>
+							<th className="text-right max-md:hidden">
 								Cost / Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
@@ -193,22 +192,21 @@ export default function CompatiblePartsTable() {
 
 							return (
 								<tr key={`${part.name.replace(' ', '-')}-row`}>
-									<th>
-										<label>
-											<input
-												type='checkbox'
-												className='checkbox checkbox-sm 2xl:checkbox-md checkbox-primary'
-												name='compatiblePartCheckbox'
-												onChange={handleTogglePart}
-												data-part-name={part.name}
-												data-part-qt={part.quantity}
-											/>
-										</label>
-									</th>
+									<td>
+										<input
+											type="checkbox"
+											className="checkbox checkbox-sm 2xl:checkbox-md checkbox-primary"
+											name="compatiblePartCheckbox"
+											onChange={handleTogglePart}
+											aria-label={`Select part ${part.name}`}
+											data-part-name={part.name}
+											data-part-qt={part.quantity}
+										/>
+									</td>
 									<td>
 										x{part.quantity} {part.name}
 									</td>
-									<td className='text-right'>
+									<td className="text-right">
 										+
 										{(
 											tuningPartData?.boost *
@@ -216,12 +214,12 @@ export default function CompatiblePartsTable() {
 										).toFixed(2) ?? '-'}
 										%
 									</td>
-									<td className='text-right'>
+									<td className="text-right">
 										{tuningPartData?.cost * part.quantity}{' '}
 										CR
 									</td>
 									<td
-										className='text-right max-md:hidden'
+										className="text-right max-md:hidden"
 										title={(
 											tuningPartData?.cost /
 											tuningPartData?.boost

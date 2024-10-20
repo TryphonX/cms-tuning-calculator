@@ -14,30 +14,31 @@ export default function AutoGenModalInitScreen({
 }: AutoGenModalInitScreenProps) {
 	return (
 		<>
-			<p className='py-4'>
+			<p className="py-4">
 				Auto-generation will show you the optimal setup for the target
 				boost increase.
 			</p>
-			<p className='py-4'>Choose your target boost increase:</p>
-			<div className='w-full flex justify-between'>
+			<p className="py-4">Choose your target boost increase:</p>
+			<div className="w-full flex justify-between">
 				<span>0%</span>
 				<span>100%</span>
 			</div>
 			<input
-				type='range'
-				min='0'
-				max='100'
+				aria-label="Select target increase percentage"
+				type="range"
+				min="0"
+				max="100"
 				defaultValue={targetIncrease}
 				onChange={onTargetChange}
-				className='range range-primary'
+				className="range range-primary"
 			/>
-			<div className='w-full flex justify-end text-right'>
-				<div className='flex flex-col text-accent'>
+			<div className="w-full flex justify-end text-right">
+				<div className="flex flex-col text-primary">
 					<span>Target Increase: {targetIncrease}%</span>
 				</div>
 			</div>
-			<div className='modal-action'>
-				<button className='btn btn-primary' onClick={onGenerate}>
+			<div className="modal-action">
+				<button className="btn btn-primary" onClick={onGenerate}>
 					<FaWandMagicSparkles /> Generate
 				</button>
 			</div>

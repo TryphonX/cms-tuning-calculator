@@ -1,6 +1,7 @@
 'use client';
 
 import { CalculatorContext } from '@/modules/contexts';
+import Image from 'next/image';
 import { useContext } from 'react';
 
 export default function EngineImage() {
@@ -9,14 +10,12 @@ export default function EngineImage() {
 	if (!currentEngine) return;
 
 	return (
-		<figure>
-			<picture>
-				<img
-					className='w-full rounded-lg'
-					src={currentEngine.imgUrl}
-					alt={`${currentEngine?.name} image`}
-				/>
-			</picture>
-		</figure>
+		<Image
+			className="w-full rounded-lg"
+			src={currentEngine.imgUrl}
+			alt={`${currentEngine?.name}`}
+			width={200}
+			height={188}
+		/>
 	);
 }

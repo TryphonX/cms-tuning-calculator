@@ -14,7 +14,7 @@ export default function CompatiblePartsCard({ className }: BaseProps) {
 
 	const autoGenerateAction: Action = useMemo<Action>(
 		() => ({
-			label: <FaWandMagicSparkles />,
+			label: <FaWandMagicSparkles aria-hidden />,
 			optionalLabel: 'Auto-generate',
 			className: 'btn-primary',
 			disabled: !currentEngine,
@@ -33,11 +33,11 @@ export default function CompatiblePartsCard({ className }: BaseProps) {
 		() => ({
 			label: (
 				<>
-					<FaEraser /> Clear
+					<FaEraser aria-hidden /> Clear
 				</>
 			),
 			disabled: !selectedParts.length,
-			className: 'btn-error max-sm:btn-sm',
+			className: 'btn-secondary max-sm:btn-sm',
 			onClick: () => UpdateSelectedPartsEvent.dispatch([]),
 		}),
 		[selectedParts],
@@ -49,12 +49,12 @@ export default function CompatiblePartsCard({ className }: BaseProps) {
 	return (
 		<>
 			<Card
-				title='Available Parts'
+				title="Available Parts"
 				className={className}
 				actions={actions}
 				footerActions={footerActions}
 			>
-				<div className='mt-4'>
+				<div className="mt-4">
 					<CompatiblePartsTable />
 				</div>
 			</Card>

@@ -40,6 +40,7 @@ export default function EngineSelect({ className }: BaseProps) {
 			className={`select select-bordered w-full${getClassName()}`}
 			value={currentEngine?.name ?? ''}
 			onChange={handleEngineChange}
+			aria-label="Select engine"
 		>
 			<Options />
 		</select>

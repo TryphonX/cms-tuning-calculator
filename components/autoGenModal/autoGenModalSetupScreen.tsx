@@ -13,10 +13,10 @@ export default function AutoGenModalSetupScreen({
 	onDiscard,
 }: AutoGenModalSetupScreenProps) {
 	return (
-		<div className='my-4'>
+		<div className="my-4">
 			{generatedSetup ? (
-				<div className='overflow-x-auto w-full border rounded-2xl border-base-200'>
-					<table className='table table-md sm:table-lg table-zebra'>
+				<div className="overflow-x-auto w-full border rounded-2xl border-base-200">
+					<table className="table table-md sm:table-lg table-zebra">
 						<tbody>
 							<tr>
 								<th>Boost</th>
@@ -39,16 +39,16 @@ export default function AutoGenModalSetupScreen({
 			) : (
 				<p>There is no possible setup configuration.</p>
 			)}
-			<div className='justify-between modal-action'>
-				<button className='btn btn-neutral' onClick={onDiscard}>
-					<FaArrowRotateLeft /> Discard
+			<div className="justify-between modal-action">
+				<button className="btn btn-secondary" onClick={onDiscard}>
+					<FaArrowRotateLeft aria-hidden /> Discard
 				</button>
 				<button
-					className='btn btn-primary'
+					className="btn btn-primary"
 					disabled={!generatedSetup}
 					onClick={onApply}
 				>
-					<FaArrowsRotate /> Apply changes
+					<FaArrowsRotate aria-hidden /> Apply changes
 				</button>
 			</div>
 		</div>

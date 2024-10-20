@@ -26,7 +26,11 @@ export default function SortBtn({ sortBy, values }: SortBtnProps) {
 			}`}
 			onClick={handleClick}
 		>
-			{sortBy === values[0] ? <FaCaretUp /> : <FaCaretDown />}
+			{sortBy === values[0] ? (
+				<FaCaretUp aria-label="Sort ascending" />
+			) : (
+				<FaCaretDown aria-label="Sort descending" />
+			)}
 		</button>
 	);
 }

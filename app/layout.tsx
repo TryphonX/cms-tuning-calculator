@@ -4,6 +4,7 @@ import './globals.css';
 import { ReactNode } from 'react';
 import Navbar from '@/components/navbar/navbar';
 import Footer from '@/components/footer/footer';
+import Head from 'next/head';
 
 const ubuntu = Montserrat({ weight: '400', subsets: ['latin'] });
 
@@ -29,11 +30,23 @@ export default function RootLayout({
 	children: ReactNode;
 }>) {
 	return (
-		<html lang='en' data-theme='dark'>
+		<html lang="en" data-theme="dark">
+			<Head>
+				<link
+					rel="preload"
+					as="image"
+					href="/CMS-Tuning-Calculator/images/logo.svg"
+				/>
+				<link
+					rel="preload"
+					as="image"
+					href="/CMS-Tuning-Calculator/images/Avatar2020.webp"
+				/>
+			</Head>
 			<body className={`${ubuntu.className} flex flex-col min-h-svh`}>
 				<Navbar />
 				{children}
-				<Footer data-theme='dark' />
+				<Footer data-theme="dark" />
 			</body>
 		</html>
 	);

@@ -1,24 +1,25 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { FaPlay, FaGithub } from 'react-icons/fa6';
 
 export default function AboutSection() {
 	return (
-		<div className='hero min-h-screen bg-base-200'>
-			<div className='hero-content text-center p-8'>
+		<div className="hero min-h-screen relative">
+			<div className="hero-content text-center p-8">
 				<div>
-					<figure className='mb-6'>
-						<picture className='justify-center flex'>
-							<img
-								className='rounded-full size-4/12 md:size-1/4 lg:size-1/6'
-								src='/CMS-Tuning-Calculator/images/logo.svg'
-								alt='tuning calculator logo'
-							/>
-						</picture>
-					</figure>
-					<h1 className='text-5xl font-bold'>
+					<Image
+						className="mb-6 rounded-full size-4/12 md:size-1/4 lg:size-1/6 mx-auto"
+						src="/CMS-Tuning-Calculator/images/logo.svg"
+						alt="tuning calculator logo"
+						aria-hidden
+						width={202.66}
+						height={202.66}
+						priority
+					/>
+					<h1 className="text-5xl font-bold">
 						About Tuning Calculator
 					</h1>
-					<div className='py-6 space-y-4'>
+					<div className="py-6 space-y-4">
 						<p>
 							Introducing <strong>Tuning Calculator</strong>{' '}
 							&ndash;{' '}
@@ -58,42 +59,42 @@ export default function AboutSection() {
 								performance in Car Mechanic Simulator 21
 							</strong>
 							.
-							<span className='block text-xs opacity-30'>
+							<span className="block font-thin text-xs text-base-content text-opacity-75">
 								Don&apos;t go through the effort of running this
 								text through ai detectors; I was lazy, I admit
 								it.
 							</span>
 						</p>
-						<p className='text-xs opacity-50'>
+						<p className="text-xs text-base-content text-opacity-75">
 							This app is a personal project and is not associated
 							with the makers and/or publishers of the game in any
 							way shape or form.
 						</p>
 					</div>
 
-					<div className='flex-col space-y-4'>
+					<div className="flex-col space-y-4">
 						<div>
-							<Link className='block' href='/calculator'>
-								<button className='btn btn-primary btn-wide'>
-									<FaPlay /> Try it out now!
+							<Link className="block" href="/calculator">
+								<button className="btn btn-primary btn-wide">
+									<FaPlay aria-hidden /> Try it out now!
 								</button>
 							</Link>
 						</div>
 						<div>
 							<Link
-								href='https://github.com/TryphonX/CMS-Tuning-Calculator'
-								target='_blank'
+								href="https://github.com/TryphonX/CMS-Tuning-Calculator"
+								target="_blank"
 							>
-								<button className='btn btn-secondary btn-sm'>
-									<FaGithub /> Source code
+								<button className="btn btn-secondary btn-sm">
+									<FaGithub aria-hidden /> Source code
 								</button>
 							</Link>
-							<p className='text-xs opacity-50 mt-2'>
+							<p className="text-xs text-base-content text-opacity-75 mt-2">
 								This project is open-source. Licensed under{' '}
 								<Link
-									className='link'
-									href='https://github.com/TryphonX/CMS-Tuning-Calculator/blob/main/COPYING.txt'
-									target='_blank'
+									className="link"
+									href="https://github.com/TryphonX/CMS-Tuning-Calculator/blob/main/COPYING.txt"
+									target="_blank"
 								>
 									GNU GENERAL PUBLIC LICENSE v3
 								</Link>

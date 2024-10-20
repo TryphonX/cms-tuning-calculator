@@ -143,14 +143,17 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 	if (!currentEngine) return;
 
 	return (
-		<dialog id={id} className='modal' onClose={close}>
-			<div className='modal-box w-11/12 max-w-7xl'>
-				<form method='dialog'>
-					<button className='btn btn-sm btn-circle btn-ghost absolute right-2 top-2'>
+		<dialog id={id} className="modal" onClose={close}>
+			<div className="modal-box w-11/12 max-w-7xl">
+				<form method="dialog">
+					<button
+						aria-label="Close"
+						className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+					>
 						✕
 					</button>
 				</form>
-				<h3 className='font-bold text-lg'>Auto-generation</h3>
+				<h2 className="font-bold text-lg">Auto-generation</h2>
 				{getScreen()}
 			</div>
 		</dialog>

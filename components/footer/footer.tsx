@@ -6,14 +6,20 @@ export default function Footer() {
 	return (
 		<footer className="footer items-center p-4 bg-neutral text-neutral-content">
 			<aside className="items-center grid-flow-col">
-				<Image
-					className="rounded-full"
-					aria-hidden
-					width={54}
-					height={54}
-					src="/CMS-Tuning-Calculator/images/Avatar2020.webp"
-					alt="avatar"
-				/>
+				<Link
+					target="_blank"
+					href="https://tryphonx.github.io/"
+					aria-label="To TryphonX's Portfolio"
+				>
+					<Image
+						className="rounded-full"
+						aria-hidden
+						width={54}
+						height={54}
+						src="/CMS-Tuning-Calculator/images/Avatar2020.webp"
+						alt="TryphonX's avatar"
+					/>
+				</Link>
 				<p>
 					Copyright © {new Date().getFullYear()} - All right reserved
 				</p>

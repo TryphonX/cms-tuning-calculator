@@ -1,7 +1,7 @@
-# Release [v2.0.1](https://github.com/TryphonX/CMS-Tuning-Calculator/compare/v2.0.0...v2.0.1)
+# Release [v2.1.0](https://github.com/TryphonX/CMS-Tuning-Calculator/compare/v2.0.1...v2.1.0)
 
-`16 April 2024`
+`20 October 2024`
 
-## Bug fixes
+## New features
 
-- Fix responsiveness of card actions [`5179f7f`](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/5179f7fc1e691ccc1786c9f34cac1e640bb4824a)
+- Add link to portfolio [`ed355a5`](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/ed355a5c8c3ac71bce373d7ef79eaf8614906cfa)

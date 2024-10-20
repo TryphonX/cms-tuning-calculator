@@ -15,7 +15,7 @@
   {{#commit-list
     commits
     heading='## New features'
-    message='^feat: '
+    message='^feat!?: '
   }}
     - {{getTitle subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}
@@ -24,7 +24,16 @@
   {{#commit-list
     commits
     heading='## Bug fixes'
-    message='^fix: '
+    message='^fix!?: '
+  }}
+    - {{getTitle subject}} [`{{shorthash}}`]({{href}})
+  {{/commit-list}}
+
+  {{! Bug Fixes }}
+  {{#commit-list
+    commits
+    heading='## Performance improvements'
+    message='^perf!?: '
   }}
     - {{getTitle subject}} [`{{shorthash}}`]({{href}})
   {{/commit-list}}

@@ -19,13 +19,13 @@ import { SortBy } from '@/@types/globals';
 import SortBtn from '../sortBtn/sortBtn';
 
 const getPartCheckboxes = () =>
-	document.getElementsByName(
-		'compatiblePartCheckbox',
+	document.querySelectorAll(
+		'input[data-part-checkbox]',
 	) as NodeListOf<HTMLInputElement>;
 
 const getAllPartsCheckboxes = () =>
-	document.getElementsByName(
-		'allCompatiblePartsCheckbox',
+	document.querySelectorAll(
+		'input[data-part-toggle-all-checkbox]',
 	) as NodeListOf<HTMLInputElement>;
 
 const markAllCheckboxes = (checked: boolean) => {
@@ -135,7 +135,7 @@ export default function CompatiblePartsTable() {
 								<input
 									type="checkbox"
 									className="checkbox checkbox-sm 2xl:checkbox-md checkbox-primary"
-									name="allCompatiblePartsCheckbox"
+									data-part-toggle-all-checkbox
 									aria-label="Select all parts"
 									onChange={handleToggleAllParts}
 								/>
@@ -196,7 +196,7 @@ export default function CompatiblePartsTable() {
 										<input
 											type="checkbox"
 											className="checkbox checkbox-sm 2xl:checkbox-md checkbox-primary"
-											name="compatiblePartCheckbox"
+											data-part-checkbox
 											onChange={handleTogglePart}
 											aria-label={`Select part ${part.name}`}
 											data-part-name={part.name}

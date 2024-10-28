@@ -559,6 +559,14 @@
 		"version": "1.0.11",
 		"dlc": "Jaguar"
 	},
+	"Camshaft A (V8 M177)": {
+		"name": "Camshaft A (V8 M177)",
+		"cost": 450,
+		"boost": 2.5,
+		"costToBoost": 180,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Camshaft B (I4 DOHC TAE)": {
 		"name": "Camshaft B (I4 DOHC TAE)",
 		"cost": 350,
@@ -623,6 +631,14 @@
 		"version": "1.0.11",
 		"dlc": "Jaguar"
 	},
+	"Camshaft B (V8 M177)": {
+		"name": "Camshaft B (V8 M177)",
+		"cost": 450,
+		"boost": 2.5,
+		"costToBoost": 180,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Camshaft C (V6 AJD)": {
 		"name": "Camshaft C (V6 AJD)",
 		"cost": 345,
@@ -631,6 +647,14 @@
 		"version": "1.0.18",
 		"dlc": "Land Rover"
 	},
+	"Camshaft C (V8 M177)": {
+		"name": "Camshaft C (V8 M177)",
+		"cost": 450,
+		"boost": 2.5,
+		"costToBoost": 180,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Camshaft D (V6 AJD)": {
 		"name": "Camshaft D (V6 AJD)",
 		"cost": 374,
@@ -638,6 +662,14 @@
 		"costToBoost": 213.71,
 		"version": "1.0.18",
 		"dlc": "Land Rover"
+	},
+	"Camshaft D (V8 M177)": {
+		"name": "Camshaft D (V8 M177)",
+		"cost": 450,
+		"boost": 2.5,
+		"costToBoost": 180,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
 	},
 	"Carburetor (2-barrel side draft)": {
 		"name": "Carburetor (2-barrel side draft)",
@@ -1119,6 +1151,14 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
+	"Engine Head A (V8 M177)": {
+		"name": "Engine Head A (V8 M177)",
+		"cost": 2990,
+		"boost": 8,
+		"costToBoost": 373.75,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Engine Head B (B6 MA 1.03)": {
 		"name": "Engine Head B (B6 MA 1.03)",
 		"cost": 1800,
@@ -1254,6 +1294,14 @@
 		"costToBoost": 600,
 		"version": "1.0.0",
 		"dlc": ""
+	},
+	"Engine Head B (V8 M177)": {
+		"name": "Engine Head B (V8 M177)",
+		"cost": 2990,
+		"boost": 8,
+		"costToBoost": 373.75,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
 	},
 	"Engine Head C (I4 907)": {
 		"name": "Engine Head C (I4 907)",
@@ -1478,6 +1526,14 @@
 		"costToBoost": 200,
 		"version": "1.0.0",
 		"dlc": ""
+	},
+	"Exhaust Manifold (V8 M177)": {
+		"name": "Exhaust Manifold (V8 M177)",
+		"cost": 668,
+		"boost": 1.65,
+		"costToBoost": 404.8485,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
 	},
 	"Exhaust Manifold (V8)": {
 		"name": "Exhaust Manifold (V8)",
@@ -2271,6 +2327,14 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
+	"Fuel Rail (V8 M177)": {
+		"name": "Fuel Rail (V8 M177)",
+		"cost": 765,
+		"boost": 3,
+		"costToBoost": 255,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Fuel Rail DI": {
 		"name": "Fuel Rail DI",
 		"cost": 950,
@@ -2294,6 +2358,14 @@
 		"costToBoost": 192,
 		"version": "1.0.0",
 		"dlc": ""
+	},
+	"High Pressure Fuel Injection Pump (V8 M177)": {
+		"name": "High Pressure Fuel Injection Pump (V8 M177)",
+		"cost": 625,
+		"boost": 1.65,
+		"costToBoost": 378.7879,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
 	},
 	"Ignition Coil": {
 		"name": "Ignition Coil",
@@ -2967,6 +3039,22 @@
 		"version": "1.0.0",
 		"dlc": "Nissan"
 	},
+	"Intake Manifold E (V8 M177)": {
+		"name": "Intake Manifold E (V8 M177)",
+		"cost": 515,
+		"boost": 1.25,
+		"costToBoost": 412,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
+	"Intake Manifold F (V8 M177)": {
+		"name": "Intake Manifold F (V8 M177)",
+		"cost": 515,
+		"boost": 1.25,
+		"costToBoost": 412,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Intercooler (B6 M64.50)": {
 		"name": "Intercooler (B6 M64.50)",
 		"cost": 197,
@@ -2974,6 +3062,14 @@
 		"costToBoost": 49.25,
 		"version": "1.0.13",
 		"dlc": "Porsche"
+	},
+	"Intercooler (V8 M177)": {
+		"name": "Intercooler (V8 M177)",
+		"cost": 1500,
+		"boost": 3,
+		"costToBoost": 500,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
 	},
 	"Intercooler Set (V12 M158)": {
 		"name": "Intercooler Set (V12 M158)",
@@ -3783,6 +3879,14 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
+	"Throttle (V8 M177)": {
+		"name": "Throttle (V8 M177)",
+		"cost": 600,
+		"boost": 3.5,
+		"costToBoost": 171.4286,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Throttle (V8)": {
 		"name": "Throttle (V8)",
 		"cost": 330,
@@ -3839,6 +3943,14 @@
 		"version": "1.0.11",
 		"dlc": "Jaguar"
 	},
+	"Turbo A (V8 M177)": {
+		"name": "Turbo A (V8 M177)",
+		"cost": 1750,
+		"boost": 5,
+		"costToBoost": 350,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Turbo B (V6 TWR JV6)": {
 		"name": "Turbo B (V6 TWR JV6)",
 		"cost": 1790,
@@ -3846,6 +3958,14 @@
 		"costToBoost": 447.5,
 		"version": "1.0.11",
 		"dlc": "Jaguar"
+	},
+	"Turbo B (V8 M177)": {
+		"name": "Turbo B (V8 M177)",
+		"cost": 1750,
+		"boost": 5,
+		"costToBoost": 350,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
 	},
 	"Turbocharger": {
 		"name": "Turbocharger",

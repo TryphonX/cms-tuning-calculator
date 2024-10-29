@@ -21,7 +21,6 @@
 		"push-tags": "git push --tags"
 	},
 	"dependencies": {
-		"combinations": "^1.0.0",
 		"next": "^14.2.15",
 		"react": "^18",
 		"react-dom": "^18",
@@ -31,7 +30,6 @@
 		"@commitlint/cli": "^17.7.1",
 		"@commitlint/config-conventional": "^17.7.0",
 		"@react-docgen/cli": "^1.0.4",
-		"@types/combinations": "^1.0.2",
 		"@types/node": "^20",
 		"@types/react": "^18",
 		"@types/react-dom": "^18",

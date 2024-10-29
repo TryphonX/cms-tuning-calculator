@@ -7,7 +7,6 @@ import {
 	TuningSetup,
 } from '@/@types/calculator';
 import tuningParts from '@/data/tuning-parts.json';
-import combinations from 'combinations';
 
 export const getFullPartByName = (partName: TuningPartName) =>
 	tuningParts[partName];

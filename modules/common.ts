@@ -215,22 +215,41 @@ export const calculateBestSetup = (
 	parts: TuningPart[],
 	targetBoostIncrease: number,
 ) => {
-	const allCombos = combinations<TuningPart>(parts);
+	const numParts = parts.length;
+	let bestSetup: TuningSetup | null = null;
 
-	const allEligibleSetups: TuningSetup[] = allCombos
-		.map<TuningSetup>((combo) => ({
-			partNames: combo.map((part) => part.name),
-			cost: combo.reduce((acc, curr) => acc + curr.cost, 0),
-			boost: combo.reduce((acc, curr) => acc + curr.boost, 0),
-			costToBoost:
-				combo.reduce((acc, curr) => acc + curr.cost, 0) /
-				combo.reduce((acc, curr) => acc + curr.boost, 0),
-		}))
-		.filter((setup) => setup.boost >= targetBoostIncrease);
+	// iterate over each possible combination via a bitmask
+	for (let mask = 1; mask < (1 << numParts); mask++) {
+		let comboCost = 0;
+		let comboBoost = 0;
+		let partNames: TuningPartName[] = [];
 
-	if (!allEligibleSetups.length) return null;
+		// generate combination for current mask
+		for (let i = 0; i < numParts; i++) {
+			if (mask & (1 << i)) {  // check i-th bit of the mask
+				const part = parts[i];
+				comboCost += part.cost;
+				comboBoost += part.boost;
+				partNames.push(part.name);
+			}
+		}
 
-	allEligibleSetups.sort(compareSetups);
+		// ignore combinations that don't meet the target
+		if (comboBoost >= targetBoostIncrease) {
+			const costToBoost = comboCost / comboBoost;
+			const setup: TuningSetup = {
+				partNames: partNames,
+				cost: comboCost,
+				boost: comboBoost,
+				costToBoost: costToBoost,
+			};
 
-	return allEligibleSetups[0];
+			// update bestSetup
+			if (!bestSetup || compareSetups(setup, bestSetup) < 0) {
+				bestSetup = setup;
+			}
+		}
+	}
+
+	return bestSetup;
 };

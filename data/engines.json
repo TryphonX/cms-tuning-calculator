@@ -3124,6 +3124,137 @@
 			}
 		]
 	},
+	"V8 M177 Twin-Turbo AWD (DBX)": {
+		"name": "V8 M177 Twin-Turbo AWD (DBX)",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/00/V8_M177_Twin-Turbo_AWD_(DBX).png",
+		"specs": {
+			"power": 543,
+			"torque": 516,
+		        "gearbox": "Gearbox (V8 M177 DBX)"
+		},
+		"compatibleParts": [
+			{
+				"name": "Air Filter (V8 M177)",
+				"quantity": 2,
+				"cost": 25
+			},
+			{
+				"name": "Alternator",
+				"quantity": 1,
+				"cost": 200
+			},
+			{
+				"name": "Camshaft A (V8 M177)",
+				"quantity": 1,
+				"cost": 200
+			},
+			{
+				"name": "Camshaft B (V8 M177)",
+				"quantity": 1,
+				"cost": 200
+			},
+			{
+				"name": "Camshaft C (V8 M177)",
+				"quantity": 1,
+				"cost": 200
+			},
+			{
+				"name": "Camshaft D (V8 M177)",
+				"quantity": 1,
+				"cost": 200
+			},
+			{
+				"name": "Clutch Plate",
+				"quantity": 1,
+				"cost": 90
+			},
+			{
+				"name": "Clutch Pressure Plate",
+				"quantity": 1,
+				"cost": 88
+			},
+			{
+				"name": "Engine Head A (V8 M177)",
+				"quantity": 1,
+				"cost": 1500
+			},
+			{
+				"name": "Engine Head B (V8 M177)",
+				"quantity": 1,
+				"cost": 1500
+			},
+			{
+				"name": "Exhaust Manifold (V8 M177)",
+				"quantity": 2,
+				"cost": 350
+			},
+			{
+				"name": "Flywheel",
+				"quantity": 1,
+				"cost": 500
+			},
+			{
+				"name": "Fuel Filter",
+				"quantity": 1,
+				"cost": 30
+			},
+			{
+				"name": "Fuel Rail (V8 M177)",
+				"quantity": 2,
+				"cost": 295
+			},
+			{
+				"name": "High Pressure Fuel Injection Pump (V8 M177)",
+				"quantity": 2,
+				"cost": 450
+			},
+			{
+				"name": "Ignition Coil",
+				"quantity": 8,
+				"cost": 60
+			},
+			{
+				"name": "Intake Manifold E (V8 M177)",
+				"quantity": 1,
+				"cost": 265
+			},
+			{
+				"name": "Intake Manifold F (V8 M177)",
+				"quantity": 1,
+				"cost": 265
+			},
+			{
+				"name": "Intercooler (V8 M177)",
+				"quantity": 2,
+				"cost": 700
+			},
+			{
+				"name": "Piston with Conrod",
+				"quantity": 8,
+				"cost": 80
+			},
+			{
+				"name": "Spark Plug",
+				"quantity": 8,
+				"cost": 6
+			},
+			{
+				"name": "Throttle (V8 M177)",
+				"quantity": 2,
+				"cost": 250
+			},
+			{
+				"name": "Turbo A (V8 M177)",
+				"quantity": 1,
+				"cost": 950
+			},
+			{
+				"name": "Turbo B (V8 M177)",
+				"quantity": 1,
+				"cost": 950
+			}
+		]
+	},
 	"V8 OHV": {
 		"name": "V8 OHV",
 		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3a/V8_OHV.jpg",

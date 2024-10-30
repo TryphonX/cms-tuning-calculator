@@ -221,7 +221,7 @@ export const calculateBestSetup = (
 	for (let mask = 1; mask < (1 << numParts); mask++) {
 		let comboCost = 0;
 		let comboBoost = 0;
-		let partNames: TuningPartName[] = [];
+		const partNames: TuningPartName[] = [];
 
 		// generate combination for current mask
 		for (let i = 0; i < numParts; i++) {

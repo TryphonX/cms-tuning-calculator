@@ -1,10 +1,8 @@
 import {
 	CompatiblePart,
 	SelectedPart,
-	TuningPart,
 	TuningPartBase,
 	TuningPartName,
-	TuningSetup,
 } from '@/@types/calculator';
 import tuningParts from '@/data/tuning-parts.json';
 

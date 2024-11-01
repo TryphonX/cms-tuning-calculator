@@ -171,10 +171,6 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 				setIsLoading(false);
 			};
 		}
-
-		return () => {
-			bestSetupWorker.terminate();
-		};
 	}, [bestSetupWorker]);
 
 	if (!currentEngine) return;

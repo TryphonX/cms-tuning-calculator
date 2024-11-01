@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { FaGithub } from 'react-icons/fa6';
 
 export default function Footer() {
-	console.log(Intl.DateTimeFormat('en-US').formatToParts(Date.now()));
 	return (
 		<footer className="footer items-center p-4 bg-neutral text-neutral-content">
 			<aside className="items-center grid-flow-col">

@@ -1,7 +1,7 @@
-# Release [v2.1.0](https://github.com/TryphonX/CMS-Tuning-Calculator/compare/v2.0.1...v2.1.0)
+# Release [v2.1.2](https://github.com/TryphonX/CMS-Tuning-Calculator/compare/v2.1.1...v2.1.2)
 
-`20 October 2024`
+`1 November 2024`
 
-## New features
+## Performance improvements
 
-- Add link to portfolio [`ed355a5`](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/ed355a5c8c3ac71bce373d7ef79eaf8614906cfa)
+- Improve performance when calculating best setup [`3e31991`](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/3e3199125a5c38936578dfe79afe2086a22cceb6)

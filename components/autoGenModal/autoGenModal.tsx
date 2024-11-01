@@ -6,7 +6,7 @@ import {
 	TuningPart,
 	TuningSetup,
 } from '@/@types/calculator';
-import { calculateBestSetup, getFullPartByName } from '@/modules/common';
+import { getFullPartByName } from '@/modules/common';
 import { CalculatorContext } from '@/modules/contexts';
 import { UpdateSelectedPartsEvent } from '@/modules/customEvents';
 import {
@@ -14,6 +14,7 @@ import {
 	useCallback,
 	useContext,
 	useEffect,
+	useMemo,
 	useState,
 } from 'react';
 import AutoGenModalInitScreen from './autoGenModalInitialScreen';
@@ -22,25 +23,6 @@ import AutoGenModalSetupScreen from './autoGenModalSetupScreen';
 
 type AutoGenModalProps = {
 	id: string;
-};
-
-const generateSetup = (currentEngine: Engine, targetIncrease: number) => {
-	if (!currentEngine) return null;
-
-	const tunedCompatibleParts = currentEngine.compatibleParts
-		.map((part) => ({ ...part, tunedPart: getFullPartByName(part.name) }))
-		.filter((part) => part.tunedPart);
-
-	// The cost and boost are multiplied by quantity here to make
-	// calculations easier in calculateBestSetup method.
-	return calculateBestSetup(
-		tunedCompatibleParts.map<TuningPart>((part) => ({
-			...(part.tunedPart as TuningPart),
-			cost: part.tunedPart.cost * part.quantity,
-			boost: part.tunedPart.boost * part.quantity,
-		})),
-		targetIncrease,
-	);
 };
 
 export default function AutoGenModal({ id }: AutoGenModalProps) {
@@ -52,6 +34,17 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 		null as TuningSetup | null,
 	);
 	const [hasGeneratedSetup, setHasGeneratedSetup] = useState(false);
+
+	const bestSetupWorker = useMemo(
+		() =>
+			new Worker(
+				new URL(
+					'@/modules/workers/calculateBestSetup.ts',
+					import.meta.url,
+				),
+			),
+		[],
+	);
 
 	const handleTargetChange = useCallback(
 		(e: ChangeEvent<HTMLInputElement>) => {
@@ -65,18 +58,46 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 		(document.getElementById(id) as HTMLDialogElement)?.close();
 	}, [id]);
 
+	const generateSetup = useCallback(
+		(currentEngine: Engine, targetIncrease: number) => {
+			if (!currentEngine) return null;
+
+			const tunedCompatibleParts = currentEngine.compatibleParts
+				.map((part) => ({
+					...part,
+					tunedPart: getFullPartByName(part.name),
+				}))
+				.filter((part) => part.tunedPart)
+				// The cost and boost are multiplied by quantity here to make
+				// calculations easier for bestSetupWorker
+				.map<TuningPart>((part) => ({
+					...(part.tunedPart as TuningPart),
+					cost: part.tunedPart.cost * part.quantity,
+					boost: part.tunedPart.boost * part.quantity,
+				}));
+
+			if (window.Worker) {
+				bestSetupWorker.postMessage({
+					parts: tunedCompatibleParts,
+					targetBoostIncrease: targetIncrease,
+				});
+			}
+		},
+		[bestSetupWorker],
+	);
+
 	const handleGenerate = useCallback(() => {
 		setIsLoading(true);
 
-		const setup = currentEngine
-			? generateSetup(currentEngine, targetIncrease)
-			: null;
+		if (currentEngine) {
+			generateSetup(currentEngine, targetIncrease);
+			return;
+		}
 
-		setGeneratedSetup(setup);
+		setGeneratedSetup(null);
 		setHasGeneratedSetup(true);
-
 		setIsLoading(false);
-	}, [currentEngine, targetIncrease]);
+	}, [currentEngine, targetIncrease, generateSetup]);
 
 	const handleApply = useCallback(() => {
 		setIsLoading(true);
@@ -139,6 +160,22 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 		setHasGeneratedSetup(false);
 		setGeneratedSetup(null);
 	}, [currentEngine]);
+
+	useEffect(() => {
+		if (window.Worker) {
+			bestSetupWorker.onmessage = (
+				e: MessageEvent<TuningSetup | null>,
+			) => {
+				setGeneratedSetup(e.data ?? null);
+				setHasGeneratedSetup(true);
+				setIsLoading(false);
+			};
+		}
+
+		return () => {
+			bestSetupWorker.terminate();
+		};
+	}, [bestSetupWorker]);
 
 	if (!currentEngine) return;
 

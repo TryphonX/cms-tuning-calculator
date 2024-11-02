@@ -3231,24 +3231,24 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
-	"Power Eletronic Controller (CHRG-e E1)": {
-		"name": "Power Eletronic Controller (CHRG-e E1)",
+	"Power Electronics Controller (CHRG-e E1)": {
+		"name": "Power Electronics Controller (CHRG-e E1)",
 		"cost": 590,
 		"boost": 1,
 		"costToBoost": 590,
 		"version": "1.0.0",
 		"dlc": "Electric Car"
 	},
-	"Power Eletronic Controller (Proton e-R)": {
-		"name": "Power Eletronic Controller (Proton e-R)",
+	"Power Electronics Controller (Proton e-R)": {
+		"name": "Power Electronics Controller (Proton e-R)",
 		"cost": 612,
 		"boost": 1,
 		"costToBoost": 612,
 		"version": "1.0.0",
 		"dlc": "Electric Car"
 	},
-	"Power Eletronics (eDen-1H)": {
-		"name": "Power Eletronics (eDen-1H)",
+	"Power Electronics (eDen-1H)": {
+		"name": "Power Electronics (eDen-1H)",
 		"cost": 478,
 		"boost": 2,
 		"costToBoost": 239,

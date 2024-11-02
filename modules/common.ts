@@ -195,3 +195,17 @@ const compareCostToBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 	}
 	return 0;
 };
+
+export const ENGINE_CONFIGURATIONS = [
+	'Electric',
+	'B6',
+	'I3',
+	'I4',
+	'I5',
+	'I6',
+	'Rotary',
+	'V6',
+	'V8',
+	'V10',
+	'V12',
+];

@@ -10,21 +10,29 @@ export declare interface CompatiblePart extends TuningPartBase {
 	 * The part's price (in CR)
 	 */
 	cost: number;
+	/**
+	 * Whether the part is missing
+	 */
+	missing?: boolean;
 }
 
 export declare interface EngineSpecs {
 	/**
 	 * The engine's peak power (in HP)
 	 */
-	power: number;
+	power: string;
 	/**
 	 * The engine's peak torque (in N-m)
 	 */
-	torque: number;
+	torque: string;
 	/**
 	 * The name of the compatible gearbox
 	 */
 	gearbox: string;
+	/**
+	 * The configuration of the engine (eg V8)
+	 */
+	configuration: string;
 }
 
 export type EngineName = keyof typeof engines;

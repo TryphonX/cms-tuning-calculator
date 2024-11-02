@@ -1,7 +1,9 @@
-# Release [v2.1.2](https://github.com/TryphonX/CMS-Tuning-Calculator/compare/v2.1.1...v2.1.2)
+# Release [v2.2.0](https://github.com/TryphonX/CMS-Tuning-Calculator/compare/v2.1.2...v2.2.0)
 
-`1 November 2024`
+`2 November 2024`
 
-## Performance improvements
+## New features
 
-- Improve performance when calculating best setup [`3e31991`](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/3e3199125a5c38936578dfe79afe2086a22cceb6)
+- Add filter by engine configuration [`f7109b7`](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/f7109b739bc33d178eac9ff65e9c7602eeedbc1d)
+- Add missing engines [`74d8f83`](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/74d8f8337948da154f90b654b4a0be49f432cb00)
+- Add disclaimer for missing parts [`a3f2597`](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/a3f2597923124bba10b2cd3a4ff427c5e91f0654)

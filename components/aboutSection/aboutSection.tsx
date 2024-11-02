@@ -100,6 +100,19 @@ export default function AboutSection() {
 								</Link>
 								.
 							</p>
+							<p className="text-xs text-base-content text-opacity-75 mt-2">
+								This web app uses material from various pages on
+								the{' '}
+								<Link
+									className="link"
+									target="_blank"
+									href="https://car-mechanic-simulator-2021.fandom.com/wiki/Car_Mechanic_Simulator_2021_Wiki"
+								>
+									Car Mechanic Simulator 2021 Wiki
+								</Link>{' '}
+								at Fandom and is licensed under the Creative
+								Commons Attribution-Share Alike License.
+							</p>
 						</div>
 					</div>
 				</div>

@@ -1,7 +1,7 @@
 {
 	"CHRG-eE1": {
 		"name": "CHRG-eE1",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/92/CHRG-eE1.jpg/revision/latest/scale-to-width-down/350?cb=20210919215057",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/92/CHRG-eE1.jpg",
 		"specs": {
 			"power": "246",
 			"torque": "194",
@@ -43,7 +43,7 @@
 	},
 	"eDen-1H": {
 		"name": "eDen-1H",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/04/EDen-1H.jpg/revision/latest/scale-to-width-down/350?cb=20210919213909",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/04/EDen-1H.jpg",
 		"specs": {
 			"power": "408",
 			"torque": "524",
@@ -80,7 +80,7 @@
 	},
 	"Proton e-R": {
 		"name": "Proton e-R",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/51/Proton_e-R.jpg/revision/latest/scale-to-width-down/350?cb=20210919215126",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/51/Proton_e-R.jpg",
 		"specs": {
 			"power": "326",
 			"torque": "450",
@@ -132,7 +132,7 @@
 	},
 	"B6 M64.01": {
 		"name": "B6 M64.01",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/6e/B6_M6401.png/revision/latest/scale-to-width-down/350?cb=20220727043008",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/6e/B6_M6401.png",
 		"specs": {
 			"power": "262",
 			"torque": "325",
@@ -234,7 +234,7 @@
 	},
 	"B6 M64.50": {
 		"name": "B6 M64.50",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/ad/B6_M6450.png/revision/latest/scale-to-width-down/350?cb=20220727043016",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/ad/B6_M6450.png",
 		"specs": {
 			"power": "362",
 			"torque": "490",
@@ -336,7 +336,7 @@
 	},
 	"B6 MA 1.03": {
 		"name": "B6 MA 1.03",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/99/B6_MA_1.03.jpg/revision/latest/scale-to-width-down/350?cb=20211111135812",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/99/B6_MA_1.03.jpg",
 		"specs": {
 			"power": "420",
 			"torque": "519",
@@ -433,7 +433,7 @@
 	},
 	"I3 DOHC": {
 		"name": "I3 DOHC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/64/I3_DOHC.jpg/revision/latest/scale-to-width-down/350?cb=20210902160950",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/64/I3_DOHC.jpg",
 		"specs": {
 			"power": "85 @ 4,880 RPM",
 			"torque": "134 @ 4,095 RPM",
@@ -515,7 +515,7 @@
 	},
 	"I3 DOHC Turbocharged": {
 		"name": "I3 DOHC Turbocharged",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/02/I3_DOHC_Turbocharged.jpg/revision/latest/scale-to-width-down/350?cb=20210902160943",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/02/I3_DOHC_Turbocharged.jpg",
 		"specs": {
 			"power": "125 @ 4,985 RPM",
 			"torque": "203 @ 3,905 RPM",
@@ -597,7 +597,7 @@
 	},
 	"I4 204PT": {
 		"name": "I4 204PT",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/f/fb/I4_204PT.jpg/revision/latest/scale-to-width-down/350?cb=20220205130600",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/f/fb/I4_204PT.jpg",
 		"specs": {
 			"power": "239",
 			"torque": "361",
@@ -689,7 +689,7 @@
 	},
 	"I4 DOHC 4x4": {
 		"name": "I4 DOHC 4x4",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg/revision/latest/scale-to-width-down/350?cb=20210902204531",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg",
 		"specs": {
 			"power": "279 @ 5,980 RPM",
 			"torque": "381 @ 3,770 RPM",
@@ -781,7 +781,7 @@
 	},
 	"I4 DOHC AQC": {
 		"name": "I4 DOHC AQC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg/revision/latest/scale-to-width-down/350?cb=20210903021754",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg",
 		"specs": {
 			"power": "145 @ 5,950 RPM",
 			"torque": "187 @ 4,930 RPM",
@@ -868,7 +868,7 @@
 	},
 	"I4 DOHC AQC RWD": {
 		"name": "I4 DOHC AQC RWD",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg/revision/latest/scale-to-width-down/350?cb=20210903021754",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg",
 		"specs": {
 			"power": "145 @ 5,950 RPM",
 			"torque": "187 @ 4,930 RPM",
@@ -955,7 +955,7 @@
 	},
 	"I4 DOHC BFM": {
 		"name": "I4 DOHC BFM",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg/revision/latest/scale-to-width-down/350?cb=20210902204531",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/75/I4_DOHC_4x4.jpg",
 		"specs": {
 			"power": "279 @ 5,980 RPM",
 			"torque": "381 @ 3,770 RPM",
@@ -1047,7 +1047,7 @@
 	},
 	"I4 DOHC K-Series": {
 		"name": "I4 DOHC K-Series",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/4/4a/I4_DOHC_K-Series.png/revision/latest/scale-to-width-down/350?cb=20220727042951",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/4/4a/I4_DOHC_K-Series.png",
 		"specs": {
 			"power": "117",
 			"torque": "171",
@@ -1139,7 +1139,7 @@
 	},
 	"I4 DOHC Lotus 907": {
 		"name": "I4 DOHC Lotus 907",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/85/I4_DOHC_Lotus_907.png/revision/latest/scale-to-width-down/350?cb=20220727043001",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/85/I4_DOHC_Lotus_907.png",
 		"specs": {
 			"power": "163",
 			"torque": "197",
@@ -1246,7 +1246,7 @@
 	},
 	"I4 DOHC SR20DET": {
 		"name": "I4 DOHC SR20DET",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/26/I4_DOHC_SR20DET.jpg/revision/latest/scale-to-width-down/350?cb=20211108001029",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/26/I4_DOHC_SR20DET.jpg",
 		"specs": {
 			"power": "250",
 			"torque": "286",
@@ -1323,7 +1323,7 @@
 	},
 	"I4 DOHC TAE": {
 		"name": "I4 DOHC TAE",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/90/I4_DOHC_TAE.jpg/revision/latest/scale-to-width-down/350?cb=20210903224214",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/90/I4_DOHC_TAE.jpg",
 		"specs": {
 			"power": "130 @ 5,890 RPM",
 			"torque": "168 @ 5,055 RPM",
@@ -1430,7 +1430,7 @@
 	},
 	"I4 DOHC Turbocharged": {
 		"name": "I4 DOHC Turbocharged",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg/revision/latest/scale-to-width-down/350?cb=20210903021754",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/ce/I4_DOHC_Turbocharged.jpg",
 		"specs": {
 			"power": "180 @ 5,740 RPM",
 			"torque": "240 @ 4,825 RPM",
@@ -1527,7 +1527,7 @@
 	},
 	"I4 DT224": {
 		"name": "I4 DT224",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/c8/I4_DT224.jpg/revision/latest/scale-to-width-down/350?cb=20220204192707",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/c8/I4_DT224.jpg",
 		"specs": {
 			"power": "123",
 			"torque": "339",
@@ -1619,7 +1619,7 @@
 	},
 	"I4 M31 Turbo": {
 		"name": "I4 M31 Turbo",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/4/47/I4_M31.jpg/revision/latest/scale-to-width-down/350?cb=20240608074031",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/4/47/I4_M31.jpg",
 		"specs": {
 			"power": "170",
 			"torque": "235",
@@ -1721,7 +1721,7 @@
 	},
 	"I4 SOHC 4x4": {
 		"name": "I4 SOHC 4x4",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg/revision/latest/scale-to-width-down/350?cb=20210903224044",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg",
 		"specs": {
 			"power": "114 @ 5,020 RPM",
 			"torque": "179 @ 3,960 RPM",
@@ -1808,7 +1808,7 @@
 	},
 	"I4 SOHC ABT": {
 		"name": "I4 SOHC ABT",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg/revision/latest/scale-to-width-down/350?cb=20210903224044",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg",
 		"specs": {
 			"power": "114 @ 5,020 RPM",
 			"torque": "179 @ 3,960 RPM",
@@ -1895,7 +1895,7 @@
 	},
 	"I4 SOHC BMJ": {
 		"name": "I4 SOHC BMJ",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg/revision/latest/scale-to-width-down/350?cb=20210903224044",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/39/I4_SOHC.jpg",
 		"specs": {
 			"power": "114 @ 5,020 RPM",
 			"torque": "179 @ 3,960 RPM",
@@ -1982,7 +1982,7 @@
 	},
 	"I4 SOHC Diesel": {
 		"name": "I4 SOHC Diesel",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/76/I4_SOHC_D.jpg/revision/latest/scale-to-width-down/350?cb=20210903223151",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/76/I4_SOHC_D.jpg",
 		"specs": {
 			"power": "105 @ 3,310 RPM",
 			"torque": "245 @ 2,740 RPM",
@@ -2064,7 +2064,7 @@
 	},
 	"I5 DOHC ADI": {
 		"name": "I5 DOHC ADI",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/bb/I5_DOHC_ADI.jpg/revision/latest/scale-to-width-down/350?cb=20210903223158",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/bb/I5_DOHC_ADI.jpg",
 		"specs": {
 			"power": "220 @ 5,575 RPM",
 			"torque": "331 @ 3,300 rPM",
@@ -2161,7 +2161,7 @@
 	},
 	"I6 DOHC": {
 		"name": "I6 DOHC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b2/I6_DOHC.jpg/revision/latest/scale-to-width-down/350?cb=20210903223225",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b2/I6_DOHC.jpg",
 		"specs": {
 			"power": "151 @ 6,525 RPM",
 			"torque": "180 @ 5,215 RPM",
@@ -2253,7 +2253,7 @@
 	},
 	"I6 DOHC BU2": {
 		"name": "I6 DOHC BU2",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2a/I6_DOHC_BU2.jpg/revision/latest/scale-to-width-down/350?cb=20210903223211",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2a/I6_DOHC_BU2.jpg",
 		"specs": {
 			"power": "214 @ 6,205 RPM",
 			"torque": "293 @ 3,850 RPM",
@@ -2345,7 +2345,7 @@
 	},
 	"I6 DOHC BU2 Turbo": {
 		"name": "I6 DOHC BU2 Turbo",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0f/I6_DOHC_BU2_T.jpg/revision/latest/scale-to-width-down/350?cb=20210903223205",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0f/I6_DOHC_BU2_T.jpg",
 		"specs": {
 			"power": "287 @ 5,990 RPM",
 			"torque": "433 @ 3,660 RPM",
@@ -2437,7 +2437,7 @@
 	},
 	"I6 DOHC FMW": {
 		"name": "I6 DOHC FMW",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a3/I6_DOHC_FMW.jpg/revision/latest/scale-to-width-down/350?cb=20210903223219",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a3/I6_DOHC_FMW.jpg",
 		"specs": {
 			"power": "190 @ 5,950 RPM",
 			"torque": "247 @ 4,960 RPM",
@@ -2529,7 +2529,7 @@
 	},
 	"I6 M130": {
 		"name": "I6 M130",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0f/I6_M130.png/revision/latest/scale-to-width-down/350?cb=20230405051347",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0f/I6_M130.png",
 		"specs": {
 			"power": "169",
 			"torque": "244",
@@ -2540,7 +2540,7 @@
 	},
 	"I6 M186": {
 		"name": "I6 M186",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/d8/I6_M186.png/revision/latest/scale-to-width-down/350?cb=20230405053452",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/d8/I6_M186.png",
 		"specs": {
 			"power": "216",
 			"torque": "333",
@@ -2647,7 +2647,7 @@
 	},
 	"I6 M30B35": {
 		"name": "I6 M30B35",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/99/I6_M30B35.png/revision/latest/scale-to-width-down/350?cb=20231208200145",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/99/I6_M30B35.png",
 		"specs": {
 			"power": "170",
 			"torque": "235",
@@ -2658,7 +2658,7 @@
 	},
 	"I6 M88/1": {
 		"name": "I6 M88/1",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/5c/I6_M88-1.png/revision/latest/scale-to-width-down/350?cb=20231208200720",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/5c/I6_M88-1.png",
 		"specs": {
 			"power": "465",
 			"torque": "393",
@@ -2760,7 +2760,7 @@
 	},
 	"I6 OHV": {
 		"name": "I6 OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/78/I6_OHV.jpg/revision/latest/scale-to-width-down/350?cb=20210903223232",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/78/I6_OHV.jpg",
 		"specs": {
 			"power": "145 @ 4,175 RPM",
 			"torque": "294 @ 2,405 RPM",
@@ -2872,7 +2872,7 @@
 	},
 	"I6 S54": {
 		"name": "I6 S54",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2b/I6_S54.png/revision/latest/scale-to-width-down/350?cb=20231208201907",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2b/I6_S54.png",
 		"specs": {
 			"power": "338",
 			"torque": "365",
@@ -2964,7 +2964,7 @@
 	},
 	"I6 S55 Twin-turbo": {
 		"name": "I6 S55 Twin-turbo",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/84/I6_S55.png/revision/latest/scale-to-width-down/350?cb=20231208201413",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/84/I6_S55.png",
 		"specs": {
 			"power": "493",
 			"torque": "601",
@@ -3061,7 +3061,7 @@
 	},
 	"I6 SOHC L24": {
 		"name": "I6 SOHC L24",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/5b/I6_SOHC_L24.jpg/revision/latest/scale-to-width-down/350?cb=20211108000945",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/5b/I6_SOHC_L24.jpg",
 		"specs": {
 			"power": "163",
 			"torque": "198",
@@ -3143,7 +3143,7 @@
 	},
 	"I6 Tadek Marek": {
 		"name": "I6 Tadek Marek",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/6a/I6_Tadek_Marek.png/revision/latest/scale-to-width-down/350?cb=20221116211612",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/6a/I6_Tadek_Marek.png",
 		"specs": {
 			"power": "282",
 			"torque": "390",
@@ -3154,7 +3154,7 @@
 	},
 	"I6 XK": {
 		"name": "I6 XK",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7c/I6_XK.jpg/revision/latest/scale-to-width-down/350?cb=20211022132558",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7c/I6_XK.jpg",
 		"specs": {
 			"power": "265",
 			"torque": "352",
@@ -3241,7 +3241,7 @@
 	},
 	"Rotary 12A": {
 		"name": "Rotary 12A",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/66/Rotary_12A.png/revision/latest/scale-to-width-down/350?cb=20220727043031",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/66/Rotary_12A.png",
 		"specs": {
 			"power": "105",
 			"torque": "149",
@@ -3318,7 +3318,7 @@
 	},
 	"Rotary 13B-REW Twin-Turbo": {
 		"name": "Rotary 13B-REW Twin-Turbo",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/62/Rotary_13B-REW.png/revision/latest/scale-to-width-down/350?cb=20220727043040",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/62/Rotary_13B-REW.png",
 		"specs": {
 			"power": "239",
 			"torque": "295",
@@ -3405,7 +3405,7 @@
 	},
 	"V6 AJD": {
 		"name": "V6 AJD",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/80/V6_AJD.jpg/revision/latest/scale-to-width-down/350?cb=20220205134526",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/80/V6_AJD.jpg",
 		"specs": {
 			"power": "260",
 			"torque": "603",
@@ -3502,7 +3502,7 @@
 	},
 	"V6 DOHC AKY": {
 		"name": "V6 DOHC AKY",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/d6/V6_DOHC_AKY.jpg/revision/latest/scale-to-width-down/350?cb=20210903223239",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/d6/V6_DOHC_AKY.jpg",
 		"specs": {
 			"power": "221 @ 6,210 RPM",
 			"torque": "300 @ 3,900 RPM",
@@ -3599,7 +3599,7 @@
 	},
 	"V6 DOHC AKZ": {
 		"name": "V6 DOHC AKZ",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg/revision/latest/scale-to-width-down/350?cb=20210903223246",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg",
 		"specs": {
 			"power": "251 @ 7,075 RPM",
 			"torque": "300 4,475 RPM",
@@ -3696,7 +3696,7 @@
 	},
 	"V6 DOHC CHG": {
 		"name": "V6 DOHC CHG",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg/revision/latest/scale-to-width-down/350?cb=20210903223246",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/94/V6_DOHC_CHG_AKZ.jpg",
 		"specs": {
 			"power": "251 @ 7,075 RPM",
 			"torque": "300 @ 4,475 RPM",
@@ -3793,7 +3793,7 @@
 	},
 	"V6 DOHC NSN": {
 		"name": "V6 DOHC NSN",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0b/V6_DOHC_NSN.jpg/revision/latest/scale-to-width-down/350?cb=20210903224330",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/0b/V6_DOHC_NSN.jpg",
 		"specs": {
 			"power": "283 @ 6,360 RPM",
 			"torque": "353 @ 5,080 RPM",
@@ -3895,7 +3895,7 @@
 	},
 	"V6 DOHC VQ37VHR": {
 		"name": "V6 DOHC VQ37VHR",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/51/V6_DOHC_VQ37VHR.jpg/revision/latest/scale-to-width-down/350?cb=20211108000854",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/51/V6_DOHC_VQ37VHR.jpg",
 		"specs": {
 			"power": "384",
 			"torque": "408",
@@ -3977,7 +3977,7 @@
 	},
 	"V6 DOHC VR38DETT": {
 		"name": "V6 DOHC VR38DETT",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/dd/V6_VR38DETT.jpg/revision/latest/scale-to-width-down/350?cb=20211107074737",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/dd/V6_VR38DETT.jpg",
 		"specs": {
 			"power": "530",
 			"torque": "587",
@@ -4069,7 +4069,7 @@
 	},
 	"V6 DOHC VR38DETT RWD": {
 		"name": "V6 DOHC VR38DETT RWD",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/dd/V6_VR38DETT.jpg/revision/latest/scale-to-width-down/350?cb=20211107074737",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/dd/V6_VR38DETT.jpg",
 		"specs": {
 			"power": "530",
 			"torque": "587",
@@ -4161,7 +4161,7 @@
 	},
 	"V6 TWR JV6": {
 		"name": "V6 TWR JV6",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/09/V6_TWR_JV6.jpg/revision/latest/scale-to-width-down/350?cb=20211021013042",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/09/V6_TWR_JV6.jpg",
 		"specs": {
 			"power": "542",
 			"torque": "642",
@@ -4273,7 +4273,7 @@
 	},
 	"V8 1carb OHV": {
 		"name": "V8 1carb OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/14/V8_1carb_OHV.jpg/revision/latest/scale-to-width-down/350?cb=20210831234229",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/14/V8_1carb_OHV.jpg",
 		"specs": {
 			"power": "291 @ 4,550 RPM",
 			"torque": "529 @ 3,020 RPM",
@@ -4380,7 +4380,7 @@
 	},
 	"V8 2carb OHV": {
 		"name": "V8 2carb OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2b/V8_2carb_OHV.jpg/revision/latest/scale-to-width-down/350?cb=20210831235031",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2b/V8_2carb_OHV.jpg",
 		"specs": {
 			"power": "330 @ 4,560 RPM",
 			"torque": "579 @ 3,215 RPM",
@@ -4487,7 +4487,7 @@
 	},
 	"V8 2carb OHV Supercharged": {
 		"name": "V8 2carb OHV Supercharged",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/8d/V8_2carb_OHV_Supercharged.jpg/revision/latest/scale-to-width-down/350?cb=20210831235038",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/8d/V8_2carb_OHV_Supercharged.jpg",
 		"specs": {
 			"power": "380 @ 4,275 RPM",
 			"torque": "720 @ 2,815 RPM",
@@ -4599,7 +4599,7 @@
 	},
 	"V8 6.2 Hemi Hellcat": {
 		"name": "V8 6.2 Hemi Hellcat",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/08/V8_6.2_Hemi_Hellcat_thumb.png/revision/latest/scale-to-width-down/350?cb=20230703232113",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/08/V8_6.2_Hemi_Hellcat_thumb.png",
 		"specs": {
 			"power": "707 HP @ 6005 rpm",
 			"torque": "881 N.m @ 5160 rpm",
@@ -4691,7 +4691,7 @@
 	},
 	"V8 AJ133": {
 		"name": "V8 AJ133",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/10/V8_AJ133.jpg/revision/latest/scale-to-width-down/350?cb=20211023123923",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/10/V8_AJ133.jpg",
 		"specs": {
 			"power": "550",
 			"torque": "652",
@@ -4788,7 +4788,7 @@
 	},
 	"V8 AJ133 Land Rover": {
 		"name": "V8 AJ133 Land Rover",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/9b/V8_AJ133_LR.jpg/revision/latest/scale-to-width-down/350?cb=20220205014531",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/9b/V8_AJ133_LR.jpg",
 		"specs": {
 			"power": "550",
 			"torque": "652",
@@ -4890,7 +4890,7 @@
 	},
 	"V8 DOHC 4x4": {
 		"name": "V8 DOHC 4x4",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg/revision/latest/scale-to-width-down/350?cb=20210902215306",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg",
 		"specs": {
 			"power": "309",
 			"torque": "393",
@@ -4967,7 +4967,7 @@
 	},
 	"V8 DOHC AXK": {
 		"name": "V8 DOHC AXK",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg/revision/latest/scale-to-width-down/350?cb=20210902215306",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V8_DOHC_AXK_4x4.jpg",
 		"specs": {
 			"power": "309",
 			"torque": "393",
@@ -5054,7 +5054,7 @@
 	},
 	"V8 DOHC AXK-SCRS M": {
 		"name": "V8 DOHC AXK-SCRS M",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/56/V8_DOHC_AXK-SCRS_M.png/revision/latest/scale-to-width-down/350?cb=20221116214320",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/56/V8_DOHC_AXK-SCRS_M.png",
 		"specs": {
 			"power": "1014",
 			"torque": "1010",
@@ -5141,7 +5141,7 @@
 	},
 	"V8 DOHC AXK-TRS": {
 		"name": "V8 DOHC AXK-TRS",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/9d/V8_DOHC_AXK-TRS.png/revision/latest/scale-to-width-down/350?cb=20221117121730",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/9d/V8_DOHC_AXK-TRS.png",
 		"specs": {
 			"power": "910",
 			"torque": "1065",
@@ -5228,7 +5228,7 @@
 	},
 	"V8 DOHC AXK-TRS M": {
 		"name": "V8 DOHC AXK-TRS M",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/f/fd/V8_DOHC_AXK-TRS_M.png/revision/latest/scale-to-width-down/350?cb=20221117121112",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/f/fd/V8_DOHC_AXK-TRS_M.png",
 		"specs": {
 			"power": "910",
 			"torque": "1065",
@@ -5320,7 +5320,7 @@
 	},
 	"V8 DOHC CGM": {
 		"name": "V8 DOHC CGM",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/1e/V8_DOHC_CGM.jpg/revision/latest/scale-to-width-down/350?cb=20210901135056",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/1e/V8_DOHC_CGM.jpg",
 		"specs": {
 			"power": "426",
 			"torque": "569",
@@ -5412,7 +5412,7 @@
 	},
 	"V8 DOHC CGM M1D": {
 		"name": "V8 DOHC CGM M1D",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/12/V8_OHV_CGM_M1D.png/revision/latest/scale-to-width-down/350?cb=20221116225803",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/12/V8_OHV_CGM_M1D.png",
 		"specs": {
 			"power": "490",
 			"torque": "627",
@@ -5504,7 +5504,7 @@
 	},
 	"V8 DOHC CGM-SC": {
 		"name": "V8 DOHC CGM-SC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7f/V8_OHV_CGM-SC.png/revision/latest/scale-to-width-down/350?cb=20221116225855",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7f/V8_OHV_CGM-SC.png",
 		"specs": {
 			"power": "680",
 			"torque": "840",
@@ -5601,7 +5601,7 @@
 	},
 	"V8 DOHC CGM-SC M1D": {
 		"name": "V8 DOHC CGM-SC M1D",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/e/ee/V8_OHV_CGM-SC_M1D.png/revision/latest/scale-to-width-down/350?cb=20221116225815",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/e/ee/V8_OHV_CGM-SC_M1D.png",
 		"specs": {
 			"power": "680",
 			"torque": "840",
@@ -5698,7 +5698,7 @@
 	},
 	"V8 DOHC Supercharged": {
 		"name": "V8 DOHC Supercharged",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/5c/V8_DOHC_Supercharged.jpg/revision/latest/scale-to-width-down/350?cb=20210915211731",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/5c/V8_DOHC_Supercharged.jpg",
 		"specs": {
 			"power": "584",
 			"torque": "724",
@@ -5785,7 +5785,7 @@
 	},
 	"V8 Ford BOSS 4x4": {
 		"name": "V8 Ford BOSS 4x4",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/c4/V8_Ford_BOSS_4x4.png/revision/latest/scale-to-width-down/350?cb=20230409164255",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/c4/V8_Ford_BOSS_4x4.png",
 		"specs": {
 			"power": "381",
 			"torque": "586",
@@ -5796,7 +5796,7 @@
 	},
 	"V8 Ford BOSS RWD": {
 		"name": "V8 Ford BOSS RWD",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/d6/V8_Ford_BOSS_RWD.png/revision/latest/scale-to-width-down/350?cb=20230409164307",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/d/d6/V8_Ford_BOSS_RWD.png",
 		"specs": {
 			"power": "381",
 			"torque": "586",
@@ -5807,7 +5807,7 @@
 	},
 	"V8 Ford COYOTE": {
 		"name": "V8 Ford COYOTE",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/4/42/V8_Ford_Coyote.jpg/revision/latest/scale-to-width-down/350?cb=20230401130553",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/4/42/V8_Ford_Coyote.jpg",
 		"specs": {
 			"power": "437",
 			"torque": "544",
@@ -5894,7 +5894,7 @@
 	},
 	"V8 Ford Cobra Jet 429": {
 		"name": "V8 Ford Cobra Jet 429",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/4/44/V8_Ford_Cobra_Jet_429.png/revision/latest/scale-to-width-down/350?cb=20230409164316",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/4/44/V8_Ford_Cobra_Jet_429.png",
 		"specs": {
 			"power": "370",
 			"torque": "611",
@@ -5905,7 +5905,7 @@
 	},
 	"V8 Ford Small Block 289 F": {
 		"name": "V8 Ford Small Block 289 F",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3f/V8_Ford_Small_Block_289_F.png/revision/latest/scale-to-width-down/350?cb=20230409171516",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3f/V8_Ford_Small_Block_289_F.png",
 		"specs": {
 			"power": "335",
 			"torque": "450",
@@ -5916,7 +5916,7 @@
 	},
 	"V8 Ford Small Block 289 M": {
 		"name": "V8 Ford Small Block 289 M",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/e/e4/V8_Ford_Small_Block_289_M.png/revision/latest/scale-to-width-down/350?cb=20230409164625",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/e/e4/V8_Ford_Small_Block_289_M.png",
 		"specs": {
 			"power": "335",
 			"torque": "450",
@@ -6018,7 +6018,7 @@
 	},
 	"V8 Ford Small Block 302": {
 		"name": "V8 Ford Small Block 302",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2f/V8_Ford_Small_Block_302.png/revision/latest/scale-to-width-down/350?cb=20230409170214",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/2f/V8_Ford_Small_Block_302.png",
 		"specs": {
 			"power": "200",
 			"torque": "381",
@@ -6029,7 +6029,7 @@
 	},
 	"V8 Hemi 426": {
 		"name": "V8 Hemi 426",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/e/ec/V8_Hemi_426.jpg/revision/latest/scale-to-width-down/350?cb=20230708194741",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/e/ec/V8_Hemi_426.jpg",
 		"specs": {
 			"power": "425 HP @ 4810 rpm",
 			"torque": "664 N.m @ 3960 rpm",
@@ -6146,7 +6146,7 @@
 	},
 	"V8 Hemi 426 Shaker": {
 		"name": "V8 Hemi 426 Shaker",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/f/f3/V8_Hemi_426_SHAKER.jpg/revision/latest/scale-to-width-down/350?cb=20230708194734",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/f/f3/V8_Hemi_426_SHAKER.jpg",
 		"specs": {
 			"power": "425 HP @ 4810 rpm",
 			"torque": "664 N.m @ 3960 rpm",
@@ -6263,7 +6263,7 @@
 	},
 	"V8 Hemi 440 Magnum": {
 		"name": "V8 Hemi 440 Magnum",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/17/V8_OHV_6P.jpg/revision/latest/scale-to-width-down/350?cb=20210904123806",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/1/17/V8_OHV_6P.jpg",
 		"specs": {
 			"power": "375 HP @ 4,520 rpm",
 			"torque": "650 N.m @ 3,255 rpm",
@@ -6375,7 +6375,7 @@
 	},
 	"V8 Hemi 440 Sixpack": {
 		"name": "V8 Hemi 440 Sixpack",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7d/V8_Hemi_440_Sixpack.jpg/revision/latest/scale-to-width-down/350?cb=20230708194748",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7d/V8_Hemi_440_Sixpack.jpg",
 		"specs": {
 			"power": "390 HP @ 4,570 RPM",
 			"torque": "679 N.m @ 2,755 RPM",
@@ -6492,7 +6492,7 @@
 	},
 	"V8 Hemi 6.1": {
 		"name": "V8 Hemi 6.1",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3b/V8_Hemi_6.1.jpg/revision/latest/scale-to-width-down/350?cb=20230704194126",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3b/V8_Hemi_6.1.jpg",
 		"specs": {
 			"power": "431 HP @ 5665 rpm",
 			"torque": "572 N.m @ 4865 rpm",
@@ -6503,7 +6503,7 @@
 	},
 	"V8 LA 360": {
 		"name": "V8 LA 360",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/30/V8_LA_360.jpg/revision/latest/scale-to-width-down/350?cb=20230706192532",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/30/V8_LA_360.jpg",
 		"specs": {
 			"power": "193 HP @ 4400 rpm",
 			"torque": "378 N.m @ 2450 rpm",
@@ -6514,7 +6514,7 @@
 	},
 	"V8 M117": {
 		"name": "V8 M117",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/58/V8_M117.png/revision/latest/scale-to-width-down/350?cb=20230405052604",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/5/58/V8_M117.png",
 		"specs": {
 			"power": "296",
 			"torque": "454",
@@ -6611,7 +6611,7 @@
 	},
 	"V8 M119": {
 		"name": "V8 M119",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/67/V8_M119.png/revision/latest/scale-to-width-down/350?cb=20230405052131",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/67/V8_M119.png",
 		"specs": {
 			"power": "326",
 			"torque": "480",
@@ -6622,7 +6622,7 @@
 	},
 	"V8 M159": {
 		"name": "V8 M159",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/69/V8_M159.png/revision/latest/scale-to-width-down/350?cb=20230405054138",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/69/V8_M159.png",
 		"specs": {
 			"power": "571",
 			"torque": "650",
@@ -6714,7 +6714,7 @@
 	},
 	"V8 M177 Twin-Turbo AWD (DBX)": {
 		"name": "V8 M177 Twin-Turbo AWD (DBX)",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/00/V8_M177_Twin-Turbo_AWD_%28DBX%29.png/revision/latest/scale-to-width-down/350?cb=20221116211637",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/00/V8_M177_Twin-Turbo_AWD_%28DBX%29.png",
 		"specs": {
 			"power": "543",
 			"torque": "700",
@@ -6846,7 +6846,7 @@
 	},
 	"V8 M177 Twin-Turbo RWD (Vantage)": {
 		"name": "V8 M177 Twin-Turbo RWD (Vantage)",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/8e/V8_M177_Twin-Turbo_RWD_%28Vantage%29.png/revision/latest/scale-to-width-down/350?cb=20221116211930",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/8/8e/V8_M177_Twin-Turbo_RWD_%28Vantage%29.png",
 		"specs": {
 			"power": "503",
 			"torque": "685",
@@ -6857,7 +6857,7 @@
 	},
 	"V8 OHV": {
 		"name": "V8 OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3a/V8_OHV.jpg/revision/latest/scale-to-width-down/350?cb=20210903224550",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/3a/V8_OHV.jpg",
 		"specs": {
 			"power": "355 @ 5,560 RPM",
 			"torque": "566 @ 3,760 RPM",
@@ -6959,7 +6959,7 @@
 	},
 	"V8 OHV SS": {
 		"name": "V8 OHV SS",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a1/V8_OHV_SS.jpg/revision/latest/scale-to-width-down/350?cb=20210903224707",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a1/V8_OHV_SS.jpg",
 		"specs": {
 			"power": "360 @ 5,110 RPM",
 			"torque": "553 @ 3,130 RPM",
@@ -7071,7 +7071,7 @@
 	},
 	"V8 SOHC FME": {
 		"name": "V8 SOHC FME",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7b/V8_SOHC_FME.jpg/revision/latest/scale-to-width-down/350?cb=20210903224857",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/7/7b/V8_SOHC_FME.jpg",
 		"specs": {
 			"power": "222",
 			"torque": "359",
@@ -7163,7 +7163,7 @@
 	},
 	"V10 DOHC 980/01": {
 		"name": "V10 DOHC 980/01",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/38/V10_DOHC_980-01.png/revision/latest/scale-to-width-down/350?cb=20220728005914",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/3/38/V10_DOHC_980-01.png",
 		"specs": {
 			"power": "612",
 			"torque": "590",
@@ -7250,7 +7250,7 @@
 	},
 	"V10 OHV": {
 		"name": "V10 OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/9c/V10_OHV_thumb.png/revision/latest/scale-to-width-down/350?cb=20230703232200",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/9c/V10_OHV_thumb.png",
 		"specs": {
 			"power": "645 HP @ 6005 rpm",
 			"torque": "813 N.m @ 5035 rpm",
@@ -7261,7 +7261,7 @@
 	},
 	"V10 OHV MT8": {
 		"name": "V10 OHV MT8",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/f/f5/V10_OHV_MT8.png/revision/latest/scale-to-width-down/350?cb=20221116211719",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/f/f5/V10_OHV_MT8.png",
 		"specs": {
 			"power": "525",
 			"torque": "542",
@@ -7278,7 +7278,7 @@
 	},
 	"V10 Viper": {
 		"name": "V10 Viper",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a0/V10_Viper_thumb.png/revision/latest/scale-to-width-down/350?cb=20230703232206",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a0/V10_Viper_thumb.png",
 		"specs": {
 			"power": "645 HP @ 6005",
 			"torque": "813 N.m @ 5035 rpm",
@@ -7289,7 +7289,7 @@
 	},
 	"V12 AM11": {
 		"name": "V12 AM11",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V12_AM11.png/revision/latest/scale-to-width-down/350?cb=20221116211938",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a9/V12_AM11.png",
 		"specs": {
 			"power": "510",
 			"torque": "570",
@@ -7401,7 +7401,7 @@
 	},
 	"V12 DOHC ARZ": {
 		"name": "V12 DOHC ARZ",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/21/V12_DOHC_ARZ.png/revision/latest/scale-to-width-down/350?cb=20221116211734",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/21/V12_DOHC_ARZ.png",
 		"specs": {
 			"power": "520",
 			"torque": "489",
@@ -7483,7 +7483,7 @@
 	},
 	"V12 DOHC MRC": {
 		"name": "V12 DOHC MRC",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg/revision/latest/scale-to-width-down/350?cb=20210904124548",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg",
 		"specs": {
 			"power": "456",
 			"torque": "402",
@@ -7565,7 +7565,7 @@
 	},
 	"V12 DOHC MRN": {
 		"name": "V12 DOHC MRN",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg/revision/latest/scale-to-width-down/350?cb=20210904124548",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg",
 		"specs": {
 			"power": "456",
 			"torque": "402",
@@ -7647,7 +7647,7 @@
 	},
 	"V12 HE": {
 		"name": "V12 HE",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/c1/V12_HE.jpg/revision/latest/scale-to-width-down/350?cb=20211021221708",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/c/c1/V12_HE.jpg",
 		"specs": {
 			"power": "280",
 			"torque": "421",
@@ -7764,7 +7764,7 @@
 	},
 	"V12 M120": {
 		"name": "V12 M120",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/60/V12_M120.jpg/revision/latest/scale-to-width-down/350?cb=20220204210021",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/60/V12_M120.jpg",
 		"specs": {
 			"power": "800 HP",
 			"torque": "730 N.m",
@@ -7861,7 +7861,7 @@
 	},
 	"V12 M158": {
 		"name": "V12 M158",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/23/V12_M158.jpg/revision/latest/scale-to-width-down/350?cb=20220204211747",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/2/23/V12_M158.jpg",
 		"specs": {
 			"power": "721 HP",
 			"torque": "1001 N.m",

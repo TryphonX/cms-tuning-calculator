@@ -26,7 +26,7 @@ export default function Footer() {
 			</aside>
 			<div className="flex flex-row max-md:w-full max-md:justify-center items-center md:place-self-center md:justify-self-end">
 				<p>
-					<span className="text-primary font-semibold">v2.1.2</span> |
+					<span className="text-primary font-semibold">v2.2.0</span> |
 					November 02, 2024
 				</p>
 				<nav className="flex max-md:w-full max-md:justify-center max-md:items-center md:place-self-center md:justify-self-end">

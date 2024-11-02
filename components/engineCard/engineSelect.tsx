@@ -63,7 +63,12 @@ export default function EngineSelect({ className }: BaseProps) {
 	return (
 		<div className={getClassName()}>
 			<label className="form-control">
-				<div className="label-text">Configuration</div>
+				<div className="label-text">
+					Configuration{' '}
+					<span className="text-xs text-base-content text-opacity-70">
+						*Optional
+					</span>
+				</div>
 				<select
 					className="select select-bordered w-full xl:select-sm"
 					value={engineConfig}

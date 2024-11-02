@@ -10,6 +10,10 @@ export declare interface CompatiblePart extends TuningPartBase {
 	 * The part's price (in CR)
 	 */
 	cost: number;
+	/**
+	 * Whether the part is missing
+	 */
+	missing?: boolean;
 }
 
 export declare interface EngineSpecs {

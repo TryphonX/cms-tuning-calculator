@@ -353,11 +353,6 @@
 				"cost": 200
 			},
 			{
-				"name": "Camshaft Cap (I4)",
-				"quantity": 8,
-				"cost": 232
-			},
-			{
 				"name": "Clutch Plate",
 				"quantity": 1,
 				"cost": 90
@@ -484,7 +479,7 @@
 				"cost": 30
 			},
 			{
-				"name": "Fuel injector  (I4 B)",
+				"name": "Fuel injector (I4 B)",
 				"quantity": 4,
 				"cost": 180
 			},
@@ -1131,7 +1126,7 @@
 				"cost": 225
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 5,
 				"cost": 80
 			},
@@ -1227,12 +1222,12 @@
 				"cost": 20
 			},
 			{
-				"name": "Ignition Wire (I6)",
+				"name": "Ignition Wires (I6)",
 				"quantity": 1,
 				"cost": 75
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 6,
 				"cost": 80
 			},
@@ -1318,7 +1313,7 @@
 				"cost": 320
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 6,
 				"cost": 80
 			},
@@ -1404,7 +1399,7 @@
 				"cost": 328
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 6,
 				"cost": 80
 			},
@@ -1830,7 +1825,7 @@
 		"specs": {
 			"power": "251 @ 7,075 RPM",
 			"torque": "300 @ 4,475 RPM",
-			"gearbox": "Gearbox B(V6 B)"
+			"gearbox": "Gearbox B (V6 B)"
 		},
 		"compatibleParts": [
 			{
@@ -2212,7 +2207,7 @@
 				"cost": 210
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 8,
 				"cost": 80
 			},
@@ -2313,7 +2308,7 @@
 				"cost": 95
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 8,
 				"cost": 80
 			},
@@ -2889,7 +2884,7 @@
 				"cost": 234
 			},
 			{
-				"name": "Piston With Conrod (V8 OHV C)",
+				"name": "Piston with Conrod (V8 OHV C)",
 				"quantity": 8,
 				"cost": 50
 			},
@@ -2980,7 +2975,7 @@
 				"cost": 435
 			},
 			{
-				"name": "Piston With Conrod (V8 Hemi)",
+				"name": "Piston with Conrod (V8 Hemi)",
 				"quantity": 8,
 				"cost": 50
 			},
@@ -3076,7 +3071,7 @@
 				"cost": 435
 			},
 			{
-				"name": "Piston With Conrod (V8 OHV C)",
+				"name": "Piston with Conrod (V8 OHV C)",
 				"quantity": 8,
 				"cost": 50
 			},
@@ -3172,7 +3167,7 @@
 				"cost": 485
 			},
 			{
-				"name": "Piston With Conrod (V8 OHV C)",
+				"name": "Piston with Conrod (V8 OHV C)",
 				"quantity": 8,
 				"cost": 50
 			},
@@ -3475,7 +3470,7 @@
 				"cost": 305
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 8,
 				"cost": 80
 			},
@@ -3664,7 +3659,7 @@
 		"specs": {
 			"power": "282",
 			"torque": "390",
-			"gearbox": "Gearbox B(V6 B)"
+			"gearbox": "Gearbox B (V6 B)"
 		},
 		"compatibleParts": []
 	},
@@ -4595,191 +4590,6 @@
 				"name": "Alternator",
 				"quantity": 1,
 				"cost": 200
-			},
-			{
-				"name": "Cam Gear (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 160
-			},
-			{
-				"name": "Camshaft (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 100
-			},
-			{
-				"name": "Clutch Plate",
-				"quantity": 1,
-				"cost": 90
-			},
-			{
-				"name": "Clutch Pressure Plate",
-				"quantity": 1,
-				"cost": 88
-			},
-			{
-				"name": "Clutch Release Bearing",
-				"quantity": 1,
-				"cost": 35
-			},
-			{
-				"name": "Crankshaft (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 300
-			},
-			{
-				"name": "Crankshaft Bearing Cap",
-				"quantity": 4,
-				"cost": 43
-			},
-			{
-				"name": "Crankshaft Pulley (V8)",
-				"quantity": 1,
-				"cost": 250
-			},
-			{
-				"name": "Engine Block (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 1600
-			},
-			{
-				"name": "Engine Head A (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 1875
-			},
-			{
-				"name": "Engine Head B (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 1875
-			},
-			{
-				"name": "Engine Head Cover A (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 415
-			},
-			{
-				"name": "Engine Head Cover B (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 415
-			},
-			{
-				"name": "Exhaust Maniford (V10 OHV MT8)",
-				"quantity": 2,
-				"cost": 350
-			},
-			{
-				"name": "Flywheel",
-				"quantity": 1,
-				"cost": 500
-			},
-			{
-				"name": "Fuel Filter",
-				"quantity": 1,
-				"cost": 30
-			},
-			{
-				"name": "Fuel Rail (V10 OHV MT8)",
-				"quantity": 2,
-				"cost": 700
-			},
-			{
-				"name": "Idler Roller A",
-				"quantity": 1,
-				"cost": 20
-			},
-			{
-				"name": "Idler Roller B",
-				"quantity": 2,
-				"cost": 15
-			},
-			{
-				"name": "Ignition Coil (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 720
-			},
-			{
-				"name": "Ignition Wires (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 95
-			},
-			{
-				"name": "Intake Manifold (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 550
-			},
-			{
-				"name": "Oil Filter (V10 980/01)",
-				"quantity": 1,
-				"cost": 25
-			},
-			{
-				"name": "Oil Pan (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 375
-			},
-			{
-				"name": "Piston Rings",
-				"quantity": 10,
-				"cost": 20
-			},
-			{
-				"name": "Piston with Conrod",
-				"quantity": 10,
-				"cost": 80
-			},
-			{
-				"name": "Power Steering Pump (I4 B)",
-				"quantity": 1,
-				"cost": 150
-			},
-			{
-				"name": "Rocker Arm (V10 OHV MT8)",
-				"quantity": 20,
-				"cost": 60
-			},
-			{
-				"name": "Rod Cap",
-				"quantity": 10,
-				"cost": 40
-			},
-			{
-				"name": "Serpentine Belt (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 30
-			},
-			{
-				"name": "Spark Plug",
-				"quantity": 10,
-				"cost": 6
-			},
-			{
-				"name": "Throttle (V8)",
-				"quantity": 1,
-				"cost": 230
-			},
-			{
-				"name": "Timing Chain B (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 165
-			},
-			{
-				"name": "Timing Cover (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 100
-			},
-			{
-				"name": "Valve Push Rod (V10 OHV MT8)",
-				"quantity": 20,
-				"cost": 15
-			},
-			{
-				"name": "Water Pump (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 150
-			},
-			{
-				"name": "Water Pump Pulley (V10 OHV MT8)",
-				"quantity": 1,
-				"cost": 25
 			}
 		]
 	},
@@ -4929,12 +4739,12 @@
 				"cost": 88
 			},
 			{
-				"name": "Engine Head A(V8 Hemi)",
+				"name": "Engine Head A (V8 Hemi)",
 				"quantity": 1,
 				"cost": 1450
 			},
 			{
-				"name": "Engine Head B(V8 Hemi)",
+				"name": "Engine Head B (V8 Hemi)",
 				"quantity": 1,
 				"cost": 1450
 			},
@@ -5015,34 +4825,9 @@
 				"cost": 30
 			},
 			{
-				"name": "Air Filter Base (V8 Hemi)",
-				"quantity": 1,
-				"cost": 35
-			},
-			{
-				"name": "Air Filter Cover (V8 Hemi)",
-				"quantity": 1,
-				"cost": 55
-			},
-			{
 				"name": "Alternator (I6 B)",
 				"quantity": 1,
 				"cost": 200
-			},
-			{
-				"name": "Arm A (V8 Hemi)",
-				"quantity": 1,
-				"cost": 5
-			},
-			{
-				"name": "Arm B (V8 Hemi)",
-				"quantity": 1,
-				"cost": 5
-			},
-			{
-				"name": "Cam Gear (V8 OHV)",
-				"quantity": 1,
-				"cost": 160
 			},
 			{
 				"name": "Camshaft (V8 Hemi)",
@@ -5060,11 +4845,6 @@
 				"cost": 330
 			},
 			{
-				"name": "Clip B",
-				"quantity": 2,
-				"cost": 9
-			},
-			{
 				"name": "Clutch Plate",
 				"quantity": 1,
 				"cost": 90
@@ -5075,49 +4855,14 @@
 				"cost": 88
 			},
 			{
-				"name": "Clutch Release Bearing",
-				"quantity": 1,
-				"cost": 35
-			},
-			{
-				"name": "Crankshaft (V8 Hemi)",
-				"quantity": 1,
-				"cost": 180
-			},
-			{
-				"name": "Crankshaft Bearing Cap",
-				"quantity": 3,
-				"cost": 43
-			},
-			{
-				"name": "Crankshaft Pulley (V8 OHV)",
-				"quantity": 1,
-				"cost": 200
-			},
-			{
-				"name": "Engine Block (V8 Hemi)",
-				"quantity": 1,
-				"cost": 1850
-			},
-			{
-				"name": "Engine Head A(V8 Hemi)",
+				"name": "Engine Head A (V8 Hemi)",
 				"quantity": 1,
 				"cost": 1450
 			},
 			{
-				"name": "Engine Head B(V8 Hemi)",
+				"name": "Engine Head B (V8 Hemi)",
 				"quantity": 1,
 				"cost": 1450
-			},
-			{
-				"name": "Engine Head Cover A (V8 Hemi)",
-				"quantity": 1,
-				"cost": 450
-			},
-			{
-				"name": "Engine Head Cover B (V8 Hemi)",
-				"quantity": 1,
-				"cost": 450
 			},
 			{
 				"name": "Exhaust Manifold (V8 Hemi)",
@@ -5165,21 +4910,6 @@
 				"cost": 670
 			},
 			{
-				"name": "Oil Filter (V8)",
-				"quantity": 1,
-				"cost": 15
-			},
-			{
-				"name": "Oil Pan (V8 Hemi)",
-				"quantity": 1,
-				"cost": 170
-			},
-			{
-				"name": "Piston Rings (V8 Hemi)",
-				"quantity": 8,
-				"cost": 20
-			},
-			{
 				"name": "Piston with Conrod (V8 Hemi)",
 				"quantity": 8,
 				"cost": 50
@@ -5190,65 +4920,15 @@
 				"cost": 150
 			},
 			{
-				"name": "Radiator Fan B",
-				"quantity": 1,
-				"cost": 340
-			},
-			{
-				"name": "Rocker Arms (V8 Hemi)",
-				"quantity": 2,
-				"cost": 85
-			},
-			{
-				"name": "Rod Cap",
-				"quantity": 8,
-				"cost": 40
-			},
-			{
-				"name": "Serpentine Belt A (V8 Hemi)",
-				"quantity": 1,
-				"cost": 30
-			},
-			{
-				"name": "Serpentine Belt B (V8 Hemi)",
-				"quantity": 1,
-				"cost": 30
-			},
-			{
 				"name": "Spark Plug",
 				"quantity": 8,
 				"cost": 6
-			},
-			{
-				"name": "Timing Chain (V8 OHV F)",
-				"quantity": 1,
-				"cost": 60
-			},
-			{
-				"name": "Timing Cover (V8 Hemi)",
-				"quantity": 1,
-				"cost": 100
-			},
-			{
-				"name": "Valve Push Rod (V8 OHV F)",
-				"quantity": 16,
-				"cost": 5
-			},
-			{
-				"name": "Water Pump (V8 Hemi)",
-				"quantity": 1,
-				"cost": 100
-			},
-			{
-				"name": "Water Pump Pulley",
-				"quantity": 1,
-				"cost": 15
 			}
 		]
 	},
 	"V8 6.2 Hemi Hellcat": {
 		"name": "V8 6.2 Hemi Hellcat",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/0/08/V8_6.2_Hemi_Hellcat_thumb.png/revision/latest/scale-to-width-down/350?cb=20230703232113",
+		"imgUrl": "",
 		"specs": {
 			"power": "707 HP @ 6005 rpm",
 			"torque": "881 N.m @ 5160 rpm",
@@ -5276,17 +4956,17 @@
 				"cost": 88
 			},
 			{
-				"name": "Engine Head A (V8 Hellcat )",
+				"name": "Engine Head A (V8 Hellcat)",
 				"quantity": 1,
 				"cost": 1450
 			},
 			{
-				"name": "Engine Head B (V8 Hellcat )",
+				"name": "Engine Head B (V8 Hellcat)",
 				"quantity": 1,
 				"cost": 1450
 			},
 			{
-				"name": "Exhaust Manifold (V8 Hellcat )",
+				"name": "Exhaust Manifold (V8 Hellcat)",
 				"quantity": 2,
 				"cost": 250
 			},
@@ -5306,7 +4986,7 @@
 				"cost": 550
 			},
 			{
-				"name": "Ignition Coil (V8 Hellcat )",
+				"name": "Ignition Coil (V8 Hellcat)",
 				"quantity": 8,
 				"cost": 70
 			},
@@ -5339,7 +5019,7 @@
 	},
 	"V10 Viper": {
 		"name": "V10 Viper",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/a/a0/V10_Viper_thumb.png/revision/latest/scale-to-width-down/350?cb=20230703232206",
+		"imgUrl": "",
 		"specs": {
 			"power": "645 HP @ 6005",
 			"torque": "813 N.m @ 5035 rpm",
@@ -5349,7 +5029,7 @@
 	},
 	"V10 OHV": {
 		"name": "V10 OHV",
-		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/9/9c/V10_OHV_thumb.png/revision/latest/scale-to-width-down/350?cb=20230703232200",
+		"imgUrl": "",
 		"specs": {
 			"power": "645 HP @ 6005 rpm",
 			"torque": "813 N.m @ 5035 rpm",
@@ -5545,16 +5225,6 @@
 				"cost": 88
 			},
 			{
-				"name": "Crankshaft (V8 Coyote)",
-				"quantity": 1,
-				"cost": 330
-			},
-			{
-				"name": "Engine Block (V8 Coyote)",
-				"quantity": 1,
-				"cost": 3000
-			},
-			{
 				"name": "Engine Head A (V8 Coyote)",
 				"quantity": 1,
 				"cost": 1500
@@ -5583,11 +5253,6 @@
 				"name": "Fuel Rail DI",
 				"quantity": 2,
 				"cost": 295
-			},
-			{
-				"name": "Ignition Coil",
-				"quantity": 8,
-				"cost": 60
 			},
 			{
 				"name": "Intake Manifold (V8 Coyote)",
@@ -5666,7 +5331,7 @@
 				"cost": 1200
 			},
 			{
-				"name": "Exhaust Maniford B (V8 Ford)",
+				"name": "Exhaust Manifold B (V8 Ford)",
 				"quantity": 2,
 				"cost": 520
 			},
@@ -5711,7 +5376,7 @@
 				"cost": 340
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 8,
 				"cost": 80
 			},
@@ -5807,12 +5472,12 @@
 				"cost": 20
 			},
 			{
-				"name": "Ignition Wire (I6 XK)",
+				"name": "Ignition Wires (I6 XK)",
 				"quantity": 1,
 				"cost": 80
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 6,
 				"cost": 80
 			},
@@ -5903,7 +5568,7 @@
 				"cost": 792
 			},
 			{
-				"name": "Piston with Concord",
+				"name": "Piston with Conrod",
 				"quantity": 6,
 				"cost": 80
 			},
@@ -6004,7 +5669,7 @@
 				"cost": 72
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 8,
 				"cost": 80
 			},
@@ -6403,7 +6068,7 @@
 				"cost": 20
 			},
 			{
-				"name": "Piston with Concord",
+				"name": "Piston with Conrod",
 				"quantity": 6,
 				"cost": 80
 			},
@@ -6499,7 +6164,7 @@
 				"cost": 72
 			},
 			{
-				"name": "Piston With Conrod",
+				"name": "Piston with Conrod",
 				"quantity": 8,
 				"cost": 80
 			},
@@ -6691,7 +6356,7 @@
 				"cost": 20
 			},
 			{
-				"name": "Ignition Wire (I4 907)",
+				"name": "Ignition Wires (I4 907)",
 				"quantity": 1,
 				"cost": 60
 			},
@@ -7414,7 +7079,7 @@
 				"cost": 60
 			},
 			{
-				"name": "Piston with Concord",
+				"name": "Piston with Conrod",
 				"quantity": 6,
 				"cost": 80
 			},
@@ -7500,7 +7165,7 @@
 				"cost": 310
 			},
 			{
-				"name": "Piston with Concord",
+				"name": "Piston with Conrod",
 				"quantity": 6,
 				"cost": 80
 			},
@@ -7591,7 +7256,7 @@
 				"cost": 310
 			},
 			{
-				"name": "Piston with Concord",
+				"name": "Piston with Conrod",
 				"quantity": 6,
 				"cost": 80
 			},
@@ -7884,7 +7549,7 @@
 				"cost": 20
 			},
 			{
-				"name": "Ignition Wire (B6 M64)",
+				"name": "Ignition Wires (B6 M64)",
 				"quantity": 1,
 				"cost": 95
 			},

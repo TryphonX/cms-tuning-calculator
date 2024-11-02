@@ -102,6 +102,8 @@ First step is to pick an engine from the dropdown menu in the **_Engine Card_**.
 
 When you pick an engine, the Engine Card is immediately updated to reflect your choice and the rest of the functionality of the app is unlocked on the rest of the components.
 
+> `NEW!` You can now also filter by engine configuration if you wish to!
+
 ![Engine Card, Step 1](images/v2/engine-dropdown.png)
 
 > **⚠️ Note:** When you pick a new engine, all the choices you make in the other components will be cleared.
@@ -165,14 +167,14 @@ _[Visit the app now to try it »](https://tryphonx.github.io/CMS-Tuning-Calculat
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
-## Roadmap
+<!-- ## Roadmap
 
 - [x] Add suggested setups based on required boost
 - [x] Add sorting functionality to the tables
 
 See the [open issues](https://github.com/TryphonX/CMS-Tuning-Calculator/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -183,10 +185,10 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feat/amazingFeature`)
+2. Create your Feature Branch from `dev` branch (`git checkout -b feat/amazingFeature`)
 3. Commit your Changes (`git commit -m 'feat: add some amazingFeature'`)
 4. Push to the Branch (`git push origin feat/amazingFeature`)
-5. Open a Pull Request
+5. Open a Pull Request to `dev`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

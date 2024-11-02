@@ -37,12 +37,9 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 
 	const bestSetupWorker = useMemo(
 		() =>
-			new Worker(
-				new URL(
-					'@/modules/workers/calculateBestSetup.ts',
-					import.meta.url,
-				),
-			),
+			typeof Worker !== 'undefined'
+				? new Worker(new URL('@/modules/workers/calculateBestSetup.ts', import.meta.url))
+				: null,
 		[],
 	);
 
@@ -76,7 +73,7 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 					boost: part.tunedPart.boost * part.quantity,
 				}));
 
-			if (window.Worker) {
+			if (window.Worker && bestSetupWorker) {
 				bestSetupWorker.postMessage({
 					parts: tunedCompatibleParts,
 					targetBoostIncrease: targetIncrease,
@@ -162,7 +159,7 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 	}, [currentEngine]);
 
 	useEffect(() => {
-		if (window.Worker) {
+		if (window.Worker && bestSetupWorker) {
 			bestSetupWorker.onmessage = (
 				e: MessageEvent<TuningSetup | null>,
 			) => {

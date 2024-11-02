@@ -2,7 +2,12 @@
 const nextConfig = {
 	basePath: '/CMS-Tuning-Calculator',
 	images: {
-		domains: ['static.wikia.nocookie.net'],
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: 'static.wikia.nocookie.net',
+			},
+		],
 	},
 };
 

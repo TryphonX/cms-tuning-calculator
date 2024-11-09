@@ -3290,6 +3290,11 @@
 				"cost": 69
 			},
 			{
+				"name": "Ignition Distributor (ROT 12A)",
+				"quantity": 1,
+				"cost": 20
+			},
+			{
 				"name": "Ignition Distributor Rotor",
 				"quantity": 1,
 				"cost": 20

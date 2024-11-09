@@ -111,14 +111,6 @@
 		"version": "1.0.15",
 		"dlc": "Pagani"
 	},
-	"Air Filter (V8 M177)": {
-		"name": "Air Filter (V8 M177)",
-		"cost": 69,
-		"boost": 1,
-		"costToBoost": 69,
-		"version": "1.0.25",
-		"dlc": "Aston Martin"
-	},
 	"Air Filter (V8 DOHC CGM)": {
 		"name": "Air Filter (V8 DOHC CGM)",
 		"cost": 30,
@@ -126,6 +118,14 @@
 		"costToBoost": 20,
 		"version": "1.0.0",
 		"dlc": ""
+	},
+	"Air Filter (V8 M177)": {
+		"name": "Air Filter (V8 M177)",
+		"cost": 69,
+		"boost": 1,
+		"costToBoost": 69,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
 	},
 	"Air Filter (V8 OHV E)": {
 		"name": "Air Filter (V8 OHV E)",
@@ -799,14 +799,6 @@
 		"version": "1.0.0",
 		"dlc": "Electric Car"
 	},
-	"Clutch Plate (V10 980/01)": {
-		"name": "Clutch Plate (V10 980/01)",
-		"cost": 180,
-		"boost": 1.75,
-		"costToBoost": 102.86,
-		"version": "1.0.13",
-		"dlc": "Porsche"
-	},
 	"Clutch Plate": {
 		"name": "Clutch Plate",
 		"cost": 350,
@@ -814,6 +806,14 @@
 		"costToBoost": 200,
 		"version": "1.0.0",
 		"dlc": ""
+	},
+	"Clutch Plate (V10 980/01)": {
+		"name": "Clutch Plate (V10 980/01)",
+		"cost": 180,
+		"boost": 1.75,
+		"costToBoost": 102.86,
+		"version": "1.0.13",
+		"dlc": "Porsche"
 	},
 	"Clutch Pressure Plate": {
 		"name": "Clutch Pressure Plate",
@@ -1127,6 +1127,14 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
+	"Engine Head A (V8 M177)": {
+		"name": "Engine Head A (V8 M177)",
+		"cost": 2990,
+		"boost": 8,
+		"costToBoost": 373.75,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Engine Head A (V8 OHV B)": {
 		"name": "Engine Head A (V8 OHV B)",
 		"cost": 1400,
@@ -1150,14 +1158,6 @@
 		"costToBoost": 600,
 		"version": "1.0.0",
 		"dlc": ""
-	},
-	"Engine Head A (V8 M177)": {
-		"name": "Engine Head A (V8 M177)",
-		"cost": 2990,
-		"boost": 8,
-		"costToBoost": 373.75,
-		"version": "1.0.25",
-		"dlc": "Aston Martin"
 	},
 	"Engine Head B (B6 MA 1.03)": {
 		"name": "Engine Head B (B6 MA 1.03)",
@@ -1271,6 +1271,14 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
+	"Engine Head B (V8 M177)": {
+		"name": "Engine Head B (V8 M177)",
+		"cost": 2990,
+		"boost": 8,
+		"costToBoost": 373.75,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Engine Head B (V8 OHV B)": {
 		"name": "Engine Head B (V8 OHV B)",
 		"cost": 1400,
@@ -1295,14 +1303,6 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
-	"Engine Head B (V8 M177)": {
-		"name": "Engine Head B (V8 M177)",
-		"cost": 2990,
-		"boost": 8,
-		"costToBoost": 373.75,
-		"version": "1.0.25",
-		"dlc": "Aston Martin"
-	},
 	"Engine Head C (I4 907)": {
 		"name": "Engine Head C (I4 907)",
 		"cost": 1600,
@@ -1310,14 +1310,6 @@
 		"costToBoost": 533,
 		"version": "1.0.23",
 		"dlc": "Lotus"
-	},
-	"EV Battery Module": {
-		"name": "EV Battery Module",
-		"cost": 2121,
-		"boost": 2,
-		"costToBoost": 1060.5,
-		"version": "1.0.0",
-		"dlc": "Electric Car"
 	},
 	"Exhaust Manifold": {
 		"name": "Exhaust Manifold",
@@ -1495,6 +1487,14 @@
 		"version": "1.0.11",
 		"dlc": "Jaguar"
 	},
+	"Exhaust Manifold (V8 M177)": {
+		"name": "Exhaust Manifold (V8 M177)",
+		"cost": 668,
+		"boost": 1.65,
+		"costToBoost": 404.8485,
+		"version": "1.0.25",
+		"dlc": "Aston Martin"
+	},
 	"Exhaust Manifold (V8 OHV B)": {
 		"name": "Exhaust Manifold (V8 OHV B)",
 		"cost": 148,
@@ -1526,14 +1526,6 @@
 		"costToBoost": 200,
 		"version": "1.0.0",
 		"dlc": ""
-	},
-	"Exhaust Manifold (V8 M177)": {
-		"name": "Exhaust Manifold (V8 M177)",
-		"cost": 668,
-		"boost": 1.65,
-		"costToBoost": 404.8485,
-		"version": "1.0.25",
-		"dlc": "Aston Martin"
 	},
 	"Exhaust Manifold (V8)": {
 		"name": "Exhaust Manifold (V8)",
@@ -1679,6 +1671,14 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
+	"EV Battery Module": {
+		"name": "EV Battery Module",
+		"cost": 2121,
+		"boost": 2,
+		"costToBoost": 1060.5,
+		"version": "1.0.0",
+		"dlc": "Electric Car"
+	},
 	"Flywheel": {
 		"name": "Flywheel",
 		"cost": 650,
@@ -1791,14 +1791,6 @@
 		"version": "1.0.18",
 		"dlc": "Land Rover"
 	},
-	"Front Exhaust Section (I4 SOHC TAE)": {
-		"name": "Front Exhaust Section (I4 SOHC TAE)",
-		"cost": 180,
-		"boost": 1.5,
-		"costToBoost": 120,
-		"version": "1.0.9",
-		"dlc": ""
-	},
 	"Front Exhaust Section (I4 DT224)": {
 		"name": "Front Exhaust Section (I4 DT224)",
 		"cost": 480,
@@ -1812,6 +1804,14 @@
 		"cost": 195,
 		"boost": 1.5,
 		"costToBoost": 130,
+		"version": "1.0.9",
+		"dlc": ""
+	},
+	"Front Exhaust Section (I4 SOHC TAE)": {
+		"name": "Front Exhaust Section (I4 SOHC TAE)",
+		"cost": 180,
+		"boost": 1.5,
+		"costToBoost": 120,
 		"version": "1.0.9",
 		"dlc": ""
 	},
@@ -2319,14 +2319,6 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
-	"Fuel Rail (V8 SOHC FME)": {
-		"name": "Fuel Rail (V8 SOHC FME)",
-		"cost": 590,
-		"boost": 2,
-		"costToBoost": 295,
-		"version": "1.0.0",
-		"dlc": ""
-	},
 	"Fuel Rail (V8 M177)": {
 		"name": "Fuel Rail (V8 M177)",
 		"cost": 765,
@@ -2334,6 +2326,14 @@
 		"costToBoost": 255,
 		"version": "1.0.25",
 		"dlc": "Aston Martin"
+	},
+	"Fuel Rail (V8 SOHC FME)": {
+		"name": "Fuel Rail (V8 SOHC FME)",
+		"cost": 590,
+		"boost": 2,
+		"costToBoost": 295,
+		"version": "1.0.0",
+		"dlc": ""
 	},
 	"Fuel Rail DI": {
 		"name": "Fuel Rail DI",
@@ -2415,6 +2415,22 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
+	"Ignition Distributor (I4 907)": {
+		"name": "Ignition Distributor (I4 907)",
+		"cost": 52,
+		"boost": 1.5,
+		"costToBoost": 34.66,
+		"version": "1.0.23",
+		"dlc": "Lotus"
+	},
+	"Ignition Distributor (ROT 12A)": {
+		"name": "Ignition Distributor (ROT 12A)",
+		"cost": 175,
+		"boost": 1.5,
+		"costToBoost": 116.67,
+		"version": "1.0.24",
+		"dlc": "Mazda"
+	},
 	"Ignition Distributor (V12 HE)": {
 		"name": "Ignition Distributor (V12 HE)",
 		"cost": 120,
@@ -2447,14 +2463,6 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
-	"Ignition Distributor (I4 907)": {
-		"name": "Ignition Distributor (I4 907)",
-		"cost": 52,
-		"boost": 1.5,
-		"costToBoost": 34.66,
-		"version": "1.0.23",
-		"dlc": "Lotus"
-	},
 	"Ignition Distributor Cap (I4 DOHC TAE)": {
 		"name": "Ignition Distributor Cap (I4 DOHC TAE)",
 		"cost": 35,
@@ -2470,14 +2478,6 @@
 		"costToBoost": 50,
 		"version": "1.0.16",
 		"dlc": ""
-	},
-	"Ignition Distributor (ROT 12A)": {
-		"name": "Ignition Distributor (ROT 12A)",
-		"cost": 175,
-		"boost": 1.5,
-		"costToBoost": 116.67,
-		"version": "1.0.24",
-		"dlc": "Mazda"
 	},
 	"Ignition Distributor Cap (V12 HE)": {
 		"name": "Ignition Distributor Cap (V12 HE)",
@@ -3375,14 +3375,6 @@
 		"version": "1.0.15",
 		"dlc": "Pagani"
 	},
-	"Rear Exhaust Section A (964)": {
-		"name": "Rear Exhaust Section A (964)",
-		"cost": 800,
-		"boost": 2,
-		"costToBoost": 400,
-		"version": "1.0.13",
-		"dlc": "Porsche"
-	},
 	"Rear Exhaust Section A (964 RS)": {
 		"name": "Rear Exhaust Section A (964 RS)",
 		"cost": 400,
@@ -3391,8 +3383,8 @@
 		"version": "1.0.13",
 		"dlc": "Porsche"
 	},
-	"Rear Exhaust Section B (964)": {
-		"name": "Rear Exhaust Section B (964)",
+	"Rear Exhaust Section A (964)": {
+		"name": "Rear Exhaust Section A (964)",
 		"cost": 800,
 		"boost": 2,
 		"costToBoost": 400,
@@ -3404,6 +3396,14 @@
 		"cost": 400,
 		"boost": 2,
 		"costToBoost": 200,
+		"version": "1.0.13",
+		"dlc": "Porsche"
+	},
+	"Rear Exhaust Section B (964)": {
+		"name": "Rear Exhaust Section B (964)",
+		"cost": 800,
+		"boost": 2,
+		"costToBoost": 400,
 		"version": "1.0.13",
 		"dlc": "Porsche"
 	},
@@ -3871,14 +3871,6 @@
 		"version": "1.0.0",
 		"dlc": ""
 	},
-	"Throttle (V8 SOHC FME)": {
-		"name": "Throttle (V8 SOHC FME)",
-		"cost": 460,
-		"boost": 1,
-		"costToBoost": 460,
-		"version": "1.0.0",
-		"dlc": ""
-	},
 	"Throttle (V8 M177)": {
 		"name": "Throttle (V8 M177)",
 		"cost": 600,
@@ -3886,6 +3878,14 @@
 		"costToBoost": 171.4286,
 		"version": "1.0.25",
 		"dlc": "Aston Martin"
+	},
+	"Throttle (V8 SOHC FME)": {
+		"name": "Throttle (V8 SOHC FME)",
+		"cost": 460,
+		"boost": 1,
+		"costToBoost": 460,
+		"version": "1.0.0",
+		"dlc": ""
 	},
 	"Throttle (V8)": {
 		"name": "Throttle (V8)",
@@ -3927,14 +3927,6 @@
 		"version": "1.0.18",
 		"dlc": "Land Rover"
 	},
-	"Turbo A (V6 VR38DETT)": {
-		"name": "Turbo A (V6 VR38DETT)",
-		"cost": 1500,
-		"boost": 3,
-		"costToBoost": 500,
-		"version": "1.0.0",
-		"dlc": "Nissan"
-	},
 	"Turbo A (V6 TWR JV6)": {
 		"name": "Turbo A (V6 TWR JV6)",
 		"cost": 1790,
@@ -3942,6 +3934,14 @@
 		"costToBoost": 447.5,
 		"version": "1.0.11",
 		"dlc": "Jaguar"
+	},
+	"Turbo A (V6 VR38DETT)": {
+		"name": "Turbo A (V6 VR38DETT)",
+		"cost": 1500,
+		"boost": 3,
+		"costToBoost": 500,
+		"version": "1.0.0",
+		"dlc": "Nissan"
 	},
 	"Turbo A (V8 M177)": {
 		"name": "Turbo A (V8 M177)",

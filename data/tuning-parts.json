@@ -2471,8 +2471,8 @@
 		"version": "1.0.16",
 		"dlc": ""
 	},
-	"Ignition Distributor (ROT 12A)": {
-		"name": "Ignition Distributor (ROT 12A)",
+	"Ignition Distributor Cap (ROT 12A)": {
+		"name": "Ignition Distributor Cap (ROT 12A)",
 		"cost": 175,
 		"boost": 1.5,
 		"costToBoost": 116.67,

@@ -1613,6 +1613,82 @@
 			}
 		]
 	},
+	"Rotary 12A": {
+		"name": "Rotary 12A",
+		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/6/66/Rotary_12A.png",
+		"specs": {
+			"power": 105,
+			"torque": 149,
+			"gearbox": "Gearbox (ROT 12A)"
+		},
+		"compatibleParts": [
+			{
+				"name": "Alternator",
+				"quantity": 1,
+				"cost": 200
+			},
+			{
+				"name": "Air Filter (ROT 12A)",
+				"quantity": 1,
+				"cost": 20
+			},
+			{
+				"name": "Carburetor (V8 OHV F)",
+				"quantity": 1,
+				"cost": 150
+			},
+			{
+				"name": "Clutch Plate",
+				"quantity": 1,
+				"cost": 90
+			},
+			{
+				"name": "Clutch Pressure Plate",
+				"quantity": 1,
+				"cost": 88
+			},
+			{
+				"name": "Flywheel",
+				"quantity": 1,
+				"cost": 500
+			},
+			{
+				"name": "Fuel Filter",
+				"quantity": 1,
+				"cost": 30
+			},
+			{
+				"name": "Ignition Distributor A",
+				"quantity": 1,
+				"cost": 69
+			},
+			{
+				"name": "Ignition Distributor Rotor",
+				"quantity": 1,
+				"cost": 20
+			},
+			{
+				"name": "Ignition Wires (ROT 12A)",
+				"quantity": 1,
+				"cost": 70
+			},
+			{
+				"name": "Intake Manifold (ROT 12A)",
+				"quantity": 1,
+				"cost": 200
+			},
+			{
+				"name": "Power Steering Pump (V6 B)",
+				"quantity": 1,
+				"cost": 120
+			},
+			{
+				"name": "Spark Plug",
+				"quantity": 4,
+				"cost": 6
+			}
+		]
+	},
 	"V12 DOHC MRC": {
 		"name": "V12 DOHC MRC",
 		"imgUrl": "https://static.wikia.nocookie.net/car-mechanic-simulator-2021/images/b/b3/V12_DOHC.jpg",

@@ -3130,7 +3130,7 @@
 		"specs": {
 			"power": 543,
 			"torque": 516,
-		        "gearbox": "Gearbox (V8 M177 DBX)"
+			"gearbox": "Gearbox (V8 M177 DBX)"
 		},
 		"compatibleParts": [
 			{

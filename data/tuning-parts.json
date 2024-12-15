@@ -921,7 +921,7 @@
 	},
 	"Engine Head (I4 SOHC)": {
 		"name": "Engine Head (I4 SOHC)",
-		"cost": 1,
+		"cost": 1000,
 		"boost": 5,
 		"costToBoost": 200,
 		"version": "1.0.0",

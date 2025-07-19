@@ -14,7 +14,7 @@ import {
 	UpdateSelectedPartsEvent,
 	UpdateSortEvent,
 } from '@/modules/customEvents';
-import { getCompareFn, getFullPartByName } from '@/modules/common';
+import { partSortFn, getFullPartByName } from '@/modules/common';
 import { PartSortBy } from '@/@types/globals';
 import SortBtn from '../sortBtn/sortBtn';
 import MissingPartAlert from '../MissingPartAlert';
@@ -132,7 +132,7 @@ export default function CompatiblePartsTable() {
 	if (!currentEngine) return;
 
 	const sortedCompatibleParts = currentEngine.compatibleParts.sort(
-		getCompareFn(sortBy),
+		partSortFn(sortBy),
 	);
 
 	return (

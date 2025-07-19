@@ -1,16 +1,22 @@
 import { ChangeEvent } from 'react';
 import { FaWandMagicSparkles } from 'react-icons/fa6';
+import RepairPartsTable from './RepairPartsTable.tsx';
+import { RepairParts } from '@/@types/calculator.js';
 
 type AutoGenModalInitScreenProps = {
 	onTargetChange: (e: ChangeEvent<HTMLInputElement>) => void;
 	targetIncrease: number;
 	onGenerate: () => void;
+	onRepairPartsChange: (parts: RepairParts) => void;
+	repairParts: RepairParts;
 };
 
 export default function AutoGenModalInitScreen({
 	onTargetChange,
 	targetIncrease,
 	onGenerate,
+	onRepairPartsChange,
+	repairParts,
 }: AutoGenModalInitScreenProps) {
 	return (
 		<>
@@ -18,6 +24,11 @@ export default function AutoGenModalInitScreen({
 				Auto-generation will show you the optimal setup for the target
 				boost increase.
 			</p>
+
+			<RepairPartsTable
+				onRepairPartsChange={onRepairPartsChange}
+				repairParts={repairParts}
+			/>
 
 			<label>
 				<p className="py-4">Choose your target boost increase:</p>

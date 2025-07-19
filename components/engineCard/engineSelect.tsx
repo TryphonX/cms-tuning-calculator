@@ -11,7 +11,7 @@ import { ENGINE_CONFIGURATIONS } from '@/modules/common';
 const handleEngineChange = ({ target }: ChangeEvent<HTMLSelectElement>) => {
 	const engineName = target.value as EngineName;
 	ChangeEngineEvent.dispatch(
-		structuredClone(engines[engineName as EngineName]) as Engine,
+		structuredClone(engines[engineName as EngineName]) as Engine
 	);
 };
 
@@ -34,7 +34,6 @@ export default function EngineSelect({ className }: BaseProps) {
 		target,
 	}: ChangeEvent<HTMLSelectElement>) => {
 		setEngineConfig(target.value);
-		console.log(target.value);
 	};
 
 	const EngineOptions = () => {
@@ -45,8 +44,7 @@ export default function EngineSelect({ className }: BaseProps) {
 					.filter(
 						(key) =>
 							engineConfig == '-- None --' ||
-							engines[key as EngineName].specs.configuration ===
-								engineConfig,
+							engines[key as EngineName].specs.configuration === engineConfig
 					)
 					.map((option) => (
 						<option key={option}>{option}</option>
@@ -57,7 +55,7 @@ export default function EngineSelect({ className }: BaseProps) {
 
 	const getClassName = useCallback(
 		() => (className ? ` ${className}` : ''),
-		[className],
+		[className]
 	);
 
 	return (

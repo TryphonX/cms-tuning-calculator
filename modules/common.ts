@@ -10,7 +10,7 @@ import tuningParts from '@/data/tuning-parts.json';
 export const getFullPartByName = (partName: TuningPartName) =>
 	tuningParts[partName];
 
-export const getCompareFn = (sortBy: PartSortBy) => {
+export const partSortFn = (sortBy: PartSortBy) => {
 	switch (sortBy) {
 		case 'name_asc':
 			return compareNamesAsc;

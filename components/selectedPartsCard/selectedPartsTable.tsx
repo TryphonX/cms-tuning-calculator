@@ -3,7 +3,7 @@
 import { CalculatorContext } from '@/modules/contexts';
 import { useContext, useEffect, useState } from 'react';
 import { UpdateSortEvent } from '@/modules/customEvents';
-import { getCompareFn, getFullPartByName } from '@/modules/common';
+import { partSortFn, getFullPartByName } from '@/modules/common';
 import { PartSortBy } from '@/@types/globals';
 import SortBtn from '../sortBtn/sortBtn';
 
@@ -28,7 +28,7 @@ export default function SelectedPartsTable() {
 
 	if (!currentEngine) return;
 
-	const sortedSelectedParts = selectedParts.sort(getCompareFn(sortBy));
+	const sortedSelectedParts = selectedParts.sort(partSortFn(sortBy));
 
 	const totalBoost = selectedParts.reduce(
 		(sum, current) =>

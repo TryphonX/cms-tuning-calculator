@@ -1,7 +1,7 @@
 import { CompatiblePart, RepairParts } from '@/@types/calculator';
 import { partSortFn } from '@/modules/common';
 import { CalculatorContext } from '@/modules/contexts';
-import { useContext, useEffect } from 'react';
+import { useContext, useEffect, useRef } from 'react';
 
 interface RangeInputProps {
 	repairParts: RepairParts;
@@ -15,36 +15,50 @@ const RangeInput = ({
 	onRepairPartsChange,
 }: RangeInputProps) => {
 	const id = `rangeInput-${part.name.replace(' ', '-')}`;
+	const ref = useRef<HTMLInputElement>(null);
 
 	return (
 		<>
 			<label className="sr-only" htmlFor={id}>
 				How many to be repaired of this part?
 			</label>
-			<input
-				id={id}
-				type="range"
-				min={0}
-				max={part.quantity}
-				defaultValue={0}
-				onChange={({ currentTarget: { value } }) => {
-					const newRepairParts = structuredClone(repairParts);
+			<div
+				className="max-sm:tooltip max-sm:tooltip-primary w-full"
+				data-tip={ref.current?.value}
+			>
+				<input
+					id={id}
+					ref={ref}
+					className="range range-xs range-primary w-full"
+					type="range"
+					min={0}
+					max={part.quantity}
+					defaultValue={0}
+					onChange={({ currentTarget: { value } }) => {
+						const newRepairParts = structuredClone(repairParts);
 
-					if (!~~value) {
-						if (newRepairParts[part.name]) {
-							delete newRepairParts[part.name];
+						if (!~~value) {
+							if (newRepairParts[part.name]) {
+								delete newRepairParts[part.name];
+							}
+						} else {
+							newRepairParts[part.name] =
+								~~value * part.cost * -1;
 						}
-					} else {
-						newRepairParts[part.name] = ~~value * part.cost * -1;
-					}
 
-					onRepairPartsChange(newRepairParts);
-				}}
-				className="range range-xs range-primary"
-			/>
+						onRepairPartsChange(newRepairParts);
+					}}
+				/>
+			</div>
 			<div className="flex justify-between px-2.5 mt-2 text-xs">
 				{Array.from({ length: part.quantity + 1 }, (_, i) => (
-					<span key={i} className="text-xs" aria-hidden>
+					<span
+						key={i}
+						className={`text-xs${
+							i % 2 !== 0 ? ' max-sm:hidden' : ''
+						}`}
+						aria-hidden
+					>
 						{i}
 					</span>
 				))}
@@ -72,9 +86,9 @@ const RepairPartsTable = ({ repairParts, onRepairPartsChange }: Props) => {
 
 	return (
 		<div className="py-4 flex flex-col gap-4">
-			<div className="overflow-x-auto overflow-y-scroll max-h-[40vh] w-full rounded-2xl border border-base-200">
-				<table className="table table-pin-rows table-xs sm:table-sm xl:table-sm 2xl:table-sm table-zebra">
-					<thead className="text-sm">
+			<div className="overflow-x-auto overflow-y-auto max-h-[40vh] w-full rounded-2xl border border-base-200">
+				<table className="table table-pin-rows table-xs sm:table-sm xl:table-md table-zebra">
+					<thead>
 						<tr>
 							<th colSpan={2} className="font-bold text-center">
 								Repair parts

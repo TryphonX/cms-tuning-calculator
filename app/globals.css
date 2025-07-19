@@ -1,11 +1,32 @@
 @import 'tailwindcss';
+@plugin 'daisyui';
+@plugin 'daisyui/theme' {
+	name: 'dark';
+	default: true;
+	--color-primary: #eab308;
+	--color-secondary: #94242c;
+	--color-primary-content: #130c00;
+	--color-base-content: #a6adbb;
+}
+
+[data-theme='dark'] {
+	.btn {
+		border-radius: var(--radius-xl);
+	}
+
+	.select {
+		border-radius: var(--radius-xl);
+	}
+}
 
 @theme {
-  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
-  --background-image-gradient-conic: conic-gradient(
-    from 180deg at 50% 50%,
-    var(--tw-gradient-stops)
-  );
+	--background-image-gradient-radial: radial-gradient(
+		var(--tw-gradient-stops)
+	);
+	--background-image-gradient-conic: conic-gradient(
+		from 180deg at 50% 50%,
+		var(--tw-gradient-stops)
+	);
 }
 
 /*
@@ -17,11 +38,11 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentcolor);
-  }
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentcolor);
+	}
 }

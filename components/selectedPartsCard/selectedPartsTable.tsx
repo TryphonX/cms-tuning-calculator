@@ -47,7 +47,7 @@ export default function SelectedPartsTable() {
 	return (
 		<>
 			<div className="overflow-x-auto w-full rounded-2xl border border-base-200">
-				<table className="table table-xs sm:table-sm xl:table-sm 2xl:table-sm table-zebra">
+				<table className="table table-sm sm:table-md xl:table-md table-zebra">
 					<thead className="text-sm">
 						<tr>
 							<th className="w-1/2 xl:w-1/3 2xl:w-1/2">

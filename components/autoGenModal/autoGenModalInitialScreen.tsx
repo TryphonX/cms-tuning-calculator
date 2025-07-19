@@ -32,10 +32,6 @@ export default function AutoGenModalInitScreen({
 
 			<label>
 				<p className="py-4">Choose your target boost increase:</p>
-				<div className="w-full flex justify-between">
-					<span aria-hidden="true">0%</span>
-					<span aria-hidden="true">100%</span>
-				</div>
 				<input
 					id="autoGenTargetInput"
 					type="range"
@@ -43,11 +39,28 @@ export default function AutoGenModalInitScreen({
 					max="100"
 					defaultValue={targetIncrease}
 					onChange={onTargetChange}
-					className="range range-primary"
+					className="range range-primary w-full"
 				/>
 			</label>
+			<div className="flex justify-between px-2.5 mt-2 text-xs">
+				{Array.from({ length: 101 }, (_, i) => {
+					if (i % 10 === 0) {
+						return (
+							<span
+								key={i}
+								className={`text-xs${
+									i % 20 !== 0 ? ' max-sm:hidden' : ''
+								}`}
+								aria-hidden
+							>
+								{i}%
+							</span>
+						);
+					}
+				})}
+			</div>
 			<div className="w-full flex justify-end text-right">
-				<div className="flex flex-col text-primary">
+				<div className="flex flex-col text-primary mt-4">
 					<span>Target Increase: {targetIncrease}%</span>
 				</div>
 			</div>

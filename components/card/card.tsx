@@ -26,7 +26,7 @@ function Actions({ actions }: { actions?: Action[] }) {
 	if (!actions || !actions.length) return;
 
 	return (
-		<div className='join'>
+		<div className="join">
 			{actions.map((action) => (
 				<button
 					key={`${action.label}-action`}
@@ -35,7 +35,7 @@ function Actions({ actions }: { actions?: Action[] }) {
 					onClick={action.onClick}
 				>
 					{action.label}{' '}
-					<span className='max-sm:hidden'>
+					<span className="max-sm:hidden">
 						{action.optionalLabel}
 					</span>
 				</button>
@@ -49,11 +49,11 @@ function Header({ title, actions }: HeaderProps) {
 
 	return (
 		<>
-			<div className='flex flex-row justify-between'>
-				<span className='card-title'>{title}</span>
+			<div className="flex flex-row justify-between">
+				<span className="card-title">{title}</span>
 				<Actions actions={actions} />
 			</div>
-			<div className='divider my-0'></div>
+			<div className="divider my-0"></div>
 		</>
 	);
 }
@@ -64,7 +64,7 @@ function FooterActions({ footerActions }: FooterActionsProps) {
 	if (!footerActions) return;
 
 	return (
-		<div className='card-actions justify-end'>
+		<div className="card-actions justify-end">
 			{footerActions.map((action) => (
 				<button
 					key={`${action.label}-footeraction`}
@@ -73,7 +73,7 @@ function FooterActions({ footerActions }: FooterActionsProps) {
 					onClick={action.onClick}
 				>
 					{action.label}{' '}
-					<span className='max-sm:hidden'>
+					<span className="max-sm:hidden">
 						{action.optionalLabel}
 					</span>
 				</button>
@@ -96,9 +96,9 @@ export default function Card({
 
 	return (
 		<div
-			className={`card card-bordered border-neutral shadow-xl${getClassName()}`}
+			className={`card card-border rounded-2xl border-base-content/10 shadow-xl shadow-base-200 ${getClassName()}`}
 		>
-			<div className='card-body'>
+			<div className="card-body">
 				<Header title={title} actions={actions} />
 				{children}
 				<FooterActions footerActions={footerActions} />

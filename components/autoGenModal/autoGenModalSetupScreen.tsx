@@ -18,7 +18,7 @@ const CostElement = ({ generatedSetup }: CostElementProps) => {
 
 	return (
 		<div className="flex flex-row gap-4 items-center">
-			<del className="text-xs">
+			<del className="text-xs max-sm:hidden">
 				<span className="sr-only">Original cost was </span>
 				{generatedSetup.cost} CR
 			</del>
@@ -27,7 +27,7 @@ const CostElement = ({ generatedSetup }: CostElementProps) => {
 				{generatedSetup.repairs.netCost} CR
 			</span>
 			<div
-				className="badge badge-primary font-semibold"
+				className="badge badge-primary font-semibold line-clamp-1"
 				aria-label={`Total saved after repairs: ${generatedSetup.repairs.totalSaved} CR`}
 			>
 				-{generatedSetup.repairs.totalSaved} CR *
@@ -43,7 +43,7 @@ const CostToBoostElement = ({ generatedSetup }: CostElementProps) => {
 
 	return (
 		<div className="flex flex-row gap-4 items-center">
-			<del className="text-xs">
+			<del className="text-xs max-sm:hidden">
 				<span className="sr-only">Original cost per boost was </span>
 				{generatedSetup.costToBoost.toFixed(2)} CR / Boost
 			</del>
@@ -52,7 +52,7 @@ const CostToBoostElement = ({ generatedSetup }: CostElementProps) => {
 				{generatedSetup.repairs.netCostToBoost.toFixed(2)} CR / Boost
 			</span>
 			<div
-				className="badge badge-primary font-semibold"
+				className="badge badge-primary font-semibold line-clamp-1"
 				aria-label={`Total saved CR per boost after repairs: ${(
 					generatedSetup.costToBoost -
 					generatedSetup.repairs.netCostToBoost

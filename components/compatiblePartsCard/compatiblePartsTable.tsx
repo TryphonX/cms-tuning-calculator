@@ -139,7 +139,7 @@ export default function CompatiblePartsTable() {
 		<>
 			<MissingPartAlert partMissing={partMissing} />
 			<div className="overflow-x-auto w-full rounded-2xl border border-base-200">
-				<table className="table table-xs sm:table-sm xl:table-sm 2xl:table-sm table-zebra">
+				<table className="table table-xs sm:table-md table-zebra">
 					<thead className="text-sm">
 						<tr>
 							<td className="w-0">

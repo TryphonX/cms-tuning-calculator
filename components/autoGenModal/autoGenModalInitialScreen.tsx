@@ -18,20 +18,23 @@ export default function AutoGenModalInitScreen({
 				Auto-generation will show you the optimal setup for the target
 				boost increase.
 			</p>
-			<p className="py-4">Choose your target boost increase:</p>
-			<div className="w-full flex justify-between">
-				<span>0%</span>
-				<span>100%</span>
-			</div>
-			<input
-				aria-label="Select target increase percentage"
-				type="range"
-				min="0"
-				max="100"
-				defaultValue={targetIncrease}
-				onChange={onTargetChange}
-				className="range range-primary"
-			/>
+
+			<label>
+				<p className="py-4">Choose your target boost increase:</p>
+				<div className="w-full flex justify-between">
+					<span aria-hidden="true">0%</span>
+					<span aria-hidden="true">100%</span>
+				</div>
+				<input
+					id="autoGenTargetInput"
+					type="range"
+					min="0"
+					max="100"
+					defaultValue={targetIncrease}
+					onChange={onTargetChange}
+					className="range range-primary"
+				/>
+			</label>
 			<div className="w-full flex justify-end text-right">
 				<div className="flex flex-col text-primary">
 					<span>Target Increase: {targetIncrease}%</span>

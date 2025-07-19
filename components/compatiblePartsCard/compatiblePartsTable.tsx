@@ -14,8 +14,8 @@ import {
 	UpdateSelectedPartsEvent,
 	UpdateSortEvent,
 } from '@/modules/customEvents';
-import { PartSortBy, getCompareFn, getFullPartByName } from '@/modules/common';
-import { SortBy } from '@/@types/globals';
+import { getCompareFn, getFullPartByName } from '@/modules/common';
+import { PartSortBy } from '@/@types/globals';
 import SortBtn from '../sortBtn/sortBtn';
 import { FaTriangleExclamation } from 'react-icons/fa6';
 import Link from 'next/link';
@@ -52,13 +52,13 @@ export default function CompatiblePartsTable() {
 	const { currentEngine, selectedParts } = useContext(CalculatorContext);
 	const [partMissing, setPartMissing] = useState(false);
 
-	const [sortBy, setSortBy] = useState(PartSortBy.NameAsc);
+	const [sortBy, setSortBy] = useState<PartSortBy>('name_asc');
 
 	// onMount
 	useEffect(() => {
 		const handleUpdateSort = (e: Event) => {
 			e.stopPropagation();
-			setSortBy((e as CustomEvent<SortBy>).detail ?? PartSortBy.NameAsc);
+			setSortBy((e as CustomEvent<PartSortBy>).detail ?? 'name_asc');
 		};
 
 		window.addEventListener(UpdateSortEvent.name, handleUpdateSort);
@@ -183,30 +183,21 @@ export default function CompatiblePartsTable() {
 								Part{' '}
 								<SortBtn
 									sortBy={sortBy}
-									values={[
-										PartSortBy.NameAsc,
-										PartSortBy.NameDesc,
-									]}
+									values={['name_asc', 'name_desc']}
 								/>
 							</th>
 							<th className="text-right">
 								Boost{' '}
 								<SortBtn
 									sortBy={sortBy}
-									values={[
-										PartSortBy.BoostAsc,
-										PartSortBy.BoostDesc,
-									]}
+									values={['boost_asc', 'boost_desc']}
 								/>
 							</th>
 							<th className="text-right">
 								Cost{' '}
 								<SortBtn
 									sortBy={sortBy}
-									values={[
-										PartSortBy.CostAsc,
-										PartSortBy.CostDesc,
-									]}
+									values={['cost_asc', 'cost_desc']}
 								/>
 							</th>
 							<th className="text-right max-md:hidden">
@@ -214,8 +205,8 @@ export default function CompatiblePartsTable() {
 								<SortBtn
 									sortBy={sortBy}
 									values={[
-										PartSortBy.CostToBoostAsc,
-										PartSortBy.CostToBoostDesc,
+										'costToBoost_asc',
+										'costToBoost_desc',
 									]}
 								/>
 							</th>

@@ -4,54 +4,42 @@ import {
 	TuningPartBase,
 	TuningPartName,
 } from '@/@types/calculator';
+import { PartSortBy } from '@/@types/globals';
 import tuningParts from '@/data/tuning-parts.json';
 
 export const getFullPartByName = (partName: TuningPartName) =>
 	tuningParts[partName];
 
-export enum PartSortBy {
-	NameAsc = 'name_asc',
-	NameDesc = 'name_desc',
-	QuantityAsc = 'quantity_asc',
-	QuantityDesc = 'quantity_desc',
-	CostAsc = 'cost_asc',
-	CostDesc = 'cost_desc',
-	BoostAsc = 'boost_asc',
-	BoostDesc = 'boost_desc',
-	CostToBoostAsc = 'costToBoost_asc',
-	CostToBoostDesc = 'costToBoost_desc',
-}
-
 export const getCompareFn = (sortBy: PartSortBy) => {
 	switch (sortBy) {
-		case PartSortBy.NameAsc:
+		case 'name_asc':
 			return compareNamesAsc;
 
-		case PartSortBy.NameDesc:
+		case 'name_desc':
 			return compareNamesDesc;
 
-		case PartSortBy.QuantityAsc:
+		case 'quantity_asc':
 			return compareQtAsc;
 
-		case PartSortBy.QuantityDesc:
+		case 'quantity_desc':
 			return compareQtDesc;
 
-		case PartSortBy.CostAsc:
+		case 'cost_asc':
 			return compareCostAsc;
 
-		case PartSortBy.CostDesc:
+		case 'cost_desc':
 			return compareCostDesc;
 
-		case PartSortBy.BoostAsc:
+		case 'boost_asc':
 			return compareBoostAsc;
 
-		case PartSortBy.BoostDesc:
+		case 'boost_desc':
 			return compareBoostDesc;
 
-		case PartSortBy.CostToBoostAsc:
+		case 'costToBoost_asc':
 			return compareCostToBoostAsc;
 
-		case PartSortBy.CostToBoostDesc:
+		case 'costToBoost_desc':
 			return compareCostToBoostDesc;
 
 		default:

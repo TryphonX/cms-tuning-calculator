@@ -44,7 +44,7 @@ const RangeInput = ({
 			/>
 			<div className="flex justify-between px-2.5 mt-2 text-xs">
 				{Array.from({ length: part.quantity + 1 }, (_, i) => (
-					<span key={i} className="text-xs">
+					<span key={i} className="text-xs" aria-hidden>
 						{i}
 					</span>
 				))}
@@ -94,7 +94,9 @@ const RepairPartsTable = ({ repairParts, onRepairPartsChange }: Props) => {
 										<RangeInput
 											part={part}
 											repairParts={repairParts}
-											onRepairPartsChange={onRepairPartsChange}
+											onRepairPartsChange={
+												onRepairPartsChange
+											}
 										/>
 									</td>
 								</tr>

@@ -17,8 +17,7 @@ import {
 import { getCompareFn, getFullPartByName } from '@/modules/common';
 import { PartSortBy } from '@/@types/globals';
 import SortBtn from '../sortBtn/sortBtn';
-import { FaTriangleExclamation } from 'react-icons/fa6';
-import Link from 'next/link';
+import MissingPartAlert from '../MissingPartAlert';
 
 const getPartCheckboxes = () =>
 	document.querySelectorAll(
@@ -136,36 +135,9 @@ export default function CompatiblePartsTable() {
 		getCompareFn(sortBy),
 	);
 
-	function MissingPartAlert() {
-		if (!partMissing) return null;
-
-		return (
-			<div role="alert" className="alert alert-warning py-2 px-4 mb-4">
-				<FaTriangleExclamation aria-hidden />
-				<div>
-					<p className="text-sm font-bold">
-						Some parts are missing data! Please double check within
-						the game.
-						<br />
-						<span className="text-xs font-normal">
-							Any help filling in the missing data is welcome!{' '}
-							<Link
-								className="link"
-								target="_blank"
-								href="https://github.com/TryphonX/CMS-Tuning-Calculator/issues/new"
-							>
-								Open an issue on GitHub.
-							</Link>
-						</span>
-					</p>
-				</div>
-			</div>
-		);
-	}
-
 	return (
 		<>
-			<MissingPartAlert />
+			<MissingPartAlert partMissing={partMissing} />
 			<div className="overflow-x-auto w-full rounded-2xl border border-base-200">
 				<table className="table table-xs sm:table-sm xl:table-sm 2xl:table-sm table-zebra">
 					<thead className="text-sm">

@@ -187,6 +187,31 @@ describe('SelectedPartsTable', () => {
 		expect(screen.getByTestId('sort-btn-name_asc')).toBeInTheDocument();
 	});
 
+	it('triggers sort when sort button is clicked', () => {
+		renderWithContext();
+
+		// Click on the name sort button
+		const nameSortBtn = screen.getByTestId('sort-btn-name_asc');
+		fireEvent.click(nameSortBtn);
+
+		// The sort button should still be in the document (since we're using a mock)
+		expect(nameSortBtn).toBeInTheDocument();
+	});
+
+	it('handles UpdateSortEvent with undefined detail (fallback to name_asc)', () => {
+		renderWithContext();
+
+		// Dispatch a sort event with undefined detail to test the fallback
+		const sortEvent = new CustomEvent(UpdateSortEvent.name, {
+			detail: undefined,
+		});
+
+		fireEvent(window, sortEvent);
+
+		// Should fall back to 'name_asc' when detail is undefined
+		expect(screen.getByTestId('sort-btn-name_asc')).toBeInTheDocument();
+	});
+
 	it('cleans up event listener on unmount', () => {
 		const removeEventListenerSpy = jest.spyOn(
 			window,

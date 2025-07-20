@@ -17,7 +17,7 @@ const CostElement = ({ generatedSetup }: CostElementProps) => {
 	}
 
 	return (
-		<div className="flex flex-row gap-4 items-center">
+		<div className="flex flex-row gap-4 items-center flex-wrap">
 			<del className="text-xs max-sm:hidden">
 				<span className="sr-only">Original cost was </span>
 				{generatedSetup.cost} CR
@@ -27,7 +27,7 @@ const CostElement = ({ generatedSetup }: CostElementProps) => {
 				{generatedSetup.repairs.netCost} CR
 			</span>
 			<div
-				className="badge badge-primary font-semibold line-clamp-1"
+				className="badge badge-primary font-semibold"
 				aria-label={`Total saved after repairs: ${generatedSetup.repairs.totalSaved} CR`}
 			>
 				-{generatedSetup.repairs.totalSaved} CR *
@@ -42,7 +42,7 @@ const CostToBoostElement = ({ generatedSetup }: CostElementProps) => {
 	}
 
 	return (
-		<div className="flex flex-row gap-4 items-center">
+		<div className="flex flex-row gap-4 items-center flex-wrap">
 			<del className="text-xs max-sm:hidden">
 				<span className="sr-only">Original cost per boost was </span>
 				{generatedSetup.costToBoost.toFixed(2)} CR / Boost
@@ -52,7 +52,7 @@ const CostToBoostElement = ({ generatedSetup }: CostElementProps) => {
 				{generatedSetup.repairs.netCostToBoost.toFixed(2)} CR / Boost
 			</span>
 			<div
-				className="badge badge-primary font-semibold line-clamp-1"
+				className="badge badge-primary font-semibold"
 				aria-label={`Total saved CR per boost after repairs: ${(
 					generatedSetup.costToBoost -
 					generatedSetup.repairs.netCostToBoost
@@ -105,7 +105,7 @@ export default function AutoGenModalSetupScreen({
 						</table>
 					</div>
 					{generatedSetup.repairs?.includesRepairParts && (
-						<div className="mt-4 flex flex-col gap-2">
+						<div className="mt-4 space-y-4">
 							<p className="text-xs">
 								* Some parts were repaired in this setup. The
 								cost shown has deducted the price that part

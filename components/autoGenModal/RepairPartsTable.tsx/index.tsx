@@ -85,7 +85,7 @@ const RepairPartsTable = ({ repairParts, onRepairPartsChange }: Props) => {
 			.sort(partSortFn('name_asc')) ?? [];
 
 	return (
-		<div className="py-4 flex flex-col gap-4">
+		<div className="py-4">
 			<div className="overflow-x-auto overflow-y-auto max-h-[40vh] w-full rounded-2xl border border-base-200">
 				<table className="table table-pin-rows table-xs sm:table-sm xl:table-md table-zebra">
 					<thead>

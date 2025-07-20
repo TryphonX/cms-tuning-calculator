@@ -46,3 +46,23 @@ jest.mock('next/link', () => {
 // Mock environment variables
 process.env.APP_VERSION = '2.2.1';
 process.env.LAST_PUBLISH = '2025-01-15T10:00:00.000Z';
+
+// Suppress JSDOM navigation errors
+const originalError = console.error;
+console.error = (...args) => {
+	if (
+		typeof args[0] === 'string' &&
+		args[0].includes('Not implemented: navigation')
+	) {
+		return;
+	}
+	if (
+		args[0] &&
+		typeof args[0] === 'object' &&
+		args[0].message &&
+		args[0].message.includes('Not implemented: navigation')
+	) {
+		return;
+	}
+	originalError.call(console, ...args);
+};

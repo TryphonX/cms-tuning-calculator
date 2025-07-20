@@ -24,4 +24,4 @@ const customJestConfig = {
 };
 
 // createJestConfig is exported and used by Jest
-export default createJestConfig(customJestConfig);
+module.exports = createJestConfig(customJestConfig);

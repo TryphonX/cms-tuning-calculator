@@ -101,12 +101,11 @@ export default function SelectedPartsTable() {
 										{(
 											tuningPartData?.boost *
 											part.quantity
-										).toFixed(2) ?? '-'}
+										).toFixed(2)}
 										%
 									</td>
 									<td className="text-right">
-										{tuningPartData?.cost * part.quantity ||
-											'-'}{' '}
+										{tuningPartData?.cost * part.quantity}{' '}
 										CR
 									</td>
 									<td
@@ -119,7 +118,7 @@ export default function SelectedPartsTable() {
 										{(
 											tuningPartData?.cost /
 											tuningPartData?.boost
-										).toFixed(0) || '-'}{' '}
+										).toFixed(0)}{' '}
 										CR/Boost
 									</td>
 								</tr>
@@ -130,16 +129,14 @@ export default function SelectedPartsTable() {
 						<tr className="bg-primary text-primary-content">
 							<th>Total:</th>
 							<th className="text-right">
-								+{totalBoost.toFixed(2) ?? '-'}%
+								+{totalBoost.toFixed(2)}%
 							</th>
-							<th className="text-right">
-								{totalCost ?? '-'} CR
-							</th>
+							<th className="text-right">{totalCost} CR</th>
 							<th
 								className="text-right max-md:hidden"
 								title={totalCostToBoost.toString()}
 							>
-								{totalCostToBoost.toFixed(0) || '-'} CR/Boost
+								{totalCostToBoost.toFixed(0)} CR/Boost
 							</th>
 						</tr>
 					</tfoot>

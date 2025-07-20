@@ -15,7 +15,9 @@ export default function Navbar() {
 			<div className="flex-none">
 				<ul className="menu menu-horizontal px-1">
 					<li className="max-sm:hidden">
-						<Link href="/calculator">Calculator</Link>
+						<Link className="rounded-xl" href="/calculator">
+							Calculator
+						</Link>
 					</li>
 					<li className="sm:hidden">
 						<details>

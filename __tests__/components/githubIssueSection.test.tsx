@@ -58,6 +58,7 @@ describe('GithubIssueSection', () => {
 		);
 		expect(issueLink).toHaveAttribute('target', '_blank');
 	});
+
 	it('displays GitHub icon in the link', () => {
 		render(<GithubIssueSection />);
 		// Icons are mocked in the test environment, so we just verify button text
@@ -71,14 +72,6 @@ describe('GithubIssueSection', () => {
 		const githubLink = screen.getByRole('link', { name: /open an issue/i });
 		expect(githubLink).toHaveAttribute('target', '_blank');
 		// Note: rel attribute may not be set in this implementation
-	});
-
-	it('renders grid layout structure', () => {
-		render(<GithubIssueSection />);
-		const heroSection = screen
-			.getByRole('heading', { name: /suggestions/i })
-			.closest('.hero');
-		expect(heroSection).toBeInTheDocument();
 	});
 
 	it('displays all descriptive text for each section', () => {

@@ -69,13 +69,6 @@ describe('EngineImage', () => {
 		expect(image).toHaveAttribute('height', '188');
 	});
 
-	it('image in document', () => {
-		renderWithContext();
-
-		const image = screen.getByTestId('engine-image');
-		expect(image).toBeInTheDocument();
-	});
-
 	it('does not render when no currentEngine is set', () => {
 		renderWithContext({
 			currentEngine: null as unknown as Engine,
@@ -124,14 +117,6 @@ describe('EngineImage', () => {
 		});
 
 		expect(screen.queryByTestId('engine-image')).not.toBeInTheDocument();
-	});
-
-	it('renders with correct dimensions', () => {
-		renderWithContext();
-
-		const image = screen.getByTestId('engine-image');
-		expect(image).toHaveAttribute('width', '200');
-		expect(image).toHaveAttribute('height', '188');
 	});
 
 	it('uses engine name in alt text', () => {

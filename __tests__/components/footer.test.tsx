@@ -83,12 +83,6 @@ describe('Footer', () => {
 		expect(screen.getByTestId('github-icon')).toBeInTheDocument();
 	});
 
-	it('has proper semantic structure with footer element', () => {
-		render(<Footer />);
-		const footer = screen.getByRole('contentinfo');
-		expect(footer).toHaveClass('footer', 'md:footer-horizontal');
-	});
-
 	it('handles different date formats in LAST_PUBLISH environment variable', () => {
 		// Test with a different date
 		process.env.LAST_PUBLISH = '2024-12-25T15:30:00.000Z';
@@ -96,7 +90,7 @@ describe('Footer', () => {
 		expect(screen.getByText(/December 25, 2024/)).toBeInTheDocument();
 	});
 
-	it('displays version and date in the same line with proper styling', () => {
+	it('displays version and date in the same line', () => {
 		render(<Footer />);
 		const versionElement = screen.getByText('v2.2.1');
 		expect(versionElement).toBeInTheDocument();

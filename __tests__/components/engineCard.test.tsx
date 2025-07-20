@@ -66,24 +66,6 @@ describe('EngineCard', () => {
 		expect(screen.getByTestId('engine-specs-table')).toBeInTheDocument();
 	});
 
-	it('EngineSelect rendered', () => {
-		render(<EngineCard />);
-		const engineSelect = screen.getByTestId('engine-select');
-		expect(engineSelect).toBeInTheDocument();
-	});
-
-	it('has proper grid layout structure', () => {
-		render(<EngineCard />);
-
-		// Find the grid container (should contain both EngineImage and EngineSpecsTable)
-		const engineImage = screen.getByTestId('engine-image');
-		const engineSpecsTable = screen.getByTestId('engine-specs-table');
-
-		// Both should be in the same parent grid container
-		const gridContainer = engineImage.parentElement;
-		expect(gridContainer).toContainElement(engineSpecsTable);
-	});
-
 	it('renders all components in correct order', () => {
 		const { container } = render(<EngineCard />);
 

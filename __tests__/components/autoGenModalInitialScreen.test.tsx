@@ -74,7 +74,7 @@ describe('AutoGenModalInitialScreen', () => {
 		const rangeInput = screen.getByRole('slider');
 		expect(rangeInput).toHaveAttribute('min', '0');
 		expect(rangeInput).toHaveAttribute('max', '100');
-		expect(rangeInput).toHaveAttribute('id', 'autoGenTargetInput');
+		expect(rangeInput).toHaveAttribute('value', '50');
 	});
 
 	it('calls onTargetChange when range input changes', () => {

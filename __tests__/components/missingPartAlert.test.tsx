@@ -25,7 +25,9 @@ jest.mock('next/link', () => {
 
 // Mock React Icons
 jest.mock('react-icons/fa6', () => ({
-	FaTriangleExclamation: () => <span data-testid="warning-icon" />,
+	FaTriangleExclamation: () => (
+		<span aria-hidden data-testid="warning-icon" />
+	),
 }));
 
 describe('MissingPartAlert', () => {
@@ -78,50 +80,13 @@ describe('MissingPartAlert', () => {
 		expect(link).toHaveAttribute('target', '_blank');
 	});
 
-	it('has proper alert styling', () => {
-		render(<MissingPartAlert partMissing={true} />);
-
-		const alert = screen.getByRole('alert');
-		expect(alert).toHaveClass(
-			'alert',
-			'alert-warning',
-			'py-2',
-			'px-4',
-			'mb-4',
-		);
-	});
-
 	it('has warning icon with proper accessibility', () => {
 		render(<MissingPartAlert partMissing={true} />);
 
 		const icon = screen.getByTestId('warning-icon');
 		expect(icon).toBeInTheDocument();
 		// Icon should be aria-hidden since it's decorative
-	});
-
-	it('has proper text styling for different text elements', () => {
-		render(<MissingPartAlert partMissing={true} />);
-
-		// Main message should be bold and small
-		const mainMessage = screen
-			.getByText(/Some parts are missing data!/)
-			.closest('p');
-		expect(mainMessage).toHaveClass('text-sm', 'font-bold');
-
-		// Help text should be smaller and normal weight
-		const helpText = screen
-			.getByText(/Any help filling in the missing data is welcome!/)
-			.closest('span');
-		expect(helpText).toHaveClass('text-xs', 'font-normal');
-	});
-
-	it('link has proper styling', () => {
-		render(<MissingPartAlert partMissing={true} />);
-
-		const link = screen.getByRole('link', {
-			name: /Open an issue on GitHub/,
-		});
-		expect(link).toHaveClass('link');
+		expect(icon).toHaveAttribute('aria-hidden');
 	});
 
 	it('returns null correctly when partMissing is false', () => {

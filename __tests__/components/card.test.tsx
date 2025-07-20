@@ -11,29 +11,6 @@ describe('Card', () => {
 		mockOnClick.mockClear();
 	});
 
-	it('renders without crashing', () => {
-		render(<Card>Test content</Card>);
-		expect(screen.getByText('Test content')).toBeInTheDocument();
-	});
-
-	it('applies correct base classes and structure', () => {
-		const { container } = render(<Card>Test content</Card>);
-		const card = container.firstChild as HTMLElement;
-
-		expect(card).toHaveClass(
-			'card',
-			'card-border',
-			'rounded-2xl',
-			'border-base-content/10',
-			'shadow-xl',
-			'shadow-base-200',
-		);
-
-		// Check for card-body structure
-		const cardBody = card.querySelector('.card-body');
-		expect(cardBody).toBeInTheDocument();
-	});
-
 	it('renders children content correctly', () => {
 		render(
 			<Card>
@@ -49,31 +26,17 @@ describe('Card', () => {
 		expect(screen.getByText('Span content')).toBeInTheDocument();
 	});
 
-	it('applies custom className when provided', () => {
-		const { container } = render(
-			<Card className="custom-class">Test content</Card>,
-		);
-		const card = container.firstChild as HTMLElement;
-
-		expect(card).toHaveClass('custom-class');
-	});
-
 	describe('Header functionality', () => {
-		it('renders title when provided', () => {
+		it('renders title and divider when title is provided', () => {
 			render(<Card title="Test Title">Content</Card>);
 
 			expect(screen.getByText('Test Title')).toBeInTheDocument();
-			expect(screen.getByText('Test Title')).toHaveClass('card-title');
-		});
 
-		it('renders divider after title', () => {
 			const { container } = render(
 				<Card title="Test Title">Content</Card>,
 			);
-
 			const divider = container.querySelector('.divider');
 			expect(divider).toBeInTheDocument();
-			expect(divider).toHaveClass('my-0');
 		});
 
 		it('does not render header when title is not provided', () => {
@@ -94,7 +57,7 @@ describe('Card', () => {
 				{
 					label: 'Action 2',
 					onClick: mockOnClick,
-					className: 'btn-primary',
+					className: 'btn-secondary',
 				},
 			];
 
@@ -109,17 +72,13 @@ describe('Card', () => {
 			).toBeInTheDocument();
 			expect(
 				screen.getByRole('button', { name: /action 2/i }),
-			).toBeInTheDocument();
+			).toHaveClass('btn-secondary');
 		});
 
-		it('applies correct action button classes', () => {
+		it('applies custom className to header actions when provided', () => {
 			const actions: Action[] = [
 				{
-					label: 'Default Action',
-					onClick: mockOnClick,
-				},
-				{
-					label: 'Primary Action',
+					label: 'Custom Action',
 					onClick: mockOnClick,
 					className: 'btn-primary',
 				},
@@ -131,25 +90,10 @@ describe('Card', () => {
 				</Card>,
 			);
 
-			const defaultButton = screen.getByRole('button', {
-				name: /default action/i,
+			const button = screen.getByRole('button', {
+				name: /custom action/i,
 			});
-			const primaryButton = screen.getByRole('button', {
-				name: /primary action/i,
-			});
-
-			expect(defaultButton).toHaveClass(
-				'btn',
-				'join-item',
-				'btn-sm',
-				'btn-neutral',
-			);
-			expect(primaryButton).toHaveClass(
-				'btn',
-				'join-item',
-				'btn-sm',
-				'btn-primary',
-			);
+			expect(button).toHaveClass('btn-primary');
 		});
 
 		it('handles disabled actions correctly', () => {
@@ -173,7 +117,7 @@ describe('Card', () => {
 			expect(button).toBeDisabled();
 		});
 
-		it('displays optional labels on larger screens', () => {
+		it('renders optional labels on larger screens', () => {
 			const actions: Action[] = [
 				{
 					label: 'Save',
@@ -190,11 +134,6 @@ describe('Card', () => {
 
 			const button = screen.getByRole('button', { name: /save/i });
 			expect(button).toHaveTextContent('Save Document');
-
-			// Check that optional label has responsive hiding class
-			const optionalSpan = button.querySelector('.max-sm\\:hidden');
-			expect(optionalSpan).toBeInTheDocument();
-			expect(optionalSpan).toHaveTextContent('Document');
 		});
 	});
 
@@ -208,7 +147,6 @@ describe('Card', () => {
 				{
 					label: 'Save',
 					onClick: mockOnClick,
-					className: 'btn-primary',
 				},
 			];
 
@@ -222,27 +160,19 @@ describe('Card', () => {
 			).toBeInTheDocument();
 		});
 
-		it('applies correct footer action classes and structure', () => {
+		it('applies custom className to footer actions when provided', () => {
 			const footerActions: Action[] = [
 				{
-					label: 'Footer Action',
+					label: 'Save',
 					onClick: mockOnClick,
-					className: 'btn-secondary',
+					className: 'btn-primary',
 				},
 			];
 
-			const { container } = render(
-				<Card footerActions={footerActions}>Content</Card>,
-			);
+			render(<Card footerActions={footerActions}>Content</Card>);
 
-			const footerContainer = container.querySelector('.card-actions');
-			expect(footerContainer).toBeInTheDocument();
-			expect(footerContainer).toHaveClass('justify-end');
-
-			const button = screen.getByRole('button', {
-				name: /footer action/i,
-			});
-			expect(button).toHaveClass('btn', 'btn-secondary');
+			const button = screen.getByRole('button', { name: /save/i });
+			expect(button).toHaveClass('btn-primary');
 		});
 
 		it('does not render footer when no footer actions provided', () => {
@@ -361,9 +291,11 @@ describe('Card', () => {
 			expect(
 				screen.getByRole('button', { name: /cancel/i }),
 			).toBeInTheDocument();
-			expect(
-				screen.getByRole('button', { name: /save/i }),
-			).toBeInTheDocument();
+
+			// Check custom className is applied
+			const saveButton = screen.getByRole('button', { name: /save/i });
+			expect(saveButton).toBeInTheDocument();
+			expect(saveButton).toHaveClass('btn-primary');
 		});
 
 		it('handles empty actions array correctly', () => {

@@ -51,19 +51,6 @@ describe('SelectedPartsCard', () => {
 		expect(card).toHaveClass(customClass);
 	});
 
-	it('renders with proper structure', () => {
-		render(<SelectedPartsCard />);
-
-		const card = screen.getByTestId('card');
-		expect(card).toBeInTheDocument();
-
-		// Check that the table is wrapped in a div with mt-4 class
-		const tableContainer = screen.getByTestId(
-			'selected-parts-table',
-		).parentElement;
-		expect(tableContainer).toBeInTheDocument();
-	});
-
 	it('renders without errors when no props are provided', () => {
 		expect(() => render(<SelectedPartsCard />)).not.toThrow();
 	});

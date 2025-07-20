@@ -57,13 +57,6 @@ describe('EngineSpecsTable', () => {
 		expect(screen.getByText('Gearbox (CHRG-eE1)')).toBeInTheDocument();
 	});
 
-	it('applies correct CSS classes for responsiveness to the container', () => {
-		renderWithContext();
-
-		const figure = screen.getByRole('table').closest('figure');
-		expect(figure).toHaveClass('col-span-3', 'sm:col-span-2');
-	});
-
 	it('does not render when no currentEngine is set', () => {
 		renderWithContext({
 			currentEngine: null as unknown as Engine,

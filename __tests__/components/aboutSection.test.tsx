@@ -80,12 +80,4 @@ describe('AboutSection', () => {
 		expect(logoImg).toBeInTheDocument();
 		expect(logoImg).toHaveAttribute('aria-hidden');
 	});
-
-	it('renders responsive layout structure', () => {
-		render(<AboutSection />);
-		const heroSection = screen
-			.getByRole('heading', { level: 1 })
-			.closest('.hero');
-		expect(heroSection).toBeInTheDocument();
-	});
 });

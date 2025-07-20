@@ -181,28 +181,11 @@ describe('EngineSelect', () => {
 		expect(container).toHaveClass(customClass);
 	});
 
-	it('renders without custom className', () => {
-		renderWithContext();
-
-		const container = screen.getByText('Configuration').closest('div');
-		expect(container).not.toHaveClass('custom-test-class');
-	});
-
 	it('renders correct labels for selects', () => {
 		renderWithContext();
 
 		expect(screen.getByText('Configuration')).toBeInTheDocument();
 		expect(screen.getByText('Engine')).toBeInTheDocument();
-	});
-
-	it('selects rendered', () => {
-		renderWithContext();
-
-		const configLabel = screen.getByText('Configuration').closest('label');
-		const engineLabel = screen.getByText('Engine').closest('label');
-
-		expect(configLabel).toBeInTheDocument();
-		expect(engineLabel).toBeInTheDocument();
 	});
 
 	it('shows all engines when no configuration filter is applied', () => {

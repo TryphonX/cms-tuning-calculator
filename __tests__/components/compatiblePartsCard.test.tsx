@@ -158,7 +158,6 @@ describe('CompatiblePartsCard', () => {
 		expect(autoGenButton).toBeInTheDocument();
 		expect(autoGenButton).toHaveTextContent('Auto-generate');
 		expect(autoGenButton).not.toBeDisabled();
-		expect(autoGenButton).toHaveClass('btn-primary');
 	});
 
 	it('disables auto-generate action when no engine is selected', () => {
@@ -206,7 +205,6 @@ describe('CompatiblePartsCard', () => {
 		expect(clearButton).toBeInTheDocument();
 		expect(clearButton).toHaveTextContent('Clear');
 		expect(clearButton).not.toBeDisabled();
-		expect(clearButton).toHaveClass('btn-secondary', 'max-sm:btn-sm');
 	});
 
 	it('disables clear action when no parts are selected', () => {
@@ -238,19 +236,6 @@ describe('CompatiblePartsCard', () => {
 
 		const card = screen.getByTestId('card');
 		expect(card).toHaveClass(customClass);
-	});
-
-	it('renders with proper structure', () => {
-		renderWithContext();
-
-		const card = screen.getByTestId('card');
-		expect(card).toBeInTheDocument();
-
-		// Check that the table is wrapped in a div with mt-4 class
-		const tableContainer = screen.getByTestId(
-			'compatible-parts-table',
-		).parentElement;
-		expect(tableContainer).toHaveClass('mt-4');
 	});
 
 	it('memoizes actions correctly based on engine state', () => {

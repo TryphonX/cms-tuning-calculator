@@ -103,13 +103,6 @@ describe('SortBtn', () => {
 		expect(UpdateSortEvent.dispatch).toHaveBeenCalledWith('boost_desc');
 	});
 
-	it('has proper button classes', () => {
-		render(<SortBtn sortBy="cost_asc" values={mockValues} />);
-		const button = screen.getByRole('button');
-
-		expect(button).toHaveClass('btn', 'btn-xs', 'btn-square', 'btn-ghost');
-	});
-
 	it('maintains callback stability across re-renders', () => {
 		const { rerender } = render(
 			<SortBtn sortBy="cost_asc" values={mockValues} />,

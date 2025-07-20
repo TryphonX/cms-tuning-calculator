@@ -8,7 +8,7 @@
 		[
 			"@semantic-release/changelog",
 			{
-				"changelogFile": "/release-notes/CHANGELOG.md"
+				"changelogFile": "CHANGELOG.md"
 			}
 		],
 		"@semantic-release/github"

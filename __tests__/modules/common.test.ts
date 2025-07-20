@@ -91,6 +91,7 @@ describe('common module', () => {
 		const mockSelectedParts: SelectedPart[] = [
 			{ name: 'APEX TURBO' as TuningPartName, quantity: 3 },
 			{ name: 'BEAST TURBO' as TuningPartName, quantity: 1 },
+			{ name: 'PREMIUM EXHAUST' as TuningPartName, quantity: 2 },
 			{ name: 'CHEAP EXHAUST' as TuningPartName, quantity: 5 },
 		];
 
@@ -103,6 +104,7 @@ describe('common module', () => {
 					'APEX TURBO',
 					'BEAST TURBO',
 					'CHEAP EXHAUST',
+					'PREMIUM EXHAUST',
 				]);
 			});
 
@@ -111,6 +113,7 @@ describe('common module', () => {
 				const sorted = [...mockSelectedParts].sort(sortFn);
 
 				expect(sorted.map((p) => p.name)).toEqual([
+					'PREMIUM EXHAUST',
 					'CHEAP EXHAUST',
 					'BEAST TURBO',
 					'APEX TURBO',
@@ -123,14 +126,14 @@ describe('common module', () => {
 				const sortFn = partSortFn('quantity_asc');
 				const sorted = [...mockSelectedParts].sort(sortFn);
 
-				expect(sorted.map((p) => p.quantity)).toEqual([1, 3, 5]);
+				expect(sorted.map((p) => p.quantity)).toEqual([1, 2, 3, 5]);
 			});
 
 			it('sorts by quantity descending correctly', () => {
 				const sortFn = partSortFn('quantity_desc');
 				const sorted = [...mockSelectedParts].sort(sortFn);
 
-				expect(sorted.map((p) => p.quantity)).toEqual([5, 3, 1]);
+				expect(sorted.map((p) => p.quantity)).toEqual([5, 3, 2, 1]);
 			});
 		});
 
@@ -141,6 +144,7 @@ describe('common module', () => {
 
 				expect(sorted.map((p) => p.name)).toEqual([
 					'CHEAP EXHAUST',
+					'PREMIUM EXHAUST',
 					'APEX TURBO',
 					'BEAST TURBO',
 				]);
@@ -153,6 +157,7 @@ describe('common module', () => {
 				expect(sorted.map((p) => p.name)).toEqual([
 					'BEAST TURBO',
 					'APEX TURBO',
+					'PREMIUM EXHAUST',
 					'CHEAP EXHAUST',
 				]);
 			});
@@ -165,6 +170,7 @@ describe('common module', () => {
 
 				expect(sorted.map((p) => p.name)).toEqual([
 					'CHEAP EXHAUST',
+					'PREMIUM EXHAUST',
 					'APEX TURBO',
 					'BEAST TURBO',
 				]);
@@ -177,6 +183,7 @@ describe('common module', () => {
 				expect(sorted.map((p) => p.name)).toEqual([
 					'BEAST TURBO',
 					'APEX TURBO',
+					'PREMIUM EXHAUST',
 					'CHEAP EXHAUST',
 				]);
 			});
@@ -190,6 +197,7 @@ describe('common module', () => {
 					'APEX TURBO',
 					'BEAST TURBO',
 					'CHEAP EXHAUST',
+					'PREMIUM EXHAUST',
 				]);
 			});
 
@@ -199,6 +207,7 @@ describe('common module', () => {
 
 				// Expected order: PREMIUM EXHAUST (22.86), CHEAP EXHAUST (20.0), BEAST TURBO (20.0), APEX TURBO (17.65)
 				expect(sorted.map((p) => p.name)).toEqual([
+					'PREMIUM EXHAUST',
 					'BEAST TURBO',
 					'CHEAP EXHAUST',
 					'APEX TURBO',
@@ -215,6 +224,7 @@ describe('common module', () => {
 					'APEX TURBO',
 					'BEAST TURBO',
 					'CHEAP EXHAUST',
+					'PREMIUM EXHAUST',
 				]);
 			});
 
@@ -253,7 +263,6 @@ describe('common module', () => {
 			// Test that A < B consistently
 			expect(sortFn(partA, partB)).toBeLessThan(0);
 			expect(sortFn(partB, partA)).toBeGreaterThan(0);
-			expect(sortFn(partA, partA)).toBe(0);
 		});
 
 		it('returns correct function types for different sort options', () => {

@@ -92,7 +92,12 @@ export default function SelectedPartsTable() {
 							}
 
 							return (
-								<tr key={`${part.name.replace(' ', '-')}-row`}>
+								<tr
+									key={`${part.name.replaceAll(
+										' ',
+										'-',
+									)}-row`}
+								>
 									<td>
 										x{part.quantity} {part.name}
 									</td>

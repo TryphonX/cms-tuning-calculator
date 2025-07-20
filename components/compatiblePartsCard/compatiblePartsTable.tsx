@@ -197,7 +197,12 @@ export default function CompatiblePartsTable() {
 							}
 
 							return (
-								<tr key={`${part.name.replace(' ', '-')}-row`}>
+								<tr
+									key={`${part.name.replaceAll(
+										' ',
+										'-',
+									)}-row`}
+								>
 									<td>
 										<input
 											type="checkbox"

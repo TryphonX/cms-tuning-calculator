@@ -14,7 +14,7 @@ const RangeInput = ({
 	repairParts,
 	onRepairPartsChange,
 }: RangeInputProps) => {
-	const id = `rangeInput-${part.name.replace(' ', '-')}`;
+	const id = `rangeInput-${part.name.replaceAll(' ', '-')}`;
 	const ref = useRef<HTMLInputElement>(null);
 
 	return (
@@ -102,7 +102,12 @@ const RepairPartsTable = ({ repairParts, onRepairPartsChange }: Props) => {
 					<tbody>
 						{sortedCompatibleParts.map((part) => {
 							return (
-								<tr key={`${part.name.replace(' ', '-')}-row`}>
+								<tr
+									key={`${part.name.replaceAll(
+										' ',
+										'-',
+									)}-row`}
+								>
 									<td>{part.name}</td>
 									<td>
 										<RangeInput

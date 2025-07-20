@@ -18,7 +18,7 @@ const handleEngineChange = ({ target }: ChangeEvent<HTMLSelectElement>) => {
 const EngineConfigOptions = () => {
 	return (
 		<>
-			<option>-- None --</option>
+			<option value="">Any</option>
 			{ENGINE_CONFIGURATIONS.map((option) => (
 				<option key={option}>{option}</option>
 			))}
@@ -28,23 +28,34 @@ const EngineConfigOptions = () => {
 
 export default function EngineSelect({ className }: BaseProps) {
 	const { currentEngine } = useContext(CalculatorContext);
-	const [engineConfig, setEngineConfig] = useState('-- None --');
+	const [engineConfig, setEngineConfig] = useState('');
 
 	const handleEngineConfigChange = ({
 		target,
 	}: ChangeEvent<HTMLSelectElement>) => {
 		setEngineConfig(target.value);
-		console.log(target.value);
+
+		if (!target.value) {
+			return;
+		}
+
+		ChangeEngineEvent.dispatch(
+			structuredClone(
+				Object.values(engines).find(
+					(engine) => engine.specs.configuration === target.value,
+				) ?? null,
+			) as Engine | null,
+		);
 	};
 
 	const EngineOptions = () => {
 		return (
 			<>
-				<option>-- None --</option>
+				{!engineConfig && <option>-- None --</option>}
 				{Object.keys(engines)
 					.filter(
 						(key) =>
-							engineConfig == '-- None --' ||
+							!engineConfig ||
 							engines[key as EngineName].specs.configuration ===
 								engineConfig,
 					)
@@ -62,29 +73,25 @@ export default function EngineSelect({ className }: BaseProps) {
 
 	return (
 		<div className={getClassName()}>
-			<label className="form-control">
-				<div className="label-text">
-					Configuration{' '}
-					<span className="text-xs text-base-content text-opacity-70">
-						*Optional
-					</span>
-				</div>
+			<label className="select xl:select-md w-full">
+				<span className="label">Configuration</span>
 				<select
-					className="select select-bordered w-full xl:select-sm"
 					value={engineConfig}
 					onChange={handleEngineConfigChange}
 				>
 					<EngineConfigOptions />
 				</select>
 			</label>
-			<select
-				className="select select-bordered w-full mt-3 xl:select-sm"
-				value={currentEngine?.name ?? ''}
-				onChange={handleEngineChange}
-				aria-label="Select engine"
-			>
-				<EngineOptions />
-			</select>
+
+			<label className="select mt-3 xl:select-md w-full">
+				<span className="label">Engine</span>
+				<select
+					value={currentEngine?.name ?? ''}
+					onChange={handleEngineChange}
+				>
+					<EngineOptions />
+				</select>
+			</label>
 		</div>
 	);
 }

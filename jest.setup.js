@@ -1,6 +1,9 @@
 /* eslint-env jest */
 import '@testing-library/jest-dom';
 
+// Polyfill for structuredClone (not available in Jest/JSDOM environment)
+global.structuredClone = (obj) => JSON.parse(JSON.stringify(obj));
+
 // Mock Next.js router
 jest.mock('next/router', () => ({
 	useRouter() {

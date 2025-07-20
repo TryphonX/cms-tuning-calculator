@@ -17,6 +17,7 @@ const customJestConfig = {
 		'components/**/*.{js,jsx,ts,tsx}',
 		'app/**/*.{js,jsx,ts,tsx}',
 		'modules/**/*.{js,jsx,ts,tsx}',
+		'!modules/workers/**/*.{js,jsx,ts,tsx}',
 		'!**/*.d.ts',
 		'!**/node_modules/**',
 	],

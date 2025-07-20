@@ -1,0 +1,43 @@
+name: Update Release Timestamp
+
+on:
+    pull_request:
+        types: [closed]
+        branches: [main]
+
+jobs:
+    update-timestamp:
+        name: Update LAST_PUBLISH
+        runs-on: ubuntu-latest
+        # Only run if PR was merged (not just closed)
+        if: github.event.pull_request.merged == true
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  ref: main
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Update LAST_PUBLISH timestamp
+              run: |
+                  echo "PR #${{ github.event.pull_request.number }} was merged to main"
+                  echo "Setting LAST_PUBLISH to merge timestamp"
+
+                  # Update the LAST_PUBLISH value in .env file
+                  if [ -f .env ]; then
+                    # Update existing LAST_PUBLISH line or add if it doesn't exist
+                    sed -i '/^LAST_PUBLISH=/d' .env
+                    echo "LAST_PUBLISH=${{ github.event.pull_request.merged_at }}" >> .env
+                  else
+                    # Create .env file if it doesn't exist
+                    echo "LAST_PUBLISH=${{ github.event.pull_request.merged_at }}" > .env
+                  fi
+
+                  # Commit it back to the repo
+                  git config --local user.email "action@github.com"
+                  git config --local user.name "GitHub Action"
+                  git add .env
+                  git commit -m "chore: update release timestamp"
+                  git push
+
+                  echo "Updated LAST_PUBLISH to: ${{ github.event.pull_request.merged_at }}"

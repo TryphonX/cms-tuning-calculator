@@ -17,7 +17,6 @@
 		"type-check": "tsc --noEmit --project tsconfig.json",
 		"predeploy": "npm run build",
 		"prepare": "husky install",
-		"deploy": "gh-pages -d build",
 		"push-tags": "git push --tags"
 	},
 	"dependencies": {
@@ -42,7 +41,6 @@
 		"eslint": "^8.57.1",
 		"eslint-config-next": "14.1.4",
 		"eslint-plugin-react": "^7.37.5",
-		"gh-pages": "^6.3.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^16.1.2",
 		"postcss": "^8.5.6",

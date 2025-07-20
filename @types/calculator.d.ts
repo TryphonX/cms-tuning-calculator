@@ -92,4 +92,18 @@ export declare interface TuningSetup {
 	cost: number;
 	boost: number;
 	costToBoost: number;
+	repairs?: {
+		includesRepairParts: boolean;
+		repairPartNames: TuningPartName[];
+		/** The cost of the tuning minus the repairs */
+		netCost: number;
+		netCostToBoost: number;
+		totalSaved: number;
+	};
 }
+
+/**
+ * key: TuningPartName
+ * value: The cost of the repair part x(-1)
+ */
+export type RepairParts = Record<Partial<TuningPartName>, number>;

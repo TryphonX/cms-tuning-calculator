@@ -1,5 +1,5 @@
 import { Engine, SelectedPart } from '@/@types/calculator';
-import { SortBy } from '@/@types/globals';
+import { PartSortBy } from '@/@types/globals';
 
 export const ChangeEngineEvent = {
 	name: 'changeEngine',
@@ -46,7 +46,7 @@ export const ToggleSelectedPartEvent = {
 
 export const UpdateSortEvent = {
 	name: 'updateSortEvent',
-	dispatch: (newSort: SortBy) => {
+	dispatch: (newSort: PartSortBy) => {
 		dispatchEvent(
 			new CustomEvent(UpdateSortEvent.name, {
 				detail: newSort,

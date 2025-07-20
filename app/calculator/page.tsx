@@ -11,7 +11,7 @@ export default function Calculator() {
 			<h1 className="hidden">Calculator</h1>
 			<div
 				className="
-				flex-grow
+				grow
 				flex flex-col
 				lg:flex lg:flex-col
 				xl:grid xl:grid-flow-row xl:grid-cols-5 xl:gap-8 m-8"

@@ -1,21 +1,21 @@
 'use client';
 
-import { SortBy } from '@/@types/globals';
+import { PartSortBy } from '@/@types/globals';
 import { UpdateSortEvent } from '@/modules/customEvents';
 import { useCallback } from 'react';
 import { FaCaretDown, FaCaretUp } from 'react-icons/fa6';
 
 type SortBtnProps = {
-	sortBy: SortBy;
-	values: [SortBy, SortBy];
+	sortBy: PartSortBy;
+	values: [PartSortBy, PartSortBy];
 };
 
 export default function SortBtn({ sortBy, values }: SortBtnProps) {
 	const handleClick = useCallback(() => {
 		UpdateSortEvent.dispatch(
-			sortBy === (values[0] as SortBy)
-				? (values[1] as SortBy)
-				: (values[0] as SortBy),
+			sortBy === (values[0] as PartSortBy)
+				? (values[1] as PartSortBy)
+				: (values[0] as PartSortBy),
 		);
 	}, [sortBy, values]);
 

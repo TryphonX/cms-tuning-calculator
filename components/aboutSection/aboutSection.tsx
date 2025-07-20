@@ -59,13 +59,13 @@ export default function AboutSection() {
 								performance in Car Mechanic Simulator 21
 							</strong>
 							.
-							<span className="block font-thin text-xs text-base-content text-opacity-75">
+							<span className="block font-thin text-xs text-base-content/75">
 								Don&apos;t go through the effort of running this
 								text through ai detectors; I was lazy, I admit
 								it.
 							</span>
 						</p>
-						<p className="text-xs text-base-content text-opacity-75">
+						<p className="text-xs text-base-content/75">
 							This app is a personal project and is not associated
 							with the makers and/or publishers of the game in any
 							way shape or form.
@@ -89,7 +89,7 @@ export default function AboutSection() {
 									<FaGithub aria-hidden /> Source code
 								</button>
 							</Link>
-							<p className="text-xs text-base-content text-opacity-75 mt-2">
+							<p className="text-xs text-base-content/75 mt-2">
 								This project is open-source. Licensed under{' '}
 								<Link
 									className="link"

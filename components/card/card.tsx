@@ -23,7 +23,7 @@ type FooterActionsProps = {
 };
 
 function Actions({ actions }: { actions?: Action[] }) {
-	if (!actions || !actions.length) return;
+	if (!actions || !actions.length) return null;
 
 	return (
 		<div className="join">
@@ -61,7 +61,7 @@ function Header({ title, actions }: HeaderProps) {
 const getFActionClassName = (action: Action) => `btn ${action.className ?? ''}`;
 
 function FooterActions({ footerActions }: FooterActionsProps) {
-	if (!footerActions) return;
+	if (!footerActions || !footerActions.length) return null;
 
 	return (
 		<div className="card-actions justify-end">

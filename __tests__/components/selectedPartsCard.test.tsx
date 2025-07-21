@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import SelectedPartsCard from '@/components/selectedPartsCard/selectedPartsCard';
+import SelectedPartsCard from '@/components/SelectedPartsCard';
 
 // Mock the Card component
 jest.mock('@/components/card/card', () => {

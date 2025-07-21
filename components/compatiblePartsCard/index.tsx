@@ -1,11 +1,11 @@
 import { Action, BaseProps } from '@/@types/globals';
 import Card from '../card/card';
-import CompatiblePartsTable from './compatiblePartsTable';
+import CompatiblePartsTable from './CompatiblePartsTable';
 import { FaEraser, FaWandMagicSparkles } from 'react-icons/fa6';
 import { UpdateSelectedPartsEvent } from '@/modules/customEvents';
 import { useContext, useMemo } from 'react';
 import { CalculatorContext } from '@/modules/contexts';
-import AutoGenModal from '../autoGenModal/autoGenModal';
+import AutoGenModal from '../AutoGenModal';
 
 const AUTO_GEN_MODAL_ID = 'autoGenModal';
 

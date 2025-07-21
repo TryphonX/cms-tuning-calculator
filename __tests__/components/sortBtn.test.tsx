@@ -1,6 +1,6 @@
 /* eslint-env jest */
 import { render, screen, fireEvent } from '@testing-library/react';
-import SortBtn from '@/components/sortBtn/sortBtn';
+import SortBtn from '@/components/SortBtn';
 import { PartSortBy } from '@/@types/globals';
 
 // Mock the custom events module

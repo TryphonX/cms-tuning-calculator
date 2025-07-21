@@ -1,5 +1,5 @@
-import AboutSection from '@/components/aboutSection/aboutSection';
-import GithubIssueSection from '@/components/githubIssueSection/githubIssueSection';
+import AboutSection from '@/components/AboutSection';
+import GithubIssueSection from '@/components/GithubIssueSection';
 
 export default function Home() {
 	return (

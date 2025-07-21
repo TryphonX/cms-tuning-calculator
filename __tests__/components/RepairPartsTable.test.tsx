@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import RepairPartsTable from '@/components/autoGenModal/RepairPartsTable.tsx';
+import RepairPartsTable from '@/components/AutoGenModal/RepairPartsTable';
 import { CalculatorContext } from '@/modules/contexts';
 import {
 	Engine,

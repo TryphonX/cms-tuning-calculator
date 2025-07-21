@@ -1,7 +1,7 @@
 import { ChangeEvent } from 'react';
 import { FaWandMagicSparkles } from 'react-icons/fa6';
-import RepairPartsTable from './RepairPartsTable.tsx';
-import { RepairParts } from '@/@types/calculator.js';
+import RepairPartsTable from './RepairPartsTable';
+import { RepairParts } from '@/@types/calculator';
 
 type AutoGenModalInitScreenProps = {
 	onTargetChange: (e: ChangeEvent<HTMLInputElement>) => void;

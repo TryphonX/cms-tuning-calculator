@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import EngineImage from '@/components/engineCard/engineImage';
+import EngineImage from '@/components/EngineCard/EngineImage';
 import { CalculatorContext } from '@/modules/contexts';
 import { Engine, EngineName } from '@/@types/calculator';
 

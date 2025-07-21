@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import AutoGenModalSetupScreen from '@/components/autoGenModal/autoGenModalSetupScreen';
+import AutoGenModalSetupScreen from '@/components/AutoGenModal/AutoGenModalSetupScreen';
 import { TuningSetup, TuningPartName } from '@/@types/calculator';
 
 // Mock the react-icons components

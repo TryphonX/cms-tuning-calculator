@@ -13,6 +13,7 @@
 [![Contributors](https://img.shields.io/github/contributors/tryphonx/cms-tuning-calculator)](https://github.com/tryphonx/cms-tuning-calculator/graphs/contributors)
 [![Github Issues](https://img.shields.io/github/issues/tryphonx/cms-tuning-calculator)](https://github.com/tryphonx/cms-tuning-calculator/issues)
 [![GNU GPL v3 License](https://img.shields.io/github/license/tryphonx/cms-tuning-calculator)](https://github.com/tryphonx/cms-tuning-calculator/blob/main/COPYING.txt)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/tryphonx/cms-tuning-calculator/prod-deploy.yml)](https://github.com/tryphonx/cms-tuning-calculator/actions/workflows/prod-deploy.yml)
 
 <!-- PROJECT LOGO -->
 <br />

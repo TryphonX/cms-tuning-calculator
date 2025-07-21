@@ -47,51 +47,21 @@ export const partSortFn = (sortBy: PartSortBy) => {
 	}
 };
 
-const compareNamesAsc = (a: TuningPartBase, b: TuningPartBase) => {
-	if (a.name < b.name) {
-		return -1;
-	}
-	if (a.name > b.name) {
-		return 1;
-	}
-	return 0;
-};
+const compareNamesAsc = (a: TuningPartBase, b: TuningPartBase) =>
+	a.name < b.name ? -1 : 1;
 
-const compareNamesDesc = (a: TuningPartBase, b: TuningPartBase) => {
-	if (a.name < b.name) {
-		return 1;
-	}
-	if (a.name > b.name) {
-		return -1;
-	}
-	return 0;
-};
+const compareNamesDesc = (a: TuningPartBase, b: TuningPartBase) =>
+	a.name > b.name ? -1 : 1;
 
 const compareQtAsc = (
 	a: SelectedPart | CompatiblePart,
 	b: SelectedPart | CompatiblePart,
-) => {
-	if (a.quantity < b.quantity) {
-		return -1;
-	}
-	if (a.quantity > b.quantity) {
-		return 1;
-	}
-	return 0;
-};
+) => a.quantity - b.quantity;
 
 const compareQtDesc = (
 	a: SelectedPart | CompatiblePart,
 	b: SelectedPart | CompatiblePart,
-) => {
-	if (a.quantity < b.quantity) {
-		return 1;
-	}
-	if (a.quantity > b.quantity) {
-		return -1;
-	}
-	return 0;
-};
+) => b.quantity - a.quantity;
 
 const compareCostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 	const [partA, partB] = [
@@ -99,13 +69,7 @@ const compareCostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 		getFullPartByName(b.name),
 	];
 
-	if (partA?.cost < partB?.cost) {
-		return -1;
-	}
-	if (partA?.cost > partB?.cost) {
-		return 1;
-	}
-	return 0;
+	return partA?.cost - partB?.cost;
 };
 
 const compareCostDesc = (a: TuningPartBase, b: TuningPartBase) => {
@@ -114,13 +78,7 @@ const compareCostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 		getFullPartByName(b.name),
 	];
 
-	if (partA?.cost < partB?.cost) {
-		return 1;
-	}
-	if (partA?.cost > partB?.cost) {
-		return -1;
-	}
-	return 0;
+	return partB?.cost - partA?.cost;
 };
 
 const compareBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
@@ -129,29 +87,16 @@ const compareBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 		getFullPartByName(b.name),
 	];
 
-	if (partA?.boost < partB?.boost) {
-		return -1;
-	}
-	if (partA?.boost > partB?.boost) {
-		return 1;
-	}
-	return 0;
+	return partA?.boost - partB?.boost;
 };
 
 const compareBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
-	compareBoostDesc;
 	const [partA, partB] = [
 		getFullPartByName(a.name),
 		getFullPartByName(b.name),
 	];
 
-	if (partA?.boost < partB?.boost) {
-		return 1;
-	}
-	if (partA?.boost > partB?.boost) {
-		return -1;
-	}
-	return 0;
+	return partB?.boost - partA?.boost;
 };
 
 const compareCostToBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
@@ -160,13 +105,7 @@ const compareCostToBoostAsc = (a: TuningPartBase, b: TuningPartBase) => {
 		getFullPartByName(b.name),
 	];
 
-	if (partA?.costToBoost < partB?.costToBoost) {
-		return -1;
-	}
-	if (partA?.costToBoost > partB?.costToBoost) {
-		return 1;
-	}
-	return 0;
+	return partA?.costToBoost - partB?.costToBoost;
 };
 
 const compareCostToBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
@@ -175,13 +114,7 @@ const compareCostToBoostDesc = (a: TuningPartBase, b: TuningPartBase) => {
 		getFullPartByName(b.name),
 	];
 
-	if (partA?.costToBoost < partB?.costToBoost) {
-		return 1;
-	}
-	if (partA?.costToBoost > partB?.costToBoost) {
-		return -1;
-	}
-	return 0;
+	return partB?.costToBoost - partA?.costToBoost;
 };
 
 export const ENGINE_CONFIGURATIONS = [

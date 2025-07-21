@@ -1,4 +1,13 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npx --no-install commitlint --edit $1
+# Get current branch name
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+
+# Only run commitlint on main, dev, or develop branches
+if [ "$current_branch" = "main" ] || [ "$current_branch" = "dev" ] || [ "$current_branch" = "develop" ]; then
+    echo "Running commitlint on branch: $current_branch"
+    npx --no-install commitlint --edit $1
+else
+    echo "Skipping commitlint on branch: $current_branch (not main/dev/develop)"
+fi

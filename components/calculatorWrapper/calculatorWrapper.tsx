@@ -26,7 +26,13 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 			const ev = e as CustomEvent<ToggleSelectedPartEventInit>;
 
 			if (ev.detail.toggleOn) {
-				setSelectedParts((prev) => [...prev, ev.detail.part]);
+				setSelectedParts((prev) => {
+					// Remove any existing part with the same name first
+					const filtered = prev.filter(
+						(part) => part.name !== ev.detail.part.name,
+					);
+					return [...filtered, ev.detail.part];
+				});
 			} else {
 				setSelectedParts((prev) =>
 					prev.filter((part) => part.name !== ev.detail.part.name),
@@ -57,7 +63,7 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 				ToggleSelectedPartEvent.name,
 				handleToggleSelectedPart,
 			);
-			window.addEventListener(
+			window.removeEventListener(
 				UpdateSelectedPartsEvent.name,
 				handleUpdateSelectedParts,
 			);

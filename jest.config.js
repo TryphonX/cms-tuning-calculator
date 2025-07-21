@@ -21,6 +21,15 @@ const customJestConfig = {
 		'!**/*.d.ts',
 		'!**/node_modules/**',
 	],
+	coverageThreshold: {
+		global: {
+			branches: 80,
+			functions: 80,
+			lines: 80,
+			statements: 80,
+		},
+	},
+	coverageReporters: ['text', 'lcov', 'html', 'json-summary', 'cobertura'],
 	testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/'],
 };
 

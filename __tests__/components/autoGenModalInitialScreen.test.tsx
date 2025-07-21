@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import AutoGenModalInitialScreen from '@/components/autoGenModal/autoGenModalInitialScreen';
+import AutoGenModalInitialScreen from '@/components/AutoGenModal/AutoGenModalInitialScreen';
 import { RepairParts } from '@/@types/calculator';
 
 // Mock the RepairPartsTable component

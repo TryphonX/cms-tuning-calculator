@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import Navbar from '@/components/navbar/navbar';
-import Footer from '@/components/footer/footer';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 // Mock Next.js Image component
 jest.mock('next/image', () => {

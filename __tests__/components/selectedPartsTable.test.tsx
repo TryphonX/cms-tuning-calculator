@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import SelectedPartsTable from '@/components/selectedPartsCard/selectedPartsTable';
+import SelectedPartsTable from '@/components/SelectedPartsCard/SelectedPartsTable';
 import { CalculatorContext } from '@/modules/contexts';
 import { UpdateSortEvent } from '@/modules/customEvents';
 import {

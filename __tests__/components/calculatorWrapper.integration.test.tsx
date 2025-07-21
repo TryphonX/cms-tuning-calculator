@@ -1,5 +1,5 @@
 import { render, screen, waitFor } from '@testing-library/react';
-import CalculatorWrapper from '@/components/calculatorWrapper/calculatorWrapper';
+import CalculatorWrapper from '@/components/CalculatorWrapper';
 import { CalculatorContext } from '@/modules/contexts';
 import {
 	ChangeEngineEvent,

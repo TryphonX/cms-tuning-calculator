@@ -1,6 +1,6 @@
 /* eslint-env jest */
 import { render, screen } from '@testing-library/react';
-import GithubIssueSection from '@/components/githubIssueSection/githubIssueSection';
+import GithubIssueSection from '@/components/GithubIssueSection';
 
 describe('GithubIssueSection', () => {
 	it('renders without crashing', () => {

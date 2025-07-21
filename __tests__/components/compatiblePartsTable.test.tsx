@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import CompatiblePartsTable from '@/components/compatiblePartsCard/compatiblePartsTable';
+import CompatiblePartsTable from '@/components/CompatiblePartsCard/CompatiblePartsTable';
 import { CalculatorContext } from '@/modules/contexts';
 import {
 	ToggleSelectedPartEvent,

@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import CompatiblePartsCard from '@/components/compatiblePartsCard/compatiblePartsCard';
+import CompatiblePartsCard from '@/components/CompatiblePartsCard';
 import { CalculatorContext } from '@/modules/contexts';
 import { UpdateSelectedPartsEvent } from '@/modules/customEvents';
 import {

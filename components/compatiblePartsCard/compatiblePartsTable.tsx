@@ -16,7 +16,7 @@ import {
 } from '@/modules/customEvents';
 import { partSortFn, getFullPartByName } from '@/modules/common';
 import { PartSortBy } from '@/@types/globals';
-import SortBtn from '../sortBtn/sortBtn';
+import SortBtn from '../SortBtn';
 import MissingPartAlert from '../MissingPartAlert';
 
 const getPartCheckboxes = () =>

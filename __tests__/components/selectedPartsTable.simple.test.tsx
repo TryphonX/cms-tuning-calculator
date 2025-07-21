@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import SelectedPartsTable from '@/components/selectedPartsCard/selectedPartsTable';
+import SelectedPartsTable from '@/components/SelectedPartsCard/SelectedPartsTable';
 import { CalculatorContext } from '@/modules/contexts';
 import {
 	Engine,

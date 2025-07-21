@@ -1,7 +1,7 @@
 /* eslint-env jest */
 import { render, screen, act } from '@testing-library/react';
 import { useContext } from 'react';
-import CalculatorWrapper from '@/components/calculatorWrapper/calculatorWrapper';
+import CalculatorWrapper from '@/components/CalculatorWrapper';
 import { CalculatorContext } from '@/modules/contexts';
 import {
 	ChangeEngineEvent,

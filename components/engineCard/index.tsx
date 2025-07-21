@@ -1,7 +1,7 @@
 import Card from '../card/card';
-import EngineImage from './engineImage';
-import EngineSelect from './engineSelect';
-import EngineSpecsTable from './engineSpecsTable';
+import EngineImage from './EngineImage';
+import EngineSelect from './EngineSelect';
+import EngineSpecsTable from './EngineSpecsTable';
 
 export default function EngineCard() {
 	return (

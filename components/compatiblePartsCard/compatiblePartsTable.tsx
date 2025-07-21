@@ -108,16 +108,14 @@ export default function CompatiblePartsTable() {
 	const handleToggleAllParts = useCallback(
 		({ currentTarget }: ChangeEvent<HTMLInputElement>) => {
 			if (currentTarget.checked) {
-				if (currentEngine) {
-					UpdateSelectedPartsEvent.dispatch(
-						currentEngine.compatibleParts
-							.filter((part) => !part.missing)
-							.map((part) => ({
-								name: part.name,
-								quantity: part.quantity,
-							})),
-					);
-				}
+				UpdateSelectedPartsEvent.dispatch(
+					currentEngine!.compatibleParts
+						.filter((part) => !part.missing)
+						.map((part) => ({
+							name: part.name,
+							quantity: part.quantity,
+						})),
+				);
 
 				markAllCheckboxes(true);
 			} else {

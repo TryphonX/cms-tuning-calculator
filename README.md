@@ -9,16 +9,16 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GNU GPL v3 License][license-shield]][license-url]
+[![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)][semantic-release-url]
+[![Contributors](https://img.shields.io/github/contributors/tryphonx/cms-tuning-calculator)](https://github.com/tryphonx/cms-tuning-calculator/graphs/contributors)
+[![Github Issues](https://img.shields.io/github/issues/tryphonx/cms-tuning-calculator)](https://github.com/tryphonx/cms-tuning-calculator/issues)
+[![GNU GPL v3 License](https://img.shields.io/github/license/tryphonx/cms-tuning-calculator)](https://github.com/tryphonx/cms-tuning-calculator/blob/main/COPYING.txt)
+[![GitHub Deployment Status](https://img.shields.io/github/actions/workflow/status/tryphonx/cms-tuning-calculator/prod-deploy.yml)](https://github.com/tryphonx/cms-tuning-calculator/actions/workflows/prod-deploy.yml)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/TryphonX/CMS-Tuning-Calculator">
+  <a href="https://github.com/Tryphonx/cms-Tuning-Calculator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -28,15 +28,15 @@
     This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 21). Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be "symmetrical" - it will not allow you to switch some of the same part with tuned parts, it's either all or nothing. This tool can also suggest the optimal setup if you want, or you can make your own informed decision.
     <br />
     <!--
-		<a href="https://github.com/TryphonX/CMS-Tuning-Calculator/docs/"><strong>Explore the docs »</strong></a>
+		<a href="https://github.com/Tryphonx/cms-Tuning-Calculator/docs/"><strong>Explore the docs »</strong></a>
 		-->
     <br />
     <br />
     <a href="https://tryphonx.github.io/CMS-Tuning-Calculator/">Visit App</a>
     ·
-    <a href="https://github.com/TryphonX/CMS-Tuning-Calculator/issues">Report Bug</a>
+    <a href="https://github.com/Tryphonx/cms-Tuning-Calculator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TryphonX/CMS-Tuning-Calculator/issues">Request Feature</a>
+    <a href="https://github.com/Tryphonx/cms-Tuning-Calculator/issues">Request Feature</a>
   </p>
 </div>
 
@@ -172,7 +172,7 @@ _[Visit the app now to try it »](https://tryphonx.github.io/CMS-Tuning-Calculat
 - [x] Add suggested setups based on required boost
 - [x] Add sorting functionality to the tables
 
-See the [open issues](https://github.com/TryphonX/CMS-Tuning-Calculator/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Tryphonx/cms-Tuning-Calculator/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -186,9 +186,11 @@ Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch from `dev` branch (`git checkout -b feat/amazingFeature`)
-3. Commit your Changes (`git commit -m 'feat: add some amazingFeature'`)
+3. Commit your Changes
 4. Push to the Branch (`git push origin feat/amazingFeature`)
 5. Open a Pull Request to `dev`
+
+> `New!` Commit messages no longer go through linting. Feel free to use any format you like. Pull requests are squashed instead.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,26 +205,16 @@ Distributed under the GNU GPL v3 License. See `COPYING.txt` for more information
 ## Acknowledgments
 
 - [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Auto-Changelog](https://github.com/CookPete/auto-changelog)
 - [React Icons](https://react-icons.github.io/react-icons)
 - [Best README Template](https://github.com/othneildrew/Best-README-Template)
 - [Favicon Generator](https://favicon.io/favicon-generator/)
+- [semantic-release][semantic-release-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/TryphonX/CMS-Tuning-Calculator?style=for-the-badge
-[contributors-url]: https://github.com/TryphonX/CMS-Tuning-Calculator/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/TryphonX/CMS-Tuning-Calculator.svg?style=for-the-badge
-[forks-url]: https://github.com/TryphonX/CMS-Tuning-Calculator/network/members
-[stars-shield]: https://img.shields.io/github/stars/TryphonX/CMS-Tuning-Calculator.svg?style=for-the-badge
-[stars-url]: https://github.com/TryphonX/CMS-Tuning-Calculator/stargazers
-[issues-shield]: https://img.shields.io/github/issues/TryphonX/CMS-Tuning-Calculator?style=for-the-badge
-[issues-url]: https://github.com/TryphonX/CMS-Tuning-Calculator/issues
-[license-shield]: https://img.shields.io/github/license/TryphonX/CMS-Tuning-Calculator?style=for-the-badge
-[license-url]: https://github.com/TryphonX/CMS-Tuning-Calculator/blob/main/COPYING.txt
+[semantic-release-url]: https://github.com/semantic-release/semantic-release
 [app-url]: images/v2/main-app-screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/

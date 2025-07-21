@@ -8,7 +8,7 @@
 		"plugin:@typescript-eslint/recommended"
 	],
 	"rules": {
-		"quotes": ["error", "single"],
+		"quotes": ["error", "single", { "avoidEscape": true }],
 		"semi": ["error", "always"],
 		"comma-dangle": ["error", "always-multiline"],
 		"no-unused-vars": "off",

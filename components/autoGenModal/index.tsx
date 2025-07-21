@@ -18,9 +18,9 @@ import {
 	useMemo,
 	useState,
 } from 'react';
-import AutoGenModalInitScreen from './autoGenModalInitialScreen';
-import AutoGenModalLoading from './autoGenModalLoading';
-import AutoGenModalSetupScreen from './autoGenModalSetupScreen';
+import AutoGenModalLoading from './AutoGenModalLoading';
+import AutoGenModalSetupScreen from './AutoGenModalSetupScreen';
+import AutoGenModalInitScreen from './AutoGenModalInitialScreen';
 
 type AutoGenModalProps = {
 	id: string;
@@ -32,26 +32,32 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 	const [isLoading, setIsLoading] = useState(false);
 	const [targetIncrease, setTargetIncrease] = useState(0);
 	const [generatedSetup, setGeneratedSetup] = useState(
-		null as TuningSetup | null
+		null as TuningSetup | null,
 	);
 	const [repairParts, setRepairParts] = useState<RepairParts>(
-		{} as RepairParts
+		{} as RepairParts,
 	);
 	const [hasGeneratedSetup, setHasGeneratedSetup] = useState(false);
 
 	const bestSetupWorker = useMemo(() => {
 		if (typeof Worker !== 'undefined') {
 			return new Worker(
-				new URL('@/modules/workers/calculateBestSetup.ts', import.meta.url)
+				new URL(
+					'@/modules/workers/calculateBestSetup.ts',
+					import.meta.url,
+				),
 			);
 		}
 		return null;
 	}, []);
 
-	const handleTargetChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
-		setTargetIncrease(~~e.currentTarget.value);
-		setHasGeneratedSetup(false);
-	}, []);
+	const handleTargetChange = useCallback(
+		(e: ChangeEvent<HTMLInputElement>) => {
+			setTargetIncrease(~~e.currentTarget.value);
+			setHasGeneratedSetup(false);
+		},
+		[],
+	);
 
 	const close = useCallback(() => {
 		(document.getElementById(id) as HTMLDialogElement)?.close();
@@ -61,7 +67,7 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 		(
 			currentEngine: Engine,
 			targetIncrease: number,
-			repairParts: RepairParts
+			repairParts: RepairParts,
 		) => {
 			if (!currentEngine) return null;
 
@@ -87,7 +93,7 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 				});
 			}
 		},
-		[bestSetupWorker]
+		[bestSetupWorker],
 	);
 
 	const handleGenerate = useCallback(() => {
@@ -109,11 +115,13 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 		if (currentEngine && generatedSetup) {
 			UpdateSelectedPartsEvent.dispatch(
 				currentEngine.compatibleParts
-					.filter((part) => generatedSetup.partNames.includes(part.name))
+					.filter((part) =>
+						generatedSetup.partNames.includes(part.name),
+					)
 					.map<SelectedPart>((part) => ({
 						name: part.name,
 						quantity: part.quantity,
-					}))
+					})),
 			);
 		}
 
@@ -168,7 +176,9 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 
 	useEffect(() => {
 		if (window.Worker && bestSetupWorker) {
-			bestSetupWorker.onmessage = (e: MessageEvent<TuningSetup | null>) => {
+			bestSetupWorker.onmessage = (
+				e: MessageEvent<TuningSetup | null>,
+			) => {
 				setGeneratedSetup(e.data ?? null);
 				setHasGeneratedSetup(true);
 				setIsLoading(false);

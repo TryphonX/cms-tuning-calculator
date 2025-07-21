@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import AutoGenModalLoading from '@/components/autoGenModal/autoGenModalLoading';
+import AutoGenModalLoading from '@/components/AutoGenModal/AutoGenModalLoading';
 
 describe('AutoGenModalLoading', () => {
 	it('renders the loading component', () => {

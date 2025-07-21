@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { Montserrat } from 'next/font/google';
 import './globals.css';
 import { ReactNode } from 'react';
-import Navbar from '@/components/navbar/navbar';
-import Footer from '@/components/footer/footer';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 import Head from 'next/head';
 
 const ubuntu = Montserrat({ weight: '400', subsets: ['latin'] });

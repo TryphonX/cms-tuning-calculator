@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import AutoGenModal from '@/components/autoGenModal/autoGenModal';
+import AutoGenModal from '@/components/AutoGenModal';
 import { CalculatorContext } from '@/modules/contexts';
 import { UpdateSelectedPartsEvent } from '@/modules/customEvents';
 import {

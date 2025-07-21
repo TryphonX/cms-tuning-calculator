@@ -1,6 +1,6 @@
 /* eslint-env jest */
 import { render, screen } from '@testing-library/react';
-import AboutSection from '@/components/aboutSection/aboutSection';
+import AboutSection from '@/components/AboutSection';
 
 describe('AboutSection', () => {
 	it('renders without crashing', () => {

@@ -1,9 +1,9 @@
 'use client';
 
-import CalculatorWrapper from '@/components/calculatorWrapper/calculatorWrapper';
-import CompatiblePartsCard from '@/components/compatiblePartsCard/compatiblePartsCard';
-import EngineCard from '@/components/engineCard/engineCard';
-import SelectedPartsCard from '@/components/selectedPartsCard/selectedPartsCard';
+import CalculatorWrapper from '@/components/CalculatorWrapper';
+import CompatiblePartsCard from '@/components/CompatiblePartsCard';
+import EngineCard from '@/components/EngineCard';
+import SelectedPartsCard from '@/components/SelectedPartsCard';
 
 export default function Calculator() {
 	return (

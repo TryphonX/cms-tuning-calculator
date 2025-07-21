@@ -1,6 +1,6 @@
 /* eslint-env jest */
 import { render, screen } from '@testing-library/react';
-import Footer from '../../components/footer/footer';
+import Footer from '../../components/Footer';
 
 // Mock react-icons to avoid potential issues
 jest.mock('react-icons/fa6', () => ({

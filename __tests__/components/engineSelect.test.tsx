@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import EngineSelect from '@/components/engineCard/engineSelect';
+import EngineSelect from '@/components/EngineCard/EngineSelect';
 import { CalculatorContext } from '@/modules/contexts';
 import { ChangeEngineEvent } from '@/modules/customEvents';
 import { Engine, EngineName, SelectedPart } from '@/@types/calculator';

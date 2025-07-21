@@ -1,6 +1,6 @@
 /* eslint-env jest */
 import { render, screen } from '@testing-library/react';
-import EngineCard from '@/components/engineCard/engineCard';
+import EngineCard from '@/components/EngineCard';
 
 // Mock child components
 jest.mock('@/components/card/card', () => {

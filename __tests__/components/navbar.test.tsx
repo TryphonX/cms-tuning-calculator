@@ -1,7 +1,7 @@
 /* eslint-env jest */
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Navbar from '../../components/navbar/navbar';
+import Navbar from '../../components/Navbar';
 
 // Mock react-icons to avoid potential issues
 jest.mock('react-icons/fa6', () => ({

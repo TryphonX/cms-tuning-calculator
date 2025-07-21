@@ -5,7 +5,7 @@ import { useContext, useEffect, useState } from 'react';
 import { UpdateSortEvent } from '@/modules/customEvents';
 import { partSortFn, getFullPartByName } from '@/modules/common';
 import { PartSortBy } from '@/@types/globals';
-import SortBtn from '../sortBtn/sortBtn';
+import SortBtn from '../SortBtn';
 
 export default function SelectedPartsTable() {
 	const { currentEngine, selectedParts } = useContext(CalculatorContext);

@@ -4,7 +4,7 @@ import AutoGenModalInitialScreen from '@/components/AutoGenModal/AutoGenModalIni
 import { RepairParts } from '@/@types/calculator';
 
 // Mock the RepairPartsTable component
-jest.mock('@/components/autoGenModal/RepairPartsTable.tsx', () => {
+jest.mock('@/components/AutoGenModal/RepairPartsTable', () => {
 	return function MockRepairPartsTable({
 		onRepairPartsChange,
 	}: {

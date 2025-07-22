@@ -93,13 +93,15 @@ describe('calculateBestSetup worker module', () => {
 			cost: comboCost,
 			boost: comboBoost,
 			costToBoost,
-			repairs: {
-				includesRepairParts: hasRepairParts,
-				repairPartNames,
-				netCost,
-				netCostToBoost: netCost / comboBoost,
-				totalSaved: comboCost - netCost,
-			},
+			repairs: hasRepairParts
+				? {
+						repairPartNames,
+						netCost,
+						netCostToBoost: netCost / comboBoost,
+						totalSaved: comboCost - netCost,
+						// eslint-disable-next-line no-mixed-spaces-and-tabs
+				  }
+				: undefined,
 		} as TuningSetup;
 	};
 
@@ -111,7 +113,6 @@ describe('calculateBestSetup worker module', () => {
 				boost: 25,
 				costToBoost: 20,
 				repairs: {
-					includesRepairParts: true,
 					repairPartNames: ['CHEAP_TURBO' as TuningPartName],
 					netCost: 400,
 					netCostToBoost: 16,
@@ -124,13 +125,6 @@ describe('calculateBestSetup worker module', () => {
 				cost: 1000,
 				boost: 40,
 				costToBoost: 25,
-				repairs: {
-					includesRepairParts: false,
-					repairPartNames: [],
-					netCost: 1000,
-					netCostToBoost: 25,
-					totalSaved: 0,
-				},
 			};
 
 			expect(isNewSetupBetter(setup1, setup2)).toBe(true);
@@ -143,13 +137,6 @@ describe('calculateBestSetup worker module', () => {
 				cost: 500,
 				boost: 25,
 				costToBoost: 20,
-				repairs: {
-					includesRepairParts: false,
-					repairPartNames: [],
-					netCost: 500,
-					netCostToBoost: 20,
-					totalSaved: 0,
-				},
 			};
 
 			const setup2: TuningSetup = {
@@ -161,7 +148,6 @@ describe('calculateBestSetup worker module', () => {
 				boost: 45,
 				costToBoost: 17.78,
 				repairs: {
-					includesRepairParts: true,
 					repairPartNames: [
 						'CHEAP_TURBO' as TuningPartName,
 						'EFFICIENT_EXHAUST' as TuningPartName,
@@ -182,13 +168,6 @@ describe('calculateBestSetup worker module', () => {
 				cost: 500,
 				boost: 25,
 				costToBoost: 20,
-				repairs: {
-					includesRepairParts: false,
-					repairPartNames: [],
-					netCost: 500,
-					netCostToBoost: 20,
-					totalSaved: 0,
-				},
 			};
 
 			const setup2: TuningSetup = {
@@ -196,13 +175,6 @@ describe('calculateBestSetup worker module', () => {
 				cost: 300,
 				boost: 20,
 				costToBoost: 15,
-				repairs: {
-					includesRepairParts: false,
-					repairPartNames: [],
-					netCost: 300,
-					netCostToBoost: 15,
-					totalSaved: 0,
-				},
 			};
 
 			expect(isNewSetupBetter(setup2, setup1)).toBe(true);
@@ -222,9 +194,7 @@ describe('calculateBestSetup worker module', () => {
 			expect(combination.cost).toBe(500);
 			expect(combination.boost).toBe(25);
 			expect(combination.costToBoost).toBe(20);
-			expect(combination.repairs?.includesRepairParts).toBe(false);
-			expect(combination.repairs?.netCost).toBe(500);
-			expect(combination.repairs?.totalSaved).toBe(0);
+			expect(!!combination.repairs).toBe(false);
 		});
 
 		it('generates multi-part combination correctly', () => {
@@ -242,7 +212,7 @@ describe('calculateBestSetup worker module', () => {
 			expect(combination.cost).toBe(1500);
 			expect(combination.boost).toBe(65);
 			expect(combination.costToBoost).toBeCloseTo(23.08, 2);
-			expect(combination.repairs?.includesRepairParts).toBe(false);
+			expect(!!combination.repairs).toBe(false);
 		});
 
 		it('applies repair parts correctly', () => {
@@ -256,7 +226,7 @@ describe('calculateBestSetup worker module', () => {
 			expect(combination.partNames).toEqual(['Air Filter']);
 			expect(combination.cost).toBe(500);
 			expect(combination.boost).toBe(25);
-			expect(combination.repairs?.includesRepairParts).toBe(true);
+			expect(!!combination.repairs).toBe(true);
 			expect(combination.repairs?.repairPartNames).toEqual([
 				'Air Filter',
 			]);
@@ -279,7 +249,7 @@ describe('calculateBestSetup worker module', () => {
 			]);
 			expect(combination.cost).toBe(800); // 500 + 300
 			expect(combination.boost).toBe(45); // 25 + 20
-			expect(combination.repairs?.includesRepairParts).toBe(true);
+			expect(!!combination.repairs).toBe(true);
 			expect(combination.repairs?.repairPartNames).toEqual([
 				'Air Filter',
 				'Air Filter (B6 M64.50)',
@@ -297,7 +267,6 @@ describe('calculateBestSetup worker module', () => {
 			);
 
 			expect(combination.costToBoost).toBe(16); // 800 / 50
-			expect(combination.repairs?.netCostToBoost).toBe(16); // same since no repairs
 		});
 	});
 
@@ -430,12 +399,8 @@ describe('calculateBestSetup worker module', () => {
 			}
 
 			// Find combinations with and without repairs
-			const withRepairs = allCombinations.filter(
-				(c) => c.repairs?.includesRepairParts,
-			);
-			const withoutRepairs = allCombinations.filter(
-				(c) => !c.repairs?.includesRepairParts,
-			);
+			const withRepairs = allCombinations.filter((c) => !!c.repairs);
+			const withoutRepairs = allCombinations.filter((c) => !c.repairs);
 
 			expect(withRepairs.length).toBeGreaterThan(0);
 			expect(withoutRepairs.length).toBeGreaterThan(0);
@@ -451,9 +416,8 @@ describe('calculateBestSetup worker module', () => {
 			expect(bestWithRepairs.repairs?.netCost).toBeLessThan(
 				bestWithRepairs.cost,
 			);
-			expect(bestWithoutRepairs.repairs?.netCost).toBe(
-				bestWithoutRepairs.cost,
-			);
+
+			expect(bestWithRepairs.cost).toBeLessThan(bestWithoutRepairs.cost);
 		});
 	});
 
@@ -466,9 +430,7 @@ describe('calculateBestSetup worker module', () => {
 				emptyRepairParts,
 			);
 
-			expect(combination.repairs?.includesRepairParts).toBe(false);
-			expect(combination.repairs?.repairPartNames).toEqual([]);
-			expect(combination.repairs?.totalSaved).toBe(0);
+			expect(!!combination.repairs).toBe(false);
 		});
 
 		it('handles single part scenarios', () => {
@@ -499,7 +461,6 @@ describe('calculateBestSetup worker module', () => {
 				emptyRepairParts,
 			);
 			expect(combination.costToBoost).toBe(1);
-			expect(combination.repairs?.netCostToBoost).toBe(1);
 		});
 	});
 });

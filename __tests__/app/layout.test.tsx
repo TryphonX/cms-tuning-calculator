@@ -2,14 +2,14 @@ import { render, screen } from '@testing-library/react';
 import RootLayout from '@/app/layout';
 
 // Mock the Navbar component
-jest.mock('@/components/navbar/navbar', () => {
+jest.mock('@/components/Navbar', () => {
 	return function MockNavbar() {
 		return <nav data-testid="navbar">Navbar</nav>;
 	};
 });
 
 // Mock the Footer component
-jest.mock('@/components/footer/footer', () => {
+jest.mock('@/components/Footer', () => {
 	return function MockFooter() {
 		return <footer data-testid="footer">Footer</footer>;
 	};

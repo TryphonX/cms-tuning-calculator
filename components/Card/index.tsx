@@ -33,6 +33,7 @@ function Actions({ actions }: { actions?: Action[] }) {
 					className={getActionClassName(action)}
 					disabled={action.disabled}
 					onClick={action.onClick}
+					role="button"
 				>
 					{action.label}{' '}
 					<span className="max-sm:hidden">

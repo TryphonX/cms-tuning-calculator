@@ -1,7 +1,7 @@
 /* eslint-env jest */
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Card from '../../components/card/card';
+import Card from '../../components/Card';
 import { Action } from '../../@types/globals';
 
 describe('Card', () => {

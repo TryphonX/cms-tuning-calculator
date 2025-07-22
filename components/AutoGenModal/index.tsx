@@ -9,7 +9,10 @@ import {
 } from '@/@types/calculator';
 import { getFullPartByName } from '@/modules/common';
 import { CalculatorContext } from '@/modules/contexts';
-import { UpdateSelectedPartsEvent } from '@/modules/customEvents';
+import {
+	SetRepairsEvent,
+	UpdateSelectedPartsEvent,
+} from '@/modules/customEvents';
 import {
 	ChangeEvent,
 	useCallback,
@@ -69,8 +72,6 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 			targetIncrease: number,
 			repairParts: RepairParts,
 		) => {
-			if (!currentEngine) return null;
-
 			const tunedCompatibleParts = currentEngine.compatibleParts
 				.map((part) => ({
 					...part,
@@ -99,31 +100,22 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 	const handleGenerate = useCallback(() => {
 		setIsLoading(true);
 
-		if (currentEngine) {
-			generateSetup(currentEngine, targetIncrease, repairParts);
-			return;
-		}
-
-		setGeneratedSetup(null);
-		setHasGeneratedSetup(true);
-		setIsLoading(false);
+		generateSetup(currentEngine!, targetIncrease, repairParts);
 	}, [currentEngine, targetIncrease, generateSetup, repairParts]);
 
 	const handleApply = useCallback(() => {
 		setIsLoading(true);
 
-		if (currentEngine && generatedSetup) {
-			UpdateSelectedPartsEvent.dispatch(
-				currentEngine.compatibleParts
-					.filter((part) =>
-						generatedSetup.partNames.includes(part.name),
-					)
-					.map<SelectedPart>((part) => ({
-						name: part.name,
-						quantity: part.quantity,
-					})),
-			);
-		}
+		UpdateSelectedPartsEvent.dispatch(
+			currentEngine!.compatibleParts
+				.filter((part) => generatedSetup!.partNames.includes(part.name))
+				.map<SelectedPart>((part) => ({
+					name: part.name,
+					quantity: part.quantity,
+				})),
+		);
+
+		SetRepairsEvent.dispatch(generatedSetup!.repairs);
 
 		setIsLoading(false);
 		setHasGeneratedSetup(false);

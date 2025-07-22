@@ -38,7 +38,7 @@ jest.mock('@/modules/common', () => ({
 }));
 
 // Mock the SortBtn component
-jest.mock('@/components/sortBtn/sortBtn', () => {
+jest.mock('@/components/SortBtn', () => {
 	return function MockSortBtn({
 		sortBy,
 		values,
@@ -109,6 +109,8 @@ const mockEngine: Engine = {
 const defaultContextValue = {
 	currentEngine: mockEngine,
 	selectedParts: [] as SelectedPart[],
+	locked: false,
+	repairs: undefined,
 };
 
 const renderWithContext = (contextValue = defaultContextValue) => {
@@ -135,6 +137,8 @@ describe('CompatiblePartsTable', () => {
 		renderWithContext({
 			currentEngine: null as unknown as Engine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(screen.queryByRole('table')).not.toBeInTheDocument();
@@ -158,6 +162,20 @@ describe('CompatiblePartsTable', () => {
 		expect(
 			screen.getByTestId('sort-btn-costToBoost_asc'),
 		).toBeInTheDocument();
+	});
+
+	it('renders all checkboxes disabled when locked', () => {
+		renderWithContext({
+			currentEngine: mockEngine,
+			selectedParts: [],
+			locked: true,
+			repairs: undefined,
+		});
+
+		const checkboxes = screen.getAllByRole('checkbox');
+		checkboxes.forEach((checkbox) => {
+			expect(checkbox).toBeDisabled();
+		});
 	});
 
 	it('renders toggle-all checkbox', () => {
@@ -333,6 +351,8 @@ describe('CompatiblePartsTable', () => {
 		renderWithContext({
 			currentEngine: engineWithMissingPart,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(consoleSpy).toHaveBeenCalledWith('Part missing: Missing Part');
@@ -367,6 +387,8 @@ describe('CompatiblePartsTable', () => {
 		const { rerender } = renderWithContext({
 			currentEngine: mockEngine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		// Initially, no checkboxes should be checked
@@ -378,7 +400,12 @@ describe('CompatiblePartsTable', () => {
 		// Update with selected parts
 		rerender(
 			<CalculatorContext.Provider
-				value={{ currentEngine: mockEngine, selectedParts }}
+				value={{
+					currentEngine: mockEngine,
+					selectedParts,
+					locked: false,
+					repairs: undefined,
+				}}
 			>
 				<CompatiblePartsTable />
 			</CalculatorContext.Provider>,
@@ -396,6 +423,8 @@ describe('CompatiblePartsTable', () => {
 		const { rerender } = renderWithContext({
 			currentEngine: mockEngine,
 			selectedParts,
+			locked: false,
+			repairs: undefined,
 		});
 
 		const airFilterCheckbox = screen.getByLabelText(
@@ -406,7 +435,12 @@ describe('CompatiblePartsTable', () => {
 		// Update with empty selected parts
 		rerender(
 			<CalculatorContext.Provider
-				value={{ currentEngine: mockEngine, selectedParts: [] }}
+				value={{
+					currentEngine: mockEngine,
+					selectedParts: [],
+					locked: false,
+					repairs: undefined,
+				}}
 			>
 				<CompatiblePartsTable />
 			</CalculatorContext.Provider>,
@@ -465,6 +499,8 @@ describe('CompatiblePartsTable', () => {
 		const { rerender } = renderWithContext({
 			currentEngine: engineWithMissingPart,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		// Should show missing part alert
@@ -477,7 +513,12 @@ describe('CompatiblePartsTable', () => {
 		// Change to engine without missing parts
 		rerender(
 			<CalculatorContext.Provider
-				value={{ currentEngine: mockEngine, selectedParts: [] }}
+				value={{
+					currentEngine: mockEngine,
+					selectedParts: [],
+					locked: false,
+					repairs: undefined,
+				}}
 			>
 				<CompatiblePartsTable />
 			</CalculatorContext.Provider>,
@@ -506,6 +547,8 @@ describe('CompatiblePartsTable', () => {
 		renderWithContext({
 			currentEngine: engineWithMissingPart,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		const toggleAllCheckbox = screen.getByLabelText('Select all parts');
@@ -534,6 +577,8 @@ describe('CompatiblePartsTable', () => {
 		renderWithContext({
 			currentEngine: engineWithMissingPart,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		// Should display NaN for missing boost data (NaN.toFixed(2) returns "NaN")
@@ -567,6 +612,8 @@ describe('CompatiblePartsTable', () => {
 		renderWithContext({
 			currentEngine: engineWithMultipleMissingParts,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		// Should warn about both missing parts
@@ -618,6 +665,8 @@ describe('CompatiblePartsTable', () => {
 		renderWithContext({
 			currentEngine: engineWithPreMarkedMissingPart,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		// Should still warn about missing part data
@@ -667,6 +716,8 @@ describe('CompatiblePartsTable', () => {
 		renderWithContext({
 			currentEngine: engineWithMixedParts,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		// Parts should be sorted by name_asc by default
@@ -706,6 +757,8 @@ describe('CompatiblePartsTable', () => {
 		renderWithContext({
 			currentEngine: engineWithMixedParts,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		// Verify the component renders both parts

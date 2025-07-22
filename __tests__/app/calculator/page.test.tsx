@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import Calculator from '@/app/calculator/page';
 
 // Mock the child components
-jest.mock('@/components/calculatorWrapper/calculatorWrapper', () => {
+jest.mock('@/components/CalculatorWrapper', () => {
 	return function MockCalculatorWrapper({
 		children,
 	}: {
@@ -12,13 +12,13 @@ jest.mock('@/components/calculatorWrapper/calculatorWrapper', () => {
 	};
 });
 
-jest.mock('@/components/engineCard/engineCard', () => {
+jest.mock('@/components/EngineCard', () => {
 	return function MockEngineCard() {
 		return <div data-testid="engine-card">Engine Card</div>;
 	};
 });
 
-jest.mock('@/components/selectedPartsCard/selectedPartsCard', () => {
+jest.mock('@/components/SelectedPartsCard', () => {
 	return function MockSelectedPartsCard({
 		className,
 	}: {
@@ -32,7 +32,7 @@ jest.mock('@/components/selectedPartsCard/selectedPartsCard', () => {
 	};
 });
 
-jest.mock('@/components/compatiblePartsCard/compatiblePartsCard', () => {
+jest.mock('@/components/CompatiblePartsCard', () => {
 	return function MockCompatiblePartsCard({
 		className,
 	}: {

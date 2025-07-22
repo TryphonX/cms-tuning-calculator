@@ -12,7 +12,7 @@ interface CostElementProps {
 }
 
 const CostElement = ({ generatedSetup }: CostElementProps) => {
-	if (!generatedSetup.repairs?.includesRepairParts) {
+	if (!generatedSetup.repairs) {
 		return `${generatedSetup.cost} CR`;
 	}
 
@@ -37,7 +37,7 @@ const CostElement = ({ generatedSetup }: CostElementProps) => {
 };
 
 const CostToBoostElement = ({ generatedSetup }: CostElementProps) => {
-	if (!generatedSetup.repairs?.includesRepairParts) {
+	if (!generatedSetup.repairs) {
 		return `${generatedSetup.costToBoost.toFixed(2)} CR / Boost`;
 	}
 
@@ -104,7 +104,7 @@ export default function AutoGenModalSetupScreen({
 							</tbody>
 						</table>
 					</div>
-					{generatedSetup.repairs?.includesRepairParts && (
+					{!!generatedSetup.repairs && (
 						<div className="mt-4 space-y-4">
 							<p className="text-xs">
 								* Some parts were repaired in this setup. The

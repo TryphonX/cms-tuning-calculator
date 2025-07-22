@@ -24,7 +24,6 @@ const mockTuningSetupWithRepairs: TuningSetup = {
 		'Turbocharger' as TuningPartName,
 	],
 	repairs: {
-		includesRepairParts: true,
 		netCost: 650,
 		netCostToBoost: 32.5,
 		totalSaved: 150,
@@ -297,7 +296,6 @@ describe('AutoGenModalSetupScreen', () => {
 			costToBoost: 40.0,
 			partNames: ['Air Filter' as TuningPartName],
 			repairs: {
-				includesRepairParts: true,
 				netCost: 750,
 				netCostToBoost: 30.0,
 				totalSaved: 250,

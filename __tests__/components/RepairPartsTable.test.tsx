@@ -40,6 +40,8 @@ const mockEngine: Engine = {
 const defaultContextValue = {
 	currentEngine: mockEngine,
 	selectedParts: [],
+	locked: false,
+	repairs: undefined,
 };
 
 const renderWithContext = (
@@ -230,7 +232,12 @@ describe('RepairPartsTable', () => {
 		};
 
 		renderWithContext(
-			{ currentEngine: engineWithMissingParts, selectedParts: [] },
+			{
+				currentEngine: engineWithMissingParts,
+				selectedParts: [],
+				locked: false,
+				repairs: undefined,
+			},
 			{} as RepairParts,
 			mockOnRepairPartsChange,
 		);
@@ -259,7 +266,12 @@ describe('RepairPartsTable', () => {
 
 		rerender(
 			<CalculatorContext.Provider
-				value={{ currentEngine: newEngine, selectedParts: [] }}
+				value={{
+					currentEngine: newEngine,
+					selectedParts: [],
+					locked: false,
+					repairs: undefined,
+				}}
 			>
 				<RepairPartsTable
 					repairParts={{} as RepairParts}
@@ -291,7 +303,12 @@ describe('RepairPartsTable', () => {
 
 	it('handles no current engine gracefully', () => {
 		renderWithContext(
-			{ currentEngine: null as unknown as Engine, selectedParts: [] },
+			{
+				currentEngine: null as unknown as Engine,
+				selectedParts: [],
+				locked: false,
+				repairs: undefined,
+			},
 			{} as RepairParts,
 			mockOnRepairPartsChange,
 		);
@@ -320,7 +337,12 @@ describe('RepairPartsTable', () => {
 		};
 
 		renderWithContext(
-			{ currentEngine: engineWithSpacedNames, selectedParts: [] },
+			{
+				currentEngine: engineWithSpacedNames,
+				selectedParts: [],
+				locked: false,
+				repairs: undefined,
+			},
 			{} as RepairParts,
 			mockOnRepairPartsChange,
 		);
@@ -359,6 +381,10 @@ describe('RepairPartsTable', () => {
 		expect(mockOnRepairPartsChange).toHaveBeenCalledWith({
 			Carburetor: -320,
 		});
+
+		// clear the carburetor selection
+		fireEvent.change(rangeInputs[1], { target: { value: '0' } });
+		expect(mockOnRepairPartsChange).toHaveBeenCalledWith({});
 	});
 
 	it('renders with existing repair parts values', () => {

@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import Card from '@/components/card/card';
+import Card from '@/components/Card';
 import { Action } from '@/@types/globals';
 
 describe('Card Component - Edge Cases and Complex Scenarios', () => {

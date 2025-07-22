@@ -27,7 +27,7 @@ jest.mock('@/modules/common', () => ({
 }));
 
 // Mock the child components
-jest.mock('@/components/autoGenModal/autoGenModalInitialScreen', () => {
+jest.mock('@/components/autoGenModal/AutoGenModalInitialScreen', () => {
 	return function MockAutoGenModalInitScreen({
 		targetIncrease,
 		onTargetChange,
@@ -162,6 +162,8 @@ const mockEngine: Engine = {
 const defaultContextValue = {
 	currentEngine: mockEngine,
 	selectedParts: [],
+	locked: false,
+	repairs: undefined,
 };
 
 const renderWithContext = (contextValue = defaultContextValue) => {
@@ -193,6 +195,8 @@ describe('AutoGenModal', () => {
 		renderWithContext({
 			currentEngine: null as unknown as Engine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
@@ -335,7 +339,12 @@ describe('AutoGenModal', () => {
 
 		rerender(
 			<CalculatorContext.Provider
-				value={{ currentEngine: newEngine, selectedParts: [] }}
+				value={{
+					currentEngine: newEngine,
+					selectedParts: [],
+					locked: false,
+					repairs: undefined,
+				}}
 			>
 				<AutoGenModal id="test-modal" />
 			</CalculatorContext.Provider>,

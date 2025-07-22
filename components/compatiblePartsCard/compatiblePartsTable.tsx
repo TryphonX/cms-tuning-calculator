@@ -48,7 +48,8 @@ const handleTogglePart = ({ currentTarget }: ChangeEvent<HTMLInputElement>) => {
 };
 
 export default function CompatiblePartsTable() {
-	const { currentEngine, selectedParts } = useContext(CalculatorContext);
+	const { currentEngine, selectedParts, locked } =
+		useContext(CalculatorContext);
 	const [partMissing, setPartMissing] = useState(false);
 
 	const [sortBy, setSortBy] = useState<PartSortBy>('name_asc');
@@ -145,6 +146,7 @@ export default function CompatiblePartsTable() {
 									type="checkbox"
 									className="checkbox checkbox-sm 2xl:checkbox-md checkbox-primary"
 									data-part-toggle-all-checkbox
+									disabled={locked}
 									aria-label="Select all parts"
 									onChange={handleToggleAllParts}
 								/>
@@ -206,7 +208,7 @@ export default function CompatiblePartsTable() {
 											type="checkbox"
 											className="checkbox checkbox-sm 2xl:checkbox-md checkbox-primary"
 											data-part-checkbox
-											disabled={part.missing}
+											disabled={part.missing || locked}
 											onChange={handleTogglePart}
 											aria-label={`Select part ${part.name}`}
 											data-part-name={part.name}

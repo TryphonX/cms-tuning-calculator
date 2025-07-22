@@ -1,10 +1,12 @@
 'use client';
 
-import { Engine, SelectedPart } from '@/@types/calculator';
+import { Engine, SelectedPart, TuningSetup } from '@/@types/calculator';
 import { CalculatorContext } from '@/modules/contexts';
 import { useEffect, useState } from 'react';
 import {
 	ChangeEngineEvent,
+	SetUnlockEvent,
+	SetRepairsEvent,
 	ToggleSelectedPartEvent,
 	ToggleSelectedPartEventInit,
 	UpdateSelectedPartsEvent,
@@ -14,6 +16,8 @@ import { BasePropsWithChildren } from '@/@types/globals';
 export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 	const [currentEngine, setCurrentEngine] = useState(null as Engine | null);
 	const [selectedParts, setSelectedParts] = useState([] as SelectedPart[]);
+	const [locked, setLocked] = useState(false);
+	const [repairs, setRepairs] = useState<TuningSetup['repairs']>(undefined);
 
 	// onMount
 	useEffect(() => {
@@ -44,6 +48,22 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 			setSelectedParts((e as CustomEvent<SelectedPart[]>).detail);
 		};
 
+		const handleUnlock = () => {
+			setLocked(false);
+			setRepairs(undefined);
+		};
+
+		const handleSetRepairs = (e: Event) => {
+			const newRepairs = (e as CustomEvent<TuningSetup['repairs']>)
+				.detail;
+			if (newRepairs?.includesRepairParts) {
+				setLocked(true);
+			} else {
+				setLocked(false);
+			}
+			setRepairs(newRepairs);
+		};
+
 		window.addEventListener(ChangeEngineEvent.name, handleChangeEngine);
 		window.addEventListener(
 			ToggleSelectedPartEvent.name,
@@ -53,6 +73,8 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 			UpdateSelectedPartsEvent.name,
 			handleUpdateSelectedParts,
 		);
+		window.addEventListener(SetUnlockEvent.name, handleUnlock);
+		window.addEventListener(SetRepairsEvent.name, handleSetRepairs);
 
 		return () => {
 			window.removeEventListener(
@@ -67,6 +89,8 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 				UpdateSelectedPartsEvent.name,
 				handleUpdateSelectedParts,
 			);
+			window.removeEventListener(SetUnlockEvent.name, handleUnlock);
+			window.removeEventListener(SetRepairsEvent.name, handleSetRepairs);
 		};
 	}, []);
 
@@ -75,6 +99,8 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 			value={{
 				currentEngine,
 				selectedParts,
+				locked,
+				repairs,
 			}}
 		>
 			{children}

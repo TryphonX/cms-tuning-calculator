@@ -109,6 +109,8 @@ const mockSelectedParts: SelectedPart[] = [
 const defaultContextValue = {
 	currentEngine: mockEngine,
 	selectedParts: mockSelectedParts,
+	locked: false,
+	repairs: undefined,
 };
 
 const renderWithContext = (contextValue = defaultContextValue) => {
@@ -164,6 +166,8 @@ describe('CompatiblePartsCard', () => {
 		renderWithContext({
 			currentEngine: null as unknown as Engine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		const autoGenButton = screen.getByTestId('action-0');
@@ -211,6 +215,8 @@ describe('CompatiblePartsCard', () => {
 		renderWithContext({
 			currentEngine: mockEngine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		const clearButton = screen.getByTestId('footer-action-0');
@@ -250,6 +256,8 @@ describe('CompatiblePartsCard', () => {
 				value={{
 					currentEngine: null as unknown as Engine,
 					selectedParts: mockSelectedParts,
+					locked: false,
+					repairs: undefined,
 				}}
 			>
 				<CompatiblePartsCard />
@@ -272,6 +280,8 @@ describe('CompatiblePartsCard', () => {
 				value={{
 					currentEngine: mockEngine,
 					selectedParts: [],
+					locked: false,
+					repairs: undefined,
 				}}
 			>
 				<CompatiblePartsCard />

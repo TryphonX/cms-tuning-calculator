@@ -47,6 +47,8 @@ const mockEngine: Engine = {
 const defaultContextValue = {
 	currentEngine: mockEngine,
 	selectedParts: [],
+	locked: false,
+	repairs: undefined,
 };
 
 const renderWithContext = (contextValue = defaultContextValue) => {
@@ -73,6 +75,8 @@ describe('EngineImage', () => {
 		renderWithContext({
 			currentEngine: null as unknown as Engine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(screen.queryByTestId('engine-image')).not.toBeInTheDocument();
@@ -98,6 +102,8 @@ describe('EngineImage', () => {
 				value={{
 					currentEngine: newEngine,
 					selectedParts: [],
+					locked: false,
+					repairs: undefined,
 				}}
 			>
 				<EngineImage />
@@ -114,6 +120,8 @@ describe('EngineImage', () => {
 		renderWithContext({
 			currentEngine: undefined as unknown as Engine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(screen.queryByTestId('engine-image')).not.toBeInTheDocument();
@@ -128,6 +136,8 @@ describe('EngineImage', () => {
 		renderWithContext({
 			currentEngine: engineWithLongName,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		const image = screen.getByTestId('engine-image');

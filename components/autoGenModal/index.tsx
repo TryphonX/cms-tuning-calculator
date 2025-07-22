@@ -9,7 +9,10 @@ import {
 } from '@/@types/calculator';
 import { getFullPartByName } from '@/modules/common';
 import { CalculatorContext } from '@/modules/contexts';
-import { UpdateSelectedPartsEvent } from '@/modules/customEvents';
+import {
+	SetRepairsEvent,
+	UpdateSelectedPartsEvent,
+} from '@/modules/customEvents';
 import {
 	ChangeEvent,
 	useCallback,
@@ -124,6 +127,8 @@ export default function AutoGenModal({ id }: AutoGenModalProps) {
 					})),
 			);
 		}
+
+		SetRepairsEvent.dispatch(generatedSetup?.repairs);
 
 		setIsLoading(false);
 		setHasGeneratedSetup(false);

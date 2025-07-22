@@ -68,6 +68,8 @@ const mockEngine: Engine = {
 const defaultContextValue = {
 	currentEngine: mockEngine as Engine | null,
 	selectedParts: [] as SelectedPart[],
+	locked: false,
+	repairs: undefined,
 };
 
 const renderWithContext = (contextValue = defaultContextValue) => {
@@ -109,6 +111,8 @@ describe('EngineSelect', () => {
 		renderWithContext({
 			currentEngine: null,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		const engineSelect = screen.getByLabelText('Engine');
@@ -120,6 +124,8 @@ describe('EngineSelect', () => {
 		renderWithContext({
 			currentEngine: null,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(screen.getByText('-- None --')).toBeInTheDocument();
@@ -192,6 +198,8 @@ describe('EngineSelect', () => {
 		renderWithContext({
 			currentEngine: null,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		// All engines should be available in the options
@@ -229,6 +237,8 @@ describe('EngineSelect', () => {
 						name: 'eDen-1H' as EngineName,
 					},
 					selectedParts: [],
+					locked: false,
+					repairs: undefined,
 				}}
 			>
 				<EngineSelect />

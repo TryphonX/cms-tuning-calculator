@@ -65,8 +65,8 @@ const renderWithContext = (engine?: Engine, parts?: SelectedPart[]) => {
 	const contextValue = {
 		currentEngine: engine || null,
 		selectedParts: parts || [],
-		setCurrentEngine: jest.fn(),
-		setSelectedParts: jest.fn(),
+		locked: false,
+		repairs: undefined,
 	};
 
 	return render(

@@ -11,7 +11,7 @@ import {
 } from '@/@types/calculator';
 
 // Simple mock for SortBtn
-jest.mock('@/components/sortBtn/sortBtn', () => {
+jest.mock('@/components/SortBtn', () => {
 	return function MockSortBtn() {
 		return <span>Sort Button</span>;
 	};

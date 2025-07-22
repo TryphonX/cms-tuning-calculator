@@ -11,7 +11,7 @@ import {
 import { Action } from '@/@types/globals';
 
 // Mock the Card component
-jest.mock('@/components/card/card', () => {
+jest.mock('@/components/Card', () => {
 	return function MockCard({
 		title,
 		className,
@@ -61,7 +61,7 @@ jest.mock('@/components/card/card', () => {
 });
 
 // Mock the CompatiblePartsTable component
-jest.mock('@/components/compatiblePartsCard/compatiblePartsTable', () => {
+jest.mock('@/components/CompatiblePartsCard/CompatiblePartsTable', () => {
 	return function MockCompatiblePartsTable() {
 		return (
 			<div data-testid="compatible-parts-table">
@@ -72,7 +72,7 @@ jest.mock('@/components/compatiblePartsCard/compatiblePartsTable', () => {
 });
 
 // Mock the AutoGenModal component
-jest.mock('@/components/autoGenModal/autoGenModal', () => {
+jest.mock('@/components/AutoGenModal', () => {
 	return function MockAutoGenModal({ id }: { id: string }) {
 		return (
 			<div data-testid="auto-gen-modal" id={id}>

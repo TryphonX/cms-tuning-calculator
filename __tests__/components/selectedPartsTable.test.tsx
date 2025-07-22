@@ -30,7 +30,7 @@ jest.mock('@/modules/common', () => ({
 }));
 
 // Mock the SortBtn component
-jest.mock('@/components/sortBtn/sortBtn', () => {
+jest.mock('@/components/SortBtn', () => {
 	return function MockSortBtn({
 		sortBy,
 		values,

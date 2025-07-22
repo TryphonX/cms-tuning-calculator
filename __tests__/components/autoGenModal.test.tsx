@@ -1,7 +1,10 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import AutoGenModal from '@/components/AutoGenModal';
 import { CalculatorContext } from '@/modules/contexts';
-import { UpdateSelectedPartsEvent } from '@/modules/customEvents';
+import {
+	SetRepairsEvent,
+	UpdateSelectedPartsEvent,
+} from '@/modules/customEvents';
 import {
 	Engine,
 	EngineName,
@@ -24,10 +27,14 @@ jest.mock('@/modules/common', () => ({
 		};
 		return parts[name];
 	}),
+	partSortFn: jest.fn(
+		() => (a: { name: string }, b: { name: string }) =>
+			a.name.localeCompare(b.name),
+	),
 }));
 
 // Mock the child components
-jest.mock('@/components/autoGenModal/AutoGenModalInitialScreen', () => {
+jest.mock('@/components/AutoGenModal/AutoGenModalInitialScreen', () => {
 	return function MockAutoGenModalInitScreen({
 		targetIncrease,
 		onTargetChange,
@@ -63,13 +70,13 @@ jest.mock('@/components/autoGenModal/AutoGenModalInitialScreen', () => {
 	};
 });
 
-jest.mock('@/components/autoGenModal/autoGenModalLoading', () => {
+jest.mock('@/components/AutoGenModal/AutoGenModalLoading', () => {
 	return function MockAutoGenModalLoading() {
 		return <div data-testid="loading-screen">Loading...</div>;
 	};
 });
 
-jest.mock('@/components/autoGenModal/autoGenModalSetupScreen', () => {
+jest.mock('@/components/AutoGenModal/AutoGenModalSetupScreen', () => {
 	return function MockAutoGenModalSetupScreen({
 		generatedSetup,
 		onApply,
@@ -98,6 +105,9 @@ jest.mock('@/components/autoGenModal/autoGenModalSetupScreen', () => {
 // Mock custom events
 jest.mock('@/modules/customEvents', () => ({
 	UpdateSelectedPartsEvent: {
+		dispatch: jest.fn(),
+	},
+	SetRepairsEvent: {
 		dispatch: jest.fn(),
 	},
 }));
@@ -286,6 +296,7 @@ describe('AutoGenModal', () => {
 			{ name: 'Air Filter', quantity: 1 },
 			{ name: 'Air Filter (B6 M64.01)', quantity: 2 },
 		]);
+		expect(SetRepairsEvent.dispatch).toHaveBeenCalledWith(undefined);
 	});
 
 	it('handles setup discard', async () => {
@@ -460,5 +471,70 @@ describe('AutoGenModal', () => {
 			targetBoostIncrease: 0,
 			repairParts: {},
 		});
+	});
+
+	it('dispatches repairs when applying setup with repairs', async () => {
+		const mockRepairsData: TuningSetup['repairs'] = {
+			includesRepairParts: true,
+			repairPartNames: ['Air Filter' as TuningPartName],
+			netCost: 350,
+			netCostToBoost: 33.3,
+			totalSaved: 35,
+		};
+
+		// Create a custom worker that returns setup with repairs
+		class WorkerWithRepairs extends MockWorker {
+			postMessage(_data: unknown) {
+				_data; // Avoid unused parameter warning
+				setTimeout(() => {
+					if (this.onmessage) {
+						const mockSetup: TuningSetup = {
+							boost: 10.5,
+							cost: 400,
+							costToBoost: 38.1,
+							partNames: [
+								'Air Filter' as TuningPartName,
+								'Air Filter (B6 M64.01)' as TuningPartName,
+							],
+							repairs: mockRepairsData,
+						};
+						this.onmessage({
+							data: mockSetup,
+						} as MessageEvent<TuningSetup>);
+					}
+				}, 100);
+			}
+		}
+
+		Object.defineProperty(window, 'Worker', {
+			writable: true,
+			value: WorkerWithRepairs,
+		});
+
+		renderWithContext();
+
+		// Generate setup
+		const generateBtn = screen.getByTestId('generate-btn');
+		fireEvent.click(generateBtn);
+
+		// Wait for setup screen
+		await waitFor(() => {
+			expect(screen.getByTestId('setup-screen')).toBeInTheDocument();
+		});
+
+		// Apply the setup
+		const applyBtn = screen.getByTestId('apply-btn');
+
+		// Mock the close method to prevent errors
+		const mockClose = jest.fn();
+		HTMLDialogElement.prototype.close = mockClose;
+
+		fireEvent.click(applyBtn);
+
+		expect(UpdateSelectedPartsEvent.dispatch).toHaveBeenCalledWith([
+			{ name: 'Air Filter', quantity: 1 },
+			{ name: 'Air Filter (B6 M64.01)', quantity: 2 },
+		]);
+		expect(SetRepairsEvent.dispatch).toHaveBeenCalledWith(mockRepairsData);
 	});
 });

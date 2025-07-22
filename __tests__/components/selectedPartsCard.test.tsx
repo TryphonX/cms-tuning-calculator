@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import SelectedPartsCard from '@/components/SelectedPartsCard';
 
 // Mock the Card component
-jest.mock('@/components/card/card', () => {
+jest.mock('@/components/Card', () => {
 	return function MockCard({
 		title,
 		className,
@@ -22,7 +22,7 @@ jest.mock('@/components/card/card', () => {
 });
 
 // Mock the SelectedPartsTable component
-jest.mock('@/components/selectedPartsCard/selectedPartsTable', () => {
+jest.mock('@/components/SelectedPartsCard/SelectedPartsTable', () => {
 	return function MockSelectedPartsTable() {
 		return (
 			<div data-testid="selected-parts-table">Selected Parts Table</div>

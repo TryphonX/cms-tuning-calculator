@@ -11,7 +11,7 @@ import {
 import { Action } from '@/@types/globals';
 
 // Mock the Card component
-jest.mock('@/components/card/card', () => {
+jest.mock('@/components/Card', () => {
 	return function MockCard({
 		title,
 		className,
@@ -61,7 +61,7 @@ jest.mock('@/components/card/card', () => {
 });
 
 // Mock the CompatiblePartsTable component
-jest.mock('@/components/compatiblePartsCard/compatiblePartsTable', () => {
+jest.mock('@/components/CompatiblePartsCard/CompatiblePartsTable', () => {
 	return function MockCompatiblePartsTable() {
 		return (
 			<div data-testid="compatible-parts-table">
@@ -72,7 +72,7 @@ jest.mock('@/components/compatiblePartsCard/compatiblePartsTable', () => {
 });
 
 // Mock the AutoGenModal component
-jest.mock('@/components/autoGenModal/autoGenModal', () => {
+jest.mock('@/components/AutoGenModal', () => {
 	return function MockAutoGenModal({ id }: { id: string }) {
 		return (
 			<div data-testid="auto-gen-modal" id={id}>
@@ -109,6 +109,8 @@ const mockSelectedParts: SelectedPart[] = [
 const defaultContextValue = {
 	currentEngine: mockEngine,
 	selectedParts: mockSelectedParts,
+	locked: false,
+	repairs: undefined,
 };
 
 const renderWithContext = (contextValue = defaultContextValue) => {
@@ -164,6 +166,8 @@ describe('CompatiblePartsCard', () => {
 		renderWithContext({
 			currentEngine: null as unknown as Engine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		const autoGenButton = screen.getByTestId('action-0');
@@ -207,10 +211,24 @@ describe('CompatiblePartsCard', () => {
 		expect(clearButton).not.toBeDisabled();
 	});
 
+	it('disables clear action when locked', () => {
+		renderWithContext({
+			currentEngine: mockEngine,
+			selectedParts: mockSelectedParts,
+			locked: true,
+			repairs: undefined,
+		});
+
+		const clearButton = screen.getByTestId('footer-action-0');
+		expect(clearButton).toBeDisabled();
+	});
+
 	it('disables clear action when no parts are selected', () => {
 		renderWithContext({
 			currentEngine: mockEngine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		const clearButton = screen.getByTestId('footer-action-0');
@@ -250,6 +268,8 @@ describe('CompatiblePartsCard', () => {
 				value={{
 					currentEngine: null as unknown as Engine,
 					selectedParts: mockSelectedParts,
+					locked: false,
+					repairs: undefined,
 				}}
 			>
 				<CompatiblePartsCard />
@@ -272,6 +292,8 @@ describe('CompatiblePartsCard', () => {
 				value={{
 					currentEngine: mockEngine,
 					selectedParts: [],
+					locked: false,
+					repairs: undefined,
 				}}
 			>
 				<CompatiblePartsCard />

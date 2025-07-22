@@ -93,7 +93,6 @@ export declare interface TuningSetup {
 	boost: number;
 	costToBoost: number;
 	repairs?: {
-		includesRepairParts: boolean;
 		repairPartNames: TuningPartName[];
 		/** The cost of the tuning minus the repairs */
 		netCost: number;

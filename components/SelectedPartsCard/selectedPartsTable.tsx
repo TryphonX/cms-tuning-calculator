@@ -8,7 +8,8 @@ import { PartSortBy } from '@/@types/globals';
 import SortBtn from '../SortBtn';
 
 export default function SelectedPartsTable() {
-	const { currentEngine, selectedParts } = useContext(CalculatorContext);
+	const { currentEngine, selectedParts, repairs } =
+		useContext(CalculatorContext);
 
 	const [sortBy, setSortBy] = useState<PartSortBy>('name_asc');
 
@@ -131,17 +132,45 @@ export default function SelectedPartsTable() {
 						})}
 					</tbody>
 					<tfoot className="text-xs 2xl:text-sm">
+						{repairs && (
+							<tr>
+								<th>Repairs</th>
+								<th
+									colSpan={2}
+									className="text-right text-primary"
+								>
+									-{repairs.totalSaved} CR
+								</th>
+								<th className="text-right text-primary">
+									-
+									{(
+										totalCostToBoost -
+										repairs.netCostToBoost
+									).toFixed(0)}{' '}
+									CR/Boost
+								</th>
+							</tr>
+						)}
 						<tr className="bg-primary text-primary-content">
 							<th>Total:</th>
 							<th className="text-right">
 								+{totalBoost.toFixed(2)}%
 							</th>
-							<th className="text-right">{totalCost} CR</th>
+							<th className="text-right">
+								{repairs ? repairs.netCost : totalCost} CR
+							</th>
 							<th
 								className="text-right max-md:hidden"
-								title={totalCostToBoost.toString()}
+								title={(repairs
+									? repairs.netCostToBoost
+									: totalCostToBoost
+								).toFixed(2)}
 							>
-								{totalCostToBoost.toFixed(0)} CR/Boost
+								{(repairs
+									? repairs.netCostToBoost
+									: totalCostToBoost
+								).toFixed(0)}{' '}
+								CR/Boost
 							</th>
 						</tr>
 					</tfoot>

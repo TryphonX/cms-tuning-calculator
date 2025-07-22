@@ -18,6 +18,8 @@ const mockEngine: Engine = {
 const defaultContextValue = {
 	currentEngine: mockEngine,
 	selectedParts: [],
+	locked: false,
+	repairs: undefined,
 };
 
 const renderWithContext = (contextValue = defaultContextValue) => {
@@ -61,6 +63,8 @@ describe('EngineSpecsTable', () => {
 		renderWithContext({
 			currentEngine: null as unknown as Engine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(screen.queryByRole('table')).not.toBeInTheDocument();
@@ -91,6 +95,8 @@ describe('EngineSpecsTable', () => {
 				value={{
 					currentEngine: newEngine,
 					selectedParts: [],
+					locked: false,
+					repairs: undefined,
 				}}
 			>
 				<EngineSpecsTable />
@@ -107,6 +113,8 @@ describe('EngineSpecsTable', () => {
 		renderWithContext({
 			currentEngine: undefined as unknown as Engine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(screen.queryByRole('table')).not.toBeInTheDocument();
@@ -165,6 +173,8 @@ describe('EngineSpecsTable', () => {
 		renderWithContext({
 			currentEngine: engineWithDifferentSpecs,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(screen.getByText('500 HP')).toBeInTheDocument();

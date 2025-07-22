@@ -3,8 +3,10 @@ import CalculatorWrapper from '@/components/CalculatorWrapper';
 import { CalculatorContext } from '@/modules/contexts';
 import {
 	ChangeEngineEvent,
+	UnlockEvent,
 	ToggleSelectedPartEvent,
 	UpdateSelectedPartsEvent,
+	SetRepairsEvent,
 } from '@/modules/customEvents';
 import {
 	Engine,
@@ -16,7 +18,8 @@ import { useContext } from 'react';
 
 // Test component to access the context
 function TestConsumer() {
-	const { currentEngine, selectedParts } = useContext(CalculatorContext);
+	const { currentEngine, selectedParts, locked } =
+		useContext(CalculatorContext);
 
 	return (
 		<div>
@@ -30,6 +33,7 @@ function TestConsumer() {
 					</span>
 				))}
 			</div>
+			{locked && <span data-testid="locked-indicator" />}
 		</div>
 	);
 }
@@ -264,6 +268,51 @@ describe('CalculatorWrapper Integration Tests', () => {
 		});
 	});
 
+	it('handles SetRepairsEvent and UnlockEvent', async () => {
+		render(
+			<CalculatorWrapper>
+				<TestConsumer />
+			</CalculatorWrapper>,
+		);
+
+		SetRepairsEvent.dispatch({
+			repairPartNames: ['Air Filter', 'Carburetor (I6 B)'],
+			totalSaved: 1000,
+			netCostToBoost: 50,
+			netCost: 100,
+		});
+
+		// make sure the locked indicator is present
+		await waitFor(() => {
+			expect(screen.getByTestId('locked-indicator')).toBeInTheDocument();
+		});
+
+		// Dispatch unlock event
+		UnlockEvent.dispatch();
+
+		await waitFor(() => {
+			expect(
+				screen.queryByTestId('locked-indicator'),
+			).not.toBeInTheDocument();
+		});
+	});
+
+	it('SetRepairsEvent edge case', async () => {
+		render(
+			<CalculatorWrapper>
+				<TestConsumer />
+			</CalculatorWrapper>,
+		);
+
+		SetRepairsEvent.dispatch(undefined);
+
+		await waitFor(() => {
+			expect(
+				screen.queryByTestId('locked-indicator'),
+			).not.toBeInTheDocument();
+		});
+	});
+
 	it('handles setting engine to null', async () => {
 		render(
 			<CalculatorWrapper>
@@ -374,6 +423,10 @@ describe('CalculatorWrapper Integration Tests', () => {
 			UpdateSelectedPartsEvent.name,
 			expect.any(Function),
 		);
+		expect(addEventListenerSpy).toHaveBeenCalledWith(
+			UnlockEvent.name,
+			expect.any(Function),
+		);
 
 		unmount();
 
@@ -388,6 +441,10 @@ describe('CalculatorWrapper Integration Tests', () => {
 		);
 		expect(removeEventListenerSpy).toHaveBeenCalledWith(
 			UpdateSelectedPartsEvent.name,
+			expect.any(Function),
+		);
+		expect(removeEventListenerSpy).toHaveBeenCalledWith(
+			UnlockEvent.name,
 			expect.any(Function),
 		);
 

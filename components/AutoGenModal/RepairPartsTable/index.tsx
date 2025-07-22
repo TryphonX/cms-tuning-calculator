@@ -38,9 +38,7 @@ const RangeInput = ({
 						const newRepairParts = structuredClone(repairParts);
 
 						if (!~~value) {
-							if (newRepairParts[part.name]) {
-								delete newRepairParts[part.name];
-							}
+							delete newRepairParts[part.name];
 						} else {
 							newRepairParts[part.name] =
 								~~value * part.cost * -1;

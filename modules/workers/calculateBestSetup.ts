@@ -19,7 +19,7 @@ onmessage = function (
 		parts: TuningPart[];
 		targetBoostIncrease: number;
 		repairParts: RepairParts;
-	}>
+	}>,
 ) {
 	const parts = e.data.parts;
 	const targetBoostIncrease = e.data.targetBoostIncrease;
@@ -65,13 +65,15 @@ onmessage = function (
 				cost: comboCost,
 				boost: comboBoost,
 				costToBoost: costToBoost,
-				repairs: {
-					includesRepairParts: hasRepairParts,
-					repairPartNames: repairPartNames,
-					netCost: netCost,
-					netCostToBoost: netCost / comboBoost,
-					totalSaved: comboCost - netCost,
-				},
+				repairs: hasRepairParts
+					? {
+							repairPartNames: repairPartNames,
+							netCost: netCost,
+							netCostToBoost: netCost / comboBoost,
+							totalSaved: comboCost - netCost,
+							// eslint-disable-next-line no-mixed-spaces-and-tabs
+					  }
+					: undefined,
 			};
 
 			// update bestSetup

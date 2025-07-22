@@ -1,4 +1,4 @@
-import { Engine, SelectedPart } from '@/@types/calculator';
+import { Engine, SelectedPart, TuningSetup } from '@/@types/calculator';
 import { PartSortBy } from '@/@types/globals';
 
 export const ChangeEngineEvent = {
@@ -50,6 +50,24 @@ export const UpdateSortEvent = {
 		dispatchEvent(
 			new CustomEvent(UpdateSortEvent.name, {
 				detail: newSort,
+			}),
+		);
+	},
+};
+
+export const UnlockEvent = {
+	name: 'setUnlockEvent',
+	dispatch: () => {
+		dispatchEvent(new CustomEvent(UnlockEvent.name));
+	},
+};
+
+export const SetRepairsEvent = {
+	name: 'setRepairsEvent',
+	dispatch: (repairs: TuningSetup['repairs']) => {
+		dispatchEvent(
+			new CustomEvent(SetRepairsEvent.name, {
+				detail: repairs,
 			}),
 		);
 	},

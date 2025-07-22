@@ -2,13 +2,13 @@ import { render, screen } from '@testing-library/react';
 import Home from '@/app/page';
 
 // Mock the child components
-jest.mock('@/components/aboutSection/aboutSection', () => {
+jest.mock('@/components/AboutSection', () => {
 	return function MockAboutSection() {
 		return <div data-testid="about-section">About Section</div>;
 	};
 });
 
-jest.mock('@/components/githubIssueSection/githubIssueSection', () => {
+jest.mock('@/components/GithubIssueSection', () => {
 	return function MockGithubIssueSection() {
 		return (
 			<div data-testid="github-issue-section">GitHub Issue Section</div>

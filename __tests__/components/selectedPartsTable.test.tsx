@@ -30,7 +30,7 @@ jest.mock('@/modules/common', () => ({
 }));
 
 // Mock the SortBtn component
-jest.mock('@/components/sortBtn/sortBtn', () => {
+jest.mock('@/components/SortBtn', () => {
 	return function MockSortBtn({
 		sortBy,
 		values,
@@ -65,6 +65,8 @@ const mockSelectedParts: SelectedPart[] = [
 const defaultContextValue = {
 	currentEngine: mockEngine,
 	selectedParts: mockSelectedParts,
+	locked: false,
+	repairs: undefined,
 };
 
 const renderWithContext = (contextValue = defaultContextValue) => {
@@ -84,6 +86,8 @@ describe('SelectedPartsTable', () => {
 		renderWithContext({
 			currentEngine: null as unknown as Engine,
 			selectedParts: [],
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(screen.queryByRole('table')).not.toBeInTheDocument();
@@ -164,7 +168,12 @@ describe('SelectedPartsTable', () => {
 	});
 
 	it('handles empty selected parts list', () => {
-		renderWithContext({ currentEngine: mockEngine, selectedParts: [] });
+		renderWithContext({
+			currentEngine: mockEngine,
+			selectedParts: [],
+			locked: false,
+			repairs: undefined,
+		});
 
 		// Should still render table but with no rows and zero totals
 		expect(screen.getByRole('table')).toBeInTheDocument();
@@ -249,6 +258,8 @@ describe('SelectedPartsTable', () => {
 		renderWithContext({
 			currentEngine: mockEngine,
 			selectedParts: partsWithMissing,
+			locked: false,
+			repairs: undefined,
 		});
 
 		expect(consoleSpy).toHaveBeenCalledWith('Part missing: Air Filter');
@@ -275,6 +286,8 @@ describe('SelectedPartsTable', () => {
 		renderWithContext({
 			currentEngine: mockEngine,
 			selectedParts: partsWithZeroBoost,
+			locked: false,
+			repairs: undefined,
 		});
 
 		// Should display 0 CR/Boost when total boost is 0

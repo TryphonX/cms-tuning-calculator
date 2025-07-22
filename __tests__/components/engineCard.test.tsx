@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import EngineCard from '@/components/EngineCard';
 
 // Mock child components
-jest.mock('@/components/card/card', () => {
+jest.mock('@/components/Card', () => {
 	const MockCard = ({
 		title,
 		children,
@@ -19,13 +19,13 @@ jest.mock('@/components/card/card', () => {
 	return MockCard;
 });
 
-jest.mock('@/components/engineCard/engineImage', () => {
+jest.mock('@/components/EngineCard/EngineImage', () => {
 	const MockEngineImage = () => <div data-testid="engine-image" />;
 	MockEngineImage.displayName = 'MockEngineImage';
 	return MockEngineImage;
 });
 
-jest.mock('@/components/engineCard/engineSelect', () => {
+jest.mock('@/components/EngineCard/EngineSelect', () => {
 	const MockEngineSelect = ({ className }: { className?: string }) => (
 		<div data-testid="engine-select" className={className} />
 	);
@@ -33,7 +33,7 @@ jest.mock('@/components/engineCard/engineSelect', () => {
 	return MockEngineSelect;
 });
 
-jest.mock('@/components/engineCard/engineSpecsTable', () => {
+jest.mock('@/components/EngineCard/EngineSpecsTable', () => {
 	const MockEngineSpecsTable = () => <div data-testid="engine-specs-table" />;
 	MockEngineSpecsTable.displayName = 'MockEngineSpecsTable';
 	return MockEngineSpecsTable;

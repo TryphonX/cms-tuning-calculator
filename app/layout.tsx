@@ -35,12 +35,12 @@ export default function RootLayout({
 				<link
 					rel="preload"
 					as="image"
-					href="/CMS-Tuning-Calculator/images/logo.svg"
+					href="/cms-tuning-calculator/images/logo.svg"
 				/>
 				<link
 					rel="preload"
 					as="image"
-					href="/CMS-Tuning-Calculator/images/Avatar2020.webp"
+					href="/cms-tuning-calculator/images/Avatar2020.webp"
 				/>
 			</Head>
 			<body className={`${ubuntu.className} flex flex-col min-h-svh`}>

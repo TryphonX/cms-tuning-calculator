@@ -12,7 +12,7 @@ const getIsMainBranch = () => {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	basePath: '/CMS-Tuning-Calculator',
+	basePath: '/cms-tuning-calculator',
 	env: {
 		APP_VERSION: packagejson.version,
 		LAST_PUBLISH: getIsMainBranch() ? process.env.LAST_PUBLISH : new Date().toISOString(),

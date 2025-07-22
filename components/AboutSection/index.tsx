@@ -9,7 +9,7 @@ export default function AboutSection() {
 				<div>
 					<Image
 						className="mb-6 rounded-full size-4/12 md:size-1/4 lg:size-1/6 mx-auto"
-						src="/CMS-Tuning-Calculator/images/logo.svg"
+						src="/cms-tuning-calculator/images/logo.svg"
 						alt="tuning calculator logo"
 						aria-hidden
 						width={202.66}
@@ -82,7 +82,7 @@ export default function AboutSection() {
 						</div>
 						<div>
 							<Link
-								href="https://github.com/TryphonX/CMS-Tuning-Calculator"
+								href="https://github.com/TryphonX/cms-tuning-calculator"
 								target="_blank"
 							>
 								<button className="btn btn-secondary btn-sm">
@@ -93,7 +93,7 @@ export default function AboutSection() {
 								This project is open-source. Licensed under{' '}
 								<Link
 									className="link"
-									href="https://github.com/TryphonX/CMS-Tuning-Calculator/blob/main/COPYING.txt"
+									href="https://github.com/TryphonX/cms-tuning-calculator/blob/main/COPYING.txt"
 									target="_blank"
 								>
 									GNU GENERAL PUBLIC LICENSE v3

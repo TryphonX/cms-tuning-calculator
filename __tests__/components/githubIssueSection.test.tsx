@@ -54,7 +54,7 @@ describe('GithubIssueSection', () => {
 		expect(issueLink).toBeInTheDocument();
 		expect(issueLink).toHaveAttribute(
 			'href',
-			'https://github.com/TryphonX/CMS-Tuning-Calculator/issues/new',
+			'https://github.com/TryphonX/cms-tuning-calculator/issues/new',
 		);
 		expect(issueLink).toHaveAttribute('target', '_blank');
 	});

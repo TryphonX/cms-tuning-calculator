@@ -24,7 +24,7 @@ export default function Footer() {
 						aria-hidden
 						width={54}
 						height={54}
-						src="/CMS-Tuning-Calculator/images/Avatar2020.webp"
+						src="/cms-tuning-calculator/images/Avatar2020.webp"
 						alt="TryphonX's avatar"
 					/>
 				</Link>
@@ -44,7 +44,7 @@ export default function Footer() {
 			<div className="flex flex-row max-md:w-full max-md:justify-center items-center md:place-self-center md:justify-self-end">
 				<nav className="flex max-md:w-full max-md:justify-center max-md:items-center md:place-self-center md:justify-self-end">
 					<Link
-						href="https://github.com/TryphonX/CMS-Tuning-Calculator/issues/new"
+						href="https://github.com/TryphonX/cms-tuning-calculator/issues/new"
 						target="_blank"
 					>
 						<button className="btn btn-primary btn-sm">

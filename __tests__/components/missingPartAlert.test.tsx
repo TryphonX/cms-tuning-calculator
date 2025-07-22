@@ -75,7 +75,7 @@ describe('MissingPartAlert', () => {
 		expect(link).toBeInTheDocument();
 		expect(link).toHaveAttribute(
 			'href',
-			'https://github.com/TryphonX/CMS-Tuning-Calculator/issues/new',
+			'https://github.com/TryphonX/cms-tuning-calculator/issues/new',
 		);
 		expect(link).toHaveAttribute('target', '_blank');
 	});

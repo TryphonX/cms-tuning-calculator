@@ -57,7 +57,7 @@ describe('Footer', () => {
 		const avatarImage = screen.getByAltText("TryphonX's avatar");
 		expect(avatarImage).toHaveAttribute(
 			'src',
-			'/CMS-Tuning-Calculator/images/Avatar2020.webp',
+			'/cms-tuning-calculator/images/Avatar2020.webp',
 		);
 		expect(avatarImage).toHaveAttribute('width', '54');
 		expect(avatarImage).toHaveAttribute('height', '54');
@@ -68,7 +68,7 @@ describe('Footer', () => {
 		const githubLink = screen.getByRole('link', { name: /open an issue/i });
 		expect(githubLink).toHaveAttribute(
 			'href',
-			'https://github.com/TryphonX/CMS-Tuning-Calculator/issues/new',
+			'https://github.com/TryphonX/cms-tuning-calculator/issues/new',
 		);
 		expect(githubLink).toHaveAttribute('target', '_blank');
 	});

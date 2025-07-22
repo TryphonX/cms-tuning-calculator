@@ -32,7 +32,7 @@ export default function GithubIssueSection() {
 					</div>
 					<div className="md:col-span-3">
 						<Link
-							href="https://github.com/TryphonX/CMS-Tuning-Calculator/issues/new"
+							href="https://github.com/TryphonX/cms-tuning-calculator/issues/new"
 							target="_blank"
 						>
 							<button className="btn btn-primary btn-block">

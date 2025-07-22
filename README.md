@@ -13,12 +13,13 @@
 [![Contributors](https://img.shields.io/github/contributors/tryphonx/cms-tuning-calculator)](https://github.com/tryphonx/cms-tuning-calculator/graphs/contributors)
 [![Github Issues](https://img.shields.io/github/issues/tryphonx/cms-tuning-calculator)](https://github.com/tryphonx/cms-tuning-calculator/issues)
 [![GNU GPL v3 License](https://img.shields.io/github/license/tryphonx/cms-tuning-calculator)](https://github.com/tryphonx/cms-tuning-calculator/blob/main/COPYING.txt)
-[![GitHub Deployment Status](https://img.shields.io/github/actions/workflow/status/tryphonx/cms-tuning-calculator/prod-deploy.yml)](https://github.com/tryphonx/cms-tuning-calculator/actions/workflows/prod-deploy.yml)
+[![Deployment Status](https://github.com/tryphonx/cms-tuning-calculator/actions/workflows/prod-deploy.yml/badge.svg?branch=main)](https://github.com/tryphonx/cms-tuning-calculator/actions/workflows/prod-deploy.yml)
+[![CI Dev](https://github.com/tryphonx/cms-tuning-calculator/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/tryphonx/cms-tuning-calculator/actions/workflows/ci.yml)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Tryphonx/cms-Tuning-Calculator">
+  <a href="https://github.com/tryphonx/cms-tuning-calculator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -28,15 +29,15 @@
     This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 21). Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be "symmetrical" - it will not allow you to switch some of the same part with tuned parts, it's either all or nothing. This tool can also suggest the optimal setup if you want, or you can make your own informed decision.
     <br />
     <!--
-		<a href="https://github.com/Tryphonx/cms-Tuning-Calculator/docs/"><strong>Explore the docs »</strong></a>
+		<a href="https://github.com/tryphonx/cms-tuning-calculator/docs/"><strong>Explore the docs »</strong></a>
 		-->
     <br />
     <br />
-    <a href="https://tryphonx.github.io/CMS-Tuning-Calculator/">Visit App</a>
+    <a href="https://tryphonx.github.io/cms-tuning-calculator/">Visit App</a>
     ·
-    <a href="https://github.com/Tryphonx/cms-Tuning-Calculator/issues">Report Bug</a>
+    <a href="https://github.com/tryphonx/cms-tuning-calculator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Tryphonx/cms-Tuning-Calculator/issues">Request Feature</a>
+    <a href="https://github.com/tryphonx/cms-tuning-calculator/issues">Request Feature</a>
   </p>
 </div>
 
@@ -46,9 +47,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#usage">Usage</a>
@@ -68,19 +66,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![App preview][app-url]](https://tryphonx.github.io/CMS-Tuning-Calculator/)
+> I update the app too often to keep the README up to date, but it should be close enough.
 
 This web app tool is useful for tuning cars in the game (Car Mechanic Simulator 21). Provides a lot of functionalities that make tuning considerably easier as well as allowing you to explore the most efficient way of tuning the car to the desired boost percentage. All tuning combinations by this tool will always be "symmetrical" - it will not allow you to switch some of the same part with tuned parts, it's either all or nothing. This tool can also suggest the optimal setup if you want, or you can make your own informed decision.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-[![React][React.js]][React-url]  
-[![NextJS][Next-icon]][Next-url]  
-[![TailwindCSS][Tailwind-icon]][Tailwind-url]  
-[![daisyUI][daisyUI-icon]][daisyUI-url]  
-[![ESLint][ESLint]][ESLint-url]  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,8 +89,6 @@ The use of this app is relatively easy. The calculator app is broken down into t
 First step is to pick an engine from the dropdown menu in the **_Engine Card_**.
 
 When you pick an engine, the Engine Card is immediately updated to reflect your choice and the rest of the functionality of the app is unlocked on the rest of the components.
-
-> `NEW!` You can now also filter by engine configuration if you wish to!
 
 ![Engine Card, Step 1](images/v2/engine-dropdown.png)
 
@@ -160,9 +146,11 @@ Third step is to check the _**Cart Card**_.
 
 This is kind of your "shopping cart" in a way. It includes a list of all the parts you've selected along with its info (same as in compatible parts) and their total values.
 
+> `NEW!` You can now also take repairs into consideration. If you have selected a part that is damaged, the app will automatically calculate the cost of replacing it deduct it from the cart if the part is being tuned. You will have indications if a part that is being tuned is one of the parts you want to replace.
+
 ![Cart Card](images/v2/selected-parts-main.png)
 
-_[Visit the app now to try it »](https://tryphonx.github.io/CMS-Tuning-Calculator/)_
+_[Visit the app now to try it »](https://tryphonx.github.io/cms-tuning-calculator/)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,7 +160,7 @@ _[Visit the app now to try it »](https://tryphonx.github.io/CMS-Tuning-Calculat
 - [x] Add suggested setups based on required boost
 - [x] Add sorting functionality to the tables
 
-See the [open issues](https://github.com/Tryphonx/cms-Tuning-Calculator/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/tryphonx/cms-tuning-calculator/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -215,14 +203,3 @@ Distributed under the GNU GPL v3 License. See `COPYING.txt` for more information
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [semantic-release-url]: https://github.com/semantic-release/semantic-release
-[app-url]: images/v2/main-app-screenshot.png
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Next-icon]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[Tailwind-icon]: https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
-[Tailwind-url]: https://tailwindcss.com/
-[daisyUi-icon]: https://img.shields.io/badge/daisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white
-[daisyUi-url]: https://daisyui.com/
-[ESLint]: https://img.shields.io/badge/ESLint-18191a?style=for-the-badge&logo=eslint&logoColor=%234B32C3
-[ESLint-url]: https://eslint.org/

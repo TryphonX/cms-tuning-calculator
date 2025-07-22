@@ -55,10 +55,10 @@ export const UpdateSortEvent = {
 	},
 };
 
-export const SetUnlockEvent = {
+export const UnlockEvent = {
 	name: 'setUnlockEvent',
 	dispatch: () => {
-		dispatchEvent(new CustomEvent(SetUnlockEvent.name));
+		dispatchEvent(new CustomEvent(UnlockEvent.name));
 	},
 };
 

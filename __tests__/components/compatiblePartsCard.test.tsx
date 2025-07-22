@@ -211,6 +211,18 @@ describe('CompatiblePartsCard', () => {
 		expect(clearButton).not.toBeDisabled();
 	});
 
+	it('disables clear action when locked', () => {
+		renderWithContext({
+			currentEngine: mockEngine,
+			selectedParts: mockSelectedParts,
+			locked: true,
+			repairs: undefined,
+		});
+
+		const clearButton = screen.getByTestId('footer-action-0');
+		expect(clearButton).toBeDisabled();
+	});
+
 	it('disables clear action when no parts are selected', () => {
 		renderWithContext({
 			currentEngine: mockEngine,

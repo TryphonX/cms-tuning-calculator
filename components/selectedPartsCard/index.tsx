@@ -3,7 +3,7 @@ import Card from '../Card';
 import SelectedPartsTable from './SelectedPartsTable';
 import { CalculatorContext } from '@/modules/contexts';
 import { useContext } from 'react';
-import { SetUnlockEvent } from '@/modules/customEvents';
+import { UnlockEvent } from '@/modules/customEvents';
 import { FaUnlock } from 'react-icons/fa6';
 
 export default function SelectedPartsCard({ className }: BaseProps) {
@@ -18,7 +18,7 @@ export default function SelectedPartsCard({ className }: BaseProps) {
 			),
 			className: 'btn-primary',
 			onClick: () => {
-				SetUnlockEvent.dispatch();
+				UnlockEvent.dispatch();
 			},
 			disabled: !locked,
 		},

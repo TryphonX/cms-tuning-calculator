@@ -8,7 +8,9 @@ import {
 	SelectedPart,
 	TuningPart,
 	TuningPartName,
+	TuningSetup,
 } from '@/@types/calculator';
+import { getFullPartByName } from '@/modules/common';
 
 // Simple mock for SortBtn
 jest.mock('@/components/SortBtn', () => {
@@ -61,12 +63,16 @@ const mockSelectedParts: SelectedPart[] = [
 	{ name: 'test-part-1' as TuningPartName, quantity: 2 },
 ];
 
-const renderWithContext = (engine?: Engine, parts?: SelectedPart[]) => {
+const renderWithContext = (
+	engine?: Engine,
+	parts?: SelectedPart[],
+	repairs?: TuningSetup['repairs'],
+) => {
 	const contextValue = {
 		currentEngine: engine || null,
 		selectedParts: parts || [],
-		locked: false,
-		repairs: undefined,
+		locked: !!repairs,
+		repairs: repairs,
 	};
 
 	return render(
@@ -142,5 +148,43 @@ describe('SelectedPartsTable', () => {
 
 		expect(screen.getByText('x1 test-part-1')).toBeInTheDocument();
 		expect(screen.getByText('x1 test-part-2')).toBeInTheDocument();
+	});
+
+	it('disaplys the setup correctly when it has repairs', () => {
+		const mockRepairs = {
+			netCost: 50,
+			netCostToBoost: 5,
+			totalSaved: 20,
+			repairPartNames: ['test-part-1' as TuningPartName],
+		};
+
+		renderWithContext(mockEngine, mockSelectedParts, mockRepairs);
+
+		const fullCostToBoost = mockSelectedParts.reduce(
+			(sum, current) =>
+				sum + getFullPartByName(current.name)?.costToBoost,
+			0,
+		);
+
+		expect(screen.getByText('Repairs')).toBeInTheDocument();
+		expect(
+			screen.getByText(`-${mockRepairs.totalSaved} CR`),
+		).toBeInTheDocument();
+		expect(
+			screen.getByText(
+				`${(mockRepairs.netCostToBoost - fullCostToBoost).toFixed(
+					0,
+				)} CR/Boost`,
+			),
+		).toBeInTheDocument();
+		expect(
+			screen.getByText(`${mockRepairs.netCost} CR`),
+		).toBeInTheDocument();
+		expect(
+			screen.getByText(
+				`${mockRepairs.netCostToBoost.toFixed(0)} CR/Boost`,
+			),
+		).toBeInTheDocument();
+		expect(screen.getByText('x2 test-part-1')).toBeInTheDocument();
 	});
 });

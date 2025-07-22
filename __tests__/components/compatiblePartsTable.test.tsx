@@ -164,6 +164,20 @@ describe('CompatiblePartsTable', () => {
 		).toBeInTheDocument();
 	});
 
+	it('renders all checkboxes disabled when locked', () => {
+		renderWithContext({
+			currentEngine: mockEngine,
+			selectedParts: [],
+			locked: true,
+			repairs: undefined,
+		});
+
+		const checkboxes = screen.getAllByRole('checkbox');
+		checkboxes.forEach((checkbox) => {
+			expect(checkbox).toBeDisabled();
+		});
+	});
+
 	it('renders toggle-all checkbox', () => {
 		renderWithContext();
 

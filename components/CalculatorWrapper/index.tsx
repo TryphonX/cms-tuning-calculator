@@ -5,7 +5,7 @@ import { CalculatorContext } from '@/modules/contexts';
 import { useEffect, useState } from 'react';
 import {
 	ChangeEngineEvent,
-	SetUnlockEvent,
+	UnlockEvent,
 	SetRepairsEvent,
 	ToggleSelectedPartEvent,
 	ToggleSelectedPartEventInit,
@@ -56,7 +56,7 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 		const handleSetRepairs = (e: Event) => {
 			const newRepairs = (e as CustomEvent<TuningSetup['repairs']>)
 				.detail;
-			if (newRepairs?.includesRepairParts) {
+			if (newRepairs) {
 				setLocked(true);
 			} else {
 				setLocked(false);
@@ -73,7 +73,7 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 			UpdateSelectedPartsEvent.name,
 			handleUpdateSelectedParts,
 		);
-		window.addEventListener(SetUnlockEvent.name, handleUnlock);
+		window.addEventListener(UnlockEvent.name, handleUnlock);
 		window.addEventListener(SetRepairsEvent.name, handleSetRepairs);
 
 		return () => {
@@ -89,7 +89,7 @@ export default function CalculatorWrapper({ children }: BasePropsWithChildren) {
 				UpdateSelectedPartsEvent.name,
 				handleUpdateSelectedParts,
 			);
-			window.removeEventListener(SetUnlockEvent.name, handleUnlock);
+			window.removeEventListener(UnlockEvent.name, handleUnlock);
 			window.removeEventListener(SetRepairsEvent.name, handleSetRepairs);
 		};
 	}, []);

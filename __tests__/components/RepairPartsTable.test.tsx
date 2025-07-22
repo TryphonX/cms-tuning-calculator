@@ -381,6 +381,10 @@ describe('RepairPartsTable', () => {
 		expect(mockOnRepairPartsChange).toHaveBeenCalledWith({
 			Carburetor: -320,
 		});
+
+		// clear the carburetor selection
+		fireEvent.change(rangeInputs[1], { target: { value: '0' } });
+		expect(mockOnRepairPartsChange).toHaveBeenCalledWith({});
 	});
 
 	it('renders with existing repair parts values', () => {

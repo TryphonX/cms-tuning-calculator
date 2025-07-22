@@ -475,7 +475,6 @@ describe('AutoGenModal', () => {
 
 	it('dispatches repairs when applying setup with repairs', async () => {
 		const mockRepairsData: TuningSetup['repairs'] = {
-			includesRepairParts: true,
 			repairPartNames: ['Air Filter' as TuningPartName],
 			netCost: 350,
 			netCostToBoost: 33.3,

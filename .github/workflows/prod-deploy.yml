@@ -14,9 +14,11 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-    contents: read
+    contents: write
     pages: write
     id-token: write
+    pull-requests: write
+    actions: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -25,9 +27,78 @@ concurrency:
     cancel-in-progress: false
 
 jobs:
+    update-timestamp:
+        name: Update LAST_PUBLISH
+        runs-on: ubuntu-latest
+        outputs:
+            new-release-published: ${{ steps.semantic.outputs.new-release-published }}
+            new-release-version: ${{ steps.semantic.outputs.new-release-version }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+              with:
+                  ref: main
+                  fetch-depth: 0
+                  token: ${{ secrets.FINE_GRAINED_PAT }}
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '18'
+                  cache: 'npm'
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Run semantic-release
+              id: semantic
+              run: npx semantic-release
+              env:
+                  GITHUB_TOKEN: ${{ secrets.FINE_GRAINED_PAT }}
+
+            - name: Update LAST_PUBLISH timestamp
+              if: steps.semantic.outputs.new-release-published == 'true'
+              run: |
+                  echo "New release published: v${{ steps.semantic.outputs.new-release-version }}"
+                  echo "Updating LAST_PUBLISH timestamp for deployment"
+
+                  # Get current timestamp
+                  CURRENT_TIME=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+                  echo "Setting LAST_PUBLISH to: $CURRENT_TIME"
+
+                  # Update the LAST_PUBLISH value in .env file
+                  if [ -f .env ]; then
+                    # Update existing LAST_PUBLISH line or add if it doesn't exist
+                    sed -i '/^LAST_PUBLISH=/d' .env
+                    echo "LAST_PUBLISH=$CURRENT_TIME" >> .env
+                  else
+                    # Create .env file if it doesn't exist
+                    echo "LAST_PUBLISH=$CURRENT_TIME" > .env
+                  fi
+
+                  # Check if there are changes to commit
+                  if git diff --quiet .env; then
+                    echo "No changes to commit"
+                  else
+                    # Commit it back to the repo
+                    git config --local user.email "action@github.com"
+                    git config --local user.name "GitHub Action"
+                    git add .env
+                    git commit -m "chore: update release timestamp [skip ci]"
+                    git push
+                  fi
+
+                  echo "Updated LAST_PUBLISH to: $CURRENT_TIME"
+
+            - name: Skip timestamp update
+              if: steps.semantic.outputs.new-release-published != 'true'
+              run: |
+                  echo "No new release published, skipping LAST_PUBLISH update"
+
     test:
         name: Test & Coverage
         runs-on: ubuntu-latest
+        needs: [update-timestamp]
         steps:
             - name: Checkout
               uses: actions/checkout@v4
@@ -46,7 +117,7 @@ jobs:
     # Build job
     build:
         runs-on: ubuntu-latest
-        needs: test
+        needs: [test, update-timestamp]
         steps:
             - name: Checkout
               uses: actions/checkout@v4
@@ -105,7 +176,7 @@ jobs:
             name: github-pages
             url: ${{ steps.deployment.outputs.page_url }}
         runs-on: ubuntu-latest
-        needs: [test, build]
+        needs: [test, update-timestamp, build]
         steps:
             - name: Deploy to GitHub Pages
               id: deployment

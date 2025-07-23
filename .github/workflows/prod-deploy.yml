@@ -59,17 +59,12 @@ jobs:
                   echo "$SEMANTIC_OUTPUT"
 
                   # Check if a release was published by looking for the checkmark and "Published release"
-                  if echo "$SEMANTIC_OUTPUT" | grep -q "√.*Published release.*on default channel"; then
+                  if echo "$SEMANTIC_OUTPUT" | grep -q "Published release.*on default channel"; then
                       echo "new-release-published=true" >> $GITHUB_OUTPUT
                       echo "✅ New release detected!"
                   else
                       echo "new-release-published=false" >> $GITHUB_OUTPUT
                       echo "❌ No new release published"
-                  fi
-
-                  # Also check for dry-run mode (for testing)
-                  if echo "$SEMANTIC_OUTPUT" | grep -q "√.*Published release.*on default channel" || echo "$SEMANTIC_OUTPUT" | grep -q "The next release version is"; then
-                      echo "Release would be published (or was published)"
                   fi
               env:
                   GITHUB_TOKEN: ${{ secrets.FINE_GRAINED_PAT }}

@@ -1,3 +1,18 @@
+## [3.0.0](https://github.com/TryphonX/CMS-Tuning-Calculator/compare/v2.2.1...v3.0.0) (2025-07-23)
+
+### ⚠ BREAKING CHANGES
+
+* put repairs into consideration when auto-generating setup
+
+### Features
+
+* put repairs into consideration when auto-generating setup ([66036a6](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/66036a6b7ffae32185997c4d9130462736e2fbde))
+* temp lock setup with repairs ([d70bfe1](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/d70bfe156ebfd95d39a27e242071ee1b8eddbe3a))
+
+### Bug Fixes
+
+* fix Engine Head (I4 SOHC) price ([58c78bb](https://github.com/TryphonX/CMS-Tuning-Calculator/commit/58c78bb8df714b07f027c3254aa639ff4257b5c1))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.

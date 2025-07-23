@@ -56,6 +56,12 @@ jobs:
               env:
                   GITHUB_TOKEN: ${{ secrets.FINE_GRAINED_PAT }}
 
+            - name: Debug semantic-release outputs
+              run: |
+                  echo "new-release-published: '${{ steps.semantic.outputs.new-release-published }}'"
+                  echo "new-release-version: '${{ steps.semantic.outputs.new-release-version }}'"
+                  echo "All outputs: ${{ toJson(steps.semantic.outputs) }}"
+
             - name: Update LAST_PUBLISH timestamp
               if: steps.semantic.outputs.new-release-published == 'true'
               run: |

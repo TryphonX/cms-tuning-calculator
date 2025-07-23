@@ -133,6 +133,18 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v4
+              with:
+                  ref: main
+                  fetch-depth: 1
+                  token: ${{ secrets.FINE_GRAINED_PAT }}
+
+            - name: Pull latest changes
+              run: |
+                  git pull origin main
+                  echo "Current HEAD: $(git rev-parse HEAD)"
+                  echo "Latest commits:"
+                  git log --oneline -3
+
             - name: Detect package manager
               id: detect-package-manager
               run: |
